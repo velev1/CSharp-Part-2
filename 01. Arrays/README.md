@@ -115,7 +115,7 @@ _Example:_
 |:-:|:-----------------------------------------------------------------------:|
 | 3 | `{1, 2, 3}` <br> `{1, 3, 2}` <br> `{2, 1, 3}` <br> `{2, 3, 1}` <br> `{3, 1, 2}` <br> `{3, 2, 1}` |
 
-### Problem 20. Variations of set
+### Problem 20.* Variations of set
 *	Write a program that reads two numbers `N` and `K` and generates all the variations of `K` elements from the set [`1..N`].
 
 _Example:_
@@ -124,7 +124,7 @@ _Example:_
 |:-:|:-:|:--------------------------------------------------------------------------------:|
 | 3 | 2 | `{1, 1}` <br> `{1, 2}` <br> `{1, 3}` <br> `{2, 1}` <br> `{2, 2}` <br> `{2, 3}` <br> `{3, 1}` <br> `{3, 2}` <br> `{3, 3}` |
 
-### Problem 21. Combinations of set
+### Problem 21.* Combinations of set
 *	Write a program that reads two numbers `N` and `K` and generates all the combinations of `K` distinct elements from the set [`1..N`].
 
 _Example:_
