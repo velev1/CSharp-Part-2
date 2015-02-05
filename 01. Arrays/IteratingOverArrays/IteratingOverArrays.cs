@@ -1,12 +1,12 @@
 using System;
 
-class IteratingOverArrays
+public class IteratingOverArrays
 {
-	static void Main()
-	{
+    static void Main()
+    {
         // Create and initialize a 10-element int array
         int[] array = new int[10];
-        
+
         // Set each element to hold its index
         for (int index = 0; index < array.Length; index++)
         {
@@ -19,10 +19,11 @@ class IteratingOverArrays
         {
             Console.Write(number + " ");
         }
+
         Console.WriteLine();
 
         // Assign value -1 to the odd elements
-        for (int index = 1; index < array.Length; index+=2)
+        for (int index = 1; index < array.Length; index += 2)
         {
             array[index] = -1;
         }
@@ -33,6 +34,7 @@ class IteratingOverArrays
         {
             Console.Write(number + " ");
         }
+
         Console.WriteLine();
-	}
+    }
 }
