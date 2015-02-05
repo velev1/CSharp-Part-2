@@ -1,16 +1,10 @@
 ﻿using System;
 
-class MatrixMultiplication
+public class MatrixMultiplication
 {
     static void Main()
     {
-        int[,] firstMatrix = new int[4, 2]
-        {
-            { 1, 2 },
-            { 3, 4 },
-            { 5, 6 },
-            { 7, 8 }
-        };
+        int[,] firstMatrix = new int[4, 2] { { 1, 2 }, { 3, 4 }, { 5, 6 }, { 7, 8 } };
 
         // Print the first matrix
         for (int row = 0; row < firstMatrix.GetLength(0); row++)
@@ -19,15 +13,13 @@ class MatrixMultiplication
             {
                 Console.Write("{0} ", firstMatrix[row, col]);
             }
+
             Console.WriteLine();
         }
+
         Console.WriteLine();
 
-        int[,] secondMatrix = new int[2, 3] 
-        {
-            { 1, 2, 3 },
-            { 4, 5, 6 }
-        };
+        int[,] secondMatrix = new int[2, 3] { { 1, 2, 3 }, { 4, 5, 6 } };
 
         // Print the second matrix
         for (int row = 0; row < secondMatrix.GetLength(0); row++)
@@ -36,8 +28,10 @@ class MatrixMultiplication
             {
                 Console.Write("{0} ", secondMatrix[row, col]);
             }
+
             Console.WriteLine();
         }
+
         Console.WriteLine();
 
         // Multiply the first matrix with the second matrix
@@ -59,8 +53,7 @@ class MatrixMultiplication
                 resultMatrix[row, col] = 0;
                 for (int i = 0; i < width1; i++)
                 {
-                    resultMatrix[row, col] +=
-						firstMatrix[row, i] * secondMatrix[i, col];
+                    resultMatrix[row, col] += firstMatrix[row, i] * secondMatrix[i, col];
                 }
             }
         }
@@ -72,8 +65,10 @@ class MatrixMultiplication
             {
                 Console.Write("{0} ", resultMatrix[row, col]);
             }
+
             Console.WriteLine();
         }
+
         Console.WriteLine();
     }
 }
