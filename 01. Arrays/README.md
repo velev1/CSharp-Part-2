@@ -74,10 +74,10 @@ _Example:_
 *	Read a word from the console and print the index of each of its letters in the array.
 
 ### Problem 13.*  Merge sort
-*	Write a program that sorts an array of integers using the [Merge sort](http://en.wikipedia.org/wiki/Merge_sort) algorithm (find it in Wikipedia).
+*	Write a program that sorts an array of integers using the [Merge sort](http://en.wikipedia.org/wiki/Merge_sort) algorithm.
 
 ### Problem 14. Quick sort
-*	Write a program that sorts an array of strings using the [Quick sort](http://en.wikipedia.org/wiki/Quicksort) algorithm (find it in Wikipedia).
+*	Write a program that sorts an array of strings using the [Quick sort](http://en.wikipedia.org/wiki/Quicksort) algorithm.
 
 ### Problem 15. Prime numbers
 *	Write a program that finds all prime numbers in the range [`1...10 000 000`]. Use the [Sieve of Eratosthenes](http://en.wikipedia.org/wiki/Sieve_of_Eratosthenes) algorithm.

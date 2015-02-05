@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
 
-class Lists
+public class Lists
 {
-    static void Main(string[] args)
+    static void Main()
     {
         List<string> listOfStrings = new List<string>();
         string[] arrayOfStrings = { "Pesho", "Ivan", "Dobri", "Gosho" };
@@ -26,6 +26,7 @@ class Lists
         {
             Console.WriteLine(listOfStrings[i]);
         }
+
         Console.WriteLine();
     }
 }

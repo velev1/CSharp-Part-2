@@ -2,8 +2,8 @@ using System;
 
 public class DaysOfWeek
 {
-	static void Main()
-	{
+    static void Main()
+    {
         string[] daysOfWeek = new string[]
         {
             "Monday",
