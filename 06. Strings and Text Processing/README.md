@@ -48,7 +48,7 @@ _The expected result:_ We are living in a YELLOW SUBMARINE. We don't have ANYTHI
 ### Problem 7. Encode/decode
 *	Write a program that encodes and decodes a string using given encryption key (cipher).
 *	The key consists of a sequence of characters. 
-*	The encoding/decoding is done by performing XOR (exclusive or) operation over the first letter of the string with the first of the key, the second – with the second, etc. When the last key character is reached, the next is the first.
+*	The encoding/decoding is done by performing XOR (exclusive or) operation over the first letter of the string with the first of the key, the second â€“ with the second, etc. When the last key character is reached, the next is the first.
 
 ### Problem 8. Extract sentences
 *	Write a program that extracts from a given text all sentences containing given **word**.
@@ -61,7 +61,7 @@ _The text is:_ We are living **in** a yellow submarine. We don't have anything e
 
 _The expected result is:_ We are living in a yellow submarine. We will move out of it in 5 days.
 
-_Consider that the sentences are separated by `.` and the words – by **non-letter symbols**._
+_Consider that the sentences are separated by `.` and the words â€“ by **non-letter symbols**._
 
 ### Problem 9. Forbidden words
 *	We are given a string containing a list of forbidden words and a text containing some of these words.
@@ -119,7 +119,7 @@ _Sample dictionary:_
 | namespace | hierarchical organization of classes     |
 
 ### Problem 15. Replace tags
-*	Write a program that replaces in a HTML document given as string all the tags `<a href="…">…</a>` with corresponding tags `[URL=…]…/URL]`.
+*	Write a program that replaces in a HTML document given as string all the tags `<a href="â€¦">â€¦</a>` with corresponding tags `[URL=â€¦]â€¦/URL]`.
 
 _Example:_
 
@@ -141,7 +141,7 @@ _Example:_
 
 ### Problem 18. Extract e-mails
 *	Write a program for extracting all email addresses from given text.
-*	All sub-strings that match the format <identifier>@<host>…<domain> should be recognized as emails.
+*	All sub-strings that match the format `<identifier>@<host>â€¦<domain>` should be recognized as emails.
 
 ### Problem 19. Dates from text in Canada
 *	Write a program that extracts from a given text all dates that match the format `DD.MM.YYYY`.
