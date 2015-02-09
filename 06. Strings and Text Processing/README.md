@@ -37,7 +37,7 @@ The result is: `9`
 *	You are given a text. Write a program that changes the text in all regions surrounded by the tags `<upcase>` and `</upcase>` to upper-case.
 *	The tags cannot be nested.
 
-_Example:_ We are living in a <upcase>yellow submarine</upcase>. We don't have <upcase>anything</upcase> else.
+_Example:_ We are living in a `<upcase>`yellow submarine`</upcase>`. We don't have `<upcase>`anything`</upcase>` else.
 
 _The expected result:_ We are living in a YELLOW SUBMARINE. We don't have ANYTHING else.
 
