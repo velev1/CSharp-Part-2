@@ -42,9 +42,10 @@ _Examples:_
 
 _Example:_
 
-| input | output |
-|:-----:|:------:|
-| 256   | 652    |
+| input  | output |
+|:------:|:------:|
+| 256    | 652    |
+| 123.45 | 54.321 |
 
 ### Problem 8. Number as array
 *	Write a method that adds two positive integer numbers represented as arrays of digits (each array element `arr[i]` contains a digit; the last digit is kept in `arr[0]`).
