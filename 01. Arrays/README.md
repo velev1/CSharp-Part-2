@@ -77,7 +77,7 @@ _Example:_
 *	Write a program that sorts an array of integers using the [Merge sort](http://en.wikipedia.org/wiki/Merge_sort) algorithm.
 
 ### Problem 14. Quick sort
-*	Write a program that sorts an array of strings using the [Quick sort](http://en.wikipedia.org/wiki/Quicksort) algorithm.
+*	Write a program that sorts an array of integers using the [Quick sort](http://en.wikipedia.org/wiki/Quicksort) algorithm.
 
 ### Problem 15. Prime numbers
 *	Write a program that finds all prime numbers in the range [`1...10 000 000`]. Use the [Sieve of Eratosthenes](http://en.wikipedia.org/wiki/Sieve_of_Eratosthenes) algorithm.
@@ -107,7 +107,7 @@ _Example:_
 | 6, **1**, 4, **3**, 0, **3**, 6, **4**, **5** | 1, 3, 3, 4, 5 |
 
 ### Problem 19.* Permutations of set
-*	Write a program that reads a number `N` and generates and prints all the permutations of the numbers [`1 … N`].
+*	Write a program that reads a number `N` and generates and prints all the permutations of the numbers [`1 â€¦ N`].
 
 _Example:_
 
