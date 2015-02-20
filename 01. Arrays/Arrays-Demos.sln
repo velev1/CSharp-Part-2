@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
-VisualStudioVersion = 12.0.31101.0
+VisualStudioVersion = 12.0.30723.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1. DaysOfWeek", "DaysOfWeek\1. DaysOfWeek.csproj", "{03DBF888-BE0A-4F72-86EF-D5E1D8DD7285}"
 EndProject
@@ -16,6 +16,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "6. Lists", "Lists\6. Lists.csproj", "{5325E2FD-7A03-4DC4-9677-99D9298C421A}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "7. ResizingLists", "ResizingLists\7. ResizingLists.csproj", "{9307FC1D-F601-432B-8D7E-B003945DB147}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApplication", "ConsoleApplication\ConsoleApplication.csproj", "{1801C8AC-76FC-4A03-AF55-3707E4E1EB7A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -97,6 +99,16 @@ Global
 		{9307FC1D-F601-432B-8D7E-B003945DB147}.Release|Mixed Platforms.Build.0 = Release|x86
 		{9307FC1D-F601-432B-8D7E-B003945DB147}.Release|x86.ActiveCfg = Release|x86
 		{9307FC1D-F601-432B-8D7E-B003945DB147}.Release|x86.Build.0 = Release|x86
+		{1801C8AC-76FC-4A03-AF55-3707E4E1EB7A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1801C8AC-76FC-4A03-AF55-3707E4E1EB7A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1801C8AC-76FC-4A03-AF55-3707E4E1EB7A}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{1801C8AC-76FC-4A03-AF55-3707E4E1EB7A}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{1801C8AC-76FC-4A03-AF55-3707E4E1EB7A}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{1801C8AC-76FC-4A03-AF55-3707E4E1EB7A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1801C8AC-76FC-4A03-AF55-3707E4E1EB7A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1801C8AC-76FC-4A03-AF55-3707E4E1EB7A}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{1801C8AC-76FC-4A03-AF55-3707E4E1EB7A}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{1801C8AC-76FC-4A03-AF55-3707E4E1EB7A}.Release|x86.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

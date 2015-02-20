@@ -4,8 +4,8 @@ class StringConcatenation
 {
     static void Main()
     {
-        string firstName = "Svetlin";
-        string lastName = "Nakov";
+        string firstName = "Telerik";
+        string lastName = "Academy";
 
         string fullName = firstName + " " + lastName;
         Console.WriteLine(fullName);
