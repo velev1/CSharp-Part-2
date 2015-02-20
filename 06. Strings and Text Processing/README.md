@@ -1,8 +1,7 @@
 Homework: Strings and Text Processing
 =====================================
 
-### Problem 1.
-Strings in C#
+### Problem 1. Strings in C#.
 *	Describe the strings in C#.
 *	What is typical for the string data type?
 *	Describe the most important methods of the String class.
