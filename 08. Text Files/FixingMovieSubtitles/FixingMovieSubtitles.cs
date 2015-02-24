@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 using System.IO;
 
 class FixingMovieSubtitles
@@ -13,7 +13,7 @@ class FixingMovieSubtitles
         try
         {
             // Getting Cyrillic encoding 
-            System.Text.Encoding encoding = System.Text.Encoding.GetEncoding(1251);
+            System.Text.Encoding encoding = System.Text.Encoding.UTF8;
 			
             // Create reader with the Cyrillic encoding
             StreamReader streamReader = new StreamReader(INPUT_FILE, encoding);
