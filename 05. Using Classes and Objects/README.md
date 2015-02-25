@@ -18,6 +18,14 @@ Homework: Using Classes and Objects
 	*	Three sides;
 	*	Two sides and an angle between them;
 *	Use `System.Math`.
+	
+_Example:_
+
+|      input               | output  |
+|--------------------------|:-------:|
+| * a = 23.2, h = 5        |  58     |
+| * a = 11, b =12, c = 13  |  61.48  |
+| * a = 10, b = 7, C = 25° |  14.79  |
 
 ### Problem 5. Workdays
 *	Write a method that calculates the number of workdays between today and given date, passed as parameter.
