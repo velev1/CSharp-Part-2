@@ -397,7 +397,7 @@ list.Add(newValue);
 <!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'font-size: 42px' } -->
 # How The List<T> Works?
 - Why adding new elements is not slow?
-  - When adding **n** elements in **List<T>** it resizes itself **log(2)n**times instead of **n**
+  - When adding **n** elements in **List<T>** it resizes itself **log(2)n** times instead of **n**
 - Initially a new **List<T>** has size of 0 elements
   - Counter for total capacity (**Capacity**)
   - Counter for number of used capacity (**Count**)
@@ -453,7 +453,7 @@ list.Add(newValue);
 ```
 
 
-
+<!-- section start -->
 <!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'font-size: 42px' } -->
 # Summary
 - Arrays are a fixed-length sequences of elements of the same type
@@ -463,7 +463,7 @@ list.Add(newValue);
 - **List<T>** holds resizable arrays
   - Good when we don't know the number of elements initially
 
-
+<!-- section start -->
 <!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
 # Arrays
 <img class="slide-image" src="https://github.com/TelerikAcademy/Common/raw/master/revealjs-theme/css/imgs/questions-ninja.png" style="width:70%; top:15%; left:10%" />
