@@ -11,7 +11,7 @@ Write a program that finds the length of the **maximal increasing sequence** in 
 - Print the length of the **maximal increasing sequence**
 
 ## Constraints
-- 1 <= **size of arrays** <= 1024
+- 1 <= **N** <= 1024
 - Time limit: **0.1s**
 - Memory limit: **8MB**
 
