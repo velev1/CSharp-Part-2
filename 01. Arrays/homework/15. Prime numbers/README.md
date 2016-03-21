@@ -10,11 +10,14 @@ Write a program that finds all prime numbers in the range [`1 ... N`]. Use the [
 - Print the biggest prime number which is `<= N`
 
 ## Constraints
-- 1 <= **N** <= 10 000 000
+- 2 <= **N** <= 10 000 000
 - Time limit: **0.1s**
-- Memory limit: **8MB**
+- Memory limit: **64MB**
 
 ## Sample tests
 
 | Input | Output |
 |:-----:|:------:|
+| 13    | 13     |
+| 126   | 113    |
+| 26    | 23     |
