@@ -11,7 +11,7 @@ Write a program that finds all prime numbers in the range [`1 ... N`]. Use the [
 
 ## Constraints
 - 2 <= **N** <= 10 000 000
-- Time limit: **0.1s**
+- Time limit: **0.3s**
 - Memory limit: **64MB**
 
 ## Sample tests
