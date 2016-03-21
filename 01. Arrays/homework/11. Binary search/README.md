@@ -20,5 +20,6 @@ Write a program that finds the index of given element **X** in a sorted array of
 
 ## Sample tests
 
-| Input                                                    | Output |
-|:--------------------------------------------------------:|:------:|
+| Input | Output |
+|:-----:|:------:|
+| 10<br>**1<br>2<br>4<br>8<br>16<br>31<br>32<br>64<br>77<br>99**<br>32 | 6 |
