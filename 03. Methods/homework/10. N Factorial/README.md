@@ -11,7 +11,7 @@ Write a program to calculate `N!`.
 - Print `N!`
 
 ## Constraints
-- 1 <= **N** <= 100
+- 0 <= **N** <= 100
 - Time limit: **0.1s**
 - Memory limit: **8MB**
 
