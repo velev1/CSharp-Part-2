@@ -13,9 +13,9 @@ Write a program that fills and prints a matrix of size `(n, n)` as shown below.
   - Each row must be on a new line
 
 ## Constraints
-  - 1 <= **N** <= 128
-  - Time limit: **0.1s**
-  - Memory limit: **8MB**
+- 1 <= **N** <= 128
+- Time limit: **0.1s**
+- Memory limit: **8MB**
 
 ## Sample tests
 
