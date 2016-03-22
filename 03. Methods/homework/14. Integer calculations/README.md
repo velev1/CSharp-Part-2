@@ -6,7 +6,7 @@ Use variable number of arguments.
 Write a program that reads `5` elements and prints their `minimum`, `maximum`, `average`, `sum` and `product`.
 
 ## Input
-- On the first line you will receive `5` numbers seperated by spaces
+- On the first line you will receive `5` numbers separated by spaces
 
 ## Output
 - Print their `minimum`, `maximum`, `average`, `sum` and `product`

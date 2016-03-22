@@ -7,11 +7,11 @@ Write a program that sorts a given array.
 
 ## Input
 - On the first line you will receive the number **N** - the size of the array
-- On the second line you will receive **N** numbers seperated by spaces - the array
+- On the second line you will receive **N** numbers separated by spaces - the array
 
 ## Output
 - Print the sorted array
-  - Elements must be seperated by spaces
+  - Elements must be separated by spaces
 
 ## Constraints
 - 1 <= **N** <= 1024

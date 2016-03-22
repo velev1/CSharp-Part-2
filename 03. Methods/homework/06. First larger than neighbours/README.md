@@ -5,7 +5,7 @@ Write a method that returns the index of the first element in array that is larg
 
 ## Input
 - On the first line you will receive the number **N** - the size of the array
-- On the second line you will receive **N** numbers seperated by spaces - the array
+- On the second line you will receive **N** numbers sepated by spaces - the array
 
 ## Output
 - Print the index of the first element that is larger than its neighbours or `-1` if none are

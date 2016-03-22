@@ -6,7 +6,7 @@ Write a test program to check if the method is working correctly.
 
 ## Input
 - On the first line you will receive a number **N** - the size of the array
-- On the second line you will receive **N** numbers seperated by spaces - the numbers in the array
+- On the second line you will receive **N** numbers separated by spaces - the numbers in the array
 - On the third line you will receive a number **X**
 
 ## Output

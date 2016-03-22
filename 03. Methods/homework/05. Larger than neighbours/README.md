@@ -6,7 +6,7 @@ Write program that reads an array of numbers and prints how many of them are lar
 
 ## Input
 - On the first line you will receive the number **N** - the size of the array
-- On the second line you will receive **N** numbers seperated by spaces - the array
+- On the second line you will receive **N** numbers separated by spaces - the array
 
 ## Output
 - Print how many numbers in the array are larger than their neighbours

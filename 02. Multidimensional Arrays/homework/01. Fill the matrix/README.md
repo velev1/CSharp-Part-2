@@ -9,7 +9,7 @@ Write a program that fills and prints a matrix of size `(n, n)` as shown below.
 
 ## Output
 - Print the matrix
-  - Numbers on a row must be seperated by a single spacebar
+  - Numbers on a row must be separated by a single spacebar
   - Each row must be on a new line
 
 ## Constraints
