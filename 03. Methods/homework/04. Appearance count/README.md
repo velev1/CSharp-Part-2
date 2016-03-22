@@ -1,4 +1,4 @@
-#  Appearance count
+# Appearance count
 
 ## Description
 Write a method that counts how many times given number appears in a given array.
@@ -19,5 +19,6 @@ Write a test program to check if the method is working correctly.
 
 ## Sample tests
 
-| Input  | Output |
-|:------:|:------:|
+| Input | Output |
+|:-----:|:------:|
+| 8<br>28 6 21 6 -7856 73 73 -56<br>73 | 2 |
