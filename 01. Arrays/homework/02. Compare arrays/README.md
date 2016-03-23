@@ -21,5 +21,5 @@ Write a program that reads two `integer` arrays of size **N** from the console a
 
 | Input | Output |
 |:-----:|:------:|
-| 3<br>1<br>2<br>3<br>1<br>2<br>3 | Equal |
-| 3<br>1<br>1<br>1<br>2<br>2<br>2 | Not equal |
+| 3<br>**1<br>2<br>3<br>1<br>2<br>3** | Equal |
+| 3<br>**1<br>1<br>1<br>2<br>2<br>2** | Not equal |
