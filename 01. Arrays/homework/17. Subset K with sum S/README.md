@@ -1,4 +1,4 @@
-# Subset K with sum S\*
+# Subset K with sum S
 
 ## Description
 Write a program that reads three integer numbers `N`, `K` and `S` and an array of `N` elements from the console.

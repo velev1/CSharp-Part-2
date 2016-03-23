@@ -1,4 +1,4 @@
-# Largest area in matrix\*
+# Largest area in matrix
 
 ## Description
 Write a program that finds the largest area of equal neighbour elements in a rectangular matrix and prints its size.

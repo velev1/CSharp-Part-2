@@ -1,4 +1,4 @@
-# Subset with sum S\*
+# Subset with sum S
 
 ## Description
 We are given an array of integers and a number `S`.
