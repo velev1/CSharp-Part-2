@@ -14,7 +14,7 @@ Print the minimal number of elements that need to be removed in order for the ar
 ## Constraints
 - 1 <= **N** <= 1024
 - Time limit: **0.1s**
-- Memory limit: **8MB**
+- Memory limit: **16MB**
 
 ## Sample tests
 

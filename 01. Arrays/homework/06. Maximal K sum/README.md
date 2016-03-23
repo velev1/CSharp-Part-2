@@ -16,7 +16,7 @@ Find the maximal sum of **K** elements in the array.
 - 1 <= **N** <= 1024
 - 1 <= **K** <= **N**
 - Time limit: **0.1s**
-- Memory limit: **8MB**
+- Memory limit: **16MB**
 
 ## Sample tests
 

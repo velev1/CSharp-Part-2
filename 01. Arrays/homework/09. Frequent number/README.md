@@ -16,7 +16,7 @@ Write a program that finds the most frequent number in an array of **N** element
 - 0 <= **each number in the array** <= 10000
 - There will be only one most frequent number
 - Time limit: **0.1s**
-- Memory limit: **8MB**
+- Memory limit: **16MB**
 
 ## Sample tests
 

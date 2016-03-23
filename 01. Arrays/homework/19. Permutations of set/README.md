@@ -1,7 +1,7 @@
-# Maximal sequence
+# Permutations of set\*
 
 ## Description
-Write a program that finds the length of the **maximal sequence** of equal elements in an array of **N** integers.
+Write a program that reads a number `N` and generates and prints all the permutations of the numbers [`1 … N`].
 
 ## Input
 - On the first line you will receive the number **N**
@@ -13,10 +13,16 @@ Write a program that finds the length of the **maximal sequence** of equal eleme
 ## Constraints
 - 1 <= **N** <= 1024
 - Time limit: **0.1s**
-- Memory limit: **16MB**
+- Memory limit: **8MB**
 
 ## Sample tests
 
 | Input                                                    | Output |
 |:--------------------------------------------------------:|:------:|
 | 10<br>2<br>1<br>1<br>2<br>3<br>3<br>**2<br>2<br>2**<br>1 | 3      |
+
+_Example:_
+
+| N |                                  result                                 |
+|:-:|:-----------------------------------------------------------------------:|
+| 3 | `{1, 2, 3}` <br> `{1, 3, 2}` <br> `{2, 1, 3}` <br> `{2, 3, 1}` <br> `{3, 1, 2}` <br> `{3, 2, 1}` |

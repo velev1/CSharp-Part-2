@@ -13,7 +13,7 @@ Write a program that compares two `char` arrays lexicographically (letter by let
 ## Constraints
 - 1 <= **size of arrays** <= 128
 - Time limit: **0.1s**
-- Memory limit: **8MB**
+- Memory limit: **16MB**
 
 ## Sample tests
 

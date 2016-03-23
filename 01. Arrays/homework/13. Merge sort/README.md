@@ -14,7 +14,7 @@ Write a program that sorts an array of integers using the [Merge sort](http://en
 ## Constraints
 - 1 <= **N** <= 1024
 - Time limit: **0.1s**
-- Memory limit: **8MB**
+- Memory limit: **16MB**
 
 ## Sample tests
 

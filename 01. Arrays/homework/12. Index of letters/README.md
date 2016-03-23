@@ -15,7 +15,7 @@ Read a word from the console and print the index of each of its letters in the a
 - 1 <= **word length** <= 128
 - Word is consisted of **lowercase english letters**
 - Time limit: **0.1s**
-- Memory limit: **8MB**
+- Memory limit: **16MB**
 
 ## Sample tests
 

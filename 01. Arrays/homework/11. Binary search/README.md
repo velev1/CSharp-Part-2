@@ -16,7 +16,7 @@ Write a program that finds the index of given element **X** in a sorted array of
 ## Constraints
 - 1 <= **N** <= 1024
 - Time limit: **0.1s**
-- Memory limit: **8MB**
+- Memory limit: **16MB**
 
 ## Sample tests
 
