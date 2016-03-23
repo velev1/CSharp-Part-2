@@ -13,7 +13,7 @@ Write a program that finds the largest area of equal neighbour elements in a rec
 ## Constraints
 - 3 <= **N**, **M** <= 1024
 - Time limit: **0.1s**
-- Memory limit: **8MB**
+- Memory limit: **16MB**
 
 ## Sample tests
 

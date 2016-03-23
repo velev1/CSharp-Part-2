@@ -15,7 +15,7 @@ Print that sum.
 - 3 <= **N**, **M** <= 1024
 - Numbers in the matrix will be in the interval `[ -1000, 1000 ]`
 - Time limit: **0.1s**
-- Memory limit: **8MB**
+- Memory limit: **16MB**
 
 ## Sample tests
 
