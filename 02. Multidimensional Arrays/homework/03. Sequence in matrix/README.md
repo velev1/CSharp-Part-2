@@ -19,4 +19,5 @@ Write a program that finds the longest sequence of equal strings in the matrix a
 ## Sample tests
 
 | Input | Output |
-|:-----:|:------:|
+|:------|:------:|
+| 6 6<br>92 11 23 42 59 48<br>09 92 23 72 56 14<br>17 63 92 46 85 **95**<br>34 12 52 69 23 **95**<br>26 88 78 71 29 **95**<br>26 34 16 63 39 **95** | 4 |
