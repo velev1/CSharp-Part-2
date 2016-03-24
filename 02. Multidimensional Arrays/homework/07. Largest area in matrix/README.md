@@ -18,7 +18,7 @@ Write a program that finds the largest area of equal neighbour elements in a rec
 ## Sample tests
 
 | Input | Output |
-|:-----:|:------:|
-| <table><tbody><tr><td>1</td><td><b>3</b></td><td>2</td><td>2</td><td>2</td><td>4</td></tr><tr><td><b>3</b></td><td><b>3</b></td><td><b>3</b></td><td>2</td><td>4</td><td>4</td></tr><tr><td>4</td><td><b>3</b></td><td>1</td><td>2</td><td><b>3</b></td><td><b>3</b></td></tr><tr><td>4</td><td><b>3</b></td><td>1</td><td><b>3</b></td><td><b>3</b></td><td>1</td></tr><tr><td>4</td><td><b>3</b></td><td><b>3</b></td><td><b>3</b></td><td>1</td><td>1</td></tr></tbody></table> | 13 |
+|:------|:------:|
+| 5 6<br>1 **3** 2 2 2 4<br>**3 3 3** 2 4 4<br>4 **3** 1 2 **3 3**<br>4 **3** 1 **3 3** 1<br>4 **3 3 3** 1 1 | 13 |
 
 _Hint: you can use the algorithm [Depth-first search](http://en.wikipedia.org/wiki/Depth-first_search) or [Breadth-first search](http://en.wikipedia.org/wiki/Breadth-first_search)._
