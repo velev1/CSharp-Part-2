@@ -5,11 +5,11 @@ Write a program that converts a binary number **N** to its decimal representatio
 
 ## Input
 - On the only line you will receive a binary number - **N**
-  - There will not be leading zeroes
+  - There will not be leading zeros
 
 ## Output
 - Print the decimal representation of **N** on a single line
-  - There should not be leading zeroes
+  - There should not be leading zeros
 
 ## Constraints
 - 1 <= **N** <= 10<sup>18</sup> = 110111100000101101101011001110100111011001000000000000000000<sub>(2)</sub>

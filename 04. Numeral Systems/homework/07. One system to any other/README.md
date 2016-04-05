@@ -10,7 +10,7 @@ Write a program to convert the number **N** from any numeral system of given bas
 
 ## Output
 - Print **N** in base **d**
-  - There should not be leading zeroes
+  - There should not be leading zeros
   - Letters should be uppercase
 
 ## Constraints

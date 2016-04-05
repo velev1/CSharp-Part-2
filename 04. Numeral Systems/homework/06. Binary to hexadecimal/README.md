@@ -8,7 +8,7 @@ Write a program to convert binary numbers to hexadecimal numbers (directly).
 
 ## Output
 - Print the its binary representation on a single line
-  - There should not be leading zeroes
+  - There should not be leading zeros
 
 ## Constraints
 - 1 <= **N** <= 10<sup>18</sup> = 110111100000101101101011001110100111011001000000000000000000<sub>(2)</sub>

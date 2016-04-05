@@ -5,11 +5,11 @@ Write a program that converts a hexadecimal number **N** to its decimal represen
 
 ## Input
 - On the only line you will receive a hexadecimal number - **N**
-  - There will not be leading zeroes
+  - There will not be leading zeros
 
 ## Output
 - Print the decimal representation of **N** on a single line
-  - There should not be leading zeroes
+  - There should not be leading zeros
 
 ## Constraints
 - 1 <= **N** <= 10<sup>18</sup> = DE0B6B3A7640000<sub>(16)</sub>
