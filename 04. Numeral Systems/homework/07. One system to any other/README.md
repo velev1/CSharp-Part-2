@@ -6,12 +6,13 @@ Write a program to convert the number **N** from any numeral system of given bas
 ## Input
 - On the first line you will receive the number **s**
 - On the second line you will receive a number in base **s** - **N**
+  - There will not be leading zeros
 - On the third line you will receive the number **d**
 
 ## Output
 - Print **N** in base **d**
   - There should not be leading zeros
-  - Letters should be uppercase
+  - Use uppercase letters
 
 ## Constraints
 - 2 <= **s**, **d** <= 16

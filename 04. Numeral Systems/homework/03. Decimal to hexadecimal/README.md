@@ -10,6 +10,7 @@ Write a program that converts a decimal number **N** to its hexadecimal represen
 ## Output
 - Print the hexadecimal representation of **N** on a single line
   - There should not be leading zeros
+  - Use uppercase letters
 
 ## Constraints
 - 1 <= **N** <= 10<sup>18</sup>

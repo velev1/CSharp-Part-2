@@ -6,6 +6,7 @@ Write a program that converts a hexadecimal number **N** to its decimal represen
 ## Input
 - On the only line you will receive a hexadecimal number - **N**
   - There will not be leading zeros
+  - Letters will be uppercase
 
 ## Output
 - Print the decimal representation of **N** on a single line
