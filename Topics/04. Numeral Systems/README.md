@@ -1,4 +1,4 @@
-## CSharp Advanced
+## 04. Numeral Systems
 ### [View Presentation online](https://rawgit.com/TelerikAcademy/CSharp-Part-2/master/Topics/04.%20Numeral%20Systems/slides/index.html)
 ### Table of Contents
 - Numeral Systems

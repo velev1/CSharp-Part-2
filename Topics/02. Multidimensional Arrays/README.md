@@ -1,4 +1,4 @@
-## CSharp Advanced
+## 02. Multidimensional Arrays
 ### [View Presentation online](https://rawgit.com/TelerikAcademy/CSharp-Part-2/master/Topics/02.%20Multidimensional%20Arrays/slides/index.html)
 ### Table of Contents
 - Matrices and Multidimensional Arrays
