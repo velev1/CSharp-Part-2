@@ -18,15 +18,16 @@
 <!-- section start -->
 <!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
 # Table of Contents
-- Matrices and Multidimensional Arrays
-  - Declaring
-  - Usage
-- Jagged Arrays
-  - Declaring
-  - Usage
-- The **Array** Class
-  - Sorting
-  - Binary Search
+- [Matrices and Multidimensional Arrays](#/multidimensional-arrays)
+  - [Declaring](#/multidimensional-arrays-declaring)
+  - [Usage](#/multidimensional-arrays-usage)
+- [Jagged Arrays](#/jagged-arrays)
+  - [Declaring](#/jagged-arrays-declaring)
+  - [Usage](#/jagged-arrays-usage)
+- [The **Array** Class](#/array-class)
+  - [Sorting](#/array-class-sorting)
+  - [Binary Search](#/array-class-binarysearch)
+- [Advices](#/advices)  
 <img class="slide-image" src="imgs/pic04.png" style="top:45%; left:73.92%; width:27.99%; z-index:-1" />
 <img class="slide-image" src="imgs/pic05.png" style="top:20%; left:79.78%; width:13%; z-index:-1" />
 
@@ -34,21 +35,21 @@
 
 
 <!-- section start -->
-<!-- attr: { id:'', class:'slide-section', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
+<!-- attr: { id:'multidimensional-arrays', class:'slide-section', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
 # Multidimensional Arrays
 ## Using Array of Arrays, Matrices and Cubes
 <img class="slide-image" src="imgs/pic06.png" style="top:55%; left:34%; width:30%; z-index:-1" />
 
 
 <!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'font-size: 42px' } -->
-# What is Multidimensional Array?
-- **Multidimensional arrays** have more than one dimension (2, 3, …)
+# What is a Multidimensional Array?
+- **Multidimensional arrays** have more than one dimension (2, 3, … n)
   - The most important multidimensional arrays are the 2-dimensional
     - Known as **matrices** or **tables**
 - _Example_ of matrix of integers with 2 rows and 4 columns:
-<img class="slide-image" src="imgs/example-marray.png" style="top:60%; left:30%; width:40%; z-index:-1" />
+<img class="slide-image" src="imgs/exampleArray.png" style="top:60%; left:30%; width:40%; z-index:-1" />
 
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'font-size: 42px' } -->
+<!-- attr: { id:'multidimensional-arrays-declaring', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'font-size: 42px' } -->
 # Declaring and Creating Multidimensional Arrays
 - Declaring multidimensional arrays:
 ```cs
@@ -57,7 +58,7 @@ float[,] floatMatrix;
 string[,,] strCube;
 ```
 - Creating a multidimensional array
-  - Use **new** keyword
+  - Use the **new** keyword
   - Must specify the size of each dimension
 ```cs
 int[,] intMatrix = new int[3, 4];
@@ -67,14 +68,14 @@ string[,,] stringCube = new string[5, 5, 5];
 
 
 
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'font-size: 42px' } -->
+<!-- attr: { id:'multidimensional-arrays-usage', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'font-size: 42px' } -->
 # Initializing Multidimensional Arrays with Values
 - Creating and initializing with values multidimensional array:
 ```cs
 int[,] matrix =
 {
-    {1, 2, 3, 4}, // row 0 values
-    {5, 6, 7, 8}, // row 1 values
+      { 1, 2, 3, 4 }, // row 0 values
+      { 5, 6, 7, 8 }, // row 1 values
 }; // The matrix size is 2 x 4 (2 rows, 4 cols)
 ```
   - Matrices are represented by a list of rows
@@ -97,9 +98,9 @@ int element11 = array[1, 1]; // element11 = 4
 - Setting element value example:
 ```cs
 int[,] array = new int[3, 4];
-for (int row=0; row<array.GetLength(0); row++)
-  for (int col=0; col<array.GetLength(1); col++)
-    array[row, col] = row + col;
+for (int row = 0; row < array.GetLength(0); row++)
+    for (int col = 0; col < array.GetLength(1); col++)
+        array[row, col] = row + col;
 ```
 
 <!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'font-size: 42px' } -->
@@ -114,11 +115,11 @@ int[,] matrix = new int[rows, columns];
 
 for (int row = 0; row  <rows; row++)
 {
-  for (int column = 0; column < cols; column++)
-  {
-    Console.Write("matrix[{0},{1}] = ", row, column);
-    matrix[row, column] = int.Parse(Console.ReadLine());
-  }
+    for (int column = 0; column < cols; column++)
+    {
+          Console.Write("matrix[{0},{1}] = ", row, column);
+          matrix[row, column] = int.Parse(Console.ReadLine());
+    }
 }
 ```
 
@@ -131,12 +132,12 @@ for (int row = 0; row  <rows; row++)
 ```cs
 for (int row = 0; row < matrix.GetLength(0); row++)
 {
-  for (int col = 0; col < matrix.GetLength(1); col++)
-  {
-    Console.Write("{0, 4}", matrix[row, col]);
-  }
+    for (int col = 0; col < matrix.GetLength(1); col++)
+    {
+        Console.Write("{0, 4}", matrix[row, col]);
+    }
 
-  Console.WriteLine();
+    Console.WriteLine();
 }
 ```
 
@@ -155,20 +156,20 @@ for (int row = 0; row < matrix.GetLength(0); row++)
 ```cs
 int[,] matrix =
 {
-  {7, 1, 3, 3, 2, 1},
-  {1, 3, 9, 8, 5, 6},
-  {4, 6, 7, 9, 1, 0}
+    {7, 1, 3, 3, 2, 1},
+    {1, 3, 9, 8, 5, 6},
+    {4, 6, 7, 9, 1, 0}
 };
 int bestSum = int.MinValue;
 for (int row = 0; row < matrix.GetLength(0) - 1; row++)
 {
-  for (int col = 0; col < matrix.GetLength(1) - 1; col++)
-  {
-    int sum = matrix[row, col] + matrix[row, col+1] +
-              matrix[row+1, col] + matrix[row+1, col+1];
-    if (sum > bestSum)
-      bestSum = sum;
-  }
+    for (int col = 0; col < matrix.GetLength(1) - 1; col++)
+    {
+        int sum = matrix[row, col] + matrix[row, col + 1] +
+                  matrix[row + 1, col] + matrix[row + 1, col + 1];
+        if (sum > bestSum)
+            bestSum = sum;
+    }
 }
 ```
 
@@ -183,14 +184,14 @@ for (int row = 0; row < matrix.GetLength(0) - 1; row++)
 
 
 <!-- section start -->
-<!-- attr: { id:'', class:'slide-section', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
+<!-- attr: { id:'jagged-arrays', class:'slide-section', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
 # Jagged Arrays
 ## What are Jagged Arrays and How to Use Them?
 <img class="slide-image" src="imgs/pic09.png" style="top:54%; left:62%; width:30%; z-index:-1" />
 <img class="slide-image" src="imgs/pic10.png" style="top:55%; left:13.02%; width:44.15%; z-index:-1" />
 
 
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
+<!-- attr: { id:'jagged-arrays-declaring', class:'', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
 # Jagged Arrays
 - Jagged arrays are like multidimensional arrays
   - But each dimension has different size
@@ -234,14 +235,14 @@ for (int i = 0; i < n; i++)
 <img class="slide-image" src="imgs/pic13.png" style="top:55%; left:25%; width:15%; z-index:-1" />
 
 
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
+<!-- attr: { id:'jagged-arrays-usage', class:'', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
 # _Example_ of Jagged Arrays
 - Check a set of numbers and group them by their remainder when divided by 3 (0, 1 and 2)
 - _Example_: 0, 1, 4, 113, 55, 3, 1, 2, 66, 557, 124, 2
 - First we need to count the numbers
-  - Done with a iteration
+  - Done with an iteration
 - Allocate jagged arrays with the appropriate size
-- Each number is addedinto its jagged array
+- Each number is added into its jagged array
 <img class="slide-image" src="imgs/pic14.png" style="top:65%; left:66.93%; width:33.91%; z-index:-1" />
 
 
@@ -254,21 +255,21 @@ int[] sizes = new int[3];
 int[] offsets = new int[3];
 foreach (var number in numbers)
 {
-   int remainder = number % 3;
-   sizes[remainder]++;
+      int remainder = number % 3;
+      sizes[remainder]++;
 }
 int[][] numbersByRemainder = new int[3][]
 {
-  new int[sizes[0]],
-  new int[sizes[1]],
-  new int[sizes[2]]
+      new int[sizes[0]],
+      new int[sizes[1]],
+      new int[sizes[2]]
 };
 foreach (var number in numbers)
 {
-   int remainder = number % 3;
-   int index = offsets[remainder];
-   numbersByRemainder[remainder][index] = number;
-   offsets[remainder]++;
+      int remainder = number % 3;
+      int index = offsets[remainder];
+      numbersByRemainder[remainder][index] = number;
+      offsets[remainder]++;
 }
 ```
 
@@ -284,7 +285,7 @@ foreach (var number in numbers)
 
 
 <!-- section start -->
-<!-- attr: { id:'', class:'slide-section', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
+<!-- attr: { id:'array-class', class:'slide-section', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
 # Array Class
 ## What Can We Use?
 <img class="slide-image" src="imgs/pic17.png" style="top:55%; left:42.5%; width:15%; z-index:-1" />
@@ -333,7 +334,7 @@ foreach (var number in numbers)
 
 
 <!-- section start -->
-<!-- attr: { id:'', class:'slide-section', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
+<!-- attr: { id:'array-class-sorting', class:'slide-section', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
 # Sorting Arrays
 <img class="slide-image" src="imgs/pic19.png" style="top:40%; left:30%; width:40%; z-index:-1" />
 
@@ -409,7 +410,7 @@ Array.Sort(students, (x, y) => x.Name.CompareTo(y.Name));
 
 
 <!-- section start -->
-<!-- attr: { id:'', class:'slide-section', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
+<!-- attr: { id:'array-class-binarysearch', class:'slide-section', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
 # Binary Search
 <img class="slide-image" src="imgs/pic23.png" style="top:45%; left:30%; width:40%; z-index:-1" />
 
@@ -472,13 +473,13 @@ static void Main()
 <img class="slide-image" src="imgs/pic26.png" style="top:52%; left:30%; width:40%; z-index:-1" />
 
 
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'font-size: 42px' } -->
+<!-- attr: { id:'advices', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'font-size: 42px' } -->
 # Advices for Working with Arrays
-- When given method returns an array and should return an empty array (array with 0 elements) instead of **null**
+- When a given method returns an array, it should return an empty array (array with 0 elements) instead of **null**
 - Arrays are passed by reference
   - To be sure that given method will not change the passed array, pass a copy of it
 - **Clone()** returns shallow copy of the array
-  - You should implement your own deep clone when working with reference types
+  - You should implement your own deep clone when working with **custom** reference types
 
 
 <!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
