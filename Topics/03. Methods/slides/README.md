@@ -16,11 +16,11 @@
 <!-- section start -->
 <!-- attr: {  showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
 # Table of Contents
-- [Using Methods](slides/#what-is-method)
+- [Using Methods](#/what-is-method)
   - [What is a Method? Why to Use Methods?](#/what-is-method)
   - [Declaring and Creating Methods](#/declaring-methods)
   - [Calling Methods](#/calling-methods)
-- [Methods with Parameters](slides/#methods-with-parameters)
+- [Methods with Parameters](README.md/#methods-with-parameters)
   - [Passing Parameters](#/passing-parameters)
   - [Returning Values](#/returning-values)
 - [Best Practices](#/best-practices)
