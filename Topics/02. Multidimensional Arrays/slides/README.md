@@ -404,8 +404,8 @@ Array.Sort(students, (x, y) => x.Name.CompareTo(y.Name));
 
 
 <!-- attr: {  class:'slide-section demo', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
-# Sorting with **IComparer<T>** and Lambda Expressions
-## [Live Demo]()
+<!-- # Sorting with **IComparer<T>** and Lambda Expressions -->
+## [Live Demo](../demos/SortingIComparer)
 <!-- <img showInPresentation="true" class="slide-image" src="imgs/pic21.png" style="top:65%; left:25%; width:14.5%; z-index:-1" / -->
 <!-- <img showInPresentation="true" class="slide-image" src="imgs/pic22.png" style="top:65%; left:53.83%; width:23%; z-index:-1" / -->
 
