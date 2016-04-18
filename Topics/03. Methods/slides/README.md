@@ -29,7 +29,7 @@
 
 
 <!-- attr: { id:'what-is-method',  showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
-# <a id="what-is-method></a> What is a Method?
+# <a id="what-is-method"></a> What is a Method?
 - A **method** is a kind of building block that solves a small problem
   - A piece of code that has a name and can be called from the other code
   - Can take parameters and return a value
@@ -57,8 +57,8 @@
 
 
 <!-- section start -->
-<!-- attr: { id:'declaring-methods', class:'slide-section', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
-<!-- # <a id="declaring-methods"></a> Declaring and Creating Methods -->
+<!-- attr: { id:'declaringmethods', class:'slide-section', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
+<!-- # <a id="declaringmethods"></a> Declaring and Creating Methods -->
 <!-- <img showInPresentation="true" class="slide-image" src="imgs/pic07.png" style="top:55%; left:58.95%; width:28%; z-index:-1" / -->
 <!-- <img showInPresentation="true" class="slide-image" src="imgs/pic08.png" style="top:55%; left:18.71%; width:29.09%; z-index:-1" / -->
 
