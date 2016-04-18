@@ -2,9 +2,9 @@
 <!-- attr: { id:'', class:'slide-title', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
 # Methods
 ## Subroutines in Computer Programming
-<img class="slide-image" src="imgs/pic01.png" style="top:52.01%; left:60%; width:35%; z-index:-1" />
-<img class="slide-image" src="imgs/pic02.png" style="top:2%; left:45%; width:17.08%; z-index:-1" />
-<img class="slide-image" src="imgs/pic03.png" style="top:45%; left:10%; width:28.51%; z-index:-1" />
+<!-- <img showInPresentation="true" class="slide-image" src="imgs/pic01.png" style="top:52.01%; left:60%; width:35%; z-index:-1" / -->
+<!-- <img showInPresentation="true" class="slide-image" src="imgs/pic02.png" style="top:2%; left:45%; width:17.08%; z-index:-1" / -->
+<!-- <img showInPresentation="true" class="slide-image" src="imgs/pic03.png" style="top:45%; left:10%; width:28.51%; z-index:-1" / -->
 
 <div class="signature">
 	<p class="signature-course">C# Fundamentals - Part II</p>
@@ -24,7 +24,7 @@
   - Passing Parameters
   - Returning Values
 - Best Practices
-<img class="slide-image" src="imgs/pic04.png" style="top:42.31%; left:77.66%; width:25.97%; z-index:-1" />
+<!-- <img showInPresentation="true" class="slide-image" src="imgs/pic04.png" style="top:42.31%; left:77.66%; width:25.97%; z-index:-1" / -->
 
 
 <!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
@@ -34,7 +34,7 @@
   - Can take parameters and return a value
 - Methods allow programmers to construct large programs from simple pieces
 - Methods are also known as **functions**, **procedures**, and **subroutines**
-<img class="slide-image" src="imgs/pic05.png" style="top:60.83%; left:89.82%; width:17.63%; z-index:-1" />
+<!-- <img showInPresentation="true" class="slide-image" src="imgs/pic05.png" style="top:60.83%; left:89.82%; width:17.63%; z-index:-1" / -->
 
 
 <!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
@@ -48,7 +48,7 @@
     - Improve code maintainability
 - Code reusability
   - Using existing methods several times
-<img class="slide-image" src="imgs/pic06.png" style="top:45.84%; left:76.72%; width:27.84%; z-index:-1" />
+<!-- <img showInPresentation="true" class="slide-image" src="imgs/pic06.png" style="top:45.84%; left:76.72%; width:27.84%; z-index:-1" / -->
 
 
 
@@ -56,8 +56,8 @@
 <!-- section start -->
 <!-- attr: { id:'', class:'slide-section', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
 # Declaring and Creating Methods
-<img class="slide-image" src="imgs/pic07.png" style="top:55%; left:58.95%; width:28%; z-index:-1" />
-<img class="slide-image" src="imgs/pic08.png" style="top:55%; left:18.71%; width:29.09%; z-index:-1" />
+<!-- <img showInPresentation="true" class="slide-image" src="imgs/pic07.png" style="top:55%; left:58.95%; width:28%; z-index:-1" / -->
+<!-- <img showInPresentation="true" class="slide-image" src="imgs/pic08.png" style="top:55%; left:18.71%; width:29.09%; z-index:-1" / -->
 
 
 <!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
@@ -75,7 +75,7 @@ static void PrintLogo() // PrintLogo is the method's name
 
 
 
-<img class="slide-image" src="imgs/pic09.png" style="top:60.83%; left:80.47%; width:23.69%; z-index:1" />
+<!-- <img showInPresentation="true" class="slide-image" src="imgs/pic09.png" style="top:60.83%; left:80.47%; width:23.69%; z-index:1" / -->
 
 
 <!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'font-size: 42px' } -->
@@ -107,7 +107,7 @@ static void PrintLogo()
   - It contains the programming code
   - Surrounded by **{** and **}**
 <div class="fragment balloon" style="top:25%; left:67%; width:25%; font-size: 44px">Method body</div>
-<img class="slide-image" src="imgs/pic10.png" style="top:54.66%; left:89.82%; width:14.99%; z-index:-1" />
+<!-- <img showInPresentation="true" class="slide-image" src="imgs/pic10.png" style="top:54.66%; left:89.82%; width:14.99%; z-index:-1" / -->
 
 
 <!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
@@ -133,7 +133,7 @@ class Method_Example_
 
 - Methods are always declared inside a **class**
 - **Main()** is also a method like all others
-<img class="slide-image" src="imgs/pic11.png" style="top:11.02%; left:83.27%; width:20.72%; z-index:1" />
+<!-- <img showInPresentation="true" class="slide-image" src="imgs/pic11.png" style="top:11.02%; left:83.27%; width:20.72%; z-index:1" / -->
 
 
 
@@ -141,7 +141,7 @@ class Method_Example_
 <!-- section start -->
 <!-- attr: { id:'', class:'slide-section', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
 # Calling Methods
-<img class="slide-image" src="imgs/pic12.png" style="top:45%; left:30%; width:35%; z-index:-1" />
+<!-- <img showInPresentation="true" class="slide-image" src="imgs/pic12.png" style="top:45%; left:30%; width:35%; z-index:-1" / -->
 
 
 <!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
@@ -161,7 +161,7 @@ Telerik Corp.
 www.telerik.com
 ```
 
-<img class="slide-image" src="imgs/pic13.png" style="top:13.22%; left:85.14%; width:20.46%; z-index:1" />
+<!-- <img showInPresentation="true" class="slide-image" src="imgs/pic13.png" style="top:13.22%; left:85.14%; width:20.46%; z-index:1" / -->
 
 
 <!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
@@ -180,21 +180,21 @@ static void Main()
 }
 ```
 
-<img class="slide-image" src="imgs/pic14.png" style="top:16.75%; left:78.60%; width:24.68%; z-index:1" />
+<!-- <img showInPresentation="true" class="slide-image" src="imgs/pic14.png" style="top:16.75%; left:78.60%; width:24.68%; z-index:1" / -->
 
 
 <!-- attr: { id:'', class:'slide-section demo', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
 # Declaring and Calling Methods
 ## [Live Demo]()
-<img class="slide-image" src="imgs/pic15.png" style="top:55%; left:60.70%; width:30%; z-index:-1" />
-<img class="slide-image" src="imgs/pic16.png" style="top:55%; left:15.91%; width:20%; z-index:-1" />
+<!-- <img showInPresentation="true" class="slide-image" src="imgs/pic15.png" style="top:55%; left:60.70%; width:30%; z-index:-1" / -->
+<!-- <img showInPresentation="true" class="slide-image" src="imgs/pic16.png" style="top:55%; left:15.91%; width:20%; z-index:-1" / -->
 
 
 <!-- section start -->
 <!-- attr: { id:'', class:'slide-section', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
 # Methods with Parameters
 ## Passing Parameters and Returning values
-<img class="slide-image" src="imgs/pic17.png" style="top:52%; left:30%; width:40%; z-index:-1" />
+<!-- <img showInPresentation="true" class="slide-image" src="imgs/pic17.png" style="top:52%; left:30%; width:40%; z-index:-1" / -->
 
 
 <!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'font-size: 42px' } -->
@@ -227,7 +227,7 @@ static void PrintSign(int number)
 
 
 
-<img class="slide-image" src="imgs/pic18.png" style="top:20%; left:80.47%; width:22.48%; z-index:1" />
+<!-- <img showInPresentation="true" class="slide-image" src="imgs/pic18.png" style="top:20%; left:80.47%; width:22.48%; z-index:1" / -->
 
 
 <!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'font-size: 42px' } -->
@@ -264,7 +264,7 @@ PrintMax(100, 200);
 PrintMax(oldQuantity * 1.5, quantity * 2);
 ```
 
-<img class="slide-image" src="imgs/pic19.png" style="top:44.08%; left:74.85%; width:27.55%; z-index:1" />
+<!-- <img showInPresentation="true" class="slide-image" src="imgs/pic19.png" style="top:44.08%; left:74.85%; width:27.55%; z-index:1" / -->
 
 
 <!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'font-size: 42px' } -->
@@ -280,7 +280,7 @@ PrintMax(oldQuantity * 1.5, quantity * 2);
 <!-- section start -->
 <!-- attr: { id:'', class:'slide-section', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
 # Using Methods With Parameters
-<img class="slide-image" src="imgs/pic20.png" style="top:45%; left:42%; width:22%; z-index:-1" />
+<!-- <img showInPresentation="true" class="slide-image" src="imgs/pic20.png" style="top:45%; left:42%; width:22%; z-index:-1" / -->
 
 
 <!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'font-size: 42px' } -->
@@ -312,7 +312,7 @@ static void PrintMax(float number1, float number2)
 <!-- attr: { id:'', class:'slide-section demo', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
 # Method Parameters
 ## [Live Demo]()
-<img class="slide-image" src="imgs/pic21.png" style="top:55%; left:28%; width:40%; z-index:-1" />
+<!-- <img showInPresentation="true" class="slide-image" src="imgs/pic21.png" style="top:55%; left:28%; width:40%; z-index:-1" / -->
 
 
 <!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'font-size: 42px' } -->
@@ -362,13 +362,13 @@ class MonthsExample
 <!-- attr: { id:'', class:'slide-section demo', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
 # Months
 ## [Live Demo]()
-<img class="slide-image" src="imgs/pic22.png" style="top:52%; left:34.5%; width:30%; z-index:-1" />
+<!-- <img showInPresentation="true" class="slide-image" src="imgs/pic22.png" style="top:52%; left:34.5%; width:30%; z-index:-1" / -->
 
 
 <!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'font-size: 42px' } -->
 # Printing Triangle – _Example_
 - Creating a program for printing triangles as shown below:
-<img class="slide-image" src="imgs/num-arrows.png" style="top:25%; left:6%; width:80%; z-index:-1" />
+<!-- <img showInPresentation="true" class="slide-image" src="imgs/num-arrows.png" style="top:25%; left:6%; width:80%; z-index:-1" / -->
 
 
 <!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'font-size: 42px' } -->
@@ -399,8 +399,8 @@ static void PrintLine(int start, int end)
 <!-- attr: { id:'', class:'slide-section demo', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
 # Printing Triangle
 ## [Live Demo]()
-<img class="slide-image" src="imgs/pic23.png" style="top:55%; left:65%; width:26.5%; z-index:-1" />
-<img class="slide-image" src="imgs/pic24.png" style="top:55%; left:10%; width:35.63%; z-index:-1" />
+<!-- <img showInPresentation="true" class="slide-image" src="imgs/pic23.png" style="top:55%; left:65%; width:26.5%; z-index:-1" / -->
+<!-- <img showInPresentation="true" class="slide-image" src="imgs/pic24.png" style="top:55%; left:10%; width:35.63%; z-index:-1" / -->
 
 
 <!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'font-size: 42px' } -->
@@ -431,7 +431,7 @@ PrintNumbers(end: 40, start: 35);
 <!-- section start -->
 <!-- attr: { id:'', class:'slide-section', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
 # Returning Values From Methods
-<img class="slide-image" src="imgs/pic26.png" style="top:44.08%; left:30%; width:40%; z-index:-1" />
+<!-- <img showInPresentation="true" class="slide-image" src="imgs/pic26.png" style="top:44.08%; left:30%; width:40%; z-index:-1" / -->
 
 
 <!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'font-size: 42px' } -->
@@ -495,7 +495,7 @@ void SomeVoidMethod()
 <!-- attr: { id:'', class:'slide-section', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
 # Returning Values From Methods
 ## _Examples_
-<img class="slide-image" src="imgs/pic27.png" style="top:55%; left:35%; width:30%; z-index:-1" />
+<!-- <img showInPresentation="true" class="slide-image" src="imgs/pic27.png" style="top:55%; left:35%; width:30%; z-index:-1" / -->
 
 
 <!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'font-size: 42px' } -->
@@ -523,9 +523,9 @@ static void Main()
 <!-- attr: { id:'', class:'slide-section demo', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
 # Temperature Conversion
 ## [Live Demo]()
-<img class="slide-image" src="imgs/pic29.png" style="top:55%; left:75.44%; width:18%; z-index:-1" />
-<img class="slide-image" src="imgs/pic30.png" style="top:55%; left:13.15%; width:15%; z-index:-1" />
-<img class="slide-image" src="imgs/pic31.png" style="top:60%; left:43.75%; width:18%; z-index:-1" />
+<!-- <img showInPresentation="true" class="slide-image" src="imgs/pic29.png" style="top:55%; left:75.44%; width:18%; z-index:-1" / -->
+<!-- <img showInPresentation="true" class="slide-image" src="imgs/pic30.png" style="top:55%; left:13.15%; width:15%; z-index:-1" / -->
+<!-- <img showInPresentation="true" class="slide-image" src="imgs/pic31.png" style="top:60%; left:43.75%; width:18%; z-index:-1" / -->
 
 
 <!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
@@ -546,13 +546,13 @@ static bool ArePositive(int[] sequence)
 }
 ```
 
-<img class="slide-image" src="imgs/pic32.png" style="top:47.60%; left:64.87%; width:37.83%; z-index:1" />
+<!-- <img showInPresentation="true" class="slide-image" src="imgs/pic32.png" style="top:47.60%; left:64.87%; width:37.83%; z-index:1" / -->
 
 
 <!-- attr: { id:'', class:'slide-section demo', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
 # Positive Numbers
 ## [Live Demo]()
-<img class="slide-image" src="imgs/pic33.png" style="top:55%; left:32.5%; width:35%; z-index:-1" />
+<!-- <img showInPresentation="true" class="slide-image" src="imgs/pic33.png" style="top:55%; left:32.5%; width:35%; z-index:-1" / -->
 
 
 <!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
@@ -577,7 +577,7 @@ class ValidatingDemo
 // (The example continues on the next slide)
 ```
 
-<img class="slide-image" src="imgs/pic34.png" style="top:19.39%; left:82.34%; width:22.81%; z-index:1" />
+<!-- <img showInPresentation="true" class="slide-image" src="imgs/pic34.png" style="top:19.39%; left:82.34%; width:22.81%; z-index:1" / -->
 
 
 <!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
@@ -604,13 +604,13 @@ class ValidatingDemo
 }
 ```
 
-<img class="slide-image" src="imgs/pic35.png" style="top:12.34%; left:81.40%; width:23.80%; z-index:1" />
+<!-- <img showInPresentation="true" class="slide-image" src="imgs/pic35.png" style="top:12.34%; left:81.40%; width:23.80%; z-index:1" / -->
 
 
 <!-- attr: { id:'', class:'slide-section demo', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
 # Data Validation
 ## [Live Demo]()
-<img class="slide-image" src="imgs/pic36.png" style="top:55%; left:35%; width:30%; z-index:-1" />
+<!-- <img showInPresentation="true" class="slide-image" src="imgs/pic36.png" style="top:55%; left:35%; width:30%; z-index:-1" / -->
 
 
 
@@ -619,7 +619,7 @@ class ValidatingDemo
 <!-- attr: { id:'', class:'slide-section', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
 # Overloading Methods
 ## Multiple Methods with the Same Name
-<img class="slide-image" src="imgs/pic37.png" style="top:55%; left:25%; width:50%; z-index:-1" />
+<!-- <img showInPresentation="true" class="slide-image" src="imgs/pic37.png" style="top:55%; left:25%; width:50%; z-index:-1" / -->
 
 
 <!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'font-size: 42px' } -->
@@ -647,7 +647,7 @@ static void Print(string text, int number)
 <!-- section start -->
 <!-- attr: { id:'', class:'slide-section', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
 # Variable Number of Parameters
-<img class="slide-image" src="imgs/pic38.png" style="top:50%; left:27%; width:45%; z-index:-1" />
+<!-- <img showInPresentation="true" class="slide-image" src="imgs/pic38.png" style="top:50%; left:27%; width:45%; z-index:-1" / -->
 
 
 <!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'font-size: 42px' } -->
@@ -695,5 +695,5 @@ static void Main()
 
 <!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
 # Methods
-<img class="slide-image" src="https://github.com/TelerikAcademy/Common/raw/master/revealjs-theme/css/imgs/questions-ninja.png" style="width:70%; top:15%; left:10%" />
+<!-- <img showInPresentation="true" class="slide-image" src="https://github.com/TelerikAcademy/Common/raw/master/revealjs-theme/css/imgs/questions-ninja.png" style="width:70%; top:15%; left:10%" / -->
 <div style="position: absolute; bottom: 1em; right: 0; font-size: 26px;">http://academy.telerik.com</div>
