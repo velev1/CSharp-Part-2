@@ -29,7 +29,7 @@
 
 
 <!-- attr: { id:'what-is-method',  showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
-# What is a Method?
+# <a id="what-is-method></a> What is a Method?
 - A **method** is a kind of building block that solves a small problem
   - A piece of code that has a name and can be called from the other code
   - Can take parameters and return a value
@@ -40,7 +40,7 @@
 
 
 <!-- attr: { id:'using-methods',  showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
-# Why to Use Methods?
+# <a id="using-methods"></a> Why to Use Methods?
 - More manageable programming
   - Split large problems into small pieces
   - Better organization of the program
@@ -58,7 +58,7 @@
 
 <!-- section start -->
 <!-- attr: { id:'declaring-methods', class:'slide-section', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
-<!-- # Declaring and Creating Methods -->
+<!-- # <a id="declaring-methods"></a> Declaring and Creating Methods -->
 <!-- <img showInPresentation="true" class="slide-image" src="imgs/pic07.png" style="top:55%; left:58.95%; width:28%; z-index:-1" / -->
 <!-- <img showInPresentation="true" class="slide-image" src="imgs/pic08.png" style="top:55%; left:18.71%; width:29.09%; z-index:-1" / -->
 
@@ -145,7 +145,7 @@ class Method_Example_
 
 <!-- section start -->
 <!-- attr: { id:'calling-methods', class:'slide-section', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
-<!-- # Calling Methods -->
+<!-- # <a id="calling-methods"></a> Calling Methods -->
 <!-- <img showInPresentation="true" class="slide-image" src="imgs/pic12.png" style="top:45%; left:30%; width:35%; z-index:-1" / -->
 
 
@@ -197,7 +197,7 @@ static void Main()
 
 <!-- section start -->
 <!-- attr: { id:'methods-with-parameters', class:'slide-section', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
-<!-- # Methods with Parameters -->
+<!-- # <a id="methods-with-parameters"></a> Methods with Parameters -->
 <!-- ## Passing Parameters and Returning values -->
 <!-- <img showInPresentation="true" class="slide-image" src="imgs/pic17.png" style="top:52%; left:30%; width:40%; z-index:-1" / -->
 
@@ -255,7 +255,7 @@ static void PrintMax(float number1, number2)
 
 
 <!-- attr: { id:'passing-parameters',  showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
-# Calling Methods with Parameters
+# <a id="passing-parameters"></a> Calling Methods with Parameters
 - To call a method and pass values to its parameters:
   - Use the method’s name, followed by a list of expressions for each parameter
 - _Examples_:
@@ -436,7 +436,7 @@ PrintNumbers(end: 40, start: 35);
 
 <!-- section start -->
 <!-- attr: { id:'returning-values', class:'slide-section', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
-<!-- # Returning Values From Methods -->
+<!-- # <a id="returning-values"></a> Returning Values From Methods -->
 <!-- <img showInPresentation="true" class="slide-image" src="imgs/pic26.png" style="top:44.08%; left:30%; width:40%; z-index:-1" / -->
 
 
@@ -680,7 +680,7 @@ static void Main()
 
 
 <!-- attr: { id:'best-practices',  showInPresentation:'True', hasScriptWrapper:'False', style:'font-size: 42px' } -->
-# Methods – Best Practices
+# <a id="best-practices"></a> Methods – Best Practices
 - Each method should perform a single, well-defined task
 - Method’s name should describe that task in a clear and non-ambiguous way
   - Good examples: **CalculatePrice**, **ReadName**
