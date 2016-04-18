@@ -58,7 +58,7 @@
 
 <!-- section start -->
 <!-- attr: { id:'declaring-methods', class:'slide-section', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
-# Declaring and Creating Methods
+<!-- # Declaring and Creating Methods -->
 <!-- <img showInPresentation="true" class="slide-image" src="imgs/pic07.png" style="top:55%; left:58.95%; width:28%; z-index:-1" / -->
 <!-- <img showInPresentation="true" class="slide-image" src="imgs/pic08.png" style="top:55%; left:18.71%; width:29.09%; z-index:-1" / -->
 
@@ -145,7 +145,7 @@ class Method_Example_
 
 <!-- section start -->
 <!-- attr: { id:'calling-methods', class:'slide-section', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
-# Calling Methods
+<!-- # Calling Methods -->
 <!-- <img showInPresentation="true" class="slide-image" src="imgs/pic12.png" style="top:45%; left:30%; width:35%; z-index:-1" / -->
 
 
@@ -189,16 +189,16 @@ static void Main()
 
 
 <!-- attr: {  class:'slide-section demo', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
-# Declaring and Calling Methods
-## [Live Demo]()
+<!-- # Declaring and Calling Methods -->
+<!-- ## [Live Demo]() -->
 <!-- <img showInPresentation="true" class="slide-image" src="imgs/pic15.png" style="top:55%; left:60.70%; width:30%; z-index:-1" / -->
 <!-- <img showInPresentation="true" class="slide-image" src="imgs/pic16.png" style="top:55%; left:15.91%; width:20%; z-index:-1" / -->
 
 
 <!-- section start -->
 <!-- attr: { id:'methods-with-parameters', class:'slide-section', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
-# Methods with Parameters
-## Passing Parameters and Returning values
+<!-- # Methods with Parameters -->
+<!-- ## Passing Parameters and Returning values -->
 <!-- <img showInPresentation="true" class="slide-image" src="imgs/pic17.png" style="top:52%; left:30%; width:40%; z-index:-1" / -->
 
 
@@ -289,7 +289,7 @@ PrintMax(oldQuantity * 1.5, quantity * 2);
 
 
 <!-- attr: {  showInPresentation:'True', hasScriptWrapper:'False', style:'font-size: 42px' } -->
-# Methods Parameters – _Example_
+<!-- # Methods Parameters – _Example_ -->
 
 ```cs
 static void PrintSign(int number)
@@ -316,7 +316,7 @@ static void PrintMax(float number1, float number2)
 
 <!-- attr: {  class:'slide-section demo', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
 # Method Parameters
-## [Live Demo]()
+## [Live Demo](../demos/MethodsParameters)
 <!-- <img showInPresentation="true" class="slide-image" src="imgs/pic21.png" style="top:55%; left:28%; width:40%; z-index:-1" / -->
 
 
@@ -366,13 +366,13 @@ class MonthsExample
 
 <!-- attr: {  class:'slide-section demo', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
 # Months
-## [Live Demo]()
+## [Live Demo](../demos/Months)
 <!-- <img showInPresentation="true" class="slide-image" src="imgs/pic22.png" style="top:52%; left:34.5%; width:30%; z-index:-1" / -->
 
 
 <!-- attr: {  showInPresentation:'True', hasScriptWrapper:'False', style:'font-size: 42px' } -->
-# Printing Triangle – _Example_
-- Creating a program for printing triangles as shown below:
+<!-- # Printing Triangle – _Example_ -->
+<!-- - Creating a program for printing triangles as shown below: -->
 
 <!-- <img showInPresentation="true" class="slide-image" src="imgs/num-arrows.png" style="top:25%; left:6%; width:80%; z-index:-1" / -->
 
@@ -404,7 +404,7 @@ static void PrintLine(int start, int end)
 
 <!-- attr: {  class:'slide-section demo', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
 # Printing Triangle
-## [Live Demo]()
+## [Live Demo](../demos/Triangle)
 <!-- <img showInPresentation="true" class="slide-image" src="imgs/pic23.png" style="top:55%; left:65%; width:26.5%; z-index:-1" / -->
 <!-- <img showInPresentation="true" class="slide-image" src="imgs/pic24.png" style="top:55%; left:10%; width:35.63%; z-index:-1" / -->
 
@@ -430,13 +430,13 @@ PrintNumbers(end: 40, start: 35);
 ```
 
 <!-- attr: {  class:'slide-section demo', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
-# Optional Parameters
-## [Live Demo]()
+<!-- # Optional Parameters -->
+## [Live Demo](../demos/OptionalParameters)
 
 
 <!-- section start -->
 <!-- attr: { id:'returning-values', class:'slide-section', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
-# Returning Values From Methods
+<!-- # Returning Values From Methods -->
 <!-- <img showInPresentation="true" class="slide-image" src="imgs/pic26.png" style="top:44.08%; left:30%; width:40%; z-index:-1" / -->
 
 
@@ -499,8 +499,8 @@ void SomeVoidMethod()
 
 <!-- section start -->
 <!-- attr: {  class:'slide-section', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
-# Returning Values From Methods
-## _Examples_
+<!-- # Returning Values From Methods -->
+<!-- ## _Examples_ -->
 <!-- <img showInPresentation="true" class="slide-image" src="imgs/pic27.png" style="top:55%; left:35%; width:30%; z-index:-1" / -->
 
 
@@ -527,8 +527,8 @@ static void Main()
 
 
 <!-- attr: {  class:'slide-section demo', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
-# Temperature Conversion
-## [Live Demo]()
+<!-- # Temperature Conversion -->
+## [Live Demo](../demos/Temperature)
 <!-- <img showInPresentation="true" class="slide-image" src="imgs/pic29.png" style="top:55%; left:75.44%; width:18%; z-index:-1" / -->
 <!-- <img showInPresentation="true" class="slide-image" src="imgs/pic30.png" style="top:55%; left:13.15%; width:15%; z-index:-1" / -->
 <!-- <img showInPresentation="true" class="slide-image" src="imgs/pic31.png" style="top:60%; left:43.75%; width:18%; z-index:-1" / -->
@@ -556,8 +556,8 @@ static bool ArePositive(int[] sequence)
 
 
 <!-- attr: {  class:'slide-section demo', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
-# Positive Numbers
-## [Live Demo]()
+<!-- # Positive Numbers -->
+## [Live Demo](../demos/PositiveNumbers)
 <!-- <img showInPresentation="true" class="slide-image" src="imgs/pic33.png" style="top:55%; left:32.5%; width:35%; z-index:-1" / -->
 
 
@@ -614,8 +614,8 @@ class ValidatingDemo
 
 
 <!-- attr: {  class:'slide-section demo', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
-# Data Validation
-## [Live Demo]()
+<!-- # Data Validation -->
+## [Live Demo](../demos/DataValidation)
 <!-- <img showInPresentation="true" class="slide-image" src="imgs/pic36.png" style="top:55%; left:35%; width:30%; z-index:-1" / -->
 
 
@@ -623,8 +623,8 @@ class ValidatingDemo
 
 <!-- section start -->
 <!-- attr: {  class:'slide-section', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
-# Overloading Methods
-## Multiple Methods with the Same Name
+<!-- # Overloading Methods -->
+<!-- ## Multiple Methods with the Same Name -->
 <!-- <img showInPresentation="true" class="slide-image" src="imgs/pic37.png" style="top:55%; left:25%; width:50%; z-index:-1" / -->
 
 
@@ -652,7 +652,7 @@ static void Print(string text, int number)
 
 <!-- section start -->
 <!-- attr: {  class:'slide-section', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
-# Variable Number of Parameters
+<!-- # Variable Number of Parameters -->
 <!-- <img showInPresentation="true" class="slide-image" src="imgs/pic38.png" style="top:50%; left:27%; width:45%; z-index:-1" / -->
 
 
