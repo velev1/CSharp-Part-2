@@ -27,7 +27,8 @@
 - [The **Array** Class](#/array-class)
   - [Sorting](#/array-class-sorting)
   - [Binary Search](#/array-class-binarysearch)
-- [Advices](#/advices)  
+- [Advices](#/advices)
+
 <!-- <img showInPresentation="true" class="slide-image" src="imgs/pic04.png" style="top:45%; left:73.92%; width:27.99%; z-index:-1" / -->
 <!-- <img showInPresentation="true" class="slide-image" src="imgs/pic05.png" style="top:20%; left:79.78%; width:13%; z-index:-1" / -->
 
