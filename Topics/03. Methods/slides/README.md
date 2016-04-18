@@ -511,16 +511,16 @@ void SomeVoidMethod()
 ```cs
 static double FahrenheitToCelsius(double degrees)
 {
-  double celsius = (degrees - 32) * 5 / 9;
-  return celsius;
+		  double celsius = (degrees - 32) * 5 / 9;
+		  return celsius;
 }
 
 static void Main()
 {
-  Console.Write("Temperature in Fahrenheit: ");
-  double t = Double.Parse(Console.ReadLine());
-  t = FahrenheitToCelsius(t);
-  Console.Write("Temperature in Celsius: {0}", t);
+		  Console.Write("Temperature in Fahrenheit: ");
+		  double t = Double.Parse(Console.ReadLine());
+		  t = FahrenheitToCelsius(t);
+		  Console.Write("Temperature in Celsius: {0}", t);
 }
 ```
 
