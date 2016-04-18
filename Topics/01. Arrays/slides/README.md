@@ -22,6 +22,7 @@
 - [Dynamic Arrays](#/dynamic-arrays)
   - [**List < T >**](#/lists)
 - [Copying Arrays](#/copying-arrays)
+
 <!-- <img class="slide-image" showInPresentation="true" src="imgs/pic03.png" style="top:44.96%; left:75.04%; width:27.15%; z-index:-1" /> -->
 
 
