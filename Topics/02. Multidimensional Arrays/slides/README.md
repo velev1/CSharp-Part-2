@@ -146,7 +146,7 @@ for (int row = 0; row < matrix.GetLength(0); row++)
 
 <!-- attr: {  class:'slide-section demo', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
 # Reading and Printing Matrices
-## [Live Demo]()
+## [Live Demo](../demos/ReadWriteMatrix)
 <!-- <img showInPresentation="true" class="slide-image" src="imgs/pic07.png" style="top:55%; left:35%; width:30%; z-index:-1" / -->
 
 
@@ -178,7 +178,7 @@ for (int row = 0; row < matrix.GetLength(0) - 1; row++)
 
 <!-- attr: {  class:'slide-section demo', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
 # Maximal Platform
-## [Live Demo]()
+## [Live Demo](../demos/MaxPlatform)
 <!-- <img showInPresentation="true" class="slide-image" src="imgs/pic08.png" style="top:55%; left:35%; width:30%; z-index:-1" / -->
 
 
@@ -232,7 +232,7 @@ for (int i = 0; i < n; i++)
 
 <!-- attr: {  class:'slide-section demo', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
 # Jagged Arrays
-## [Live Demo]()
+## [Live Demo](../demos/JaggedArrays)
 <!-- <img showInPresentation="true" class="slide-image" src="imgs/pic12.png" style="top:55%; left:45.38%; width:30%; z-index:-1" / -->
 <!-- <img showInPresentation="true" class="slide-image" src="imgs/pic13.png" style="top:55%; left:25%; width:15%; z-index:-1" / -->
 
@@ -279,8 +279,8 @@ foreach (var number in numbers)
 
 
 <!-- attr: {  class:'slide-section demo', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
-# Remainders of 3
-## [Live Demo]()
+<!-- # Remainders of 3 -->
+<!-- ## [Live Demo](../demos/) -->
 <!-- <img showInPresentation="true" class="slide-image" src="imgs/pic16.png" style="top:55%; left:25%; width:50%; z-index:-1" / -->
 
 
@@ -463,7 +463,7 @@ static void Main()
 
 <!-- attr: { class:'slide-section demo', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
 # Binary Search
-## [Live Demo]()
+## [Live Demo](../demos/BinarySearch)
 <!-- <img showInPresentation="true" class="slide-image" src="imgs/pic25.png" style="top:55%; left:15%; width:70%; z-index:-1" / -->
 
 
