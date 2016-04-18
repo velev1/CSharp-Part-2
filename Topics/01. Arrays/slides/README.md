@@ -16,7 +16,7 @@
 - Console Input and Output of Arrays
 - Iterating Over Arrays Using **for** and **foreach**
 - Dynamic Arrays
-  - **List<T>**
+  - **List < T >**
 - Copying Arrays
 <img class="slide-image" src="imgs/pic03.png" style="top:44.96%; left:75.04%; width:27.15%; z-index:-1" />
 
@@ -25,7 +25,7 @@
 
 <!-- section start -->
 <!-- attr: { id:'', class:'slide-section', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
-# Declaring and Creating Arrays 
+# Declaring and Creating Arrays
 <img class="slide-image" src="imgs/pic04.png" style="top:45%; left:80%; width:20%; z-index:-1" />
 <img class="slide-image" src="imgs/pic05.png" style="top:55%; left:10.48%; width:58.75%; z-index:-1" />
 
@@ -35,7 +35,7 @@
   - All elements are of the same type
   - The order of the elements is fixed
   - Has fixed size (**Array.Length**)
-  
+
 <img class="slide-image" src="imgs/array-5.png" style="top:50%; left:10%; width:80%; z-index:-1" />
 
 
@@ -44,11 +44,11 @@
 - Declaration defines the type of the elements
 - Square brackets **[]** mean "array"
 - _Examples_:
-  - Declaring array of integers:
+  - Declaring an array of integers:
     ```cs
     int[] myIntArray;
     ```
-  - Declaring array of strings:
+  - Declaring an array of strings:
     ```cs
     string[] myStringArray;
     ```
@@ -95,9 +95,6 @@ string[] daysOfWeek =
 };
 ```
 
-<img class="slide-image" src="imgs/pic10.png" style="top:26.10%; left:77.66%; width:24.79%; z-index:1" />
-
-
 <!-- attr: { id:'', class:'slide-section demo', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
 # Days of Week
 ## [Live Demo]()
@@ -118,7 +115,7 @@ string[] daysOfWeek =
   - Array indexer takes element’s index as parameter
   - The first element has index **0**
   - The last element has index **Length-1**
-- Array elements can be retrieved and changed by the **[]** operator
+- Array elements can be retrieved and changed by using the **[]** operator
 
 
 <!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'font-size: 42px' } -->
@@ -133,7 +130,7 @@ int length = array.Length;
 
 // Declare and create the reversed array
 int[] reversed = new int[length];
-        
+
 // Initialize the reversed array
 for (int index = 0; index < length; index++)
 {
@@ -156,6 +153,7 @@ for (int index = 0; index < length; index++)
 <!-- section start -->
 <!-- attr: { id:'', class:'slide-section', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
 # Arrays: Input and Output
+## Reading and Printing Arrays on the Console
 <img class="slide-image" src="imgs/pic18.png" style="top:55%; left:30%; width:40%; z-index:-1" />
 
 
@@ -168,9 +166,9 @@ int n = int.Parse(Console.ReadLine());
 - Next, create the array of given size and read its elements in a **for** loop
 ```cs
 int[] arr = new int[n];
-for (int i=0; i<n; i++)
+for (int i = 0; i < n; i++)
 {
-   arr[i] = int.Parse(Console.ReadLine());
+      arr[i] = int.Parse(Console.ReadLine());
 }
 ```
 
@@ -181,9 +179,9 @@ for (int i=0; i<n; i++)
 - Read **int** array from the console and check if it is symmetric:
 ```cs
 bool isSymmetric = true;
-for (int i=0; i<array.Length/2; i++)
+for (int i = 0; i < array.Length / 2; i++)
 {
-    if (array[i] != array[n-i-1])
+    if (array[i] != array[n - i - 1])
     {
         isSymmetric = false;
     }
@@ -242,7 +240,7 @@ for (int index = 0; index < array.Length; index++)
 ```cs
 for (int index = 0; index < array.Length; index++)
 {
-   squares[index] = array[index] * array[index];
+    squares[index] = array[index] * array[index];
 }
 ```
 
@@ -255,7 +253,7 @@ for (int index = 0; index < array.Length; index++)
 Console.WriteLine("Reversed: ");
 for (int i = array.Length-1; i >= 0; i--)
 {
-    Console.Write(array[i] + " ");
+      Console.Write(array[i] + " ");
 }
 // Result: 5 4 3 2 1
 ```
@@ -263,7 +261,7 @@ for (int i = array.Length-1; i >= 0; i--)
 ```cs
 for (int index = 0; index < array.Length; index++)
 {
-    array[index] = index;
+      array[index] = index;
 }
 ```
 
@@ -329,26 +327,26 @@ foreach (string capital in capitals)
 
 <!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'font-size: 42px' } -->
 <!-- # Lists (Resizable Arra -->
-- **List<T>** – array that can resize dynamically
+- **List<T>** – array that can be resized dynamically
   - When adding or removing elements
   - Also have indexers **[]** (like arrays)
   - **T** is the type that the list will hold
-    - E.g. **List<int>** will hold **integers**
-    - **List<object>** will hold **objects**
+    - E.g. **List< int >** will hold **integers**
+    - **List< object >** will hold **objects**
 - Basic methods and properties
   - **Add(T** **element)** – adds new element to the end
-  - **Remove(element)** – removes the element 
+  - **Remove(element)** – removes the element
   - **Count** – returns the current size of the list
 
 
 <!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'font-size: 42px' } -->
-# List _Example_ 
+# List _Example_
 
 ```cs
 List<int> intList = new List<int>();
 for(int i = 0; i < 5; i++)
 {
-   intList.Add(i);
+    intList.Add(i);
 }
 ```
 
@@ -358,7 +356,7 @@ for(int i = 0; i < 5; i++)
 int[] intArray = new int[5];
 for(int i = 0; i < 5; i++)
 {
-   intArray[i] = i;
+    intArray[i] = i;
 }
 ```
 - The main difference
@@ -377,7 +375,7 @@ int[] copyArray = intArray;
 int[] intArray = new int[6];
 for (int i = 0; i < 5; i++)
 {
-   intArray[i] = copyArray[i];
+      intArray[i] = copyArray[i];
 }
 intArray[5] = newValue;
 ```
@@ -397,8 +395,8 @@ list.Add(newValue);
 <!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'font-size: 42px' } -->
 # How The List<T> Works?
 - Why adding new elements is not slow?
-  - When adding **n** elements in **List<T>** it resizes itself **log(2)n** times instead of **n**
-- Initially a new **List<T>** has size of 0 elements
+  - When adding **n** elements in **List< T >** it resizes itself **log(2)n** times instead of **n**
+- Initially a new **List< T >** has size of 0 elements
   - Counter for total capacity (**Capacity**)
   - Counter for number of used capacity (**Count**)
   - When created, both properties of the list have values of 0
@@ -407,13 +405,13 @@ list.Add(newValue);
 
 <!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
 # How The List<T> Works?
-- Initially the **List<T>** is empty
+- Initially the **List< T >** is empty
   - When adding new element it is resized
   - But not every time
     - Only when it is needed
 - Lets have a list with 3 elements
   - It looks like this:
-  - When we add new elementit is appended to the end
+  - When we add new element it is appended to the end
   - Adding a fifth element doubles the Capacity of the list
 <img class="slide-image" src="imgs/pic29.png" style="top:64.86%; left:73.79%; width:25.46%; z-index:-1" />
 <img class="slide-image" src="imgs/pic30.png" style="top:73.54%; left:73.67%; width:25.56%; z-index:-1" />
@@ -444,13 +442,15 @@ list.Add(newValue);
   - If we do it the intuitive way we would copy not only the values but the reference to the array
     - Changing some of the values in one array will affect the other
     ```cs
-    int[] copyArray = (int[])array.Clone();
+      int[] array = new [5] { 1, 2, 3, 4, 5 };
+      int[] copyArray = array;
     ```
   - The way to avoid this is using **Clone()**
     - This way only the values will be copied but not the reference
-```cs
-    int[] copyArray = array;
-```
+    ```cs
+      int[] array = new [5] { 1, 2, 3, 4, 5 };
+      int[] copyArray = (int[])array.Clone();
+    ```
 
 
 <!-- section start -->
