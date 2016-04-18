@@ -109,8 +109,8 @@ string[] daysOfWeek =
 
 
 <!-- attr: { id:'accessing-arrays', class:'slide-section', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
-# Accessing Array Elements
-## Read and Modify Elements by Index
+<!-- # Accessing Array Elements -->
+<!-- ## Read and Modify Elements by Index -->
 <!-- <img class="slide-image" showInPresentation="true" src="imgs/pic14.png" style="top:55%; left:30%; width:40%; z-index:-1" /> -->
 
 
@@ -157,8 +157,8 @@ for (int index = 0; index < length; index++)
 
 <!-- section start -->
 <!-- attr: { id:'in-out-arrays', class:'slide-section', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
-# Arrays: Input and Output
-## Reading and Printing Arrays on the Console
+<!-- # Arrays: Input and Output -->
+<!-- ## Reading and Printing Arrays on the Console -->
 <!-- <img class="slide-image" showInPresentation="true" src="imgs/pic18.png" style="top:55%; left:30%; width:40%; z-index:-1" /> -->
 
 
@@ -231,7 +231,7 @@ for (int index = 0; index < array.Length; index++)
 
 <!-- section start -->
 <!-- attr: { id:'iterating-arrays', class:'slide-section', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
-# Processing Array Elements Using for and foreach
+<!-- # Processing Array Elements Using for and foreach -->
 <!-- <img showInPresentation="true" class="slide-image" src="imgs/pic21.png" style="top:55%; left:28%; width:40%; z-index:-1" / -->
 
 
@@ -434,8 +434,8 @@ list.Add(newValue);
 
 <!-- section start -->
 <!-- attr: { id:'copying-arrays', class:'slide-section', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
-# Copying Arrays
-## The Array Class
+<!-- # Copying Arrays -->
+<!-- ## The Array Class -->
 <!-- <img showInPresentation="true" class="slide-image" src="imgs/pic34.png" style="top:55%; left:15.91%; width:23.80%; z-index:-1" / -->
 <!-- <img showInPresentation="true" class="slide-image" src="imgs/pic35.png" style="top:55%; left:69.24%; width:22.04%; z-index:-1" / -->
 <!-- <img showInPresentation="true" class="slide-image" src="imgs/pic36.png" style="top:60%; left:48.65%; width:13.22%; z-index:-1" / -->
