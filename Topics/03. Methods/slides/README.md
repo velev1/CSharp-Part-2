@@ -6,7 +6,11 @@
 <img class="slide-image" src="imgs/pic02.png" style="top:2%; left:45%; width:17.08%; z-index:-1" />
 <img class="slide-image" src="imgs/pic03.png" style="top:45%; left:10%; width:28.51%; z-index:-1" />
 
-
+<div class="signature">
+	<p class="signature-course">C# Fundamentals - Part II</p>
+	<p class="signature-initiative">Telerik Software Academy</p>
+	<a href="https://telerikacademy.com" class="signature-link">https://telerikacademy.com</a>
+</div>
 
 
 <!-- section start -->
@@ -67,7 +71,7 @@ static void PrintLogo() // PrintLogo is the method's name
 ```
 - Each method has a **name**
   - It is used to call the method
-  - Describes its purpose
+  - Describes the method's purpose
 
 
 
@@ -124,7 +128,7 @@ class Method_Example_
     {
         // ...
     }
-} 
+}
 ```
 
 - Methods are always declared inside a **class**
@@ -146,7 +150,7 @@ class Method_Example_
   - The method’s name
   - Parentheses (don’t forget them!)
   - A semicolon (**;**)
-  
+
 ```cs
 PrintLogo();
 ```
@@ -208,12 +212,12 @@ static void Main()
 ```cs
 static void PrintSign(int number)
 {
-    if (number > 0)
-        Console.WriteLine("Positive");
-    else if (number < 0)
-        Console.WriteLine("Negative");
-    else
-        Console.WriteLine("Zero");
+      if (number > 0)
+          Console.WriteLine("Positive");
+      else if (number < 0)
+          Console.WriteLine("Negative");
+      else
+          Console.WriteLine("Zero");
 }
 ```
 - Method’s behavior depends on its parameters
@@ -232,10 +236,10 @@ static void PrintSign(int number)
 ```cs
 static void PrintMax(float number1, float number2)
 {
-    float max = number1;
-    if (number2 > number1)
-        max = number2;
-    Console.WriteLine("Maximal number: {0}", max);
+      float max = number1;
+      if (number2 > number1)
+          max = number2;
+      Console.WriteLine("Maximal number: {0}", max);
 }
 ```
 - The following syntax is not valid:
@@ -323,8 +327,8 @@ class MonthsExample
   static void SayMonth(int month)
   {
     string[] monthNames = new string[] {
-      "January", "February", "March", 
-      "April", "May", "June", "July", 
+      "January", "February", "March",
+      "April", "May", "June", "July",
       "August", "September", "October",
       "November", "December"};
       Console.Write(monthNames[month-1]);
@@ -563,7 +567,7 @@ class ValidatingDemo
   static void Main()
   {
     Console.WriteLine("What time is it?");
-    
+
     Console.Write("Hours: ");
     int hours = int.Parse(Console.ReadLine());
 
@@ -580,7 +584,7 @@ class ValidatingDemo
 # Data Validation – _Example_
 
 ```cs
-    bool isValidTime = 
+    bool isValidTime =
       ValidateHours(hours) &&
       ValidateMinutes(minutes);
     if (isValidTime)
@@ -658,7 +662,7 @@ static long CalcSum(params int[] elements)
       sum += element;
    return sum;
 }
- 
+
 static void Main()
 {
    Console.WriteLine(CalcSum(2, 5));
