@@ -5,7 +5,11 @@
 <img class="slide-image" src="imgs/pic01.png" style="top:50%; left:60%; width:40%; z-index:-1" />
 <img class="slide-image" src="imgs/pic02.png" style="top:40%; left:0%; width:25%; z-index:-1" />
 
-
+<div class="signature">
+	<p class="signature-course">C# Fundamentals - Part II</p>
+	<p class="signature-initiative">Telerik Software Academy</p>
+	<a href="https://telerikacademy.com" class="signature-link">https://telerikacademy.com</a>
+</div>
 
 
 <!-- section start -->

@@ -6,6 +6,12 @@
 <img class="slide-image" src="imgs/pic01.png" style="top:5%; left:5%; width:16.03%; z-index:-1" />
 <img class="slide-image" src="imgs/pic03.png" style="top:40%; left:0%; width:26.89%; z-index:-1" />
 
+<div class="signature">
+	<p class="signature-course">C# Fundamentals - Part II</p>
+	<p class="signature-initiative">Telerik Software Academy</p>
+	<a href="https://telerikacademy.com" class="signature-link">https://telerikacademy.com</a>
+</div>
+
 
 
 
@@ -14,7 +20,7 @@
 # Table of Contents
 - Matrices and Multidimensional Arrays
   - Declaring
-  - Usage 
+  - Usage
 - Jagged Arrays
   - Declaring
   - Usage
@@ -29,7 +35,7 @@
 
 <!-- section start -->
 <!-- attr: { id:'', class:'slide-section', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
-# Multidimensional Arrays 
+# Multidimensional Arrays
 ## Using Array of Arrays, Matrices and Cubes
 <img class="slide-image" src="imgs/pic06.png" style="top:55%; left:34%; width:30%; z-index:-1" />
 
@@ -65,7 +71,7 @@ string[,,] stringCube = new string[5, 5, 5];
 # Initializing Multidimensional Arrays with Values
 - Creating and initializing with values multidimensional array:
 ```cs
-int[,] matrix = 
+int[,] matrix =
 {
     {1, 2, 3, 4}, // row 0 values
     {5, 6, 7, 8}, // row 1 values
@@ -129,7 +135,7 @@ for (int row = 0; row < matrix.GetLength(0); row++)
   {
     Console.Write("{0, 4}", matrix[row, col]);
   }
-  
+
   Console.WriteLine();
 }
 ```
@@ -147,18 +153,18 @@ for (int row = 0; row < matrix.GetLength(0); row++)
 - Finding a 2 x 2 platform in a matrix with a maximal sum of its elements
 
 ```cs
-int[,] matrix = 
+int[,] matrix =
 {
   {7, 1, 3, 3, 2, 1},
   {1, 3, 9, 8, 5, 6},
-  {4, 6, 7, 9, 1, 0} 
+  {4, 6, 7, 9, 1, 0}
 };
 int bestSum = int.MinValue;
 for (int row = 0; row < matrix.GetLength(0) - 1; row++)
 {
   for (int col = 0; col < matrix.GetLength(1) - 1; col++)
   {
-    int sum = matrix[row, col] + matrix[row, col+1] + 
+    int sum = matrix[row, col] + matrix[row, col+1] +
               matrix[row+1, col] + matrix[row+1, col+1];
     if (sum > bestSum)
       bestSum = sum;
@@ -251,15 +257,15 @@ foreach (var number in numbers)
    int remainder = number % 3;
    sizes[remainder]++;
 }
-int[][] numbersByRemainder = new int[3][] 
-{ 
-  new int[sizes[0]], 
+int[][] numbersByRemainder = new int[3][]
+{
+  new int[sizes[0]],
   new int[sizes[1]],
-  new int[sizes[2]] 
+  new int[sizes[2]]
 };
 foreach (var number in numbers)
 {
-   int remainder = number % 3; 
+   int remainder = number % 3;
    int index = offsets[remainder];
    numbersByRemainder[remainder][index] = number;
    offsets[remainder]++;
@@ -308,7 +314,7 @@ foreach (var number in numbers)
 
 <!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'font-size: 42px' } -->
 <!-- # Methods of Array -->
-- **GetEnumerator()** – returns **IEnumerator** for the array elements 
+- **GetEnumerator()** – returns **IEnumerator** for the array elements
 - **BinarySearch(…)** – searches for a given element into a sorted array (uses binary search)
 - **IndexOf(…)** – searches for a given element and returns the index of the first occurrence (if any)
 - **LastIndexOf(…)** – searches for a given element and returns the last occurrence index
@@ -343,7 +349,7 @@ foreach (var number in numbers)
 
 
 <!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
-# Sorting Arrays – _Example_ 
+# Sorting Arrays – _Example_
 
 ```cs
 static void Main()
@@ -371,7 +377,7 @@ static void Main()
 # Sorting with IComparer<T> and Lambda Expressions – _Example_
 
 ```cs
-class Student 
+class Student
 {
     public int Age { get; set; }
     …
@@ -428,20 +434,20 @@ Array.Sort(students, (x, y) => x.Name.CompareTo(y.Name));
 ```cs
 static void Main()
 {
-    string[] beers = 
+    string[] beers =
     {
       "Zagorka", "Ariana", "Shumensko",
       "Astika", "Kamenitza", "Bolqrka",
       "Amstel"
     };
     Array.Sort(beers);
-    
+
     string target = "Astika";
-    
+
     int index = Array.BinarySearch(beers, target);
     Console.WriteLine("{0} found at index {1}", target, index);
     // Result: Astika found at index 2
-    
+
     target = "Heineken";
     index = Array.BinarySearch(beers, target);
     Console.WriteLine("{0} not found (index={1})", target, index);
