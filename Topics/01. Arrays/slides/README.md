@@ -13,7 +13,7 @@
 
 
 <!-- section start -->
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
+<!-- attr: {  showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
 # Table of Contents
 - [Declaring and Creating Arrays](#/declaring-arrays)
 - [Accessing Array Elements](#/accessing-arrays)
@@ -34,7 +34,7 @@
 <!-- <img class="slide-image" showInPresentation="true" src="imgs/pic04.png" style="top:45%; left:80%; width:20%; z-index:-1" /> -->
 <!-- <img class="slide-image" showInPresentation="true" src="imgs/pic05.png" style="top:55%; left:10.48%; width:58.75%; z-index:-1" /> -->
 
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
+<!-- attr: {  showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
 # What are Arrays?
 - An **array** is a sequence of elements
   - All elements are of the same type
@@ -44,7 +44,7 @@
 <!-- <img class="slide-image" showInPresentation="true" src="imgs/array-5.png" style="top:50%; left:10%; width:80%; z-index:-1" /> -->
 
 
-<!-- attr: { id:'', class:'', showInPresentation:true, hasScriptWrapper:'True', style:'font-size: 42px' } -->
+<!-- attr: {  showInPresentation:true, hasScriptWrapper:'True', style:'font-size: 42px' } -->
 # Declaring Arrays
 - Declaration defines the type of the elements
 - Square brackets **[]** mean "array"
@@ -59,7 +59,7 @@
     ```
 
 
-<!-- attr: { id:'', class:'', showInPresentation:true, hasScriptWrapper:'True', style:'font-size: 42px' } -->
+<!-- attr: {  showInPresentation:true, hasScriptWrapper:'True', style:'font-size: 42px' } -->
 # Creating Arrays
 - Use the operator **new**
   - Specify array length
@@ -73,7 +73,7 @@ myIntArray = new int[5];
 <!-- <img class="slide-image" showInPresentation="true" src="imgs/pic09.png" style="top:60%; left:75%; width:26%; z-index:-1" /> -->
 
 
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'font-size: 42px' } -->
+<!-- attr: {  showInPresentation:'True', hasScriptWrapper:'False', style:'font-size: 42px' } -->
 # Creating and Initializing Arrays
 - Creating and initializing can be done together:
 ```cs
@@ -83,7 +83,7 @@ myIntArray = {1, 2, 3, 4, 5};
 
 <!-- <img class="slide-image" showInPresentation="true" src="imgs/creating-array.png" style="top:60%; left:10%; width:60%; z-index:-1" /> -->
 
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
+<!-- attr: {  showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
 # Creating Array – _Example_
 - Creating an array that contains the names of the days of the week
 
@@ -114,7 +114,7 @@ string[] daysOfWeek =
 <!-- <img class="slide-image" showInPresentation="true" src="imgs/pic14.png" style="top:55%; left:30%; width:40%; z-index:-1" /> -->
 
 
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'font-size: 42px' } -->
+<!-- attr: {  showInPresentation:'True', hasScriptWrapper:'False', style:'font-size: 42px' } -->
 # How to Access Array Element?
 - Array elements are accessed using the square brackets operator **[]** (indexer)
   - Array indexer takes element’s index as parameter
@@ -162,7 +162,7 @@ for (int index = 0; index < length; index++)
 <!-- <img class="slide-image" showInPresentation="true" src="imgs/pic18.png" style="top:55%; left:30%; width:40%; z-index:-1" /> -->
 
 
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'font-size: 42px' } -->
+<!-- attr: { showInPresentation:'True', hasScriptWrapper:'False', style:'font-size: 42px' } -->
 # Reading Arrays From the Console
 - First, read from the console the length of the array
 ```cs
@@ -179,7 +179,7 @@ for (int i = 0; i < n; i++)
 
 
 
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'font-size: 42px' } -->
+<!-- attr: {  showInPresentation:'True', hasScriptWrapper:'False', style:'font-size: 42px' } -->
 # Symmetry Check – _Example_
 - Read **int** array from the console and check if it is symmetric:
 ```cs
@@ -201,7 +201,7 @@ for (int i = 0; i < array.Length / 2; i++)
 <!-- <img class="slide-image" showInPresentation="true" src="imgs/pic19.png" style="top:55%; left:32.5%; width:35%; z-index:-1" /> -->
 
 
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'font-size: 42px' } -->
+<!-- attr: {  showInPresentation:'True', hasScriptWrapper:'False', style:'font-size: 42px' } -->
 # Printing Arrays on the Console
 - Process all elements of the array
 - Print each element to the console
@@ -235,7 +235,7 @@ for (int index = 0; index < array.Length; index++)
 <!-- <img showInPresentation="true" class="slide-image" src="imgs/pic21.png" style="top:55%; left:28%; width:40%; z-index:-1" / -->
 
 
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'font-size: 42px' } -->
+<!-- attr: {  showInPresentation:'True', hasScriptWrapper:'False', style:'font-size: 42px' } -->
 # Processing Arrays: **for** Statement
 - Use **for** loop to process an array when
   - Need to keep track of the index
@@ -251,7 +251,7 @@ for (int index = 0; index < array.Length; index++)
 
 
 
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'font-size: 42px' } -->
+<!-- attr: {  showInPresentation:'True', hasScriptWrapper:'False', style:'font-size: 42px' } -->
 # Processing Arrays Using **for** Loop – _Examples_
 - Printing array of integers in reversed order:
 ```cs
@@ -272,7 +272,7 @@ for (int index = 0; index < array.Length; index++)
 
 
 
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
+<!-- attr: {  showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
 # Processing Arrays: **foreach**
 - How **foreach** loop works?
   - **type** – the type of the element
@@ -293,7 +293,7 @@ foreach (type value in array)
 <!-- <img showInPresentation="true" class="slide-image" src="imgs/pic22.png" style="top:29.97%; left:88.07%; width:14.21%; z-index:-1" / -->
 
 
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'font-size: 42px' } -->
+<!-- attr: {  showInPresentation:'True', hasScriptWrapper:'False', style:'font-size: 42px' } -->
 # Processing Arrays Using **foreach** – _Example_
 - Print all elements of a **string[]** array:
 
@@ -344,7 +344,7 @@ foreach (string capital in capitals)
   - **Count** – returns the current size of the list
 
 
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'font-size: 42px' } -->
+<!-- attr: {  showInPresentation:'True', hasScriptWrapper:'False', style:'font-size: 42px' } -->
 # List _Example_
 
 ```cs
@@ -368,7 +368,7 @@ for(int i = 0; i < 5; i++)
   - When using lists we don't have to know the exact number of elements
 
 
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'font-size: 40px' } -->
+<!-- attr: {  showInPresentation:'True', hasScriptWrapper:'False', style:'font-size: 40px' } -->
 # Lists vs. Arrays
 - Lets have an array with capacity of 5 elements
 ```cs
@@ -397,7 +397,7 @@ list.Add(newValue);
 <!-- <img showInPresentation="true" class="slide-image" src="imgs/pic28.png" style="top:55%; left:10%; width:25.56%; z-index:-1" / -->
 
 
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'font-size: 42px' } -->
+<!-- attr: {  showInPresentation:'True', hasScriptWrapper:'False', style:'font-size: 42px' } -->
 # How The List<T> Works?
 - Why adding new elements is not slow?
   - When adding **n** elements in **List< T >** it resizes itself **log(2)n** times instead of **n**
@@ -408,7 +408,7 @@ list.Add(newValue);
   - When adding the first element **Count** becomes 1 and **Capacity** becomes 4
 
 
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
+<!-- attr: {  showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
 # How The List<T> Works?
 - Initially the **List< T >** is empty
   - When adding new element it is resized
@@ -441,7 +441,7 @@ list.Add(newValue);
 <!-- <img showInPresentation="true" class="slide-image" src="imgs/pic36.png" style="top:60%; left:48.65%; width:13.22%; z-index:-1" / -->
 
 
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'font-size: 42px' } -->
+<!-- attr: {  showInPresentation:'True', hasScriptWrapper:'False', style:'font-size: 42px' } -->
 # Copying Arrays
 - Sometimes we must **copy** the values from one array to another one
   - If we do it the intuitive way we would copy not only the values but the reference to the array
@@ -459,7 +459,7 @@ list.Add(newValue);
 
 
 <!-- section start -->
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'font-size: 42px' } -->
+<!-- attr: {  showInPresentation:'True', hasScriptWrapper:'False', style:'font-size: 42px' } -->
 # Summary
 - Arrays are a fixed-length sequences of elements of the same type
 - Array elements are accessible by index
@@ -469,7 +469,7 @@ list.Add(newValue);
   - Good when we don't know the number of elements initially
 
 <!-- section start -->
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
+<!-- attr: {  showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
 # Arrays
 <!-- <img showInPresentation="true" class="slide-image" src="https://github.com/TelerikAcademy/Common/raw/master/revealjs-theme/css/imgs/questions-ninja.png" style="width:70%; top:15%; left:10%" / -->
 <div style="position: absolute; bottom: 1em; right: 0; font-size: 26px;">http://academy.telerik.com</div>
