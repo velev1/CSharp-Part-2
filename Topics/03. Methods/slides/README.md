@@ -20,7 +20,7 @@
   - [What is a Method? Why to Use Methods?](#/what-is-method)
   - [Declaring and Creating Methods](#/declaring-methods)
   - [Calling Methods](#/calling-methods)
-- [Methods with Parameters](README.md/#methods-with-parameters)
+- [Methods with Parameters](#/methods-with-parameters)
   - [Passing Parameters](#/passing-parameters)
   - [Returning Values](#/returning-values)
 - [Best Practices](#/best-practices)
