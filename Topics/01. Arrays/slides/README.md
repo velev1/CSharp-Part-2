@@ -1,5 +1,5 @@
 <!-- section start -->
-<!-- attr: { id:'', class:'slide-title', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
+<!-- attr: { class:'slide-title', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
 # Arrays
 ## Processing Sequences of Elements
 <!-- <img class="slide-image" showInPresentation="true" src="imgs/pic01.png" style="top:50%; left:60%; width:40%; z-index:-1" /> -->
@@ -30,7 +30,7 @@
 
 <!-- section start -->
 <!-- attr: { id:'declaring-arrays', class:'slide-section', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
-# Declaring and Creating Arrays
+# <a id="declaring-arrays"></a> Declaring and Creating Arrays
 <!-- <img class="slide-image" showInPresentation="true" src="imgs/pic04.png" style="top:45%; left:80%; width:20%; z-index:-1" /> -->
 <!-- <img class="slide-image" showInPresentation="true" src="imgs/pic05.png" style="top:55%; left:10.48%; width:58.75%; z-index:-1" /> -->
 
@@ -100,7 +100,7 @@ string[] daysOfWeek =
 };
 ```
 
-<!-- attr: { id:'', class:'slide-section demo', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
+<!-- attr: { class:'slide-section demo', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
 # Days of Week
 ## [Live Demo]()
 <!-- <img class="slide-image" showInPresentation="true" src="imgs/pic11.png" style="top:50%; left:65%; width:30%; z-index:-1" /> -->
@@ -109,7 +109,7 @@ string[] daysOfWeek =
 
 
 <!-- attr: { id:'accessing-arrays', class:'slide-section', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
-<!-- # Accessing Array Elements -->
+<!-- # <a id="accessing-arrays"></a> Accessing Array Elements -->
 <!-- ## Read and Modify Elements by Index -->
 <!-- <img class="slide-image" showInPresentation="true" src="imgs/pic14.png" style="top:55%; left:30%; width:40%; z-index:-1" /> -->
 
@@ -145,7 +145,7 @@ for (int index = 0; index < length; index++)
 
 
 
-<!-- attr: { id:'', class:'slide-section demo', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
+<!-- attr: { class:'slide-section demo', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
 # Reversing an Array
 ## [Live Demo]()
 <!-- <img class="slide-image" showInPresentation="true" src="imgs/pic15.png" style="top:50%; left:65%; width:30%; z-index:-1" /> -->
@@ -157,7 +157,7 @@ for (int index = 0; index < length; index++)
 
 <!-- section start -->
 <!-- attr: { id:'in-out-arrays', class:'slide-section', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
-<!-- # Arrays: Input and Output -->
+<!-- # <a id="in-out-arrays"></a> Arrays: Input and Output -->
 <!-- ## Reading and Printing Arrays on the Console -->
 <!-- <img class="slide-image" showInPresentation="true" src="imgs/pic18.png" style="top:55%; left:30%; width:40%; z-index:-1" /> -->
 
@@ -195,7 +195,7 @@ for (int i = 0; i < array.Length / 2; i++)
 <!-- <img class="slide-image" showInPresentation="true" src="imgs/symmetric-arrays.png" style="top:70%; left:5%; width:90%; z-index:-1" /> -->
 
 
-<!-- attr: { id:'', class:'slide-section demo', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
+<!-- attr: { class:'slide-section demo', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
 # Symmetry Check
 ## [Live Demo]()
 <!-- <img class="slide-image" showInPresentation="true" src="imgs/pic19.png" style="top:55%; left:32.5%; width:35%; z-index:-1" /> -->
@@ -221,7 +221,7 @@ for (int index = 0; index < array.Length; index++)
 
 
 
-<!-- attr: { id:'', class:'slide-section demo', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
+<!-- attr: { class:'slide-section demo', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
 # Printing Arrays
 ## [Live Demo]()
 <!-- <img showInPresentation="true" class="slide-image" src="imgs/pic20.png" style="top:55%; left:30%; width:40%; z-index:-1" / -->
@@ -231,7 +231,7 @@ for (int index = 0; index < array.Length; index++)
 
 <!-- section start -->
 <!-- attr: { id:'iterating-arrays', class:'slide-section', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
-<!-- # Processing Array Elements Using for and foreach -->
+<!-- # <a id="iterating-arrays"></a> Processing Array Elements Using for and foreach -->
 <!-- <img showInPresentation="true" class="slide-image" src="imgs/pic21.png" style="top:55%; left:28%; width:40%; z-index:-1" / -->
 
 
@@ -313,7 +313,7 @@ foreach (string capital in capitals)
 
 
 
-<!-- attr: { id:'', class:'slide-section demo', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
+<!-- attr: { class:'slide-section demo', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
 # Processing Arrays
 ## [Live Demo]()
 <!-- <img showInPresentation="true" class="slide-image" src="imgs/pic23.png" style="top:55%; left:28%; width:40%; z-index:-1" / -->
@@ -323,15 +323,15 @@ foreach (string capital in capitals)
 
 <!-- section start -->
 <!-- attr: { id:'dynamic-arrays', class:'slide-section', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
-# Resizable Arrays
-## List<T>
+# <a id="dynamic-arrays"></a> Resizable Arrays
+<!--  ## List<T> -->
 <!-- <img showInPresentation="true" class="slide-image" src="imgs/pic24.png" style="top:5%; left:75%; width:20%; z-index:-1" / -->
 <!-- <img showInPresentation="true" class="slide-image" src="imgs/pic25.png" style="top:53.77%; left:64.56%; width:19.64%; z-index:-1" / -->
 <!-- <img showInPresentation="true" class="slide-image" src="imgs/pic26.png" style="top:45%; left:0%; width:35%; z-index:-1" / -->
 
 
 <!-- attr: { id:'lists', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'font-size: 42px' } -->
-<!-- # Lists (Resizable Arrays) -->
+<!-- # <a id="lists"></a> Lists (Resizable Arrays) -->
 - **List<T>** – array that can be resized dynamically
   - When adding or removing elements
   - Also have indexers **[]** (like arrays)
@@ -390,7 +390,7 @@ list.Add(newValue);
 ```
 
 
-<!-- attr: { id:'', class:'slide-section demo', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
+<!-- attr: { class:'slide-section demo', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
 # Lists &#60;T>
 ## [Live Demo]()
 <!-- <img showInPresentation="true" class="slide-image" src="imgs/pic27.png" style="top:55%; left:55%; width:46.57%; z-index:-1" / -->
@@ -423,7 +423,7 @@ list.Add(newValue);
 <!-- <img showInPresentation="true" class="slide-image" src="imgs/pic31.png" style="top:82.77%; left:64.10%; width:41.69%; z-index:-1" / -->
 
 
-<!-- attr: { id:'', class:'slide-section demo', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
+<!-- attr: { class:'slide-section demo', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
 # Resizing Lists
 ## [Live Demo]()
 <!-- <img showInPresentation="true" class="slide-image" src="imgs/pic32.png" style="top:44.08%; left:72.05%; width:21.16%; z-index:-1" / -->
@@ -434,7 +434,7 @@ list.Add(newValue);
 
 <!-- section start -->
 <!-- attr: { id:'copying-arrays', class:'slide-section', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
-<!-- # Copying Arrays -->
+<!-- # <a id="copying-arrays"></a> Copying Arrays -->
 <!-- ## The Array Class -->
 <!-- <img showInPresentation="true" class="slide-image" src="imgs/pic34.png" style="top:55%; left:15.91%; width:23.80%; z-index:-1" / -->
 <!-- <img showInPresentation="true" class="slide-image" src="imgs/pic35.png" style="top:55%; left:69.24%; width:22.04%; z-index:-1" / -->
