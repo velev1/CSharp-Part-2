@@ -409,10 +409,10 @@ static void PrintLine(int start, int end)
 ```cs
 static void PrintNumbers(int start = 0, int end = 100)
 {
-  for (int i = start; i <= end; i++)
-  {
-    Console.Write("{0} ", i);
-  }
+      for (int i = start; i <= end; i++)
+      {
+            Console.Write("{0} ", i);
+      }
 }
 ```
 - The above method can be called in several ways:
@@ -646,7 +646,7 @@ static void Print(string text, int number)
 
 <!-- section start -->
 <!-- attr: { id:'', class:'slide-section', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
-# Variable Numbe rof Parameters
+# Variable Number of Parameters
 <img class="slide-image" src="imgs/pic38.png" style="top:50%; left:27%; width:45%; z-index:-1" />
 
 
