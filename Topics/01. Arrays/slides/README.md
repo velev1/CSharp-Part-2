@@ -326,7 +326,7 @@ foreach (string capital in capitals)
 
 
 <!-- attr: { id:'lists', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'font-size: 42px' } -->
-<!-- # Lists (Resizable Arra -->
+<!-- # Lists (Resizable Arrays) -->
 - **List<T>** – array that can be resized dynamically
   - When adding or removing elements
   - Also have indexers **[]** (like arrays)
