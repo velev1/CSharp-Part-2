@@ -11,20 +11,20 @@
 <!-- section start -->
 <!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
 # Table of Contents
-- Declaring and Creating Arrays
-- Accessing Array Elements
-- Console Input and Output of Arrays
-- Iterating Over Arrays Using **for** and **foreach**
-- Dynamic Arrays
-  - **List < T >**
-- Copying Arrays
+- [Declaring and Creating Arrays](#/declaring-arrays)
+- [Accessing Array Elements](#/accessing-arrays)
+- [Console Input and Output of Arrays](#/in-out-arrays)
+- [Iterating Over Arrays Using **for** and **foreach**](#/iterating-arrays)
+- [Dynamic Arrays](#/dynamic-arrays)
+  - [**List < T >**](#/lists)
+- [Copying Arrays](#/copying-arrays)
 <img class="slide-image" src="imgs/pic03.png" style="top:44.96%; left:75.04%; width:27.15%; z-index:-1" />
 
 
 
 
 <!-- section start -->
-<!-- attr: { id:'', class:'slide-section', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
+<!-- attr: { id:'declaring-arrays', class:'slide-section', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
 # Declaring and Creating Arrays
 <img class="slide-image" src="imgs/pic04.png" style="top:45%; left:80%; width:20%; z-index:-1" />
 <img class="slide-image" src="imgs/pic05.png" style="top:55%; left:10.48%; width:58.75%; z-index:-1" />
@@ -103,7 +103,7 @@ string[] daysOfWeek =
 <img class="slide-image" src="imgs/pic13.png" style="top:50%; left:10%; width:35%; z-index:-1" />
 
 
-<!-- attr: { id:'', class:'slide-section', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
+<!-- attr: { id:'accessing-arrays', class:'slide-section', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
 # Accessing Array Elements
 ## Read and Modify Elements by Index
 <img class="slide-image" src="imgs/pic14.png" style="top:55%; left:30%; width:40%; z-index:-1" />
@@ -151,7 +151,7 @@ for (int index = 0; index < length; index++)
 
 
 <!-- section start -->
-<!-- attr: { id:'', class:'slide-section', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
+<!-- attr: { id:'in-out-arrays', class:'slide-section', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
 # Arrays: Input and Output
 ## Reading and Printing Arrays on the Console
 <img class="slide-image" src="imgs/pic18.png" style="top:55%; left:30%; width:40%; z-index:-1" />
@@ -225,7 +225,7 @@ for (int index = 0; index < array.Length; index++)
 
 
 <!-- section start -->
-<!-- attr: { id:'', class:'slide-section', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
+<!-- attr: { id:'iterating-arrays', class:'slide-section', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
 # Processing Array Elements Using for and foreach
 <img class="slide-image" src="imgs/pic21.png" style="top:55%; left:28%; width:40%; z-index:-1" />
 
@@ -317,7 +317,7 @@ foreach (string capital in capitals)
 
 
 <!-- section start -->
-<!-- attr: { id:'', class:'slide-section', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
+<!-- attr: { id:'dynamic-arrays', class:'slide-section', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
 # Resizable Arrays
 ## List<T>
 <img class="slide-image" src="imgs/pic24.png" style="top:5%; left:75%; width:20%; z-index:-1" />
@@ -325,7 +325,7 @@ foreach (string capital in capitals)
 <img class="slide-image" src="imgs/pic26.png" style="top:45%; left:0%; width:35%; z-index:-1" />
 
 
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'font-size: 42px' } -->
+<!-- attr: { id:'lists', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'font-size: 42px' } -->
 <!-- # Lists (Resizable Arra -->
 - **List<T>** – array that can be resized dynamically
   - When adding or removing elements
@@ -428,7 +428,7 @@ list.Add(newValue);
 
 
 <!-- section start -->
-<!-- attr: { id:'', class:'slide-section', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
+<!-- attr: { id:'copying-arrays', class:'slide-section', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
 # Copying Arrays
 ## The Array Class
 <img class="slide-image" src="imgs/pic34.png" style="top:55%; left:15.91%; width:23.80%; z-index:-1" />
