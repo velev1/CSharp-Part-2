@@ -186,7 +186,7 @@ for (int row = 0; row < matrix.GetLength(0) - 1; row++)
 
 <!-- section start -->
 <!-- attr: { id:'jagged-arrays', class:'slide-section', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
-# <a id="jagged-arrays"></a> Jagged Arrays
+<!-- # <a id="jagged-arrays"></a> Jagged Arrays -->
 ## What are Jagged Arrays and How to Use Them?
 <!-- <img showInPresentation="true" class="slide-image" src="imgs/pic09.png" style="top:54%; left:62%; width:30%; z-index:-1" / -->
 <img  class="slide-image" src="imgs/pic10.png" style="top:55%; left:13.02%; width:44.15%; z-index:-1" />
@@ -288,8 +288,8 @@ foreach (var number in numbers)
 
 <!-- section start -->
 <!-- attr: { id:'array-class', class:'slide-section', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
-# Array Class
-## What Can We Use?
+<!-- # Array Class -->
+<!-- ## What Can We Use? -->
 <!-- <img showInPresentation="true" class="slide-image" src="imgs/pic17.png" style="top:55%; left:42.5%; width:15%; z-index:-1" / -->
 
 
@@ -302,6 +302,7 @@ foreach (var number in numbers)
     - Basic functionality
     - Basic properties
     - E.g. **Length** property
+
 <!-- <img showInPresentation="true" class="slide-image" src="imgs/pic18.png" style="top:15.87%; left:74.85%; width:25.81%; z-index:-1" / -->
 
 
@@ -337,7 +338,7 @@ foreach (var number in numbers)
 
 <!-- section start -->
 <!-- attr: { id:'array-class-sorting', class:'slide-section', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
-# <a id="array-class-sorting"></a> Sorting Arrays
+<!-- # <a id="array-class-sorting"></a> Sorting Arrays -->
 <!-- <img showInPresentation="true" class="slide-image" src="imgs/pic19.png" style="top:40%; left:30%; width:40%; z-index:-1" / -->
 
 
@@ -470,8 +471,8 @@ static void Main()
 
 <!-- section start -->
 <!-- attr: {  class:'slide-section', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
-# Working with Arrays
-## Best Practices
+<!-- # Working with Arrays -->
+<!-- ## Best Practices -->
 <!-- <img showInPresentation="true" class="slide-image" src="imgs/pic26.png" style="top:52%; left:30%; width:40%; z-index:-1" / -->
 
 
@@ -485,6 +486,6 @@ static void Main()
 
 
 <!-- attr: { showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
-# Arrays
+<!-- # Arrays -->
 <!-- <img showInPresentation="true" class="slide-image" src="https://raw.githubusercontent.com/TelerikAcademy/Common/master/revealjs-theme/css/imgs/questions-ninja.png" style="width:70%; top:15%; left:10%" / -->
 <div style="position: absolute; bottom: 1em; right: 0; font-size: 26px;">http://academy.telerik.com</div>
