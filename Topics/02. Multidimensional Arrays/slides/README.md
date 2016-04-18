@@ -411,7 +411,7 @@ Array.Sort(students, (x, y) => x.Name.CompareTo(y.Name));
 
 <!-- section start -->
 <!-- attr: { id:'array-class-binarysearch', class:'slide-section', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
-# Binary Search
+<!-- # Binary Search -->
 <img class="slide-image" src="imgs/pic23.png" style="top:45%; left:30%; width:40%; z-index:-1" />
 
 
