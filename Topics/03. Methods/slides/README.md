@@ -24,6 +24,7 @@
   - [Passing Parameters](#/passing-parameters)
   - [Returning Values](#/returning-values)
 - [Best Practices](#/best-practices)
+
 <!-- <img showInPresentation="true" class="slide-image" src="imgs/pic04.png" style="top:42.31%; left:77.66%; width:25.97%; z-index:-1" / -->
 
 
@@ -34,6 +35,7 @@
   - Can take parameters and return a value
 - Methods allow programmers to construct large programs from simple pieces
 - Methods are also known as **functions**, **procedures**, and **subroutines**
+
 <!-- <img showInPresentation="true" class="slide-image" src="imgs/pic05.png" style="top:60.83%; left:89.82%; width:17.63%; z-index:-1" / -->
 
 
@@ -48,6 +50,7 @@
     - Improve code maintainability
 - Code reusability
   - Using existing methods several times
+
 <!-- <img showInPresentation="true" class="slide-image" src="imgs/pic06.png" style="top:45.84%; left:76.72%; width:27.84%; z-index:-1" / -->
 
 
@@ -107,6 +110,7 @@ static void PrintLogo()
   - It contains the programming code
   - Surrounded by **{** and **}**
 <div class="fragment balloon" style="top:25%; left:67%; width:25%; font-size: 44px">Method body</div>
+
 <!-- <img showInPresentation="true" class="slide-image" src="imgs/pic10.png" style="top:54.66%; left:89.82%; width:14.99%; z-index:-1" / -->
 
 
@@ -133,6 +137,7 @@ class Method_Example_
 
 - Methods are always declared inside a **class**
 - **Main()** is also a method like all others
+
 <!-- <img showInPresentation="true" class="slide-image" src="imgs/pic11.png" style="top:11.02%; left:83.27%; width:20.72%; z-index:1" / -->
 
 
@@ -368,6 +373,7 @@ class MonthsExample
 <!-- attr: {  showInPresentation:'True', hasScriptWrapper:'False', style:'font-size: 42px' } -->
 # Printing Triangle – _Example_
 - Creating a program for printing triangles as shown below:
+
 <!-- <img showInPresentation="true" class="slide-image" src="imgs/num-arrows.png" style="top:25%; left:6%; width:80%; z-index:-1" / -->
 
 
