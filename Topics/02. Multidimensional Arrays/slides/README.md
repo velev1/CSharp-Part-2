@@ -1,5 +1,5 @@
 <!-- section start -->
-<!-- attr: { id:'', class:'slide-title', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
+<!-- attr: {  class:'slide-title', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
 # Multidimensional Arrays
 ## Processing Matrices and Multidimensional Tables
 <img class="slide-image" src="imgs/pic00.png" style="top:52.89%; left:66.12%; width:36.44%; z-index:-1" />
@@ -16,7 +16,7 @@
 
 
 <!-- section start -->
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
+<!-- attr: {   showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
 # Table of Contents
 - [Matrices and Multidimensional Arrays](#/multidimensional-arrays)
   - [Declaring](#/multidimensional-arrays-declaring)
@@ -36,12 +36,12 @@
 
 <!-- section start -->
 <!-- attr: { id:'multidimensional-arrays', class:'slide-section', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
-# Multidimensional Arrays
+# <a id="multidimensional-arrays"></a> Multidimensional Arrays
 ## Using Array of Arrays, Matrices and Cubes
 <img class="slide-image" src="imgs/pic06.png" style="top:55%; left:34%; width:30%; z-index:-1" />
 
 
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'font-size: 42px' } -->
+<!-- attr: {  showInPresentation:'True', hasScriptWrapper:'False', style:'font-size: 42px' } -->
 # What is a Multidimensional Array?
 - **Multidimensional arrays** have more than one dimension (2, 3, … n)
   - The most important multidimensional arrays are the 2-dimensional
@@ -49,8 +49,8 @@
 - _Example_ of matrix of integers with 2 rows and 4 columns:
 <img class="slide-image" src="imgs/exampleArray.png" style="top:60%; left:30%; width:40%; z-index:-1" />
 
-<!-- attr: { id:'multidimensional-arrays-declaring', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'font-size: 42px' } -->
-# Declaring and Creating Multidimensional Arrays
+<!-- attr: { id:'multidimensional-arrays-declaring',  showInPresentation:'True', hasScriptWrapper:'False', style:'font-size: 42px' } -->
+# <a id="multidimensional-arrays-declaring"></a> Declaring and Creating Multidimensional Arrays
 - Declaring multidimensional arrays:
 ```cs
 int[,] intMatrix;
@@ -68,8 +68,8 @@ string[,,] stringCube = new string[5, 5, 5];
 
 
 
-<!-- attr: { id:'multidimensional-arrays-usage', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'font-size: 42px' } -->
-# Initializing Multidimensional Arrays with Values
+<!-- attr: { id:'multidimensional-arrays-usage',  showInPresentation:'True', hasScriptWrapper:'False', style:'font-size: 42px' } -->
+# <a id="multidimensional-arrays-usage"></a> Initializing Multidimensional Arrays with Values
 - Creating and initializing with values multidimensional array:
 ```cs
 int[,] matrix =
@@ -84,7 +84,7 @@ int[,] matrix =
 
 
 
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
+<!-- attr: { showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
 # Accessing The Elements of Multidimensional Arrays
 - Accessing N-dimensional array element:
 ```cs
@@ -103,7 +103,7 @@ for (int row = 0; row < array.GetLength(0); row++)
         array[row, col] = row + col;
 ```
 
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'font-size: 42px' } -->
+<!-- attr: { showInPresentation:'True', hasScriptWrapper:'False', style:'font-size: 42px' } -->
 # Reading a Matrix – _Example_
 - Reading a matrix from the console
 
@@ -125,7 +125,7 @@ for (int row = 0; row  <rows; row++)
 
 
 
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'font-size: 42px' } -->
+<!-- attr: {   showInPresentation:'True', hasScriptWrapper:'False', style:'font-size: 42px' } -->
 # Printing Matrix – _Example_
 - Printing a matrix on the console:
 
@@ -143,13 +143,13 @@ for (int row = 0; row < matrix.GetLength(0); row++)
 
 
 
-<!-- attr: { id:'', class:'slide-section demo', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
+<!-- attr: {  class:'slide-section demo', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
 # Reading and Printing Matrices
 ## [Live Demo]()
 <img class="slide-image" src="imgs/pic07.png" style="top:55%; left:35%; width:30%; z-index:-1" />
 
 
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'font-size: 42px' } -->
+<!-- attr: {   showInPresentation:'True', hasScriptWrapper:'False', style:'font-size: 42px' } -->
 # Maximal Platform – _Example_
 - Finding a 2 x 2 platform in a matrix with a maximal sum of its elements
 
@@ -175,7 +175,7 @@ for (int row = 0; row < matrix.GetLength(0) - 1; row++)
 
 
 
-<!-- attr: { id:'', class:'slide-section demo', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
+<!-- attr: {  class:'slide-section demo', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
 # Maximal Platform
 ## [Live Demo]()
 <img class="slide-image" src="imgs/pic08.png" style="top:55%; left:35%; width:30%; z-index:-1" />
@@ -185,14 +185,14 @@ for (int row = 0; row < matrix.GetLength(0) - 1; row++)
 
 <!-- section start -->
 <!-- attr: { id:'jagged-arrays', class:'slide-section', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
-# Jagged Arrays
+# <a id="jagged-arrays"></a> Jagged Arrays
 ## What are Jagged Arrays and How to Use Them?
 <img class="slide-image" src="imgs/pic09.png" style="top:54%; left:62%; width:30%; z-index:-1" />
 <img class="slide-image" src="imgs/pic10.png" style="top:55%; left:13.02%; width:44.15%; z-index:-1" />
 
 
-<!-- attr: { id:'jagged-arrays-declaring', class:'', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
-# Jagged Arrays
+<!-- attr: { id:'jagged-arrays-declaring',  showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
+# <a id="jagged-arrays-declaring"></a> Jagged Arrays
 - Jagged arrays are like multidimensional arrays
   - But each dimension has different size
   - A jagged array is array of arrays
@@ -206,10 +206,11 @@ jagged[1] = new int[2];
 jagged[2] = new int[5];
 ```
 </div>
+
 <img class="slide-image" src="imgs/pic11.png" style="top:29.48%; left:75.79%; width:27.16%; z-index: 1" />
 
 
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'font-size: 42px' } -->
+<!-- attr: {   showInPresentation:'True', hasScriptWrapper:'False', style:'font-size: 42px' } -->
 # Initialization of Jagged Arrays
 - When creating jagged arrays
   - Initially the array is created of **null** arrays
@@ -228,15 +229,15 @@ for (int i = 0; i < n; i++)
 
 
 
-<!-- attr: { id:'', class:'slide-section demo', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
+<!-- attr: {  class:'slide-section demo', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
 # Jagged Arrays
 ## [Live Demo]()
 <img class="slide-image" src="imgs/pic12.png" style="top:55%; left:45.38%; width:30%; z-index:-1" />
 <img class="slide-image" src="imgs/pic13.png" style="top:55%; left:25%; width:15%; z-index:-1" />
 
 
-<!-- attr: { id:'jagged-arrays-usage', class:'', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
-# _Example_ of Jagged Arrays
+<!-- attr: { id:'jagged-arrays-usage',  showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
+# <a id="jagged-arrays-usage"></a> _Example_ of Jagged Arrays
 - Check a set of numbers and group them by their remainder when divided by 3 (0, 1 and 2)
 - _Example_: 0, 1, 4, 113, 55, 3, 1, 2, 66, 557, 124, 2
 - First we need to count the numbers
@@ -246,7 +247,7 @@ for (int i = 0; i < n; i++)
 <img class="slide-image" src="imgs/pic14.png" style="top:65%; left:66.93%; width:33.91%; z-index:-1" />
 
 
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
+<!-- attr: {   showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
 # _Example_ of Jagged Arrays
 
 ```cs
@@ -276,7 +277,7 @@ foreach (var number in numbers)
 <img class="slide-image" src="imgs/pic15.png" style="top:30%; left:65.50%; width:33.91%; z-index: 1" />
 
 
-<!-- attr: { id:'', class:'slide-section demo', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
+<!-- attr: {  class:'slide-section demo', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
 # Remainders of 3
 ## [Live Demo]()
 <img class="slide-image" src="imgs/pic16.png" style="top:55%; left:25%; width:50%; z-index:-1" />
@@ -291,7 +292,7 @@ foreach (var number in numbers)
 <img class="slide-image" src="imgs/pic17.png" style="top:55%; left:42.5%; width:15%; z-index:-1" />
 
 
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
+<!-- attr: {   showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
 # The Array Class
 - The **System.Array** class
   - Parent of all arrays
@@ -303,7 +304,7 @@ foreach (var number in numbers)
 <img class="slide-image" src="imgs/pic18.png" style="top:15.87%; left:74.85%; width:25.81%; z-index:-1" />
 
 
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'font-size: 42px' } -->
+<!-- attr: {   showInPresentation:'True', hasScriptWrapper:'False', style:'font-size: 42px' } -->
 # Methods of Array
 - Important methods and properties of **System.Array**
   - **Rank** – number of dimensions
@@ -313,7 +314,7 @@ foreach (var number in numbers)
     - **_Example_**: for a 2D array, GetLength(0) returns the rows count and GetLength(1) returns the columns count
 
 
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'font-size: 42px' } -->
+<!-- attr: {   showInPresentation:'True', hasScriptWrapper:'False', style:'font-size: 42px' } -->
 <!-- # Methods of Array -->
 - **GetEnumerator()** – returns **IEnumerator** for the array elements
 - **BinarySearch(…)** – searches for a given element into a sorted array (uses binary search)
@@ -322,7 +323,7 @@ foreach (var number in numbers)
 - **Copy(src,** **dest,** **len)** – copies array elements; has many overloads
 
 
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'font-size: 42px' } -->
+<!-- attr: {   showInPresentation:'True', hasScriptWrapper:'False', style:'font-size: 42px' } -->
 <!-- # Methods of Array -->
 - **Reverse(…)** – inverts the arrays elements upside down
 - **Clear(…)** – assigns value 0 (null) for each elements
@@ -335,11 +336,11 @@ foreach (var number in numbers)
 
 <!-- section start -->
 <!-- attr: { id:'array-class-sorting', class:'slide-section', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
-# Sorting Arrays
+# <a id="array-class-sorting"></a> Sorting Arrays
 <img class="slide-image" src="imgs/pic19.png" style="top:40%; left:30%; width:40%; z-index:-1" />
 
 
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'font-size: 42px' } -->
+<!-- attr: { showInPresentation:'True', hasScriptWrapper:'False', style:'font-size: 42px' } -->
 # Sorting Arrays
 - Sorting in .NET is usually done with **System.Array.Sort()**
   - **Sort(Array)** – sorts array elements
@@ -349,7 +350,7 @@ foreach (var number in numbers)
     - Can be used with lambda expression
 
 
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
+<!-- attr: { showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
 # Sorting Arrays – _Example_
 
 ```cs
@@ -374,7 +375,7 @@ static void Main()
 <img class="slide-image" src="imgs/pic20.png" style="top:50%; left:90%; width:19.76%; z-index: 1" />
 
 
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'font-size: 42px' } -->
+<!-- attr: { showInPresentation:'True', hasScriptWrapper:'False', style:'font-size: 42px' } -->
 # Sorting with IComparer<T> and Lambda Expressions – _Example_
 
 ```cs
@@ -400,7 +401,7 @@ Array.Sort(students, (x, y) => x.Name.CompareTo(y.Name));
 
 
 
-<!-- attr: { id:'', class:'slide-section demo', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
+<!-- attr: {  class:'slide-section demo', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
 # Sorting with **IComparer<T>** and Lambda Expressions
 ## [Live Demo]()
 <img class="slide-image" src="imgs/pic21.png" style="top:65%; left:25%; width:14.5%; z-index:-1" />
@@ -411,11 +412,11 @@ Array.Sort(students, (x, y) => x.Name.CompareTo(y.Name));
 
 <!-- section start -->
 <!-- attr: { id:'array-class-binarysearch', class:'slide-section', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
-<!-- # Binary Search -->
+<!-- # <a id="array-class-binarysearch"></a> Binary Search -->
 <img class="slide-image" src="imgs/pic23.png" style="top:45%; left:30%; width:40%; z-index:-1" />
 
 
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'font-size: 42px' } -->
+<!-- attr: { showInPresentation:'True', hasScriptWrapper:'False', style:'font-size: 42px' } -->
 # Binary Search
 - Binary search is a fast method for searching for an element in a sorted array
   - Has guaranteed running time of **O(log(n))** for searching among arrays of with **n** elements
@@ -423,13 +424,13 @@ Array.Sort(students, (x, y) => x.Name.CompareTo(y.Name));
   - Returns the index of the found object or a negative number when not found
 
 
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
+<!-- attr: { showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
 <!-- # Binary Search -->
 - All requirements of the **Sort()** method are applicable for **BinarySearch()**
   -  Either all elements should implement **IComparable<T>** or instance of **IComparer<T>** should be passed
 
 
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'font-size: 42px' } -->
+<!-- attr: { showInPresentation:'True', hasScriptWrapper:'False', style:'font-size: 42px' } -->
 # Binary Search – _Example_
 
 ```cs
@@ -458,7 +459,7 @@ static void Main()
 
 
 
-<!-- attr: { id:'', class:'slide-section demo', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
+<!-- attr: { class:'slide-section demo', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
 # Binary Search
 ## [Live Demo]()
 <img class="slide-image" src="imgs/pic25.png" style="top:55%; left:15%; width:70%; z-index:-1" />
@@ -467,14 +468,14 @@ static void Main()
 
 
 <!-- section start -->
-<!-- attr: { id:'', class:'slide-section', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
+<!-- attr: {  class:'slide-section', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
 # Working with Arrays
 ## Best Practices
 <img class="slide-image" src="imgs/pic26.png" style="top:52%; left:30%; width:40%; z-index:-1" />
 
 
-<!-- attr: { id:'advices', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'font-size: 42px' } -->
-# Advices for Working with Arrays
+<!-- attr: { id:'advices',  showInPresentation:'True', hasScriptWrapper:'False', style:'font-size: 42px' } -->
+# <a id="advices"></a> Advices for Working with Arrays
 - When a given method returns an array, it should return an empty array (array with 0 elements) instead of **null**
 - Arrays are passed by reference
   - To be sure that given method will not change the passed array, pass a copy of it
@@ -482,7 +483,7 @@ static void Main()
   - You should implement your own deep clone when working with **custom** reference types
 
 
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
+<!-- attr: { showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
 # Arrays
 <img class="slide-image" src="https://raw.githubusercontent.com/TelerikAcademy/Common/master/revealjs-theme/css/imgs/questions-ninja.png" style="width:70%; top:15%; left:10%" />
 <div style="position: absolute; bottom: 1em; right: 0; font-size: 26px;">http://academy.telerik.com</div>
