@@ -16,14 +16,14 @@
 <!-- section start -->
 <!-- attr: {  showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
 # Table of Contents
-- [Using Methods](/#what-is-method)
-  - [What is a Method? Why to Use Methods?](/#what-is-method)
-  - [Declaring and Creating Methods](/#declaring-methods)
-  - [Calling Methods](/#calling-methods)
-- [Methods with Parameters](/#methods-with-parameters)
-  - [Passing Parameters](/#passing-parameters)
-  - [Returning Values](/#returning-values)
-- [Best Practices](/#best-practices)
+- [Using Methods](#/what-is-method)
+  - [What is a Method? Why to Use Methods?](#/what-is-method)
+  - [Declaring and Creating Methods](#/declaring-methods)
+  - [Calling Methods](#/calling-methods)
+- [Methods with Parameters](#/methods-with-parameters)
+  - [Passing Parameters](#/passing-parameters)
+  - [Returning Values](#/returning-values)
+- [Best Practices](#/best-practices)
 <!-- <img showInPresentation="true" class="slide-image" src="imgs/pic04.png" style="top:42.31%; left:77.66%; width:25.97%; z-index:-1" / -->
 
 
