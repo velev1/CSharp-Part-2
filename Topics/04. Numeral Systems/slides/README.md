@@ -238,8 +238,10 @@
 # Strings of Characters
 - Strings are sequences of characters
   - Null-terminated (like in C)
+
   <!-- <img src="imgs/null-term-string.png" showInPresentation="true" style="display: block; width: 100%; z-index: -1"> -->
   - Represented by array
+
   <!-- <img src="imgs/string-arr.png" style="display: block; width: 100%; z-index: -1"> -->
 - Characters in the strings can be:
   - 8 bit (ASCII / windows-1251 / …)
