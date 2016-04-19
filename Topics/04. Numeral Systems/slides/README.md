@@ -14,14 +14,14 @@
 <!-- section start -->
 <!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'True', style:'' } -->
 # Table of Contents
-- [Numeral Systems](#/)
-  - [Binary and Decimal Numbers](#/)
-  - [Hexadecimal Numbers](#/)
-  - [Conversion between Numeral Systems](#/)
-- [Representation of Numbers](#/)
-  - [Positive and Negative Integer Numbers](#/)
-  - [Floating-Point Numbers](#/)
-- [Text Representation](#/)
+- [Numeral Systems](#/numeral-systems)
+  - [Binary and Decimal Numbers](#/binary-decimal-numbers)
+  - [Hexadecimal Numbers](#/hexadecimal-numbers)
+  - [Conversion between Numeral Systems](#/numeral-systems-conversions)
+- [Representation of Numbers](#/numbers-representation)
+  - [Positive and Negative Integer Numbers](#/positive-negative-numbers)
+  - [Floating-Point Numbers](#/floating-point-numbers)
+- [Text Representation](#/text-representation)
 
 <!-- <img class="slide-image" showInPresentation="true"  src="imgs/pic03.png" style="top:13.88%; left:80.47%; width:24.79%; z-index:-1" /> -->
 
@@ -29,16 +29,16 @@
 
 
 <!-- section start -->
-<!-- attr: { id:'', class:'slide-section', showInPresentation:'True', hasScriptWrapper:'True', style:'' } -->
-# Numeral Systems
-## Conversion between Numeral Systems
+<!-- attr: { id:'numeral-systems', class:'slide-section', showInPresentation:'True', hasScriptWrapper:'True', style:'' } -->
+# <a id="numeral-systems"></a> Numeral Systems
+<!-- ## Conversion between Numeral Systems -->
 
 <!-- <img class="slide-image" showInPresentation="true"  src="imgs/pic04.png" style="top:55%; left:14.00%; width:22%; z-index:-1" /> -->
 <!-- <img class="slide-image" showInPresentation="true"  src="imgs/pic05.png" style="top:55%; left:61.75%; width:25%; z-index:-1" /> -->
 
 
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
-# Decimal Numbers
+<!-- attr: { id:'binary-decimal-numbers', class:'', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
+<!-- # <a id="binary-decimal-numbers"></a>  Decimal Numbers -->
 - Decimal numbers (base 10)
   - Represented using 10 numerals: `0`, `1`, `2`, `3`, `4`, `5`, `6`, `7`, `8`, `9`
 - Each position represents a power of 10:
@@ -85,8 +85,8 @@
 <p style="font-size: 46px; color: orange; position: absolute; top: 35%; left: 50%;">500<sub>d</sub> = 111110100<sub>b</sub></p>
 
 
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
-# Hexadecimal Numbers
+<!-- attr: { id:'hexadecimal-numbers', class:'', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
+# <a id="hexadecimal-numbers"></a>  Hexadecimal Numbers
 - Hexadecimal numbers (base 16)
   - Represented using 16 numerals: `0`, `1`, `2`, ... `9`, `A`, `B`, `C`, `D`, `E` and `F`
 - Usually prefixed with `0x`
@@ -106,8 +106,8 @@
   <!-- <img class="slide-image" showInPresentation="true"  src="imgs/hex-nums.png" style="top:25%; left:5%; width:95%; z-index:-1" /> -->
 
 
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
-# Hexadecimal to Decimal Conversion
+<!-- attr: { id:'numeral-systems-conversions', class:'', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
+# <a id="numeral-systems-conversions"></a>  Hexadecimal to Decimal Conversion
 - Multiply each digit by its exponent
   <!-- <img class="slide-image" showInPresentation="true"  src="imgs/hex-2-dec.png" style="top:35%; left:5%; width:80%; z-index:-1" /> -->
 
@@ -136,8 +136,8 @@
 
 
 <!-- section start -->
-<!-- attr: { id:'', class:'slide-section', showInPresentation:'True', hasScriptWrapper:'True', style:'' } -->
-<!-- # Numbers Representation -->
+<!-- attr: { id:'numbers-representation', class:'slide-section', showInPresentation:'True', hasScriptWrapper:'True', style:'' } -->
+<!-- <a id="numbers-representation"></a>  # Numbers Representation -->
 <!-- ## Positive and Negative Integers and Floating-Point Numbers -->
 
 <!-- <img class="slide-image" showInPresentation="true"  src="imgs/pic20.png" style="top:60%; left:75%; width:15%; z-index:-1" /> -->
@@ -153,7 +153,8 @@
   - '0'	= 48 = **2**<sup>`5`</sup> + **2**<sup>`4`</sup> =	= 00000000 00110000
 
 
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'' } -->
+<!-- attr: { id:'positive-negative-numbers', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'' } -->
+<a id="positive-negative-numbers"></a>  
 # Positive and Negative Numbers
 - A number's sign is determined by the`Most Significant Bit` (MSB)
   - Only in signed integers: `sbyte`, `short`, `int`, `long`
@@ -187,13 +188,12 @@
 
 <!-- <img class="slide-image" showInPresentation="true"  src="imgs/table.png" style="top:10%; left:70%; width:30%; z-index:-1" /> -->
 
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'font-size: 42px' } -->
+<!-- attr: { id:'floating-point-numbers', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'font-size: 42px' } -->
+<a id="floating-point-numbers"></a>  
 # Floating-Point Numbers
 - Floating-point numbers representation (according to the IEEE 754 standard*):
-
 <!-- <img class="slide-image" showInPresentation="true"  src="imgs/ieee-754-float.png" style="top:25%; left:0%; width:95%; z-index:-1" /> -->
 - Example: <!-- .element: class="" style="position: absolute; top: 55%" -->
-
 <!-- <img class="slide-image" showInPresentation="true"  src="imgs/ieee-754-float-example.png" style="top:60%; left:0%; width:90%; z-index:-1" /> -->
 
 
@@ -204,7 +204,8 @@
 <!-- <img class="slide-image" showInPresentation="true"  src="imgs/pic22.png" style="top:55%; left:32%; width:35%; z-index:-1" /> -->
 
 
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'' } -->
+<!-- attr: { id:'text-representation, class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'' } -->
+<a id="text-representation"></a> 
 # How Computers Represent Text Data?
 - `Text encoding` is a system that uses binary numbers (1 and 0) to represent characters
   -  Letters, numerals, symbols etc.
