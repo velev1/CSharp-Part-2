@@ -2,9 +2,9 @@
 <!-- attr: {  class:'slide-title', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
 # Methods
 ## Subroutines in Computer Programming
-<!-- <img showInPresentation="true" class="slide-image" src="imgs/pic01.png" style="top:52.01%; left:60%; width:35%; z-index:-1" / -->
-<!-- <img showInPresentation="true" class="slide-image" src="imgs/pic02.png" style="top:2%; left:45%; width:17.08%; z-index:-1" / -->
-<!-- <img showInPresentation="true" class="slide-image" src="imgs/pic03.png" style="top:45%; left:10%; width:28.51%; z-index:-1" / -->
+<!-- <img class="slide-image" showInPresentation="true" src="imgs/pic01.png" style="top:52.01%; left:60%; width:35%; z-index:-1" / -->
+<!-- <img class="slide-image" showInPresentation="true" src="imgs/pic02.png" style="top:2%; left:45%; width:17.08%; z-index:-1" / -->
+<!-- <img class="slide-image" showInPresentation="true" src="imgs/pic03.png" style="top:45%; left:10%; width:28.51%; z-index:-1" / -->
 
 <div class="signature">
 	<p class="signature-course">C# Fundamentals - Part II</p>
