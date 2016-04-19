@@ -2,8 +2,8 @@
 <!-- attr: { id:'', class:'slide-title', showInPresentation:'True', hasScriptWrapper:'True', style:'' } -->
 # Exception Handling
 ## Handling Errors during the Program Execution
-<img class="slide-image" src="\imgs\pic01.png" style="top:53.52%; left:50.07%; width:19.55%; z-index:-1" />
-<img class="slide-image" src="\imgs\pic02.png" style="top:52.71%; left:73.92%; width:29.62%; z-index:-1" />
+<img class="slide-image" src="imgs/pic01.png" style="top:53.52%; left:50.07%; width:19.55%; z-index:-1" />
+<img class="slide-image" src="imgs/pic02.png" style="top:52.71%; left:73.92%; width:29.62%; z-index:-1" />
 <div class="signature">
 	<p class="signature-course"></p>
 	<p class="signature-initiative"></p>
@@ -22,7 +22,7 @@
 - Types of Exceptions and their		 Hierarchy
 - Raising (Throwing) Exceptions
 - Best Practices
-<img class="slide-image" src="\imgs\pic03.png" style="top:15.66%; left:82.34%; width:20.28%; z-index:-1" />
+<img class="slide-image" src="imgs/pic03.png" style="top:15.66%; left:82.34%; width:20.28%; z-index:-1" />
 
 
 
