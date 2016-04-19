@@ -32,6 +32,7 @@
 <!-- attr: { id:'', class:'slide-section', showInPresentation:'True', hasScriptWrapper:'True', style:'' } -->
 # Numeral Systems
 ## Conversion between Numeral Systems
+
 <!-- <img class="slide-image" showInPresentation="true"  src="imgs/pic04.png" style="top:55%; left:14.00%; width:22%; z-index:-1" /> -->
 <!-- <img class="slide-image" showInPresentation="true"  src="imgs/pic05.png" style="top:55%; left:61.75%; width:25%; z-index:-1" /> -->
 
@@ -136,8 +137,9 @@
 
 <!-- section start -->
 <!-- attr: { id:'', class:'slide-section', showInPresentation:'True', hasScriptWrapper:'True', style:'' } -->
-# Numbers Representation
-## Positive and Negative Integers and Floating-Point Numbers
+<!-- # Numbers Representation -->
+<!-- ## Positive and Negative Integers and Floating-Point Numbers -->
+
 <!-- <img class="slide-image" showInPresentation="true"  src="imgs/pic20.png" style="top:60%; left:75%; width:15%; z-index:-1" /> -->
 
 
@@ -198,7 +200,7 @@
 
 <!-- section start -->
 <!-- attr: { id:'', class:'slide-section', showInPresentation:'True', hasScriptWrapper:'True', style:'' } -->
-# Text Representation in Computer Systems
+<!-- # Text Representation in Computer Systems -->
 <!-- <img class="slide-image" showInPresentation="true"  src="imgs/pic22.png" style="top:55%; left:32%; width:35%; z-index:-1" /> -->
 
 
@@ -230,14 +232,16 @@
 <!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'' } -->
 # Strings of Characters
 - Strings are sequences of characters
-  - Null-terminated (like in C) <img src="imgs/null-term-string.png" style="display: block; width: 100%; z-index: -1">
-  - Represented by array <img src="imgs/string-arr.png" style="display: block; width: 100%; z-index: -1">
+  - Null-terminated (like in C)
+  <!-- <img src="imgs/null-term-string.png" showInPresentation="true" style="display: block; width: 100%; z-index: -1"> -->
+  - Represented by array
+  <!-- <img src="imgs/string-arr.png" style="display: block; width: 100%; z-index: -1"> -->
 - Characters in the strings can be:
   - 8 bit (ASCII / windows-1251 / …)
   - 16 bit (UTF-16)
 
 
 <!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'True', style:'' } -->
-# Numeral Systems
+<!-- # Numeral Systems -->
 <!-- <img class="slide-image" showInPresentation="true"  src="https://raw.githubusercontent.com/TelerikAcademy/Common/master/revealjs-theme/css/imgs/questions-ninja.png" style="width:70%; top:15%; left:10%" /> -->
 <div style="position: absolute; bottom: 1em; right: 0; font-size: 26px;">http://academy.telerik.com</div>
