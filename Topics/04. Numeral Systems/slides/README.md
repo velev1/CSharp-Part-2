@@ -196,7 +196,9 @@
 - Floating-point numbers representation (according to the IEEE 754 standard*):
 
 <!-- <img class="slide-image" showInPresentation="true"  src="imgs/ieee-754-float.png" style="top:25%; left:0%; width:95%; z-index:-1" /> -->
-- Example: <!-- .element: class="" style="position: absolute; top: 55%" -->
+- Example:
+
+<!-- .element: class="" style="position: absolute; top: 55%" -->
 
 <!-- <img class="slide-image" showInPresentation="true"  src="imgs/ieee-754-float-example.png" style="top:60%; left:0%; width:90%; z-index:-1" /> -->
 
