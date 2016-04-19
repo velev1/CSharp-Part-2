@@ -102,7 +102,7 @@ string[] daysOfWeek =
 
 <!-- attr: { class:'slide-section demo', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
 # Days of Week
-## [Live Demo]()
+## [Live Demo](https://github.com/TelerikAcademy/CSharp-Part-2/tree/master/Topics/01.%20Arrays/demos/DaysOfWeek)
 <!-- <img class="slide-image" showInPresentation="true" src="imgs/pic11.png" style="top:50%; left:65%; width:30%;border-radius:10px; border:2px solid white; z-index:-1" /> -->
 <!-- <img class="slide-image" showInPresentation="true" src="imgs/pic12.png" style="top:5%; left:10%; width:15%;border-radius:10px; border:2px solid white; z-index:-1" /> -->
 <!-- <img class="slide-image" showInPresentation="true" src="imgs/pic13.png" style="top:50%; left:10%; width:35%;border-radius:10px; border:2px solid white; z-index:-1" /> -->
@@ -147,7 +147,7 @@ for (int index = 0; index < length; index++)
 
 <!-- attr: { class:'slide-section demo', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
 # Reversing an Array
-## [Live Demo]()
+## [Live Demo](https://github.com/TelerikAcademy/CSharp-Part-2/tree/master/Topics/01.%20Arrays/demos/Reverse)
 <!-- <img class="slide-image" showInPresentation="true" src="imgs/pic15.png" style="top:50%; left:65%; width:30%;border-radius:10px; border:2px solid white; z-index:-1" /> -->
 <!-- <img class="slide-image" showInPresentation="true" src="imgs/pic16.png" style="top:55%; left:5%; width:30%;border-radius:10px; border:2px solid white; z-index:-1" /> -->
 <!-- <img class="slide-image" showInPresentation="true" src="imgs/pic17.png" style="top:5%; left:85%; width:20%;border-radius:10px; border:2px solid white; z-index:-1" /> -->
@@ -197,7 +197,7 @@ for (int i = 0; i < array.Length / 2; i++)
 
 <!-- attr: { class:'slide-section demo', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px;' } -->
 # Symmetry Check
-## [Live Demo]()
+## [Live Demo](https://github.com/TelerikAcademy/CSharp-Part-2/tree/master/Topics/01.%20Arrays/demos/CheckSymmetry)
 <!-- <img class="slide-image" showInPresentation="true" src="imgs/pic19.png" style="top:55%; left:32.5%; width:35%;border-radius:10px; border:2px solid white; z-index:-1" /> -->
 
 
@@ -223,7 +223,7 @@ for (int index = 0; index < array.Length; index++)
 
 <!-- attr: { class:'slide-section demo', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
 # Printing Arrays
-## [Live Demo]()
+## [Live Demo](https://github.com/TelerikAcademy/CSharp-Part-2/tree/master/Topics/01.%20Arrays/demos/PrintArray)
 <!-- <img showInPresentation="true" class="slide-image" src="imgs/pic20.png" style="top:55%; left:30%; width:40%;border-radius:10px; border:2px solid white; z-index:-1" /> -->
 
 
@@ -315,7 +315,7 @@ foreach (string capital in capitals)
 
 <!-- attr: { class:'slide-section demo', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
 # Processing Arrays
-## [Live Demo]()
+## [Live Demo](https://github.com/TelerikAcademy/CSharp-Part-2/tree/master/Topics/01.%20Arrays/demos/IteratingOverArrays)
 <!-- <img showInPresentation="true" class="slide-image" src="imgs/pic23.png" style="top:55%; left:28%; width:40%;border-radius:10px; border:2px solid white; z-index:-1" /> -->
 
 
@@ -392,7 +392,7 @@ list.Add(newValue);
 
 <!-- attr: { class:'slide-section demo', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
 # Lists &#60;T>
-## [Live Demo]()
+## [Live Demo](https://github.com/TelerikAcademy/CSharp-Part-2/tree/master/Topics/01.%20Arrays/demos/Lists)
 <!-- <img showInPresentation="true" class="slide-image" src="imgs/pic27.png" style="top:55%; left:55%; width:46.57%;border-radius:10px; border:2px solid white; z-index:-1" /> -->
 <!-- <img showInPresentation="true" class="slide-image" src="imgs/pic28.png" style="top:55%; left:10%; width:25.56%;border-radius:10px; border:2px solid white; z-index:-1" /> -->
 
@@ -425,7 +425,7 @@ list.Add(newValue);
 
 <!-- attr: { class:'slide-section demo', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
 # Resizing Lists
-## [Live Demo]()
+## [Live Demo](https://github.com/TelerikAcademy/CSharp-Part-2/tree/master/Topics/01.%20Arrays/demos/ResizingLists)
 <!-- <img showInPresentation="true" class="slide-image" src="imgs/pic32.png" style="top:44.08%; left:72.05%; width:21.16%;border-radius:10px; border:2px solid white; z-index:-1" /> -->
 <!-- <img showInPresentation="true" class="slide-image" src="imgs/pic33.png" style="top:43.91%; left:12.45%; width:21.16%;border-radius:10px; border:2px solid white; z-index:-1" /> -->
 

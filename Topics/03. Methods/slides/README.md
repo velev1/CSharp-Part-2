@@ -182,7 +182,7 @@ static void Main()
 
 <!-- attr: {  class:'slide-section demo', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
 <!-- # Declaring and Calling Methods
-## [Live Demo]() -->
+## [Live Demo](https://github.com/TelerikAcademy/CSharp-Part-2/tree/master/Topics/03.%20Methods/demos/PrintLogo) -->
 
 
 <!-- section start -->
@@ -303,7 +303,7 @@ static void PrintMax(float number1, float number2)
 
 <!-- attr: {  class:'slide-section demo', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
 # Method Parameters
-## [Live Demo](../demos/MethodsParameters)
+## [Live Demo](https://github.com/TelerikAcademy/CSharp-Part-2/tree/master/Topics/03.%20Methods/demos/MethodsParameters)
 
 
 
@@ -353,7 +353,7 @@ class MonthsExample
 
 <!-- attr: {  class:'slide-section demo', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
 # Months
-## [Live Demo](../demos/Months)
+## [Live Demo](https://github.com/TelerikAcademy/CSharp-Part-2/tree/master/Topics/03.%20Methods/demos/Months)
 <!-- <img class="slide-image" showInPresentation="true" src="imgs/pic22.png" style="top:52%; left:34.5%; width:30%;border-radius:10px; border:2px solid white; z-index:-1" /> -->
 
 
@@ -391,7 +391,7 @@ static void PrintLine(int start, int end)
 
 <!-- attr: {  class:'slide-section demo', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
 # Printing Triangle
-## [Live Demo](../demos/Triangle)
+## [Live Demo](https://github.com/TelerikAcademy/CSharp-Part-2/tree/master/Topics/03.%20Methods/demos/Triangle)
 
 <!-- <img class="slide-image" showInPresentation="true" src="imgs/pic23.png" style="top:55%; left:65%; width:26.5%; z-index:-1" /  
 <img showInPresentation="true" class="slide-image" src="imgs/pic24.png" style="top:55%; left:10%; width:35.63%; z-index:-1" /> -->
@@ -419,7 +419,7 @@ PrintNumbers(end: 40, start: 35);
 
 <!-- attr: {  class:'slide-section demo', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
 <!-- # Optional Parameters -->
-## [Live Demo](../demos/OptionalParameters)
+## [Live Demo](https://github.com/TelerikAcademy/CSharp-Part-2/tree/master/Topics/03.%20Methods/demos/OptionalParameters)
 
 
 <!-- section start -->
@@ -515,7 +515,7 @@ static void Main()
 
 <!-- attr: {  class:'slide-section demo', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
 <!-- # Temperature Conversion -->
-## [Live Demo](../demos/Temperature)
+## [Live Demo](https://github.com/TelerikAcademy/CSharp-Part-2/tree/master/Topics/03.%20Methods/demos/Temperature)
 
 <!-- <img class="slide-image" showInPresentation="true" src="imgs/pic29.png" style="top:55%; left:75.44%; width:18%; z-index:-1" /
 <img showInPresentation="true" class="slide-image" src="imgs/pic30.png" style="top:55%; left:13.15%; width:15%; z-index:-1" />
@@ -543,7 +543,7 @@ static bool ArePositive(int[] sequence)
 
 <!-- attr: {  class:'slide-section demo', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
 <!-- # Positive Numbers -->
-## [Live Demo](../demos/PositiveNumbers)
+## [Live Demo](https://github.com/TelerikAcademy/CSharp-Part-2/tree/master/Topics/03.%20Methods/demos/PositiveNumbers)
 
 <!-- <img class="slide-image" showInPresentation="true" src="imgs/pic33.png" style="top:55%; left:32.5%; width:35%; border-radius:10px; border:2px solid white; z-index:-1" /> -->
 
@@ -602,7 +602,7 @@ class ValidatingDemo
 
 <!-- attr: {  class:'slide-section demo', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
 <!-- # Data Validation -->
-## [Live Demo](../demos/DataValidation)
+## [Live Demo](https://github.com/TelerikAcademy/CSharp-Part-2/tree/master/Topics/03.%20Methods/demos/DataValidation)
 
 <!-- <img class="slide-image" showInPresentation="true" src="imgs/pic36.png" style="top:55%; left:35%; width:30%;border-radius:10px; border:2px solid white; z-index:-1" /> -->
 
