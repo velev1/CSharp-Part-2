@@ -32,7 +32,6 @@
 <!-- attr: { id:'numeral-systems', class:'slide-section', showInPresentation:'True', hasScriptWrapper:'True', style:'' } -->
 # <a id="numeral-systems"></a> Numeral Systems
 <!-- ## Conversion between Numeral Systems -->
-
 <!-- <img class="slide-image" showInPresentation="true"  src="imgs/pic04.png" style="top:55%; left:14.00%; width:22%; z-index:-1" /> -->
 <!-- <img class="slide-image" showInPresentation="true"  src="imgs/pic05.png" style="top:55%; left:61.75%; width:25%; z-index:-1" /> -->
 
@@ -42,6 +41,7 @@
 - Decimal numbers (base 10)
   - Represented using 10 numerals: `0`, `1`, `2`, `3`, `4`, `5`, `6`, `7`, `8`, `9`
 - Each position represents a power of 10:
+
 <!-- <img class="slide-image" showInPresentation="true"  src="imgs/dec-nums.png" style="top:40%; left:5%; width:90%; z-index:-1" /> -->
 <!-- <img class="slide-image" showInPresentation="true"  src="imgs/pic06.png" style="top:80%; left:76.16%; width:28.69%; z-index:-1" /> -->
 
@@ -50,6 +50,7 @@
 # Binary Numeral System
 - Binary numbers are represented by sequence of bits (smallest unit of information – 0 or 1)
   - Bits are easy to represent in electronics
+
 <!-- <img class="slide-image" showInPresentation="true"  src="imgs/pic07.png" style="top:40%; left:1.87%; width:102.26%; z-index:-1" /> -->
 
 
@@ -109,7 +110,8 @@
 <!-- attr: { id:'numeral-systems-conversions', class:'', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
 # <a id="numeral-systems-conversions"></a>  Hexadecimal to Decimal Conversion
 - Multiply each digit by its exponent
-  <!-- <img class="slide-image" showInPresentation="true"  src="imgs/hex-2-dec.png" style="top:35%; left:5%; width:80%; z-index:-1" /> -->
+
+<!-- <img class="slide-image" showInPresentation="true"  src="imgs/hex-2-dec.png" style="top:35%; left:5%; width:80%; z-index:-1" /> -->
 
 
 <!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'True', style:'' } -->
@@ -192,8 +194,10 @@
 <a id="floating-point-numbers"></a>  
 # Floating-Point Numbers
 - Floating-point numbers representation (according to the IEEE 754 standard*):
+
 <!-- <img class="slide-image" showInPresentation="true"  src="imgs/ieee-754-float.png" style="top:25%; left:0%; width:95%; z-index:-1" /> -->
 - Example: <!-- .element: class="" style="position: absolute; top: 55%" -->
+
 <!-- <img class="slide-image" showInPresentation="true"  src="imgs/ieee-754-float-example.png" style="top:60%; left:0%; width:90%; z-index:-1" /> -->
 
 
@@ -205,7 +209,7 @@
 
 
 <!-- attr: { id:'text-representation, class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'' } -->
-<a id="text-representation"></a> 
+<a id="text-representation"></a>
 # How Computers Represent Text Data?
 - `Text encoding` is a system that uses binary numbers (1 and 0) to represent characters
   -  Letters, numerals, symbols etc.
