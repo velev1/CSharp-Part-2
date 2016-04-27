@@ -17,5 +17,5 @@ Write a program that reads a number and prints the result of the method.
 ## Sample tests
 
 | Input  | Output |
-|:------:|:------:|
+|:-------|:-------|
 | 42     | two    |

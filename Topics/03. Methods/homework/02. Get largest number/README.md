@@ -17,6 +17,6 @@ Write a program that reads `3` integers from the console and prints the largest 
 ## Sample tests
 
 | Input   | Output |
-|:-------:|:------:|
+|:--------|:-------|
 | 8 3 6   | 8      |
 | 7 19 19 | 19     |

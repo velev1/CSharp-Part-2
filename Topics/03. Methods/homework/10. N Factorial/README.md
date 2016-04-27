@@ -18,5 +18,5 @@ Write a program to calculate `N!`.
 ## Sample tests
 
 | Input  | Output |
-|:------:|:------:|
+|:-------|:-------|
 | 5      | 120    |

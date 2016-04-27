@@ -17,6 +17,6 @@ Write a program to test this method.
 ## Sample tests
 
 | Input | Output        |
-|:-----:|:-------------:|
+|:------|:--------------|
 | Peter | Hello, Peter! |
 
