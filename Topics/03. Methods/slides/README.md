@@ -7,7 +7,7 @@
 <!-- <img class="slide-image" showInPresentation="true" src="imgs/pic02.png" style="top:2%; left:45%; width:17.08%; z-index:-1" /> -->
 
 <div class="signature">
-	<p class="signature-course">C# Fundamentals - Part II</p>
+	<p class="signature-course">C# Advanced</p>
 	<p class="signature-initiative">Telerik Software Academy</p>
 	<a href="https://telerikacademy.com" class="signature-link">https://telerikacademy.com</a>
 </div>
