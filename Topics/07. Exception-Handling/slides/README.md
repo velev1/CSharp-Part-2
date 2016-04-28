@@ -6,9 +6,9 @@
 <!-- <img class="slide-image" showInPresentation="true"  src="imgs/pic02.png" style="top:52.71%; left:73.92%; width:29.62%; border-radius:10px; border: 2px solid white; z-index:-1" /> -->
 
 <div class="signature">
-	<p class="signature-course"></p>
-	<p class="signature-initiative"></p>
-	<a href="" class="signature-link"></a>
+	<p class="signature-course">C# Advanced</p>
+	<p class="signature-initiative">Telerik </p>
+	<a href="https://telerikacademy.com" class="signature-link">https://telerikacademy.com</a>
 </div>
 
 

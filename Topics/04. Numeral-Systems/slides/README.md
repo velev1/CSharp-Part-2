@@ -6,7 +6,7 @@
 <!-- <img class="slide-image" showInPresentation="true"  src="imgs/hex-fingers.png" style="top:45%; left:60%; width:45%; z-index:-1" /> -->
 
 <div class="signature">
-	<p class="signature-course">C# Fundamentals - Part II</p>
+	<p class="signature-course">C# Advanced</p>
 	<p class="signature-initiative">Telerik Software Academy</p>
 	<a href="https://telerikacademy.com" class="signature-link">https://telerikacademy.com</a>
 </div>
