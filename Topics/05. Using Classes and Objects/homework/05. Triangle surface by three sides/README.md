@@ -1,4 +1,4 @@
-# Triangle surface by side and altitude
+# Triangle surface by three sides
 
 ## Description
 Write program that calculates the surface of a triangle by given its three sides.
