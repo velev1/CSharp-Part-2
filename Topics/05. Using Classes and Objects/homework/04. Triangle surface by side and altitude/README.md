@@ -19,4 +19,4 @@ Write program that calculates the surface of a triangle by given a side and an a
 
 | Input     | Output |
 |:----------|:-------|
-| 23.2<br>5 | 58     |
+| 23.2<br>5 | 58.00  |
