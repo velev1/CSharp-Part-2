@@ -15,20 +15,20 @@
 <!-- section start -->
 <!-- attr: {  showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
 # Table of Contents
-- [Declaring and Creating Arrays](#declaring-arrays)
-- [Accessing Array Elements](#accessing-arrays)
-- [Console Input and Output of Arrays](#in-out-arrays)
-- [Iterating Over Arrays Using `for` and `foreach`](#iterating-arrays)
-- [Dynamic Arrays](#dynamic-arrays)
+- [Declaring and Creating Arrays](#declare)
+- [Accessing Array Elements](#access)
+- [Console Input and Output of Arrays](#inout)
+- [Iterating Over Arrays Using `for` and `foreach`](#iterate)
+- [Dynamic Arrays](#dynamics)
   - [List &lt;T>](#lists)
-- [Copying Arrays](#copying-arrays)
+- [Copying Arrays](#copy)
 
 <!-- <img class="slide-image" showInPresentation="true" src="imgs/pic03.png" style="top:44.96%; left:75.04%; width:27.15%;border-radius:10px; border:2px solid white; z-index:-1" /> -->
 
 
 <!-- section start -->
-<!-- attr: { id:'declaring-arrays', class:'slide-section', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
-# <a id="declaring-arrays"></a> Declaring and Creating Arrays
+<!-- attr: { id:'declare', class:'slide-section', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
+# <a id="declare"></a> Declaring and Creating Arrays
 <!-- <img class="slide-image" showInPresentation="true" src="imgs/pic04.png" style="top:45%; left:65%; width:20%;border-radius:10px; border:2px solid white; z-index:-1" /> -->
 <!-- <img class="slide-image" showInPresentation="true" src="imgs/pic05.png" style="top:45%; left:10.48%; width:30%; z-index:-1" /> -->
 
@@ -105,8 +105,8 @@ string[] daysOfWeek =
 
 
 
-<!-- attr: { id:'accessing-arrays', class:'slide-section', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
-<!-- # <a id="accessing-arrays"></a> Accessing Array Elements
+<!-- attr: { id:'access', class:'slide-section', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
+<!-- # <a id="access"></a> Accessing Array Elements
  ## Read and Modify Elements by Index -->
 <!-- <img class="slide-image" showInPresentation="true" src="imgs/pic14.png" style="top:55%; left:30%; width:40%; border-radius:10px; border:2px solid white; z-index:-1" /> -->
 
@@ -151,8 +151,8 @@ for (int index = 0; index < length; index++)
 
 
 <!-- section start -->
-<!-- attr: { id:'in-out-arrays', class:'slide-section', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
-<!-- # <a id="in-out-arrays"></a> Arrays: Input and Output
+<!-- attr: { id:'inout', class:'slide-section', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
+<!-- # <a id="inout"></a> Arrays: Input and Output
 ## Reading and Printing Arrays on the Console -->
 <!-- <img class="slide-image" showInPresentation="true" src="imgs/pic18.png" style="top:55%; left:30%; width:40%;border-radius:10px; border:2px solid white; z-index:-1" /> -->
 
@@ -225,8 +225,8 @@ for (int index = 0; index < array.Length; index++)
 
 
 <!-- section start -->
-<!-- attr: { id:'iterating-arrays', class:'slide-section', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
-<!-- # <a id="iterating-arrays"></a> Processing Array Elements Using for and foreach -->
+<!-- attr: { id:'iterate', class:'slide-section', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
+<!-- # <a id="iterate"></a> Processing Array Elements Using for and foreach -->
 <!-- <img showInPresentation="true" class="slide-image" src="imgs/pic21.png" style="top:55%; left:28%; width:40%;border-radius:10px; border:2px solid white; z-index:-1" /> -->
 
 
@@ -317,14 +317,14 @@ foreach (string capital in capitals)
 
 
 <!-- section start -->
-<!-- attr: { id:'dynamic-arrays', class:'slide-section', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
-<!-- # <a id="dynamic-arrays"></a> Resizable Arrays
+<!-- attr: { id:'dynamics', class:'slide-section', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
+<!-- # <a id="dynamics"></a> Resizable Arrays
  ## List&lt;T> -->
 <!-- <img showInPresentation="true" class="slide-image" src="imgs/pic25.png" style="top:53.77%; left:40%; width:19.64%;border-radius:10px; border:2px solid white; z-index:-1" /> -->
 
 
-<!-- attr: { id:'lists', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'font-size: 42px' } -->
-<!-- # <a id="lists"></a> Lists (Resizable Arrays) -->
+<!-- attr: { id:'listss', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'font-size: 42px' } -->
+<!-- # <a id="listss"></a> Lists (Resizable Arrays) -->
 - <code>List&lt;T></code> – array that can be resized dynamically
   - Whenadding or removing elements
   - Also have indexers `[]` (like arrays)
@@ -428,8 +428,8 @@ list.Add(newValue);
 
 
 <!-- section start -->
-<!-- attr: { id:'copying-arrays', class:'slide-section', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
-<!-- # <a id="copying-arrays"></a> Copying Arrays
+<!-- attr: { id:'copy', class:'slide-section', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
+<!-- # <a id="copy"></a> Copying Arrays
 ## The Array Class -->
 
 

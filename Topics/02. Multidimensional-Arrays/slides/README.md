@@ -19,15 +19,15 @@
 <!-- attr: {   showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
 # Table of Contents
 - [Matrices and Multidimensional Arrays](#/multidimensional-arrays)
-  - [Declaring](#/multidimensional-arrays-declaring)
-  - [Usage](#/multidimensional-arrays-usage)
-- [Jagged Arrays](#/jagged-arrays)
-  - [Declaring](#/jagged-arrays-declaring)
-  - [Usage](#/jagged-arrays-usage)
-- [The **Array** Class](#/array-class)
-  - [Sorting](#/array-class-sorting)
-  - [Binary Search](#/array-class-binarysearch)
-- [Advices](#/advices)
+  - [Declaring](#multidimensional-arrays-declaring)
+  - [Usage](#multidimensional-arrays-usage)
+- [Jagged Arrays](#jagged-arrays)
+  - [Declaring](#jagged-arrays-declaring)
+  - [Usage](#jagged-arrays-usage)
+- [The **Array** Class](#array-class)
+  - [Sorting](#array-class-sorting)
+  - [Binary Search](#array-class-binarysearch)
+- [Advices](#advices)
 
 
 
