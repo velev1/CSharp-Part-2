@@ -6,7 +6,7 @@ Write a program that finds the index of given element **X** in a sorted array of
 ## Input
 - On the first line you will receive the number **N**
 - On the next **N** lines the numbers of the array will be given
-- On the first line you will receive the number **X**
+- On the last line you will receive the number **X**
 
 ## Output
 - Print the index where **X** is in the array
