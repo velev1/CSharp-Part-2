@@ -7,7 +7,7 @@ The training is practice-oriented and involves solving hundreds of problems, whi
 
 ## Course program
 
-### [00. Course Introduction](./Topics/00. Arrays)
+### [00. Course Introduction](./Topics/00. Course-Intro)
 
 Course Program, Examination
 

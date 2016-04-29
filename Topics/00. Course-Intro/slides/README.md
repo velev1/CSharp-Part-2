@@ -1,11 +1,11 @@
 <!-- section start -->
 
 <!-- attr: { class:'slide-title', showInPresentation: true, hasScriptWrapper: true} -->
-# C# Fundamentals
+# C# Advanced
 ## About the Course
 
 <div class="signature">
-	<p class="signature-course">C# Fundamentals</p>
+	<p class="signature-course">C# Advanced</p>
 	<p class="signature-initiative">Telerik Software Academy</p>
 	<a href="https://telerikacademy.com" class="signature-link">https://telerikacademy.com</a>
 </div>
@@ -21,10 +21,10 @@
 <!-- attr: { showInPresentation: true, hasScriptWrapper: true} -->
 # Table of Contents
 
-- [Course Objectives](#/objectives)
-- [Course Program](#/topics)
-- [Examination](#/examination)
-- [Learning Resources](#/resources)
+- [What's Next](#next)
+- [Course Program](#topics)
+- [Examination](#examination)
+- [Learning Resources](#resources)
 
 <!-- <img class="slide-image" showInPresentation="true" src="imgs/pic07.png" style="bottom:10%; right:5%; width:23.35%;" /> -->
 <!-- <img class="slide-image" showInPresentation="true" src="imgs/pic08.png" style="top:12.34%; left:51.46%; width:45%; border-radius: 15px" /> -->
@@ -41,29 +41,57 @@
 <!-- <img class="slide-image" showInPresentation="true" src="imgs/pic12.png" style="top:6.60%; left:87.22%; width:14.46%; border-radius: 15px;" /> -->
 
 
-<!-- attr: { id: 'objectives', showInPresentation: true } -->
-# <a id="objectives"></a>C# Track Objectives
-- The **C# Programming** track at the Academy:
-  - Give the trainees the **fundamental** computer programming knowledge and skills
-  - Establish the logical and **algorithmic thinking**
-    - Development of **problems solving** skills
-  - Learn basic **data structures**, **algorithms** and object-oriented programming (**OOP**) concepts
-  - Learn to produce **high-quality code**
-  - **Prepare** for learning the software technologies
-    - `HTML5`, `DB` & `SQL`, `Cloud`, `Web`, `Mobile`, `QA`, …
+<!-- attr: { id: 'next', showInPresentation: true } -->
+# <a id="next"></a>What's Coming Next
+- C# Advanced
+    - Continuation of C# Fundamentals
+    - Fundamentals of programming
+- Pretty much the same as C# Fundamentals
+    - Lectures two times a week
+    - Practical exam after a month
+- The course exam?
+    - 5 practical problems for 6 hours
+    - [http://bgcoder.com](http://bgcoder.com)
 
 
 <!-- attr: { id: 'topics', showInPresentation: true, hasScriptWrapper: true} -->
-# <a id="topics"></a>C# Fundamentals:<br/>Course Topics
+# <a id="topics"></a>Course Topics
 
-- Introduction to Programming
-- Primitive Data Types and Variables
-- Operators, Expressions and Statements
-- Console Input / Output
-- Conditional Statements
-- Loops
-- Exam Preparation
-- **C# Practical Exam**
+- Arrays
+    - Working with arrays
+    - Algorithms on sequences
+- Multidimensional Arrays
+    - Matrices, cubes etc.
+    - Algorithms on matrices
+- Methods
+    - Creating and calling methods
+    - Return type, arguments, overloading
+
+<!-- attr: { showInPresentation: true, hasScriptWrapper: true} -->
+# Course Topics
+- Numeral Systems
+    - Binary, decimal, hexadecimal
+    - Representation of numbers
+- Creating and Using Objects
+    - What is object?
+    - Using .NET standard classes
+- Exception Handling
+    - What are exception?
+    - Catching and throwing exceptions
+
+<!-- attr: { showInPresentation: true, hasScriptWrapper: true} -->
+# Course Topics
+- Strings and Text Processing
+    - Working with strings
+    - Building strings
+- Text Files
+    - Reading and writing text files
+- Practical Exam Preparation
+    - Solving the last year's problems
+- Practical Exam
+    - 5 problems for 6 hours
+
+
 
 <!-- <img class="slide-image" showInPresentation="true" src="imgs/pic14.png" style="top:56%; left:55%; width:40%; border-radius: 15px" /> -->
 
@@ -77,7 +105,7 @@
 
 
 <!-- attr: { showInPresentation: true, hasScriptWrapper: true} -->
-# Training Duration – C# Fundamentals
+# Training Duration – C# Advanced
 
 - Lectures: ~20 hours (@ YouTube)
 - Practical exercises: ~24 hours
@@ -85,10 +113,10 @@
 - Exam: 6 hours, 5 problems, http://bgcoder.com
 - Allocation
   - Time frame
-    - April 2016
-  - Exam: TBD
+    - May 2016
+  - Exam: 30-31 May 2016
 
-<!-- <img class="slide-image" showInPresentation="true" src="imgs/pic27.png" style="top:57%; left:40%; width:40%; border-radius: 15px" /> -->
+<!-- <img class="slide-image" showInPresentation="true" src="imgs/pic27.png" style="top:57%; left:55%; width:35%; border-radius: 15px" /> -->
 
 
 <!-- attr: { showInPresentation: true, hasScriptWrapper: true} -->
@@ -118,7 +146,7 @@
 
 <!-- section start -->
 <!-- attr: { class:'slide-section', showInPresentation: true, hasScriptWrapper: true} -->
-<!-- # C# Fundamentals Exams
+<!-- # C# Advanced Exams
 ## Examination Criteria -->
 
 <!-- <img class="slide-image" showInPresentation="true" src="imgs/pic31.png" style="top:54%; left:58.07%; width:37%; border-radius: 15px;" /> -->
@@ -138,7 +166,7 @@
 
 
 <!-- attr: { showInPresentation: true, hasScriptWrapper: true} -->
-# Scoring System for C# Fundamentals
+# Scoring System for C# Advanced
 
 - **Exam** – **65%**
      - Serves as primary **pass/fail** criteria
@@ -152,16 +180,16 @@
 
 
 <!-- attr: { showInPresentation: true} -->
-# C# Fundamentals Exams
+# C# Advanced Exams
 
 - **Practical Programming Exam**
   - 5 practical problems for 6 hours
   - Covers all learned topics up to the moment
   - Automated judge system & real-time feedback
     - http://bgcoder.com
-      - You can practice all previous C# 1 exams (more than 60 problems)
+      - You can practice all previous C# Advanced exams (more than 60 problems)
   - Solutions are evaluated for correctness only
-  - Use the same email address in both systems!
+  - **Use the same email address in both systems!**
 
 
 <!-- attr: { showInPresentation: true, hasScriptWrapper: true} -->
@@ -245,7 +273,7 @@
   - “Fundamentals of Programming with C#”, Nakov S. and his team, 2013
   - Freely downloadable from: [www.introprogramming.info](http://www.introprogramming.info)
 - The C# track is based on the book
-- C# Fundamentals &rarr; chapters 1..6 (up to Loops)
+- C# Advanced &rarr; chapters 7..15 (with exceptions)
 
 	<img class="slide-image" showInPresentation="true" src="imgs/pic49.png" style="top:29%; left:79%; width:14%" />
 
@@ -268,9 +296,9 @@
   - Discuss the course exercises with your colleagues
   - Find solutions for the exercises
   - Share source code / discuss ideas
-- The C# Fundamentals official web site:
-- [Forum thread](https://telerikacademy.com/Forum/Category/18/csharp-part-1)
-- [Course site](https://telerikacademy.com/Courses/Courses/Details/323)
+- The C# Advanced official web site:
+- [Forum thread](https://telerikacademy.com/Forum/Category/17/csharp-part-2)
+- [Course site](https://telerikacademy.com/Courses/Courses/Details/331)
 
 <!-- <img class="slide-image" showInPresentation="true" src="imgs/pic51.png" style="top:53%; left:64%; width:16.54%; z-index:-1" /> -->
 
@@ -287,7 +315,7 @@
 
 
 <!-- attr: { class:'slide-section', showInPresentation: true, hasScriptWrapper: true, style:'font-size: 42px' } -->
-# C# Fundamentals Course Introduction
+# C# Advanced Course Introduction
 ## Questions?
 
 
