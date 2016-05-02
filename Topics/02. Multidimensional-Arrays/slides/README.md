@@ -27,9 +27,9 @@
 
 <!-- section start -->
 <!-- attr: { id:'multidimensional', class:'slide-section', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
-# <a id="multidimensional"></a> Multidimensional Arrays
-## Using Array of Arrays, Matrices and Cubes
-<img class="slide-image" src="imgs/pic06.png" style="top:55%; left:34%; width:30%; z-index:-1" />
+<!-- # <a id="multidimensional"></a> Multidimensional Arrays
+## Using Array of Arrays, Matrices and Cubes -->
+<!-- <img class="slide-image" src="imgs/pic06.png" style="top:55%; left:34%; width:30%; z-index:-1" /> -->
 
 <!-- attr: {  showInPresentation:'True', hasScriptWrapper:'False', style:'font-size: 42px' } -->
 # What is a Multidimensional Array?
@@ -223,8 +223,8 @@ for (int i = 0; i < n; i++)
 
 
 <!-- attr: {  class:'slide-section demo', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
-# Jagged Arrays
-## [Live Demo](https://github.com/TelerikAcademy/CSharp-Part-2/tree/master/Topics/02.%20Multidimensional%20Arrays/demos/JaggedArrays)
+<!-- # Jagged Arrays
+## [Demo](https://github.com/TelerikAcademy/CSharp-Part-2/tree/master/Topics/02.%20Multidimensional%20Arrays/demos/JaggedArrays) -->
 <!-- <img class="slide-image" showInPresentation="true" src="imgs/pic12.png" style="top:55%; left:45.38%; width:30%; z-index:-1" /> -->
 <!-- <img class="slide-image" showInPresentation="true" src="imgs/pic13.png" style="top:55%; left:25%; width:15%; z-index:-1" /> -->
 
@@ -479,18 +479,18 @@ static void Main()
   - You should implement your own deep clone when working with **custom** reference types
 
 
-  <!-- attr: { class:'slide-section', showInPresentation: true, hasScriptWrapper: true, style:'font-size: 42px' } -->
-  <!-- # C# Arrays
-  ## Questions? -->
+<!-- attr: { class:'slide-section', showInPresentation: true, hasScriptWrapper: true, style:'font-size: 42px' } -->
+<!-- # C# Multidimensional Arrays
+## Questions? -->
 
-  <!-- attr: { showInPresentation: true, hasScriptWrapper: true} -->
-  # Free Training @ Telerik Academy
+<!-- attr: { showInPresentation: true, hasScriptWrapper: true} -->
+# Free Training @ Telerik Academy
 
-  - Fundamentals of C# Programming Track of Courses
-      - [csharpadvanced](http://academy.telerik.com/student-courses/programming/csharp-programming-part-2/about)
-    - Telerik Software Academy
-      - [telerikacademy.com](https://telerikacademy.com)
-    - Telerik Academy @ Facebook
-      - [facebook.com/TelerikAcademy](https://facebook.com/TelerikAcademy)
-    - Telerik Academy Learning System
-      - [telerikacademy.com](https://telerikacademy.com)
+- Fundamentals of C# Programming Track of Courses
+  - [csharpadvanced](http://academy.telerik.com/student-courses/programming/csharp-programming-part-2/about)
+- Telerik Software Academy
+  - [telerikacademy.com](https://telerikacademy.com)
+- Telerik Academy @ Facebook
+  - [facebook.com/TelerikAcademy](https://facebook.com/TelerikAcademy)
+- Telerik Academy Learning System
+  - [telerikacademy.com](https://telerikacademy.com)

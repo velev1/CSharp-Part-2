@@ -315,8 +315,8 @@
 
 
 <!-- attr: { class:'slide-section', showInPresentation: true, hasScriptWrapper: true, style:'font-size: 42px' } -->
-# C# Advanced Course Introduction
-## Questions?
+<!-- # C# Advanced Course Introduction
+## Questions? -->
 
 
 <!-- attr: { showInPresentation: true, hasScriptWrapper: true} -->

@@ -1,6 +1,6 @@
 #   C# Advanced Course Repository
 
-Repository for the course [C# Advanced](http://telerikacademy.com/Courses/Courses/Details/323) at [Telerik Academy](http://telerikacademy.com)
+Repository for the course [C# Advanced](http://telerikacademy.com/Courses/Courses/Details/331) at [Telerik Academy](http://telerikacademy.com)
 
 The free course "C# Advanced" extends the previous course "C# Fundamentals" and provides more in-depth knowledge of basic programming using C#. The course focuses on more advanced topics such as **arrays**, **methods**, **exception handling** and introduces the basic concepts of **classes and objects**.
 The training is practice-oriented and involves solving hundreds of problems, which develop students' algorithmic thinking and skills.

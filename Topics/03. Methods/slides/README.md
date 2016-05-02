@@ -4,7 +4,7 @@
 ## Subroutines in Computer Programming
 
 <!-- <img class="slide-image" showInPresentation="true" src="imgs/pic01.png" style="top:52.01%; left:60%; width:35%; border-radius:10px; border: 2px solid white; z-index:-1" /> -->
-<!-- <img class="slide-image" showInPresentation="true" src="imgs/pic02.png" style="top:2%; left:45%; width:17.08%; z-index:-1" /> -->
+
 
 <div class="signature">
 	<p class="signature-course">C# Advanced</p>
@@ -16,18 +16,19 @@
 <!-- section start -->
 <!-- attr: {  showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
 # Table of Contents
-- [Using Methods](#/what-is-method)
-  - [What is a Method? Why to Use Methods?](#/what-is-method)
-  - [Declaring and Creating Methods](#/declaring-methods)
-  - [Calling Methods](#/calling-methods)
-- [Methods with Parameters](#/methods-with-parameters)
-  - [Passing Parameters](#/passing-parameters)
-  - [Returning Values](#/returning-values)
-- [Best Practices](#/best-practices)
+- Using Methods
+  - [What is a Method? Why to Use Methods?](#method)
+  - [Using methods](#using)
+  - [Declaring and Creating Methods](#declare)
+  - [Calling Methods](#calling)
+- [Methods with Parameters](#parameters)
+  - [Passing Parameters](#passing)
+  - [Returning Values](#return)
+- [Best Practices](#best)
 
 
-<!-- attr: { id:'what-is-method',  showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
-# <a id="what-is-method"></a> What is a Method?
+<!-- attr: { id:'method',  showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
+# <a id="method"></a> What is a Method?
 - A **method** is a kind of building block that solves a small problem
   - A piece of code that has a name and can be called from the other code
   - Can take parameters and return a value
@@ -35,8 +36,8 @@
 - Methods are also known as **functions**, **procedures**, and **subroutines**
 
 
-<!-- attr: { id:'using-methods',  showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
-# <a id="using-methods"></a> Why to Use Methods?
+<!-- attr: { id:'using',  showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
+# <a id="using"></a> Why to Use Methods?
 - More manageable programming
   - Split large problems into small pieces
   - Better organization of the program
@@ -53,10 +54,10 @@
 
 
 <!-- section start -->
-<!-- attr: { id:'declaringmethods', class:'slide-section', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
-<!-- # <a id="declaringmethods"></a> Declaring and Creating Methods
-<img  class="slide-image" showInPresentation="true" src="imgs/pic07.png" style="top:55%; left:58.95%; width:28%; border-radius:10px; border:2px solid white; z-index:-1" />
-<img  class="slide-image" showInPresentation="true" src="imgs/pic08.png" style="top:55%; left:18.71%; width:29.09%; border-radius:10px; border:2px solid white; z-index:-1" /> -->
+<!-- attr: { id:'declare', class:'slide-section', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
+<!-- # <a id="declare"></a> Declaring and Creating Methods
+<img  class="slide-image" showInPresentation="true" src="imgs/pic07.png" style="top:50%; left:58.95%; width:28%; border-radius:10px; border:2px solid white; z-index:-1" />
+<img  class="slide-image" showInPresentation="true" src="imgs/pic08.png" style="top:50%; left:18.71%; width:29.09%; border-radius:10px; border:2px solid white; z-index:-1" /> -->
 
 
 <!-- attr: {  showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
@@ -74,9 +75,6 @@ static void PrintLogo() // PrintLogo is the method's name
 
 
 
-<!-- <img class="slide-image" showInPresentation="true" src="imgs/pic09.png" style="top:60.83%; left:80.47%; width:23.69%; border-radius:10px; border:2px solid white; z-index:1" /> -->
-
-
 <!-- attr: {  showInPresentation:'True', hasScriptWrapper:'False', style:'font-size: 42px' } -->
 # Declaring and Creating Methods
 ```cs
@@ -86,9 +84,9 @@ static void PrintLogo()
     Console.WriteLine("www.telerik.com");
 }
 ```
-- Methods declared **static** can be called by any other method (static or not)
+- Methods declared `static` can be called by any other method (static or not)
   - This will be discussed later in details
-- The keyword **void** means that the method does not return any result
+- The keyword `void` means that the method does not return any result
 
 
 <!-- attr: {  showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
@@ -104,10 +102,9 @@ static void PrintLogo()
 
 - Each method has a **body**
   - It contains the programming code
-  - Surrounded by **{** and **}**
-<div class="fragment balloon" style="top:25%; left:67%; width:25%; font-size: 44px">Method body</div>
+  - Surrounded by `{` and `}`
+<div class="fragment balloon" style="top:22%; left:60%;">Method body</div>
 
-<!-- <img class="slide-image" showInPresentation="true" src="imgs/pic10.png" style="top:54.66%; left:89.82%; width:14.99%; border-radius:10px; border:2px solid white; z-index:-1" /> -->
 
 
 <!-- attr: {  showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
@@ -131,15 +128,15 @@ class Method_Example_
 }
 ```
 
-- Methods are always declared inside a **class**
-- **Main()** is also a method like all others
+- Methods are always declared inside a `class`
+- `Main()` is also a method like all others
 
 
 
 
 <!-- section start -->
-<!-- attr: { id:'calling-methods', class:'slide-section', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
-<!-- # <a id="calling-methods"></a> Calling Methods
+<!-- attr: { id:'calling', class:'slide-section', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
+<!-- # <a id="calling"></a> Calling Methods
 <img class="slide-image" showInPresentation="true" src="imgs/pic12.png" style="top:45%; left:30%; width:35%; border-radius:10px; border:2px solid white; z-index:-1" /> -->
 
 
@@ -148,7 +145,7 @@ class Method_Example_
 - To call a method, simply use:
   - The method’s name
   - Parentheses (don’t forget them!)
-  - A semicolon (**;**)
+  - A semicolon (`;`)
 
 ```cs
 PrintLogo();
@@ -165,7 +162,7 @@ www.telerik.com
 <!-- attr: {  showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
 # Calling Methods
 - A method can be called from:
-  - The **Main()** method
+  - The `Main()` method
   - Any other method
   - Itself (process known as **recursion**)
 
@@ -182,19 +179,19 @@ static void Main()
 
 <!-- attr: {  class:'slide-section demo', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
 <!-- # Declaring and Calling Methods
-## [Live Demo](https://github.com/TelerikAcademy/CSharp-Part-2/tree/master/Topics/03.%20Methods/demos/PrintLogo) -->
+## [Demo](https://github.com/TelerikAcademy/CSharp-Part-2/tree/master/Topics/03.%20Methods/demos/PrintLogo) -->
 
 
 <!-- section start -->
-<!-- attr: { id:'methods-with-parameters', class:'slide-section', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
-<!-- # <a id="methods-with-parameters"></a> Methods with Parameters -->
-<!-- ## Passing Parameters and Returning values -->
+<!-- attr: { id:'parameters', class:'slide-section', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
+<!-- # <a id="parameters"></a> Methods with Parameters
+ ## Passing Parameters and Returning values -->
 <!-- <img class="slide-image" showInPresentation="true" src="imgs/pic17.png" style="top:52%; left:30%; width:40%; border-radius:2px; border:2px solid white; z-index:-1" /> -->
 
 
 <!-- attr: {  showInPresentation:'True', hasScriptWrapper:'False', style:'font-size: 42px' } -->
 # Method Parameters
-- To pass information to a method, you can use **parameters**(also known as **arguments**)
+- To pass information to a method, you can use `parameters`(also known as `arguments`)
   - You can pass zero or several input values
   - You can pass values of different types
   - Each parameter has name and type
@@ -217,8 +214,8 @@ static void PrintSign(int number)
 ```
 - Method’s behavior depends on its parameters
 - Parameters can be of any type
-  - **int**, **double**, **string**, etc.
-  - Arrays (**int[]**, **double[]**, etc.)
+  - `int`, `double`, `string`, etc.
+  - Arrays (`int[]`, `double[]`, etc.)
 
 
 
@@ -226,6 +223,7 @@ static void PrintSign(int number)
 <!-- attr: {  showInPresentation:'True', hasScriptWrapper:'False', style:'font-size: 42px' } -->
 <!-- # Defining and Using Method Parameters -->
 - Methods can have as many parameters as needed:
+
 ```cs
 static void PrintMax(float number1, float number2)
 {
@@ -236,14 +234,15 @@ static void PrintMax(float number1, float number2)
 }
 ```
 - The following syntax is not valid:
+
 ```cs
 static void PrintMax(float number1, number2)
 ```
 
 
 
-<!-- attr: { id:'passing-parameters',  showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
-# <a id="passing-parameters"></a> Calling Methods with Parameters
+<!-- attr: { id:'passing',  showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
+# <a id="passing"></a> Calling Methods with Parameters
 - To call a method and pass values to its parameters:
   - Use the method’s name, followed by a list of expressions for each parameter
 - _Examples_:
@@ -262,7 +261,7 @@ PrintMax(oldQuantity * 1.5, quantity * 2);
 <!-- attr: {  showInPresentation:'True', hasScriptWrapper:'False', style:'font-size: 42px' } -->
 # Calling Methods with Parameters
 - Expressions must be of the same type as method’s parameters (or compatible)
-  - If the method requires a **float** expression, you can pass **int** instead
+  - If the method requires a `float` expression, you can pass `int` instead
 - Use the same order like in method declaration
 - For methods with no parameters do not forget the parentheses
 
@@ -271,7 +270,8 @@ PrintMax(oldQuantity * 1.5, quantity * 2);
 
 <!-- section start -->
 <!-- attr: {  class:'slide-section', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
-# Using Methods With Parameters
+<!-- # Using Methods With Parameters
+## Examples -->
 
 
 
@@ -302,8 +302,8 @@ static void PrintMax(float number1, float number2)
 
 
 <!-- attr: {  class:'slide-section demo', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
-# Method Parameters
-## [Live Demo](https://github.com/TelerikAcademy/CSharp-Part-2/tree/master/Topics/03.%20Methods/demos/MethodsParameters)
+<!-- # Method Parameters
+## [Demo](https://github.com/TelerikAcademy/CSharp-Part-2/tree/master/Topics/03.%20Methods/demos/MethodsParameters) -->
 
 
 
@@ -325,8 +325,10 @@ class MonthsExample
       "November", "December"};
       Console.Write(monthNames[month-1]);
   }
-(the example continues)
+
 ```
+
+_(the example continues)_
 
 <!-- attr: {  showInPresentation:'True', hasScriptWrapper:'False', style:'font-size: 42px' } -->
 # Months – _Example_
@@ -352,14 +354,14 @@ class MonthsExample
 
 
 <!-- attr: {  class:'slide-section demo', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
-# Months
-## [Live Demo](https://github.com/TelerikAcademy/CSharp-Part-2/tree/master/Topics/03.%20Methods/demos/Months)
+<!-- # Months
+## [Demo](https://github.com/TelerikAcademy/CSharp-Part-2/tree/master/Topics/03.%20Methods/demos/Months) -->
 <!-- <img class="slide-image" showInPresentation="true" src="imgs/pic22.png" style="top:52%; left:34.5%; width:30%;border-radius:10px; border:2px solid white; z-index:-1" /> -->
 
 
 <!-- attr: {  showInPresentation:'True', hasScriptWrapper:'False', style:'font-size: 42px' } -->
 <!-- # Printing Triangle – _Example_ -->
-<!-- - Creating a program for printing triangles as shown below: -->
+- Creating a program for printing triangles as shown below:
 
 <!-- <img class="slide-image" showInPresentation="true" src="imgs/num-arrows.png" style="top:25%; left:6%; width:80%; z-index:-1" /> -->
 
@@ -390,10 +392,10 @@ static void PrintLine(int start, int end)
 
 
 <!-- attr: {  class:'slide-section demo', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
-# Printing Triangle
-## [Live Demo](https://github.com/TelerikAcademy/CSharp-Part-2/tree/master/Topics/03.%20Methods/demos/Triangle)
+<!-- # Printing Triangle
+## [Demo](https://github.com/TelerikAcademy/CSharp-Part-2/tree/master/Topics/03.%20Methods/demos/Triangle) -->
 
-<!-- <img class="slide-image" showInPresentation="true" src="imgs/pic23.png" style="top:55%; left:65%; width:26.5%; z-index:-1" /  
+<!-- <img class="slide-image" showInPresentation="true" src="imgs/pic23.png" style="top:55%; left:65%; width:26.5%; z-index:-1" />
 <img showInPresentation="true" class="slide-image" src="imgs/pic24.png" style="top:55%; left:10%; width:35.63%; z-index:-1" /> -->
 
 
@@ -418,30 +420,33 @@ PrintNumbers(end: 40, start: 35);
 ```
 
 <!-- attr: {  class:'slide-section demo', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
-<!-- # Optional Parameters -->
-## [Live Demo](https://github.com/TelerikAcademy/CSharp-Part-2/tree/master/Topics/03.%20Methods/demos/OptionalParameters)
+<!-- # Optional Parameters
+## [Demo](https://github.com/TelerikAcademy/CSharp-Part-2/tree/master/Topics/03.%20Methods/demos/OptionalParameters) -->
 
 
 <!-- section start -->
-<!-- attr: { id:'returning-values', class:'slide-section', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
-<!-- # <a id="returning-values"></a> Returning Values From Methods
+<!-- attr: { id:'return', class:'slide-section', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
+<!-- # <a id="return"></a> Returning Values From Methods
 <img class="slide-image" showInPresentation="true" src="imgs/pic26.png" style="top:44.08%; left:30%; width:40%;border-radius:10px; border:2px solid white; z-index:-1" /> -->
 
 
 <!-- attr: {  showInPresentation:'True', hasScriptWrapper:'False', style:'font-size: 42px' } -->
 # Returning Values From Methods
-- A method can **return** a value to its caller
+- A method can `return` a value to its caller
 - Returned value:
   - Can be assigned to a variable:
+
   ```cs
   string message = Console.ReadLine();
   // Console.ReadLine() returns a string
   ```
   - Can be used in expressions:
+
   ```cs
   float price = GetPrice() * quantity * 1.20;
   ```
   - Can be passed to another method:
+
   ```cs
   int age = int.Parse(Console.ReadLine());
   ```
@@ -450,45 +455,48 @@ PrintNumbers(end: 40, start: 35);
 
 <!-- attr: {  showInPresentation:'True', hasScriptWrapper:'False', style:'font-size: 40px' } -->
 # Defining Methods That Return a Value
-- Instead of **void**, specify the type of data to return
+- Instead of `void`, specify the type of data to return
 ```cs
 static int Multiply(int firstNum, int secondNum)
 {
     return firstNum * secondNum;
 }
 ```
-- Methods can return any type of data (**int**, **string**, array, etc.)
-- **void** methods do not return anything
+- Methods can return any type of data (`int`, `string`, array, etc.)
+- `void` methods do not return anything
 - The combination of method's name and parameters is called **method signature**
-- Use **return** keyword to return a result
+- Use `return` keyword to return a result
 
 
 <!-- attr: {  showInPresentation:'True', hasScriptWrapper:'False', style:'font-size: 38px' } -->
-# The **return** Statement
-- The **return** statement:
+# The `return` Statement
+- The `return` statement:
   - Immediately terminates method’s execution
   - Returns specified expression to the caller
   - _Example_:
+
     ```cs
     int SomeMethod()
     {
         return -1; // optional before and after the return statement
     }
     ```
-- To terminate **void** method, use just:
+- To terminate `void` method, use just:
+
 ```cs
 void SomeVoidMethod()
 {
     return; // optional before and after the return statement
 }
 ```
-- Return can be used several times in a method body
+
+- `return` can be used several times in a method body
 
 
 <!-- section start -->
 <!-- attr: {  class:'slide-section', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
 <!-- # Returning Values From Methods
- ## _Examples:_
+ ## _Examples_ -->
 
 
 <!-- attr: {  showInPresentation:'True', hasScriptWrapper:'False', style:'font-size: 42px' } -->
@@ -498,24 +506,24 @@ void SomeVoidMethod()
 ```cs
 static double FahrenheitToCelsius(double degrees)
 {
-		  double celsius = (degrees - 32) * 5 / 9;
-		  return celsius;
+    double celsius = (degrees - 32) * 5 / 9;
+    return celsius;
 }
 
 static void Main()
 {
-		  Console.Write("Temperature in Fahrenheit: ");
-		  double t = Double.Parse(Console.ReadLine());
-		  t = FahrenheitToCelsius(t);
-		  Console.Write("Temperature in Celsius: {0}", t);
+    Console.Write("Temperature in Fahrenheit: ");
+    double t = Double.Parse(Console.ReadLine());
+    t = FahrenheitToCelsius(t);
+    Console.Write("Temperature in Celsius: {0}", t);
 }
 ```
 
 
 
 <!-- attr: {  class:'slide-section demo', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
-<!-- # Temperature Conversion -->
-## [Live Demo](https://github.com/TelerikAcademy/CSharp-Part-2/tree/master/Topics/03.%20Methods/demos/Temperature)
+<!-- # Temperature Conversion
+## [Demo](https://github.com/TelerikAcademy/CSharp-Part-2/tree/master/Topics/03.%20Methods/demos/Temperature) -->
 
 <!-- <img class="slide-image" showInPresentation="true" src="imgs/pic29.png" style="top:55%; left:75.44%; width:18%; z-index:-1" /
 <img showInPresentation="true" class="slide-image" src="imgs/pic30.png" style="top:55%; left:13.15%; width:15%; z-index:-1" />
@@ -542,14 +550,15 @@ static bool ArePositive(int[] sequence)
 
 
 <!-- attr: {  class:'slide-section demo', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
-<!-- # Positive Numbers -->
-## [Live Demo](https://github.com/TelerikAcademy/CSharp-Part-2/tree/master/Topics/03.%20Methods/demos/PositiveNumbers)
+<!-- # Positive Numbers
+## [Demo](https://github.com/TelerikAcademy/CSharp-Part-2/tree/master/Topics/03.%20Methods/demos/PositiveNumbers) -->
 
 <!-- <img class="slide-image" showInPresentation="true" src="imgs/pic33.png" style="top:55%; left:32.5%; width:35%; border-radius:10px; border:2px solid white; z-index:-1" /> -->
 
 
 <!-- attr: {  showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
 # Data Validation – _Example_
+
 - Validating input data:
 
 ```cs
@@ -566,11 +575,9 @@ class ValidatingDemo
 
     Console.Write("Minutes: ");
     int minutes = int.Parse(Console.ReadLine());
-
-// (The example continues on the next slide)
 ```
 
-<!-- <img class="slide-image" showInPresentation="true" src="imgs/pic34.png" style="top:19.39%; left:82.34%; width:22.81%; border-radius:10px; border:2px solid white; z-index:1" /> -->
+_(example continues)_
 
 
 <!-- attr: {  showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
@@ -597,12 +604,10 @@ class ValidatingDemo
 }
 ```
 
-<!-- <img class="slide-image" showInPresentation="true" src="imgs/pic35.png" style="top:12.34%; left:81.40%; width:23.80%;border-radius:10px; border:2px solid white; z-index:1" /> -->
-
 
 <!-- attr: {  class:'slide-section demo', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
-<!-- # Data Validation -->
-## [Live Demo](https://github.com/TelerikAcademy/CSharp-Part-2/tree/master/Topics/03.%20Methods/demos/DataValidation)
+<!-- # Data Validation
+## [Demo](https://github.com/TelerikAcademy/CSharp-Part-2/tree/master/Topics/03.%20Methods/demos/DataValidation) -->
 
 <!-- <img class="slide-image" showInPresentation="true" src="imgs/pic36.png" style="top:55%; left:35%; width:30%;border-radius:10px; border:2px solid white; z-index:-1" /> -->
 
@@ -647,7 +652,7 @@ static void Print(string text, int number)
 
 <!-- attr: {  showInPresentation:'True', hasScriptWrapper:'False', style:'font-size: 42px' } -->
 # Variable Number of Parameters
-- A method in C# can take variable number of parameters by specifying the **params** keyword
+- A method in C# can take variable number of parameters by specifying the `params` keyword
 
 ```cs
 static long CalcSum(params int[] elements)
@@ -668,12 +673,12 @@ static void Main()
 
 
 
-<!-- attr: { id:'best-practices',  showInPresentation:'True', hasScriptWrapper:'False', style:'font-size: 42px' } -->
-# <a id="best-practices"></a> Methods – Best Practices
+<!-- attr: { id:'best',  showInPresentation:'True', hasScriptWrapper:'False', style:'font-size: 42px' } -->
+# <a id="best"></a> Methods – Best Practices
 - Each method should perform a single, well-defined task
 - Method’s name should describe that task in a clear and non-ambiguous way
   - Good examples: **CalculatePrice**, **ReadName**
-  - Bad examples: <span style="color: #FF7C66;">f</span>, <span style="color: #FF7C66;">g1</span>, <span style="color: #FF7C66;">Process</span>
+  - Bad examples: **f**, **g1**, **Process**
   - In C# methods should start with capital letter
 - Avoid methods longer than one screen
   - Split them to several shorter methods
@@ -688,7 +693,18 @@ static void Main()
   - Parameters take actual values when calling a method
 - Methods can return a value or nothing
 
-<!-- attr: {  showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
-<!-- # Methods
-<img showInPresentation="true" class="slide-image" src="https://github.com/TelerikAcademy/Common/raw/master/revealjs-theme/css/imgs/questions-ninja.png" style="width:70%; top:15%; left:10%" /> -->
-<div style="position: absolute; bottom: 1em; right: 0; font-size: 26px;">http://academy.telerik.com</div>
+<!-- attr: { class:'slide-section', showInPresentation: true, hasScriptWrapper: true, style:'font-size: 42px' } -->
+<!-- # C# Methods
+## Questions? -->
+
+<!-- attr: { showInPresentation: true, hasScriptWrapper: true} -->
+# Free Training @ Telerik Academy
+
+- Fundamentals of C# Programming Track of Courses
+    - [csharpadvanced](http://academy.telerik.com/student-courses/programming/csharp-programming-part-2/about)
+  - Telerik Software Academy
+    - [telerikacademy.com](https://telerikacademy.com)
+  - Telerik Academy @ Facebook
+    - [facebook.com/TelerikAcademy](https://facebook.com/TelerikAcademy)
+  - Telerik Academy Learning System
+    - [telerikacademy.com](https://telerikacademy.com)

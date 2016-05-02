@@ -28,7 +28,7 @@
 
 <!-- section start -->
 <!-- attr: { id:'declare', class:'slide-section', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
-# <a id="declare"></a> Declaring and Creating Arrays
+<!-- # <a id="declare"></a> Declaring and Creating Arrays -->
 <!-- <img class="slide-image" showInPresentation="true" src="imgs/pic04.png" style="top:45%; left:65%; width:20%;border-radius:10px; border:2px solid white; z-index:-1" /> -->
 <!-- <img class="slide-image" showInPresentation="true" src="imgs/pic05.png" style="top:45%; left:10.48%; width:30%; z-index:-1" /> -->
 
@@ -99,8 +99,8 @@ string[] daysOfWeek =
 ```
 
 <!-- attr: { class:'slide-section demo', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
-# Days of Week
-## [Demo](https://github.com/TelerikAcademy/CSharp-Part-2/tree/master/Topics/01.%20Arrays/demos/DaysOfWeek)
+<!-- # Days of Week
+## [Demo](https://github.com/TelerikAcademy/CSharp-Part-2/tree/master/Topics/01.%20Arrays/demos/DaysOfWeek) -->
 <!-- <img class="slide-image" showInPresentation="true" src="imgs/pic11.png" style="top:55%; left:35%; width:30%;border-radius:10px; border:2px solid white; z-index:-1" /> -->
 
 
@@ -143,8 +143,8 @@ for (int index = 0; index < length; index++)
 
 
 <!-- attr: { class:'slide-section demo', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
-# Reversing an Array
-## [Demo](https://github.com/TelerikAcademy/CSharp-Part-2/tree/master/Topics/01.%20Arrays/demos/Reverse)
+<!-- # Reversing an Array
+## [Demo](https://github.com/TelerikAcademy/CSharp-Part-2/tree/master/Topics/01.%20Arrays/demos/Reverse) -->
 <!-- <img class="slide-image" showInPresentation="true" src="imgs/pic16.png" style="top:55%; left:35%; width:30%;border-radius:10px; border:2px solid white; z-index:-1" /> -->
 
 
@@ -191,8 +191,8 @@ for (int i = 0; i < array.Length / 2; i++)
 
 
 <!-- attr: { class:'slide-section demo', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px;' } -->
-# Symmetry Check
-## [Demo](https://github.com/TelerikAcademy/CSharp-Part-2/tree/master/Topics/01.%20Arrays/demos/CheckSymmetry)
+<!-- # Symmetry Check
+## [Demo](https://github.com/TelerikAcademy/CSharp-Part-2/tree/master/Topics/01.%20Arrays/demos/CheckSymmetry) -->
 <!-- <img class="slide-image" showInPresentation="true" src="imgs/pic19.png" style="top:55%; left:32.5%; width:35%;border-radius:10px; border:2px solid white; z-index:-1" /> -->
 
 
@@ -217,8 +217,8 @@ for (int index = 0; index < array.Length; index++)
 
 
 <!-- attr: { class:'slide-section demo', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
-# Printing Arrays
-## [Demo](https://github.com/TelerikAcademy/CSharp-Part-2/tree/master/Topics/01.%20Arrays/demos/PrintArray)
+<!-- # Printing Arrays
+## [Demo](https://github.com/TelerikAcademy/CSharp-Part-2/tree/master/Topics/01.%20Arrays/demos/PrintArray) -->
 <!-- <img showInPresentation="true" class="slide-image" src="imgs/pic20.png" style="top:55%; left:30%; width:40%;border-radius:10px; border:2px solid white; z-index:-1" /> -->
 
 
@@ -309,8 +309,8 @@ foreach (string capital in capitals)
 
 
 <!-- attr: { class:'slide-section demo', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
-# Processing Arrays
-## [Demo](https://github.com/TelerikAcademy/CSharp-Part-2/tree/master/Topics/01.%20Arrays/demos/IteratingOverArrays)
+<!-- # Processing Arrays
+## [Demo](https://github.com/TelerikAcademy/CSharp-Part-2/tree/master/Topics/01.%20Arrays/demos/IteratingOverArrays) -->
 <!-- <img showInPresentation="true" class="slide-image" src="imgs/pic23.png" style="top:55%; left:30%; width:40%;border-radius:10px; border:2px solid white; z-index:-1" /> -->
 
 
@@ -384,8 +384,8 @@ list.Add(newValue);
 
 
 <!-- attr: { class:'slide-section demo', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
-# Lists &#60;T>
-## [Demo](https://github.com/TelerikAcademy/CSharp-Part-2/tree/master/Topics/01.%20Arrays/demos/Lists)
+<!-- # Lists &#60;T>
+## [Demo](https://github.com/TelerikAcademy/CSharp-Part-2/tree/master/Topics/01.%20Arrays/demos/Lists) -->
 
 
 
@@ -421,8 +421,8 @@ list.Add(newValue);
 
 
 <!-- attr: { class:'slide-section demo', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
-# Resizing Lists
-## [Demo](https://github.com/TelerikAcademy/CSharp-Part-2/tree/master/Topics/01.%20Arrays/demos/ResizingLists)
+<!-- # Resizing Lists
+## [Demo](https://github.com/TelerikAcademy/CSharp-Part-2/tree/master/Topics/01.%20Arrays/demos/ResizingLists) -->
 
 
 
@@ -461,18 +461,18 @@ list.Add(newValue);
 - <code>List&lt;T></code> holds resizable arrays
   - Good when we don't know the number of elements initially
 
-  <!-- attr: { class:'slide-section', showInPresentation: true, hasScriptWrapper: true, style:'font-size: 42px' } -->
-  <!-- # C# Arrays
-  ## Questions? -->
+<!-- attr: { class:'slide-section', showInPresentation: true, hasScriptWrapper: true, style:'font-size: 42px' } -->
+<!-- # C# Arrays
+## Questions? -->
 
-  <!-- attr: { showInPresentation: true, hasScriptWrapper: true} -->
-  # Free Training @ Telerik Academy
+<!-- attr: { showInPresentation: true, hasScriptWrapper: true} -->
+# Free Training @ Telerik Academy
 
-  - Fundamentals of C# Programming Track of Courses
-      - [csharpadvanced](http://academy.telerik.com/student-courses/programming/csharp-programming-part-2/about)
-    - Telerik Software Academy
-      - [telerikacademy.com](https://telerikacademy.com)
-    - Telerik Academy @ Facebook
-      - [facebook.com/TelerikAcademy](https://facebook.com/TelerikAcademy)
-    - Telerik Academy Learning System
-      - [telerikacademy.com](https://telerikacademy.com)
+- Fundamentals of C# Programming Track of Courses
+  - [csharpadvanced](http://academy.telerik.com/student-courses/programming/csharp-programming-part-2/about)
+- Telerik Software Academy
+  - [telerikacademy.com](https://telerikacademy.com)
+- Telerik Academy @ Facebook
+  - [facebook.com/TelerikAcademy](https://facebook.com/TelerikAcademy)
+- Telerik Academy Learning System
+  - [telerikacademy.com](https://telerikacademy.com)
