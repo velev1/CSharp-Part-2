@@ -3,8 +3,7 @@
 # Multidimensional Arrays
 ## Processing Matrices and Multidimensional Tables
 <!-- <img class="slide-image" showInPresentation="true" src="imgs/pic00.png" style="top:52.89%; left:66.12%; width:36.44%; z-index:-1" /> -->
-<!-- <img class="slide-image" showInPresentation="true" src="imgs/pic01.png" style="top:5%; left:5%; width:16.03%; z-index:-1" /> -->
-<!-- <img class="slide-image" showInPresentation="true" src="imgs/pic03.png" style="top:40%; left:0%; width:26.89%; z-index:-1" /> -->
+<!-- <img class="slide-image" showInPresentation="true" src="imgs/pic03.png" style="top:35%; left:0%; width:26.89%; z-index:-1" /> -->
 
 <div class="signature">
 	<p class="signature-course">C# Advanced</p>
@@ -12,34 +11,25 @@
 	<a href="https://telerikacademy.com" class="signature-link">https://telerikacademy.com</a>
 </div>
 
-
-
-
 <!-- section start -->
-<!-- attr: {   showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
+<!-- attr: { showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
 # Table of Contents
-- [Matrices and Multidimensional Arrays](#/multidimensional-arrays)
-  - [Declaring](#multidimensional-arrays-declaring)
-  - [Usage](#multidimensional-arrays-usage)
-- [Jagged Arrays](#jagged-arrays)
-  - [Declaring](#jagged-arrays-declaring)
-  - [Usage](#jagged-arrays-usage)
-- [The **Array** Class](#array-class)
-  - [Sorting](#array-class-sorting)
-  - [Binary Search](#array-class-binarysearch)
+- [Matrices and Multidimensional Arrays](#multidimensional)
+  - [Declaring](#delaring)
+  - [Usage](#usage)
+- [Jagged Arrays](#jagged)
+  - [Declaring](#jaggeddeclare)
+  - [Usage](#jaggedusage)
+- [The **Array** Class](#arrayclass)
+  - [Sorting](#sorting)
+  - [Binary Search](#binarysearch)
 - [Advices](#advices)
 
-
-
-
-
-
 <!-- section start -->
-<!-- attr: { id:'multidimensional-arrays', class:'slide-section', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
-# <a id="multidimensional-arrays"></a> Multidimensional Arrays
+<!-- attr: { id:'multidimensional', class:'slide-section', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
+# <a id="multidimensional"></a> Multidimensional Arrays
 ## Using Array of Arrays, Matrices and Cubes
 <img class="slide-image" src="imgs/pic06.png" style="top:55%; left:34%; width:30%; z-index:-1" />
-
 
 <!-- attr: {  showInPresentation:'True', hasScriptWrapper:'False', style:'font-size: 42px' } -->
 # What is a Multidimensional Array?
@@ -49,28 +39,29 @@
 - _Example_ of matrix of integers with 2 rows and 4 columns:
 <!-- <img class="slide-image" showInPresentation="true" src="imgs/exampleArray.png" style="top:60%; left:30%; width:40%; z-index:-1" /> -->
 
-<!-- attr: { id:'multidimensional-arrays-declaring',  showInPresentation:'True', hasScriptWrapper:'False', style:'font-size: 42px' } -->
-# <a id="multidimensional-arrays-declaring"></a> Declaring and Creating Multidimensional Arrays
+<!-- attr: { id:'delaring',  showInPresentation:'True', hasScriptWrapper:'False', style:'font-size: 42px' } -->
+# <a id="delaring"></a> Declaring and Creating Multidimensional Arrays
 - Declaring multidimensional arrays:
+
 ```cs
 int[,] intMatrix;
 float[,] floatMatrix;
 string[,,] strCube;
 ```
 - Creating a multidimensional array
-  - Use the **new** keyword
+  - Use the `new` keyword
   - Must specify the size of each dimension
+
 ```cs
 int[,] intMatrix = new int[3, 4];
 float[,] floatMatrix = new float[8, 2];
 string[,,] stringCube = new string[5, 5, 5];
 ```
 
-
-
-<!-- attr: { id:'multidimensional-arrays-usage',  showInPresentation:'True', hasScriptWrapper:'False', style:'font-size: 42px' } -->
-# <a id="multidimensional-arrays-usage"></a> Initializing Multidimensional Arrays with Values
+<!-- attr: { id:'usage',  showInPresentation:'True', hasScriptWrapper:'False', style:'font-size: 42px' } -->
+# <a id="usage"></a> Initializing Multidimensional Arrays with Values
 - Creating and initializing with values multidimensional array:
+
 ```cs
 int[,] matrix =
 {
@@ -87,15 +78,18 @@ int[,] matrix =
 <!-- attr: { showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
 # Accessing The Elements of Multidimensional Arrays
 - Accessing N-dimensional array element:
+
 ```cs
 nDimensionalArray[index1, … , indexn]
 ```
 - Getting element value example:
+
 ```cs
 int[,] array = {{1, 2}, {3, 4}}
 int element11 = array[1, 1]; // element11 = 4
 ```
 - Setting element value example:
+
 ```cs
 int[,] array = new int[3, 4];
 for (int row = 0; row < array.GetLength(0); row++)
@@ -113,7 +107,7 @@ int columns = int.Parse(Console.ReadLine());
 
 int[,] matrix = new int[rows, columns];
 
-for (int row = 0; row  <rows; row++)
+for (int row = 0; row < rows; row++)
 {
     for (int column = 0; column < cols; column++)
     {
@@ -122,8 +116,6 @@ for (int row = 0; row  <rows; row++)
     }
 }
 ```
-
-
 
 <!-- attr: {   showInPresentation:'True', hasScriptWrapper:'False', style:'font-size: 42px' } -->
 # Printing Matrix – _Example_
@@ -144,8 +136,8 @@ for (int row = 0; row < matrix.GetLength(0); row++)
 
 
 <!-- attr: {  class:'slide-section demo', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
-# Reading and Printing Matrices
-## [Live Demo](https://github.com/TelerikAcademy/CSharp-Part-2/tree/master/Topics/02.%20Multidimensional%20Arrays/demos/ReadWriteMatrix)
+<!-- # Reading and Printing Matrices
+## [Demo](https://github.com/TelerikAcademy/CSharp-Part-2/tree/master/Topics/02.%20Multidimensional%20Arrays/demos/ReadWriteMatrix) -->
 <!-- <img class="slide-image" showInPresentation="true" src="imgs/pic07.png" style="top:55%; left:35%; width:30%; z-index:-1" /> -->
 
 
@@ -173,47 +165,48 @@ for (int row = 0; row < matrix.GetLength(0) - 1; row++)
 }
 ```
 
+<div class="balloon" style="position: absolute; top: 42%; left:20%; width:3%; height: 7%; opacity:0.3;"></div>
+
 
 
 <!-- attr: {  class:'slide-section demo', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
-# Maximal Platform
-## [Live Demo](https://github.com/TelerikAcademy/CSharp-Part-2/tree/master/Topics/02.%20Multidimensional%20Arrays/demos/MaxPlatform)
+<!-- # Maximal Platform
+## [Demo](https://github.com/TelerikAcademy/CSharp-Part-2/tree/master/Topics/02.%20Multidimensional%20Arrays/demos/MaxPlatform) -->
 <!-- <img class="slide-image" showInPresentation="true" src="imgs/pic08.png" style="top:55%; left:35%; width:30%; z-index:-1" /> -->
 
 
 
 
 <!-- section start -->
-<!-- attr: { id:'jagged-arrays', class:'slide-section', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
-<!-- # <a id="jagged-arrays"></a> Jagged Arrays -->
+<!-- attr: { id:'jagged', class:'slide-section', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
+<!-- # <a id="jagged"></a> Jagged Arrays -->
 ## What are Jagged Arrays and How to Use Them?
 <!-- <img class="slide-image" showInPresentation="true" src="imgs/pic09.png" style="top:54%; left:62%; width:30%; z-index:-1" /> -->
 <img  class="slide-image" src="imgs/pic10.png" style="top:55%; left:13.02%; width:44.15%; z-index:-1" />
 
 
-<!-- attr: { id:'jagged-arrays-declaring',  showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
-# <a id="jagged-arrays-declaring"></a> Jagged Arrays
+<!-- attr: { id:'jaggeddeclare',  showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
+# <a id="jaggeddeclare"></a> Jagged Arrays
 - Jagged arrays are like multidimensional arrays
   - But each dimension has different size
   - A jagged array is array of arrays
   - Each of the arrays has it's own length
 - How to create jagged array?
-<div style="position: absolute; top: 60%; left: 0%; width: 60%">
+
 ```cs
 int[][] jagged = new int[3][];
 jagged[0] = new int[3];
 jagged[1] = new int[2];
 jagged[2] = new int[5];
 ```
-</div>
 
-<!-- <img class="slide-image" showInPresentation="true" src="imgs/pic11.png" style="top:29.48%; left:75.79%; width:27.16%; z-index: 1" /> -->
+<!-- <img class="slide-image" showInPresentation="true" src="imgs/pic11.png" style="top:70%; left:20%; width:30%; z-index: 1" /> -->
 
 
 <!-- attr: {   showInPresentation:'True', hasScriptWrapper:'False', style:'font-size: 42px' } -->
 # Initialization of Jagged Arrays
 - When creating jagged arrays
-  - Initially the array is created of **null** arrays
+  - Initially the array is created of `null` arrays
     - all .NET arrays are reference types - [**read more**](https://msdn.microsoft.com/en-us/library/bb985948.aspx)
   - Need to initialize each one of them
 
@@ -236,15 +229,15 @@ for (int i = 0; i < n; i++)
 <!-- <img class="slide-image" showInPresentation="true" src="imgs/pic13.png" style="top:55%; left:25%; width:15%; z-index:-1" /> -->
 
 
-<!-- attr: { id:'jagged-arrays-usage',  showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
-# <a id="jagged-arrays-usage"></a> _Example_ of Jagged Arrays
-- Check a set of numbers and group them by their remainder when divided by 3 (0, 1 and 2)
-- _Example_: 0, 1, 4, 113, 55, 3, 1, 2, 66, 557, 124, 2
+<!-- attr: { id:'jaggedusage',  showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
+# <a id="jaggedusage"></a> _Example_ of Jagged Arrays
+- Check a set of numbers and group them by their remainder when divided by `3` (`0, 1 and 2`)
+- _Example_: `0, 1, 4, 113, 55, 3, 1, 2, 66, 557, 124, 2`
 - First we need to count the numbers
   - Done with an iteration
 - Allocate jagged arrays with the appropriate size
 - Each number is added into its jagged array
-<!-- <img class="slide-image" showInPresentation="true" src="imgs/pic14.png" style="top:65%; left:66.93%; width:33.91%; z-index:-1" /> -->
+<!-- <img class="slide-image" showInPresentation="true" src="imgs/pic14.png" style="top:75%; left:25%; width:25%; z-index:-1" /> -->
 
 
 <!-- attr: {   showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
@@ -274,80 +267,82 @@ foreach (var number in numbers)
 }
 ```
 
-<!-- <img class="slide-image" showInPresentation="true" src="imgs/pic15.png" style="top:30%; left:65.50%; width:33.91%; z-index: 1" /> -->
+<!-- <img class="slide-image" showInPresentation="true" src="imgs/pic15.png" style="top:30%; left:62%; width:30%; z-index: 1" /> -->
 
 
 <!-- attr: {  class:'slide-section demo', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
-<!-- # Remainders of 3 -->
-<!-- ## [Live Demo](https://github.com/TelerikAcademy/CSharp-Part-2/tree/master/Topics/02.%20Multidimensional%20Arrays/demos/PascalTriangle) -->
-<!-- <img class="slide-image" showInPresentation="true" src="imgs/pic16.png" style="top:55%; left:25%; width:50%; z-index:-1" /> -->
+<!-- # Pascal's Triangle
+## [Demo](https://github.com/TelerikAcademy/CSharp-Part-2/tree/master/Topics/02.%20Multidimensional%20Arrays/demos/PascalTriangle) -->
+<!-- <img class="slide-image" showInPresentation="true" src="imgs/pascal1.gif" style="top:55%; left:30%; width:40%; z-index:-1" /> -->
 
+
+<!-- attr: {  class:'slide-section demo', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
+<!-- # Matrix Multiplication
+## [Demo](https://github.com/TelerikAcademy/CSharp-Part-2/tree/master/Topics/02.%20Multidimensional%20Arrays/demos/Matrix%20Multiplication) -->
+<!-- <img class="slide-image" showInPresentation="true" src="imgs/pic12.png" style="top:55%; left:30%; width:40%; z-index:-1" /> -->
 
 
 
 <!-- section start -->
-<!-- attr: { id:'array-class', class:'slide-section', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
-<!-- # Array Class -->
-<!-- ## What Can We Use? -->
+<!-- attr: { id:'arrayclass', class:'slide-section', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
+<!-- # Array Class
+## What Can We Use? -->
 <!-- <img class="slide-image" showInPresentation="true" src="imgs/pic17.png" style="top:55%; left:42.5%; width:15%; z-index:-1" /> -->
 
 
 <!-- attr: {   showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
 # The Array Class
-- The **System.Array** class
+- The `System.Array` class
   - Parent of all arrays
   - All arrays inherit from it
   - All arrays have the same:
     - Basic functionality
     - Basic properties
-    - E.g. **Length** property
+    - E.g. `Length` property
 
-<!-- <img class="slide-image" showInPresentation="true" src="imgs/pic18.png" style="top:15.87%; left:74.85%; width:25.81%; z-index:-1" /> -->
+<!-- <img class="slide-image" showInPresentation="true" src="imgs/pic18.png" style="top:15.87%; left:65%; width:25.81%; z-index:-1" /> -->
 
 
 <!-- attr: {   showInPresentation:'True', hasScriptWrapper:'False', style:'font-size: 42px' } -->
 # Methods of Array
-- Important methods and properties of **System.Array**
-  - **Rank** – number of dimensions
-  - **Length** – number of all elements through all dimensions
-  - **GetLength(index)** – returns the number of elements in the specified dimension
+- Important methods and properties of `System.Array`
+  - `Rank` – number of dimensions
+  - `Length` – number of all elements through all dimensions
+  - `GetLength(index)` – returns the number of elements in the specified dimension
     - Dimensions are numbered from 0
-    - **_Example_**: for a 2D array, GetLength(0) returns the rows count and GetLength(1) returns the columns count
+    - _Example_: for a 2D array, GetLength(0) returns the rows count and GetLength(1) returns the columns count
 
 
 <!-- attr: {   showInPresentation:'True', hasScriptWrapper:'False', style:'font-size: 42px' } -->
 <!-- # Methods of Array -->
-- **GetEnumerator()** – returns **IEnumerator** for the array elements
-- **BinarySearch(…)** – searches for a given element into a sorted array (uses binary search)
-- **IndexOf(…)** – searches for a given element and returns the index of the first occurrence (if any)
-- **LastIndexOf(…)** – searches for a given element and returns the last occurrence index
-- **Copy(src,** **dest,** **len)** – copies array elements; has many overloads
+- `GetEnumerator()` – returns `IEnumerator` for the array elements
+- `BinarySearch(…)` – searches for a given element into a sorted array (uses binary search)
+- `IndexOf(…)` – searches for a given element and returns the index of the first occurrence (if any)
+- `LastIndexOf(…)` – searches for a given element and returns the last occurrence index
+- `Copy(src, dest, len)` – copies array elements; has many overloads
 
 
 <!-- attr: {   showInPresentation:'True', hasScriptWrapper:'False', style:'font-size: 42px' } -->
 <!-- # Methods of Array -->
-- **Reverse(…)** – inverts the arrays elements upside down
-- **Clear(…)** – assigns value 0 (null) for each elements
-- **CreateInstance(…)** – creates an array
+- `Reverse(…)` – inverts the arrays elements upside down
+- `Clear(…)` – assigns value 0 (null) for each elements
+- `CreateInstance(…)` – creates an array
   - Accepts as parameters the number of dimensions, start index and number of elements
-- Implements **ICloneable**, **IList**, **ICollection** and **IEnumerable** interfaces
-
-
-
+- Implements `ICloneable`, `IList`, `ICollection` and `IEnumerable` interfaces
 
 <!-- section start -->
-<!-- attr: { id:'array-class-sorting', class:'slide-section', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
-<!-- # <a id="array-class-sorting"></a> Sorting Arrays -->
+<!-- attr: { id:'sorting', class:'slide-section', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
+<!-- # <a id="sorting"></a> Sorting Arrays -->
 <!-- <img class="slide-image" showInPresentation="true" src="imgs/pic19.png" style="top:40%; left:30%; width:40%; z-index:-1" /> -->
 
 
 <!-- attr: { showInPresentation:'True', hasScriptWrapper:'False', style:'font-size: 42px' } -->
 # Sorting Arrays
-- Sorting in .NET is usually done with **System.Array.Sort()**
-  - **Sort(Array)** – sorts array elements
-    - Elements should implement **IComparable**
-  - **Sort(Array,** **IComparer)** – sorts array elements by given external **IComparer**
-  - **Sort(Array,** **Comparison<T>)** – sorts array elements by given comparison operation
+- Sorting in .NET is usually done with `System.Array.Sort()`
+  - `Sort(Array)` – sorts array elements
+    - Elements should implement `IComparable`
+  - `Sort(Array, IComparer)` – sorts array elements by given external `IComparer`
+  - <code>Sort(Array, Comparison&lt;T>)</code> – sorts array elements by given comparison operation
     - Can be used with lambda expression
 
 
@@ -377,7 +372,7 @@ static void Main()
 
 
 <!-- attr: { showInPresentation:'True', hasScriptWrapper:'False', style:'font-size: 42px' } -->
-# Sorting with IComparer<T> and Lambda Expressions – _Example_
+# Sorting with IComparer&lt;T> and Lambda Expressions – _Example_
 
 ```cs
 class Student
@@ -403,8 +398,8 @@ Array.Sort(students, (x, y) => x.Name.CompareTo(y.Name));
 
 
 <!-- attr: {  class:'slide-section demo', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
-<!-- # Sorting with **IComparer<T>** and Lambda Expressions -->
-## [Live Demo](https://github.com/TelerikAcademy/CSharp-Part-2/tree/master/Topics/02.%20Multidimensional%20Arrays/demos/SortingIComparer)
+<!-- # Sorting with IComparer&lt;T> and Lambda Expressions
+## [Demo](https://github.com/TelerikAcademy/CSharp-Part-2/tree/master/Topics/02.%20Multidimensional%20Arrays/demos/SortingIComparer) -->
 <!-- <img class="slide-image" showInPresentation="true" src="imgs/pic21.png" style="top:65%; left:25%; width:14.5%; z-index:-1" /> -->
 <!-- <img class="slide-image" showInPresentation="true" src="imgs/pic22.png" style="top:65%; left:53.83%; width:23%; z-index:-1" /> -->
 
@@ -412,23 +407,23 @@ Array.Sort(students, (x, y) => x.Name.CompareTo(y.Name));
 
 
 <!-- section start -->
-<!-- attr: { id:'array-class-binarysearch', class:'slide-section', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
-<!-- # <a id="array-class-binarysearch"></a> Binary Search -->
+<!-- attr: { id:'binarysearch', class:'slide-section', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
+<!-- # <a id="binarysearch"></a> Binary Search -->
 <!-- <img class="slide-image" showInPresentation="true" src="imgs/pic23.png" style="top:45%; left:30%; width:40%; z-index:-1" /> -->
 
 
 <!-- attr: { showInPresentation:'True', hasScriptWrapper:'False', style:'font-size: 42px' } -->
 # Binary Search
 - Binary search is a fast method for searching for an element in a sorted array
-  - Has guaranteed running time of **O(log(n))** for searching among arrays of with **n** elements
-- Implemented in the **Array.BinarySearch( Array,** **object)** method
+  - Has guaranteed running time of `O(log(n))` for searching among arrays of with `n` elements
+- Implemented in the `Array.BinarySearch( Array, object)` method
   - Returns the index of the found object or a negative number when not found
 
 
 <!-- attr: { showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
 <!-- # Binary Search -->
-- All requirements of the **Sort()** method are applicable for **BinarySearch()**
-  -  Either all elements should implement **IComparable<T>** or instance of **IComparer<T>** should be passed
+- All requirements of the `Sort()` method are applicable for `BinarySearch()`
+  -  Either all elements should implement <code>IComparable&lt;T></code> or instance of <code>IComparer&lt;T></code> should be passed
 
 
 <!-- attr: { showInPresentation:'True', hasScriptWrapper:'False', style:'font-size: 42px' } -->
@@ -461,8 +456,8 @@ static void Main()
 
 
 <!-- attr: { class:'slide-section demo', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
-# Binary Search
-## [Live Demo](https://github.com/TelerikAcademy/CSharp-Part-2/tree/master/Topics/02.%20Multidimensional%20Arrays/demos/BinarySearch)
+<!-- # Binary Search
+## [Demo](https://github.com/TelerikAcademy/CSharp-Part-2/tree/master/Topics/02.%20Multidimensional%20Arrays/demos/BinarySearch) -->
 <!-- <img class="slide-image" showInPresentation="true" src="imgs/pic25.png" style="top:55%; left:15%; width:70%; z-index:-1" /> -->
 
 
@@ -470,21 +465,32 @@ static void Main()
 
 <!-- section start -->
 <!-- attr: {  class:'slide-section', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
-<!-- # Working with Arrays -->
-<!-- ## Best Practices -->
+<!-- # Working with Arrays
+ ## Best Practices -->
 <!-- <img class="slide-image" showInPresentation="true" src="imgs/pic26.png" style="top:52%; left:30%; width:40%; z-index:-1" /> -->
 
 
 <!-- attr: { id:'advices',  showInPresentation:'True', hasScriptWrapper:'False', style:'font-size: 42px' } -->
 # <a id="advices"></a> Advices for Working with Arrays
-- When a given method returns an array, it should return an empty array (array with 0 elements) instead of **null**
+- When a given method returns an array, it should return an empty array (array with 0 elements) instead of `null`
 - Arrays are passed by reference
   - To be sure that given method will not change the passed array, pass a copy of it
-- **Clone()** returns shallow copy of the array
+- `Clone()` returns shallow copy of the array
   - You should implement your own deep clone when working with **custom** reference types
 
 
-<!-- attr: { showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
-<!-- # Arrays -->
-<!-- <img class="slide-image" showInPresentation="true" src="https://raw.githubusercontent.com/TelerikAcademy/Common/master/revealjs-theme/css/imgs/questions-ninja.png" style="width:70%; top:15%; left:10%" /> -->
-<div style="position: absolute; bottom: 1em; right: 0; font-size: 26px;">http://academy.telerik.com</div>
+  <!-- attr: { class:'slide-section', showInPresentation: true, hasScriptWrapper: true, style:'font-size: 42px' } -->
+  <!-- # C# Arrays
+  ## Questions? -->
+
+  <!-- attr: { showInPresentation: true, hasScriptWrapper: true} -->
+  # Free Training @ Telerik Academy
+
+  - Fundamentals of C# Programming Track of Courses
+      - [csharpadvanced](http://academy.telerik.com/student-courses/programming/csharp-programming-part-2/about)
+    - Telerik Software Academy
+      - [telerikacademy.com](https://telerikacademy.com)
+    - Telerik Academy @ Facebook
+      - [facebook.com/TelerikAcademy](https://facebook.com/TelerikAcademy)
+    - Telerik Academy Learning System
+      - [telerikacademy.com](https://telerikacademy.com)
