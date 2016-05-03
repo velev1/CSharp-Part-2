@@ -114,7 +114,7 @@
 - Allocation
   - Time frame
     - May 2016
-  - Exam: 30-31 May 2016
+  - Exam: **May 31st** and **June 1st**
 
 <!-- <img class="slide-image" showInPresentation="true" src="imgs/pic27.png" style="top:57%; left:55%; width:35%; border-radius: 15px" /> -->
 
@@ -292,8 +292,8 @@
   - Find solutions for the exercises
   - Share source code / discuss ideas
 - The C# Advanced official web site:
-- [Forum thread](https://telerikacademy.com/Forum/Category/17/csharp-part-2)
-- [Course site](https://telerikacademy.com/Courses/Courses/Details/331)
+  - [Forum thread](https://telerikacademy.com/Forum/Category/17/csharp-part-2)
+  - [Course site](https://telerikacademy.com/Courses/Courses/Details/331)
 
 <!-- <img class="slide-image" showInPresentation="true" src="imgs/pic51.png" style="top:53%; left:64%; width:16.54%; z-index:-1" /> -->
 

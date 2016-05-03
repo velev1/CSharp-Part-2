@@ -1,5 +1,5 @@
 <!-- section start -->
-<!-- attr: { id:'', class:'slide-title', showInPresentation:'True', hasScriptWrapper:'True', style:'' } -->
+<!-- attr: { id:'', class:'slide-title', showInPresentation:true, hasScriptWrapper:true, style:'' } -->
 # Text Files
 ## Reading and Writing Text Files
 <img class="slide-image" src="\imgs\pic00.png" style="top:52.89%; left:69.53%; width:33.89%; z-index:-1" />
@@ -18,7 +18,7 @@
 
 
 <!-- section start -->
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'True', style:'' } -->
+<!-- attr: { id:'', class:'', showInPresentation:true, hasScriptWrapper:true, style:'' } -->
 # Table of Contents
 - What is Stream?
   - Stream Basics
@@ -34,13 +34,13 @@
 
 
 <!-- section start -->
-<!-- attr: { id:'', class:'slide-section', showInPresentation:'True', hasScriptWrapper:'True', style:'' } -->
+<!-- attr: { id:'', class:'slide-section', showInPresentation:true, hasScriptWrapper:true, style:'' } -->
 # What Is Stream?
 ## Streams Basic Concepts
 <img class="slide-image" src="\imgs\pic08.png" style="top:52%; left:35.79%; width:30%; z-index:-1" />
 
 
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'True', style:'' } -->
+<!-- attr: { id:'', class:'', showInPresentation:true, hasScriptWrapper:true, style:'' } -->
 # What is Stream?
 - Stream is the natural way to transfer data in the computer world
 - To read or write a file, we open a stream connected to the file and access the data through the stream
@@ -49,7 +49,7 @@
 <img class="slide-image" src="\imgs\pic11.png" style="top:47.60%; left:79.20%; width:25.00%; z-index:-1" />
 
 
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'' } -->
+<!-- attr: { id:'', class:'', showInPresentation:true, hasScriptWrapper:true, style:'' } -->
 # Streams Basics
 - Streams are used for reading and writing data into and from devices
 - Streams are **ordered sequences ofbytes**
@@ -62,12 +62,12 @@
 
 
 <!-- section start -->
-<!-- attr: { id:'', class:'slide-section', showInPresentation:'True', hasScriptWrapper:'True', style:'' } -->
+<!-- attr: { id:'', class:'slide-section', showInPresentation:true, hasScriptWrapper:true, style:'' } -->
 # Reading Text Files
 <img class="slide-image" src="\imgs\pic12.png" style="top:42%; left:37.16%; width:35.81%; z-index:-1" />
 
 
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'' } -->
+<!-- attr: { id:'', class:'', showInPresentation:true, hasScriptWrapper:true, style:'' } -->
 # The StreamReader Class
 - **System.IO.StreamReader**
   - The easiest way to read a text file
@@ -78,7 +78,7 @@
   - Works like **Console.Read()** / **ReadLine()** but over text files
 
 
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'' } -->
+<!-- attr: { id:'', class:'', showInPresentation:true, hasScriptWrapper:true, style:'' } -->
 # StreamReader Methods
 - **newStreamReader(fileName)**
   - Constructor for creating reader from given file
@@ -91,7 +91,7 @@
   - Closes the stream reader
 
 
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'' } -->
+<!-- attr: { id:'', class:'', showInPresentation:true, hasScriptWrapper:true, style:'' } -->
 # Reading a Text File
 - Reading a text file and printing its content to the console:
 
@@ -111,7 +111,7 @@ StreamReader reader = new StreamReader(
 reader.Close();
 ```
 
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'' } -->
+<!-- attr: { id:'', class:'', showInPresentation:true, hasScriptWrapper:true, style:'' } -->
 # Using StreamReader – Practices
 - The **StreamReader** instances should always be closed by calling the **Close()** method
   - Otherwise system resources can be lost
@@ -127,7 +127,7 @@ using (<stream object>)
   - It automatically calls the **Close()**after the **using** construction is completed
 
 
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'True', style:'' } -->
+<!-- attr: { id:'', class:'', showInPresentation:true, hasScriptWrapper:true, style:'' } -->
 # Reading a Text File – _Example_
 - Read and display a text file line by line:
 
@@ -151,7 +151,7 @@ using (reader)
 <img class="slide-image" src="\imgs\pic13.png" style="top:19.39%; left:88.89%; width:15.21%; z-index:0" />
 
 
-<!-- attr: { id:'', class:'slide-section demo', showInPresentation:'True', hasScriptWrapper:'True', style:'' } -->
+<!-- attr: { id:'', class:'slide-section demo', showInPresentation:true, hasScriptWrapper:true, style:'' } -->
 # Reading Text Files
 ## [Demo]()
 <img class="slide-image" src="\imgs\pic14.png" style="top:52%; left:36.85%; width:30%; z-index:-1" />
@@ -160,13 +160,13 @@ using (reader)
 
 
 <!-- section start -->
-<!-- attr: { id:'', class:'slide-section', showInPresentation:'True', hasScriptWrapper:'True', style:'' } -->
+<!-- attr: { id:'', class:'slide-section', showInPresentation:true, hasScriptWrapper:true, style:'' } -->
 # Writing Text Files
 ## Using the StreamWriter Class
 <img class="slide-image" src="\imgs\pic15.png" style="top:52%; left:27.82%; width:45%; z-index:-1" />
 
 
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'' } -->
+<!-- attr: { id:'', class:'', showInPresentation:true, hasScriptWrapper:true, style:'' } -->
 # The StreamWriter Class
 - **System.IO.StreamWriter**
   - Similar to **StreamReader**, but instead of reading, it provides writing functionality
@@ -188,7 +188,7 @@ StreamWriter streamWriter =
 
 
 
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'' } -->
+<!-- attr: { id:'', class:'', showInPresentation:true, hasScriptWrapper:true, style:'' } -->
 # StreamWriter Methods
 - **Write()**
   - Writes string or other object to the stream
@@ -201,7 +201,7 @@ StreamWriter streamWriter =
   - Flush the internal buffer after each writing
 
 
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'True', style:'' } -->
+<!-- attr: { id:'', class:'', showInPresentation:true, hasScriptWrapper:true, style:'' } -->
 # Writing to a Text File – _Example_
 - Create text file named "**numbers.txt**" and print in it the numbers from 1 to 20 (one per line):
 
@@ -220,7 +220,7 @@ using (streamWriter)
 <img class="slide-image" src="\imgs\pic16.png" style="top:26.01%; left:89.12%; width:16.53%; z-index:-1" />
 
 
-<!-- attr: { id:'', class:'slide-section demo', showInPresentation:'True', hasScriptWrapper:'True', style:'' } -->
+<!-- attr: { id:'', class:'slide-section demo', showInPresentation:true, hasScriptWrapper:true, style:'' } -->
 # Writing Text Files
 ## [Demo]()
 <img class="slide-image" src="\imgs\pic17.png" style="top:52%; left:30.75%; width:40%; z-index:-1" />
@@ -229,13 +229,13 @@ using (streamWriter)
 
 
 <!-- section start -->
-<!-- attr: { id:'', class:'slide-section', showInPresentation:'True', hasScriptWrapper:'True', style:'' } -->
+<!-- attr: { id:'', class:'slide-section', showInPresentation:true, hasScriptWrapper:true, style:'' } -->
 # Handling I/O Exceptions
 ## Introduction
 <img class="slide-image" src="\imgs\pic18.png" style="top:52%; left:29.71%; width:38%; z-index:-1" />
 
 
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'' } -->
+<!-- attr: { id:'', class:'', showInPresentation:true, hasScriptWrapper:true, style:'' } -->
 # What is Exception?
 - "An event that occurs during the execution of the program that disrupts the normal flow of instructions“ – definition by Google
   - Occurs when an operation can not be completed
@@ -244,7 +244,7 @@ using (streamWriter)
   - When an exception is thrown, all operations after it are not processed
 
 
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'True', style:'' } -->
+<!-- attr: { id:'', class:'', showInPresentation:true, hasScriptWrapper:true, style:'' } -->
 # How to Handle Exceptions?
 - Using **try{}**, **catch{}** and **finally{}** blocks:
 
@@ -264,7 +264,7 @@ finally
 <img class="slide-image" src="\imgs\pic19.png" style="top:20.28%; left:81.40%; width:22.04%; z-index:0" />
 
 
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'' } -->
+<!-- attr: { id:'', class:'', showInPresentation:true, hasScriptWrapper:true, style:'' } -->
 # Catching Exceptions
 - Catch block specifies the type of exceptions that is caught
   - If **catch** doesn’t specify its type, it catches all types of exceptions
@@ -284,7 +284,7 @@ catch (FileNotFoundException)
 
 
 
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'font-size: 40px;' } -->
+<!-- attr: { id:'', class:'', showInPresentation:true, hasScriptWrapper:true, style:'font-size: 40px;' } -->
 # Handling Exceptions When Opening a File
 
 ```cs
@@ -310,7 +310,7 @@ catch
 
 
 
-<!-- attr: { id:'', class:'slide-section demo', showInPresentation:'True', hasScriptWrapper:'True', style:'' } -->
+<!-- attr: { id:'', class:'slide-section demo', showInPresentation:true, hasScriptWrapper:true, style:'' } -->
 # Handling I/O Exceptions
 <img class="slide-image" src="\imgs\pic20.png" style="top:42%; left:9.36%; width:30%; z-index:-1" />
 
@@ -318,13 +318,13 @@ catch
 
 
 <!-- section start -->
-<!-- attr: { id:'', class:'slide-section', showInPresentation:'True', hasScriptWrapper:'True', style:'' } -->
+<!-- attr: { id:'', class:'slide-section', showInPresentation:true, hasScriptWrapper:true, style:'' } -->
 # Reading and Writing Text Files
 <img class="slide-image" src="\imgs\pic21.png" style="top:35%; left:9.36%; width:23%; z-index:-1" />
 <img class="slide-image" src="\imgs\pic22.png" style="top:42.31%; left:61.95%; width:38.57%; z-index:-1" />
 
 
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'True', style:'' } -->
+<!-- attr: { id:'', class:'', showInPresentation:true, hasScriptWrapper:true, style:'' } -->
 # Counting Word Occurrences – _Example_
 - Counting the number of occurrences of the word "**foundme**" in a text file:
 
@@ -345,13 +345,13 @@ Console.WriteLine(count);
 <div class="fragment balloon" style="top:68.30%; left:67.88%; width:31.44%">What is missing in this code?</div>
 
 
-<!-- attr: { id:'', class:'slide-section demo', showInPresentation:'True', hasScriptWrapper:'True', style:'' } -->
+<!-- attr: { id:'', class:'slide-section demo', showInPresentation:true, hasScriptWrapper:true, style:'' } -->
 # Counting Word Occurrences
 ## [Demo]()
 <img class="slide-image" src="\imgs\pic23.png" style="top:52%; left:21.89%; width:55%; z-index:-1" />
 
 
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'' } -->
+<!-- attr: { id:'', class:'', showInPresentation:true, hasScriptWrapper:true, style:'' } -->
 # Reading Subtitles – _Example_
 
 - We are given a standard movie subtitles file:
@@ -370,7 +370,7 @@ Console.WriteLine(count);
 .....
 ```
 
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'' } -->
+<!-- attr: { id:'', class:'', showInPresentation:true, hasScriptWrapper:true, style:'' } -->
 # Fixing Subtitles – _Example_
 - Read subtitles file and fix it’s timing:
 
@@ -394,7 +394,7 @@ static void Main()
 _(example continues)_
 
 
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'True', style:'' } -->
+<!-- attr: { id:'', class:'', showInPresentation:true, hasScriptWrapper:true, style:'' } -->
 # Fixing Subtitles – _Example_
 
 ```cs
@@ -423,13 +423,13 @@ _(example continues)_
 <div class="fragment balloon" style="top:40.33%; left:58.18%; width:43.20%">**FixLine(line)** perform fixes on the time offsets: multiplication or/and addition with constant</div>
 
 
-<!-- attr: { id:'', class:'slide-section demo', showInPresentation:'True', hasScriptWrapper:'True', style:'' } -->
+<!-- attr: { id:'', class:'slide-section demo', showInPresentation:true, hasScriptWrapper:true, style:'' } -->
 # Fixing Movie Subtitles
 ## [Demo]()
 <img class="slide-image" src="\imgs\pic24.png" style="top:52%; left:30%; width:42%; z-index:-1" />
 
 
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'' } -->
+<!-- attr: { id:'', class:'', showInPresentation:true, hasScriptWrapper:true, style:'' } -->
 # Summary
 - Streams are the main I/O mechanismsin .NET
 - The **StreamReader** class and **ReadLine()** method are used to read text files
@@ -439,13 +439,13 @@ _(example continues)_
   - Can be handled by **try-catch-finally** blocks
 
 
-<!-- attr: { id:'', class:'slide-section', showInPresentation:'True', hasScriptWrapper:'True', style:'' } -->
+<!-- attr: { id:'', class:'slide-section', showInPresentation:true, hasScriptWrapper:true, style:'' } -->
 # Text Files
 ## Questions?
 <img class="slide-image" src="\imgs\pic25.png" style="top:49.66%; left:4.68%; width:38.79%; z-index:-1" />
 
 
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'True', style:'' } -->
+<!-- attr: { id:'', class:'', showInPresentation:true, hasScriptWrapper:true, style:'' } -->
 # Free Trainings @ Telerik Academy
 - C# Programming @ Telerik Academy
     - [csharpfundamentals.telerik.com](csharpfundamentals.telerik.com)
