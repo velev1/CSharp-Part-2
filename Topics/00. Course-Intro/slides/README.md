@@ -27,7 +27,7 @@
 - [Learning Resources](#resources)
 
 <!-- <img class="slide-image" showInPresentation="true" src="imgs/pic07.png" style="bottom:10%; right:5%; width:23.35%;" /> -->
-<!-- <img class="slide-image" showInPresentation="true" src="imgs/pic08.png" style="top:12.34%; left:51.46%; width:45%; border-radius: 15px" /> -->
+<!-- <img class="slide-image" showInPresentation="true" src="imgs/pic08.png" style="top:15%; left:60%; width:30%; border-radius: 15px" /> -->
 <!-- <img class="slide-image" showInPresentation="true" src="imgs/pic09.png" style="bottom:10%; left:5%; width:60%; border-radius: 15px; box-shadow: -3px 3px 3px #cf3" /> -->
 
 
@@ -57,38 +57,38 @@
 <!-- attr: { id: 'topics', showInPresentation: true, hasScriptWrapper: true} -->
 # <a id="topics"></a>Course Topics
 
-- Arrays
+- **Arrays**
     - Working with arrays
     - Algorithms on sequences
-- Multidimensional Arrays
+- **Multidimensional Arrays**
     - Matrices, cubes etc.
     - Algorithms on matrices
-- Methods
+- **Methods**
     - Creating and calling methods
     - Return type, arguments, overloading
 
 <!-- attr: { showInPresentation: true, hasScriptWrapper: true} -->
 # Course Topics
-- Numeral Systems
+- **Numeral Systems**
     - Binary, decimal, hexadecimal
     - Representation of numbers
-- Creating and Using Objects
+- **Creating and Using Objects**
     - What is object?
     - Using .NET standard classes
-- Exception Handling
+- **Exception Handling**
     - What are exception?
     - Catching and throwing exceptions
 
 <!-- attr: { showInPresentation: true, hasScriptWrapper: true} -->
 # Course Topics
-- Strings and Text Processing
+- **Strings and Text Processing**
     - Working with strings
     - Building strings
-- Text Files
+- **Text Files**
     - Reading and writing text files
-- Practical Exam Preparation
+- **Practical Exam Preparation**
     - Solving the last year's problems
-- Practical Exam
+- **Practical Exam**
     - 5 problems for 6 hours
 
 
@@ -168,15 +168,13 @@
 <!-- attr: { showInPresentation: true, hasScriptWrapper: true} -->
 # Scoring System for C# Advanced
 
-- **Exam** – **65%**
+- **Practical Exam** – **75%**
      - Serves as primary **pass/fail** criteria
-- **Online test** - **10%**
-- **Homework** – **10%**
+- **Homework** – **15%**
 - **Attendance** in class – **5%**
-- **Forums** **activity** – bonus up to **5%**
 - **Helping** the **other** students – bonus up to **5%**
 
-<!-- <img class="slide-image" showInPresentation="true" src="imgs/pic36.png" style="top:25%; left:75%; width:22.11%; border-radius: 15px" /> -->
+<!-- <img class="slide-image" showInPresentation="true" src="imgs/pic36.png" style="top:55%; left:75%; width:15%; border-radius: 15px" /> -->
 
 
 <!-- attr: { showInPresentation: true} -->
@@ -240,10 +238,7 @@
 
 - Doing your homework is very important!
   - Programming can only be learned through **a lot of practice**!
-- After each lecture there are a few exercises
-  - Try to solve them in class
-  - The rest are your homework
-- Homework assignments due 1 week after each lecture – no excuses for being late
+- Homework assignments due ~1 week after each lecture – no excuses for being late
   - Deadlines are final & enforced by the system
 - Submit all your homework in our **judge system**
   - [bgcoder.com](http://bgcoder.com)
@@ -310,7 +305,7 @@
   - Microsoft Windows (8, 8.1 and 10 preferably)
   - Microsoft **Visual Studio 2015** or Visual Studio Community 2015 (free version of VS 2015)
     - Visual Studio 2013 is also OK
-    - Other IDEs (e.g. Visual Studio Code, MonoDevelop, Xamarin Studio) are OK, too
+    - Other IDEs (e.g. **Visual Studio Code**, **MonoDevelop**, **Xamarin Studio**) are OK, too
   - .NET Framework 4.5 / 4.6 (included in Visual Studio)
 
 
