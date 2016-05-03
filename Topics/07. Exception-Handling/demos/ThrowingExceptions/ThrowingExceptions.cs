@@ -6,9 +6,9 @@ class ThrowingExceptions
     {
         if (value < 0)
         {
-            throw new System.ArgumentOutOfRangeException(
-                "Sqrt for negative numbers is undefined!");
+            throw new ArgumentOutOfRangeException("Sqrt for negative numbers is undefined!");
         }
+
         return Math.Sqrt(value);
     }
 
@@ -20,7 +20,7 @@ class ThrowingExceptions
         }
         catch (ArgumentOutOfRangeException ex)
         {
-            Console.Error.WriteLine("Error: " + ex.Message);
+            Console.Error.WriteLine("Error: {0}", ex.Message);
             throw;
         }
     }

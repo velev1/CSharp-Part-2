@@ -7,7 +7,7 @@ class HandlingExceptions
         string s = Console.ReadLine();
         try
         {
-            Int32.Parse(s);
+            int.Parse(s);
             Console.WriteLine("You entered valid Int32 number {0}.", s);
         }
         catch (FormatException)
