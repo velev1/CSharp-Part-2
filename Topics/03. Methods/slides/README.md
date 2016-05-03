@@ -1,5 +1,5 @@
 <!-- section start -->
-<!-- attr: {  class:'slide-title', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
+<!-- attr: {  class:'slide-title', showInPresentation:true, hasScriptWrapper:true, style:'font-size: 42px' } -->
 # Methods
 ## Subroutines in Computer Programming
 
@@ -14,7 +14,7 @@
 
 
 <!-- section start -->
-<!-- attr: {  showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
+<!-- attr: {  showInPresentation:true, hasScriptWrapper:true, style:'font-size: 42px' } -->
 # Table of Contents
 - Using Methods
   - [What is a Method? Why to Use Methods?](#method)
@@ -27,7 +27,7 @@
 - [Best Practices](#best)
 
 
-<!-- attr: { id:'method',  showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
+<!-- attr: { id:'method',  showInPresentation:true, hasScriptWrapper:true, style:'font-size: 42px' } -->
 # <a id="method"></a> What is a Method?
 - A **method** is a kind of building block that solves a small problem
   - A piece of code that has a name and can be called from the other code
@@ -36,7 +36,7 @@
 - Methods are also known as **functions**, **procedures**, and **subroutines**
 
 
-<!-- attr: { id:'using',  showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
+<!-- attr: { id:'using',  showInPresentation:true, hasScriptWrapper:true, style:'font-size: 42px' } -->
 # <a id="using"></a> Why to Use Methods?
 - More manageable programming
   - Split large problems into small pieces
@@ -54,13 +54,13 @@
 
 
 <!-- section start -->
-<!-- attr: { id:'declare', class:'slide-section', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
+<!-- attr: { id:'declare', class:'slide-section', showInPresentation:true, hasScriptWrapper:true, style:'font-size: 42px' } -->
 <!-- # <a id="declare"></a> Declaring and Creating Methods
 <img  class="slide-image" showInPresentation="true" src="imgs/pic07.png" style="top:50%; left:58.95%; width:28%; border-radius:10px; border:2px solid white; z-index:-1" />
 <img  class="slide-image" showInPresentation="true" src="imgs/pic08.png" style="top:50%; left:18.71%; width:29.09%; border-radius:10px; border:2px solid white; z-index:-1" /> -->
 
 
-<!-- attr: {  showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
+<!-- attr: {  showInPresentation:true, hasScriptWrapper:true, style:'font-size: 42px' } -->
 # Declaring and Creating Methods
 ```cs
 static void PrintLogo() // PrintLogo is the method's name
@@ -75,7 +75,7 @@ static void PrintLogo() // PrintLogo is the method's name
 
 
 
-<!-- attr: {  showInPresentation:'True', hasScriptWrapper:'False', style:'font-size: 42px' } -->
+<!-- attr: {  showInPresentation:true, hasScriptWrapper:true, style:'font-size: 42px' } -->
 # Declaring and Creating Methods
 ```cs
 static void PrintLogo()
@@ -89,7 +89,7 @@ static void PrintLogo()
 - The keyword `void` means that the method does not return any result
 
 
-<!-- attr: {  showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
+<!-- attr: {  showInPresentation:true, hasScriptWrapper:true, style:'font-size: 42px' } -->
 # Declaring and Creating Methods
 
 ```cs
@@ -107,7 +107,7 @@ static void PrintLogo()
 
 
 
-<!-- attr: {  showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
+<!-- attr: {  showInPresentation:true, hasScriptWrapper:true, style:'font-size: 42px' } -->
 <!-- # Declaring and Creating Methods -->
 
 ```cs
@@ -135,12 +135,12 @@ class Method_Example_
 
 
 <!-- section start -->
-<!-- attr: { id:'calling', class:'slide-section', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
+<!-- attr: { id:'calling', class:'slide-section', showInPresentation:true, hasScriptWrapper:true, style:'font-size: 42px' } -->
 <!-- # <a id="calling"></a> Calling Methods
 <img class="slide-image" showInPresentation="true" src="imgs/pic12.png" style="top:45%; left:30%; width:35%; border-radius:10px; border:2px solid white; z-index:-1" /> -->
 
 
-<!-- attr: {  showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
+<!-- attr: {  showInPresentation:true, hasScriptWrapper:true, style:'font-size: 42px' } -->
 # Calling Methods
 - To call a method, simply use:
   - The method’s name
@@ -159,7 +159,7 @@ www.telerik.com
 
 
 
-<!-- attr: {  showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
+<!-- attr: {  showInPresentation:true, hasScriptWrapper:true, style:'font-size: 42px' } -->
 # Calling Methods
 - A method can be called from:
   - The `Main()` method
@@ -177,19 +177,19 @@ static void Main()
 
 
 
-<!-- attr: {  class:'slide-section demo', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
+<!-- attr: {  class:'slide-section demo', showInPresentation:true, hasScriptWrapper:true, style:'font-size: 42px' } -->
 <!-- # Declaring and Calling Methods
 ## [Demo](https://github.com/TelerikAcademy/CSharp-Part-2/tree/master/Topics/03.%20Methods/demos/PrintLogo) -->
 
 
 <!-- section start -->
-<!-- attr: { id:'parameters', class:'slide-section', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
+<!-- attr: { id:'parameters', class:'slide-section', showInPresentation:true, hasScriptWrapper:true, style:'font-size: 42px' } -->
 <!-- # <a id="parameters"></a> Methods with Parameters
  ## Passing Parameters and Returning values -->
 <!-- <img class="slide-image" showInPresentation="true" src="imgs/pic17.png" style="top:52%; left:30%; width:40%; border-radius:2px; border:2px solid white; z-index:-1" /> -->
 
 
-<!-- attr: {  showInPresentation:'True', hasScriptWrapper:'False', style:'font-size: 42px' } -->
+<!-- attr: {  showInPresentation:true, hasScriptWrapper:true, style:'font-size: 42px' } -->
 # Method Parameters
 - To pass information to a method, you can use `parameters`(also known as `arguments`)
   - You can pass zero or several input values
@@ -199,7 +199,7 @@ static void Main()
 - Parameters can change the method behavior depending on the passed values
 
 
-<!-- attr: {  showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
+<!-- attr: {  showInPresentation:true, hasScriptWrapper:true, style:'font-size: 42px' } -->
 # Defining and Using Method Parameters
 ```cs
 static void PrintSign(int number)
@@ -220,7 +220,7 @@ static void PrintSign(int number)
 
 
 
-<!-- attr: {  showInPresentation:'True', hasScriptWrapper:'False', style:'font-size: 42px' } -->
+<!-- attr: {  showInPresentation:true, hasScriptWrapper:true, style:'font-size: 42px' } -->
 <!-- # Defining and Using Method Parameters -->
 - Methods can have as many parameters as needed:
 
@@ -241,7 +241,7 @@ static void PrintMax(float number1, number2)
 
 
 
-<!-- attr: { id:'passing',  showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
+<!-- attr: { id:'passing',  showInPresentation:true, hasScriptWrapper:true, style:'font-size: 42px' } -->
 # <a id="passing"></a> Calling Methods with Parameters
 - To call a method and pass values to its parameters:
   - Use the method’s name, followed by a list of expressions for each parameter
@@ -258,7 +258,7 @@ PrintMax(oldQuantity * 1.5, quantity * 2);
 
 
 
-<!-- attr: {  showInPresentation:'True', hasScriptWrapper:'False', style:'font-size: 42px' } -->
+<!-- attr: {  showInPresentation:true, hasScriptWrapper:true, style:'font-size: 42px' } -->
 # Calling Methods with Parameters
 - Expressions must be of the same type as method’s parameters (or compatible)
   - If the method requires a `float` expression, you can pass `int` instead
@@ -269,13 +269,13 @@ PrintMax(oldQuantity * 1.5, quantity * 2);
 
 
 <!-- section start -->
-<!-- attr: {  class:'slide-section', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
+<!-- attr: {  class:'slide-section', showInPresentation:true, hasScriptWrapper:true, style:'font-size: 42px' } -->
 <!-- # Using Methods With Parameters
 ## Examples -->
 
 
 
-<!-- attr: {  showInPresentation:'True', hasScriptWrapper:'False', style:'font-size: 42px' } -->
+<!-- attr: {  showInPresentation:true, hasScriptWrapper:true, style:'font-size: 42px' } -->
 <!-- # Methods Parameters – _Example_ -->
 
 ```cs
@@ -301,13 +301,13 @@ static void PrintMax(float number1, float number2)
 
 
 
-<!-- attr: {  class:'slide-section demo', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
+<!-- attr: {  class:'slide-section demo', showInPresentation:true, hasScriptWrapper:true, style:'font-size: 42px' } -->
 <!-- # Method Parameters
 ## [Demo](https://github.com/TelerikAcademy/CSharp-Part-2/tree/master/Topics/03.%20Methods/demos/MethodsParameters) -->
 
 
 
-<!-- attr: {  showInPresentation:'True', hasScriptWrapper:'False', style:'font-size: 42px' } -->
+<!-- attr: {  showInPresentation:true, hasScriptWrapper:true, style:'font-size: 42px' } -->
 # Months – _Example_
 - Display the period between two months in a user-friendly way
 
@@ -330,7 +330,7 @@ class MonthsExample
 
 _(the example continues)_
 
-<!-- attr: {  showInPresentation:'True', hasScriptWrapper:'False', style:'font-size: 42px' } -->
+<!-- attr: {  showInPresentation:true, hasScriptWrapper:true, style:'font-size: 42px' } -->
 # Months – _Example_
 
 ```cs
@@ -353,20 +353,20 @@ _(the example continues)_
 
 
 
-<!-- attr: {  class:'slide-section demo', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
+<!-- attr: {  class:'slide-section demo', showInPresentation:true, hasScriptWrapper:true, style:'font-size: 42px' } -->
 <!-- # Months
 ## [Demo](https://github.com/TelerikAcademy/CSharp-Part-2/tree/master/Topics/03.%20Methods/demos/Months) -->
 <!-- <img class="slide-image" showInPresentation="true" src="imgs/pic22.png" style="top:52%; left:34.5%; width:30%;border-radius:10px; border:2px solid white; z-index:-1" /> -->
 
 
-<!-- attr: {  showInPresentation:'True', hasScriptWrapper:'False', style:'font-size: 42px' } -->
+<!-- attr: {  showInPresentation:true, hasScriptWrapper:true, style:'font-size: 42px' } -->
 <!-- # Printing Triangle – _Example_ -->
 - Creating a program for printing triangles as shown below:
 
 <!-- <img class="slide-image" showInPresentation="true" src="imgs/num-arrows.png" style="top:25%; left:6%; width:80%; z-index:-1" /> -->
 
 
-<!-- attr: {  showInPresentation:'True', hasScriptWrapper:'False', style:'font-size: 42px' } -->
+<!-- attr: {  showInPresentation:true, hasScriptWrapper:true, style:'font-size: 42px' } -->
 # Printing Triangle – _Example_
 
 ```cs
@@ -391,7 +391,7 @@ static void PrintLine(int start, int end)
 
 
 
-<!-- attr: {  class:'slide-section demo', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
+<!-- attr: {  class:'slide-section demo', showInPresentation:true, hasScriptWrapper:true, style:'font-size: 42px' } -->
 <!-- # Printing Triangle
 ## [Demo](https://github.com/TelerikAcademy/CSharp-Part-2/tree/master/Topics/03.%20Methods/demos/Triangle) -->
 
@@ -399,7 +399,7 @@ static void PrintLine(int start, int end)
 <img showInPresentation="true" class="slide-image" src="imgs/pic24.png" style="top:55%; left:10%; width:35.63%; z-index:-1" /> -->
 
 
-<!-- attr: {  showInPresentation:'True', hasScriptWrapper:'False', style:'font-size: 42px' } -->
+<!-- attr: {  showInPresentation:true, hasScriptWrapper:true, style:'font-size: 42px' } -->
 # Optional Parameters
 - C# supports **optional parameters** since v4.0 with default values assigned at their declaration:
 ```cs
@@ -419,18 +419,18 @@ PrintNumbers();
 PrintNumbers(end: 40, start: 35);
 ```
 
-<!-- attr: {  class:'slide-section demo', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
+<!-- attr: {  class:'slide-section demo', showInPresentation:true, hasScriptWrapper:true, style:'font-size: 42px' } -->
 <!-- # Optional Parameters
 ## [Demo](https://github.com/TelerikAcademy/CSharp-Part-2/tree/master/Topics/03.%20Methods/demos/OptionalParameters) -->
 
 
 <!-- section start -->
-<!-- attr: { id:'return', class:'slide-section', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
+<!-- attr: { id:'return', class:'slide-section', showInPresentation:true, hasScriptWrapper:true, style:'font-size: 42px' } -->
 <!-- # <a id="return"></a> Returning Values From Methods
 <img class="slide-image" showInPresentation="true" src="imgs/pic26.png" style="top:44.08%; left:30%; width:40%;border-radius:10px; border:2px solid white; z-index:-1" /> -->
 
 
-<!-- attr: {  showInPresentation:'True', hasScriptWrapper:'False', style:'font-size: 42px' } -->
+<!-- attr: {  showInPresentation:true, hasScriptWrapper:true, style:'font-size: 42px' } -->
 # Returning Values From Methods
 - A method can `return` a value to its caller
 - Returned value:
@@ -453,7 +453,7 @@ PrintNumbers(end: 40, start: 35);
 
 
 
-<!-- attr: {  showInPresentation:'True', hasScriptWrapper:'False', style:'font-size: 40px' } -->
+<!-- attr: {  showInPresentation:true, hasScriptWrapper:true, style:'font-size: 40px' } -->
 # Defining Methods That Return a Value
 - Instead of `void`, specify the type of data to return
 ```cs
@@ -468,7 +468,7 @@ static int Multiply(int firstNum, int secondNum)
 - Use `return` keyword to return a result
 
 
-<!-- attr: {  showInPresentation:'True', hasScriptWrapper:'False', style:'font-size: 38px' } -->
+<!-- attr: {  showInPresentation:true, hasScriptWrapper:true, style:'font-size: 38px' } -->
 # The `return` Statement
 - The `return` statement:
   - Immediately terminates method’s execution
@@ -494,12 +494,12 @@ void SomeVoidMethod()
 
 
 <!-- section start -->
-<!-- attr: {  class:'slide-section', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
+<!-- attr: {  class:'slide-section', showInPresentation:true, hasScriptWrapper:true, style:'font-size: 42px' } -->
 <!-- # Returning Values From Methods
  ## _Examples_ -->
 
 
-<!-- attr: {  showInPresentation:'True', hasScriptWrapper:'False', style:'font-size: 42px' } -->
+<!-- attr: {  showInPresentation:true, hasScriptWrapper:true, style:'font-size: 42px' } -->
 # Temperature Conversion – _Example_
 - Convert temperature from Fahrenheit to Celsius:
 
@@ -521,7 +521,7 @@ static void Main()
 
 
 
-<!-- attr: {  class:'slide-section demo', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
+<!-- attr: {  class:'slide-section demo', showInPresentation:true, hasScriptWrapper:true, style:'font-size: 42px' } -->
 <!-- # Temperature Conversion
 ## [Demo](https://github.com/TelerikAcademy/CSharp-Part-2/tree/master/Topics/03.%20Methods/demos/Temperature) -->
 
@@ -530,7 +530,7 @@ static void Main()
 <img showInPresentation="true" class="slide-image" src="imgs/pic31.png" style="top:60%; left:43.75%; width:18%; z-index:-1" /> -->
 
 
-<!-- attr: {  showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
+<!-- attr: {  showInPresentation:true, hasScriptWrapper:true, style:'font-size: 42px' } -->
 # Positive Numbers – _Example_
 - Check if all numbers in a sequence are positive:
 
@@ -549,14 +549,14 @@ static bool ArePositive(int[] sequence)
 ```
 
 
-<!-- attr: {  class:'slide-section demo', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
+<!-- attr: {  class:'slide-section demo', showInPresentation:true, hasScriptWrapper:true, style:'font-size: 42px' } -->
 <!-- # Positive Numbers
 ## [Demo](https://github.com/TelerikAcademy/CSharp-Part-2/tree/master/Topics/03.%20Methods/demos/PositiveNumbers) -->
 
 <!-- <img class="slide-image" showInPresentation="true" src="imgs/pic33.png" style="top:55%; left:32.5%; width:35%; border-radius:10px; border:2px solid white; z-index:-1" /> -->
 
 
-<!-- attr: {  showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
+<!-- attr: {  showInPresentation:true, hasScriptWrapper:true, style:'font-size: 42px' } -->
 # Data Validation – _Example_
 
 - Validating input data:
@@ -580,7 +580,7 @@ class ValidatingDemo
 _(example continues)_
 
 
-<!-- attr: {  showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
+<!-- attr: {  showInPresentation:true, hasScriptWrapper:true, style:'font-size: 42px' } -->
 # Data Validation – _Example_
 
 ```cs
@@ -605,7 +605,7 @@ _(example continues)_
 ```
 
 
-<!-- attr: {  class:'slide-section demo', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
+<!-- attr: {  class:'slide-section demo', showInPresentation:true, hasScriptWrapper:true, style:'font-size: 42px' } -->
 <!-- # Data Validation
 ## [Demo](https://github.com/TelerikAcademy/CSharp-Part-2/tree/master/Topics/03.%20Methods/demos/DataValidation) -->
 
@@ -615,13 +615,13 @@ _(example continues)_
 
 
 <!-- section start -->
-<!-- attr: {  class:'slide-section', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
+<!-- attr: {  class:'slide-section', showInPresentation:true, hasScriptWrapper:true, style:'font-size: 42px' } -->
 <!-- # Overloading Methods
 ## Multiple Methods with the Same Name
 <img showInPresentation="true" class="slide-image" src="imgs/pic37.png" style="top:55%; left:25%; width:50%;border-radius:10px; border:2px solid white; z-index:-1" /> -->
 
 
-<!-- attr: {  showInPresentation:'True', hasScriptWrapper:'False', style:'font-size: 42px' } -->
+<!-- attr: {  showInPresentation:true, hasScriptWrapper:true, style:'font-size: 42px' } -->
 # Overloading Methods
 - What means "to **overload** a method name"?
   - Use the same method name for multiple methods with different **signature** (parameters)
@@ -644,13 +644,13 @@ static void Print(string text, int number)
 
 
 <!-- section start -->
-<!-- attr: {  class:'slide-section', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
+<!-- attr: {  class:'slide-section', showInPresentation:true, hasScriptWrapper:true, style:'font-size: 42px' } -->
 <!-- # Variable Number of Parameters
 
 <img showInPresentation="true" class="slide-image" src="imgs/pic38.png" style="top:50%; left:27%; width:45%;border-radius:10px; border:2px solid white; z-index:-1" /> -->
 
 
-<!-- attr: {  showInPresentation:'True', hasScriptWrapper:'False', style:'font-size: 42px' } -->
+<!-- attr: {  showInPresentation:true, hasScriptWrapper:true, style:'font-size: 42px' } -->
 # Variable Number of Parameters
 - A method in C# can take variable number of parameters by specifying the `params` keyword
 
@@ -673,7 +673,7 @@ static void Main()
 
 
 
-<!-- attr: { id:'best',  showInPresentation:'True', hasScriptWrapper:'False', style:'font-size: 42px' } -->
+<!-- attr: { id:'best',  showInPresentation:true, hasScriptWrapper:true, style:'font-size: 42px' } -->
 # <a id="best"></a> Methods – Best Practices
 - Each method should perform a single, well-defined task
 - Method’s name should describe that task in a clear and non-ambiguous way
@@ -684,7 +684,7 @@ static void Main()
   - Split them to several shorter methods
 
 
-<!-- attr: {  showInPresentation:'True', hasScriptWrapper:'False', style:'font-size: 42px' } -->
+<!-- attr: {  showInPresentation:true, hasScriptWrapper:true, style:'font-size: 42px' } -->
 # Summary
 - Break large programs into simple methods that solve small sub-problems
 - Methods consist of declaration and body

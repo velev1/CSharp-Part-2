@@ -1,5 +1,5 @@
 <!-- section start -->
-<!-- attr: { id:'', class:'slide-title', showInPresentation:'True', hasScriptWrapper:'True', style:'' } -->
+<!-- attr: { id:'', class:'slide-title', showInPresentation:true, hasScriptWrapper:true, style:'' } -->
 # Strings and Text Processing
 ## Processing and Manipulating Text Information
 <img class="slide-image" src="\imgs\pic00.png" style="top:53.38%; left:72.98%; width:30.48%; z-index:-1" />
@@ -16,7 +16,7 @@
 
 
 <!-- section start -->
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'True', style:'' } -->
+<!-- attr: { id:'', class:'', showInPresentation:true, hasScriptWrapper:true, style:'' } -->
 # Table of Contents
 - What is String?
 - Creating and Using Strings
@@ -28,7 +28,7 @@
 <img class="slide-image" src="\imgs\pic04.png" style="top:12.34%; left:97.19%; width:10.69%; z-index:-1" />
 
 
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'True', style:'' } -->
+<!-- attr: { id:'', class:'', showInPresentation:true, hasScriptWrapper:true, style:'' } -->
 <!-- # Table of Contents -->
 - Building and Modifying Strings
   - Why the **+** Operator is Slow?
@@ -44,12 +44,12 @@
 
 
 <!-- section start -->
-<!-- attr: { id:'', class:'slide-section', showInPresentation:'True', hasScriptWrapper:'True', style:'' } -->
+<!-- attr: { id:'', class:'slide-section', showInPresentation:true, hasScriptWrapper:true, style:'' } -->
 # What Is String?
 <img class="slide-image" src="\imgs\pic06.png" style="top:42%; left:26%; width:46.31%; z-index:-1" />
 
 
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'True', style:'' } -->
+<!-- attr: { id:'', class:'', showInPresentation:true, hasScriptWrapper:true, style:'' } -->
 # What Is String?
 - Strings are sequences of characters
 - Each character is a Unicode symbol
@@ -66,7 +66,7 @@ string s = "Hello, C#";
 <img class="slide-image" src="\imgs\pic07.png" style="top:41.21%; left:87.95%; width:11.68%; z-index:-1" />
 
 
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'' } -->
+<!-- attr: { id:'', class:'', showInPresentation:true, hasScriptWrapper:true, style:'' } -->
 # The System.String Class
 - Strings are represented by **System.String** objects in .NET Framework
   - String objects contain an **immutable** (read-only) sequence of characters
@@ -75,7 +75,7 @@ string s = "Hello, C#";
 - **System.String** is reference type
 
 
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'True', style:'' } -->
+<!-- attr: { id:'', class:'', showInPresentation:true, hasScriptWrapper:true, style:'' } -->
 <!-- # The System.String Class -->
 - String objects are like arrays of characters (**char[]**)
   - Have fixed length (**String.Length**)
@@ -97,7 +97,7 @@ int len = s.Length; // len = 6char ch = s[1]; // ch = 'e'
 <img class="slide-image" src="\imgs\pic08.png" style="top:63.50%; left:85.27%; width:29.64%; z-index:-1" />
 
 
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'True', style:'' } -->
+<!-- attr: { id:'', class:'', showInPresentation:true, hasScriptWrapper:true, style:'' } -->
 # Strings – First _Example_
 
 ```cs
@@ -117,19 +117,19 @@ static void Main()
 <img class="slide-image" src="\imgs\pic09.png" style="top:12.34%; left:90.16%; width:17.63%; z-index:-1" />
 
 
-<!-- attr: { id:'', class:'slide-section demo', showInPresentation:'True', hasScriptWrapper:'True', style:'' } -->
+<!-- attr: { id:'', class:'slide-section demo', showInPresentation:true, hasScriptWrapper:true, style:'' } -->
 # Strings – First Example
 ## [Demo]()
 <img class="slide-image" src="\imgs\pic10.png" style="top:52%; left:35%; width:30%; z-index:-1" />
 
 
-<!-- attr: { id:'', class:'slide-section', showInPresentation:'True', hasScriptWrapper:'True', style:'' } -->
+<!-- attr: { id:'', class:'slide-section', showInPresentation:true, hasScriptWrapper:true, style:'' } -->
 # Creating and Using Strings
 ## Declaring, Creating, Reading and Printing
 
 
 
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'True', style:'' } -->
+<!-- attr: { id:'', class:'', showInPresentation:true, hasScriptWrapper:true, style:'' } -->
 # Declaring Strings
 - Several ways of declaring string variables:
   - Using the C# keyword **string**
@@ -148,7 +148,7 @@ static void Main()
 <img class="slide-image" src="\imgs\pic12.png" style="top:37.02%; left:92.63%; width:12.34% ; z-index:-1" />
 
 
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'True', style:'' } -->
+<!-- attr: { id:'', class:'', showInPresentation:true, hasScriptWrapper:true, style:'' } -->
 # Creating Strings
 - Before initializing a string variable has **null** value
 - Strings can be initialized by:
@@ -158,7 +158,7 @@ static void Main()
 <img class="slide-image" src="\imgs\pic13.png" style="top:57.30%; left:16.84%; width:74.05%; height:20%; z-index:-1" />
 
 
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'' } -->
+<!-- attr: { id:'', class:'', showInPresentation:true, hasScriptWrapper:true, style:'' } -->
 <!-- # Creating Strings -->
 - Not initialized variables has value of **null**
 
@@ -184,7 +184,7 @@ string s2 = s;
 string s = 42.ToString();
 ```
 
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'' } -->
+<!-- attr: { id:'', class:'', showInPresentation:true, hasScriptWrapper:true, style:'' } -->
 # Reading and Printing Strings
 - Reading strings from the console
   - Use the method **Console.ReadLine()**
@@ -203,7 +203,7 @@ Console.Write("Hello, {0}! ", name);
 Console.WriteLine("Welcome to our party!");
 ```
 
-<!-- attr: { id:'', class:'slide-section demo', showInPresentation:'True', hasScriptWrapper:'True', style:'' } -->
+<!-- attr: { id:'', class:'slide-section demo', showInPresentation:true, hasScriptWrapper:true, style:'' } -->
 # Reading and Printing Strings
 ## [Demo]()
 <img class="slide-image" src="\imgs\pic14.png" style="top:8.59%; left:28.61%; width:50.44%; z-index:-1" />
@@ -212,14 +212,14 @@ Console.WriteLine("Welcome to our party!");
 
 
 <!-- section start -->
-<!-- attr: { id:'', class:'slide-section', showInPresentation:'True', hasScriptWrapper:'True', style:'' } -->
+<!-- attr: { id:'', class:'slide-section', showInPresentation:true, hasScriptWrapper:true, style:'' } -->
 # Manipulating Strings
 ## Comparing, Concatenating, Searching, Extracting Substrings, Splitting
 <img class="slide-image" src="\imgs\pic15.png" style="top:62%; left:28%; width:50%; z-index:-1" />
 <img class="slide-image" src="\imgs\pic16.png" style="top:55%; left:56.97%; width:35%; z-index:-1" />
 
 
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'' } -->
+<!-- attr: { id:'', class:'', showInPresentation:true, hasScriptWrapper:true, style:'' } -->
 # Comparing Strings
 - Several ways to compare two strings:
   - Dictionary-based string comparison
@@ -239,7 +239,7 @@ int result = string.Compare(str1, str2, true);
 string.Compare(str1, str2, false);
 ```
 
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'' } -->
+<!-- attr: { id:'', class:'', showInPresentation:true, hasScriptWrapper:true, style:'' } -->
 <!-- # Comparing Strings -->
 - Equality checking by operator **==**
   - Performs case-sensitive compare
@@ -263,7 +263,7 @@ if (str1.Equals(str2))
 
 
 
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'' } -->
+<!-- attr: { id:'', class:'', showInPresentation:true, hasScriptWrapper:true, style:'' } -->
 # Comparing Strings – _Example_
 - Finding the first string in a lexicographical order from a given list of strings:
 
@@ -284,13 +284,13 @@ Console.WriteLine("First town: {0}", firstTown);
 
 
 
-<!-- attr: { id:'', class:'slide-section demo', showInPresentation:'True', hasScriptWrapper:'True', style:'' } -->
+<!-- attr: { id:'', class:'slide-section demo', showInPresentation:true, hasScriptWrapper:true, style:'' } -->
 # Comparing Strings
 ## [Demo]()
 <img class="slide-image" src="\imgs\pic17.png" style="top:42%; left:17.09%; width:66.12%; height:50%; z-index:-1" />
 
 
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'' } -->
+<!-- attr: { id:'', class:'', showInPresentation:true, hasScriptWrapper:true, style:'' } -->
 # Concatenating Strings
 - There are two ways to combine strings:
   - Using the **Concat()** method
@@ -316,7 +316,7 @@ string s = name + " " + age; // &rarr; "Peter 22"
 
 
 
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'' } -->
+<!-- attr: { id:'', class:'', showInPresentation:true, hasScriptWrapper:true, style:'' } -->
 # Concatenating Strings – _Example_
 
 ```cs
@@ -339,13 +339,13 @@ Console.WriteLine(nameAndAge);
 
 
 
-<!-- attr: { id:'', class:'slide-section demo', showInPresentation:'True', hasScriptWrapper:'True', style:'' } -->
+<!-- attr: { id:'', class:'slide-section demo', showInPresentation:true, hasScriptWrapper:true, style:'' } -->
 # Concatenating Strings
 ## [Demo]()
 <img class="slide-image" src="\imgs\pic18.png" style="top:35.42%; left:35.09%; width:37.94%; z-index:-1" />
 
 
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'True', style:'' } -->
+<!-- attr: { id:'', class:'', showInPresentation:true, hasScriptWrapper:true, style:'' } -->
 # Searching in Strings
 - Finding a character or substring within given string
   - First occurrence
@@ -369,7 +369,7 @@ LastIndexOf(string)
 <img class="slide-image" src="\imgs\pic19.png" style="top:22.04%; left:84.21%; width:22.04%; z-index:0" />
 
 
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'' } -->
+<!-- attr: { id:'', class:'', showInPresentation:true, hasScriptWrapper:true, style:'' } -->
 # Searching in Strings – _Example_
 
 ```cs
@@ -386,13 +386,13 @@ index = str.IndexOf("r", 8); // index = 18
 
 
 
-<!-- attr: { id:'', class:'slide-section demo', showInPresentation:'True', hasScriptWrapper:'True', style:'' } -->
+<!-- attr: { id:'', class:'slide-section demo', showInPresentation:true, hasScriptWrapper:true, style:'' } -->
 # Searching in Strings
 ## [Demo]()
 <img class="slide-image" src="\imgs\pic20.png" style="top:27.33%; left:20.58%; width:25%; z-index:-1" />
 
 
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'' } -->
+<!-- attr: { id:'', class:'', showInPresentation:true, hasScriptWrapper:true, style:'' } -->
 # Extracting Substrings
 - Extracting substrings
   - **str.Substring(int startIndex, int length)**
@@ -413,13 +413,13 @@ string nameAndExtension = filename.Substring(8);
 
 
 
-<!-- attr: { id:'', class:'slide-section demo', showInPresentation:'True', hasScriptWrapper:'True', style:'' } -->
+<!-- attr: { id:'', class:'slide-section demo', showInPresentation:true, hasScriptWrapper:true, style:'' } -->
 # Extracting Substrings
 ## [Demo]()
 <img class="slide-image" src="\imgs\pic21.png" style="top:52%; left:27%; width:44.08%; z-index:-1" />
 
 
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'True', style:'' } -->
+<!-- attr: { id:'', class:'', showInPresentation:true, hasScriptWrapper:true, style:'' } -->
 # Splitting Strings
 - To split a string by given separator(s) use the following method:
 
@@ -444,7 +444,7 @@ foreach (string beer in beers)
 <img class="slide-image" src="\imgs\pic22.png" style="top:34.03%; left:87.26%; width:17.30%; z-index:-1" />
 
 
-<!-- attr: { id:'', class:'slide-section demo', showInPresentation:'True', hasScriptWrapper:'True', style:'' } -->
+<!-- attr: { id:'', class:'slide-section demo', showInPresentation:true, hasScriptWrapper:true, style:'' } -->
 # Splitting Strings
 ## [Demo]()
 <img class="slide-image" src="\imgs\pic23.png" style="top:4.40%; left:38.35%; width:31.62%; z-index:-1" />
@@ -453,12 +453,12 @@ foreach (string beer in beers)
 
 
 <!-- section start -->
-<!-- attr: { id:'', class:'slide-section', showInPresentation:'True', hasScriptWrapper:'True', style:'' } -->
+<!-- attr: { id:'', class:'slide-section', showInPresentation:true, hasScriptWrapper:true, style:'' } -->
 # Other String Operations
 <img class="slide-image" src="\imgs\pic24.png" style="top:42%; left:35%; width:28.65%; z-index:-1" />
 
 
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'font-size: 40px;' } -->
+<!-- attr: { id:'', class:'', showInPresentation:true, hasScriptWrapper:true, style:'font-size: 40px;' } -->
 # Replacing and Deleting Substrings
 - **Replace(string,** **string)** – replaces all occurrences of given string with another
   - The result is new string (strings are immutable)
@@ -479,7 +479,7 @@ string lowPrice = price.Remove(2, 3);
 
 
 
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'True', style:'' } -->
+<!-- attr: { id:'', class:'', showInPresentation:true, hasScriptWrapper:true, style:'' } -->
 # Changing Character Casing
 - Using method **ToLower()**
 
@@ -501,7 +501,7 @@ Console.WriteLine(upperAlpha);
 <img class="slide-image" src="\imgs\pic25.png" style="top:61.71%; left:29.94%; width:49.37%; z-index:-1" />
 
 
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'' } -->
+<!-- attr: { id:'', class:'', showInPresentation:true, hasScriptWrapper:true, style:'' } -->
 # Trimming White Space
 - Using **Trim()**
 
@@ -528,17 +528,17 @@ string clean = s.TrimStart(); // clean = "C#   "
 
 
 
-<!-- attr: { id:'', class:'slide-section demo', showInPresentation:'True', hasScriptWrapper:'True', style:'' } -->
+<!-- attr: { id:'', class:'slide-section demo', showInPresentation:true, hasScriptWrapper:true, style:'' } -->
 # Other String Operations
 ## [Demo]()
 
 <!-- section start -->
-<!-- attr: { id:'', class:'slide-section', showInPresentation:'True', hasScriptWrapper:'True', style:'' } -->
+<!-- attr: { id:'', class:'slide-section', showInPresentation:true, hasScriptWrapper:true, style:'' } -->
 # Building and Modifying Strings
 ## Using the StringBuilder Class
 
 
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'True', style:'' } -->
+<!-- attr: { id:'', class:'', showInPresentation:true, hasScriptWrapper:true, style:'' } -->
 # Constructing Strings
 - Strings are **immutable**!
   - **Concat()**, **Replace()**, **Trim()**, ... return new string, do not modify the old one
@@ -558,13 +558,13 @@ public static string DupChar(char ch, int count)
 <div class="fragment balloon" style="top:72%; left:38%; width:35.26%">Very bad practice. Avoid this!</div>
 
 
-<!-- attr: { id:'', class:'slide-section demo', showInPresentation:'True', hasScriptWrapper:'True', style:'' } -->
+<!-- attr: { id:'', class:'slide-section demo', showInPresentation:true, hasScriptWrapper:true, style:'' } -->
 # Slow Building Strings with +
 ## [Demo]()
 <img class="slide-image" src="\imgs\pic28.png" style="top:52%; left:32.88%; width:35%; z-index:-1" />
 
 
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'' } -->
+<!-- attr: { id:'', class:'', showInPresentation:true, hasScriptWrapper:true, style:'' } -->
 # StringBuilder: How It Works?
 
 <img class="slide-image" src="\imgs\builder-buffer.png" style="top:52%; left:10%; width:75%; z-index:-1" />
@@ -573,7 +573,7 @@ public static string DupChar(char ch, int count)
   - Most operations use the buffer memory and do not allocate new objects
 
 
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'font-size: 40px;' } -->
+<!-- attr: { id:'', class:'', showInPresentation:true, hasScriptWrapper:true, style:'font-size: 40px;' } -->
 # How the + Operator Performs String Concatenations?
 - Consider the following string concatenation:
 
@@ -594,7 +594,7 @@ string result = sb.ToString();
 
 
 
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'' } -->
+<!-- attr: { id:'', class:'', showInPresentation:true, hasScriptWrapper:true, style:'' } -->
 # The StringBuilder Class
 - **StringBuilder(int** **capacity)** constructor allocates in advance buffer of given size
   - By default 16 characters are allocated
@@ -603,7 +603,7 @@ string result = sb.ToString();
 - **Length** holds the length of the string in the buffer
 
 
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'' } -->
+<!-- attr: { id:'', class:'', showInPresentation:true, hasScriptWrapper:true, style:'' } -->
 <!-- # The StringBuilder Class -->
 - **Append(…)** appends a string or another object after the last character in the buffer
 - **Remove(int** **startIndex,** **int** **length)** removes the characters in given range
@@ -612,7 +612,7 @@ string result = sb.ToString();
 - **ToString()** converts the **StringBuilder** to **String**
 
 
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'' } -->
+<!-- attr: { id:'', class:'', showInPresentation:true, hasScriptWrapper:true, style:'' } -->
 # Changing the Contents of a String with StringBuilder
 - Use the **System.Text.StringBuilder** class for modifiable strings of characters:
 
@@ -628,7 +628,7 @@ public static string ReverseString(string s)
 
 - Use **StringBuilder** if you need to keep adding characters to a string
 
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'True', style:'' } -->
+<!-- attr: { id:'', class:'', showInPresentation:true, hasScriptWrapper:true, style:'' } -->
 # StringBuilder – Another _Example_
 - Extracting all capital letters from a string
 
@@ -650,7 +650,7 @@ public static string ExtractCapitals(string s)
 <img class="slide-image" src="\imgs\pic29.png" style="top:47.57%; left:82.00%; width:22.36%; z-index:0" />
 
 
-<!-- attr: { id:'', class:'slide-section demo', showInPresentation:'True', hasScriptWrapper:'True', style:'' } -->
+<!-- attr: { id:'', class:'slide-section demo', showInPresentation:true, hasScriptWrapper:true, style:'' } -->
 # Using StringBuilder
 ## [Demo]()
 <img class="slide-image" src="\imgs\pic30.png" style="top:52%; left:30.50%; width:40%; z-index:-1" />
@@ -659,7 +659,7 @@ public static string ExtractCapitals(string s)
 
 
 <!-- section start -->
-<!-- attr: { id:'', class:'slide-section', showInPresentation:'True', hasScriptWrapper:'True', style:'' } -->
+<!-- attr: { id:'', class:'slide-section', showInPresentation:true, hasScriptWrapper:true, style:'' } -->
 # Formatting Strings
 ## Using ToString() and String.Format()
 <img class="slide-image" src="\imgs\pic31.png" style="top:52%; left:10.29%; width:18.95%; z-index:-1" />
@@ -667,7 +667,7 @@ public static string ExtractCapitals(string s)
 <img class="slide-image" src="\imgs\pic33.png" style="top:52%; left:69.24%; width:31.74%; z-index:-1" />
 
 
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'' } -->
+<!-- attr: { id:'', class:'', showInPresentation:true, hasScriptWrapper:true, style:'' } -->
 <!-- # Method ToString() -->
 - All classes in C# have public virtual method **ToString()**
   - Returns a human-readable, culture-sensitive string representing the object
@@ -682,7 +682,7 @@ Console.WriteLine(s); // The number is 5
 
 
 
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'' } -->
+<!-- attr: { id:'', class:'', showInPresentation:true, hasScriptWrapper:true, style:'' } -->
 <!-- # Method ToString(format) -->
 - We can apply specific formatting when converting objects to string
   - **ToString(formatString)** method
@@ -702,7 +702,7 @@ s = d.ToString("P2"); // 37,50 %
 
 
 
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'' } -->
+<!-- attr: { id:'', class:'', showInPresentation:true, hasScriptWrapper:true, style:'' } -->
 # Formatting Strings
 - The formatting strings are different for the different types
 - Some formatting strings for numbers:
@@ -714,7 +714,7 @@ s = d.ToString("P2"); // 37,50 %
   - **F** – fixed point (for real numbers)
 
 
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'' } -->
+<!-- attr: { id:'', class:'', showInPresentation:true, hasScriptWrapper:true, style:'' } -->
 <!-- # Method String.Format() -->
 - Applies **templates** for formatting strings
   - Placeholders are used for dynamic text
@@ -735,7 +735,7 @@ Console.WriteLine(sentence2);
 
 
 
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'' } -->
+<!-- attr: { id:'', class:'', showInPresentation:true, hasScriptWrapper:true, style:'' } -->
 # Composite Formatting
 - The placeholders in the composite formatting strings are specified as follows:
 
@@ -758,7 +758,7 @@ Console.WriteLine("Dec {0:D} = Hex {1:X}",
 
 
 
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'' } -->
+<!-- attr: { id:'', class:'', showInPresentation:true, hasScriptWrapper:true, style:'' } -->
 # Formatting Dates
 - Dates have their own formatting strings
   - **d**, **dd** – day (with/without leading zero)
@@ -775,7 +775,7 @@ Console.WriteLine(
 
 
 
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'font-size: 40px;' } -->
+<!-- attr: { id:'', class:'', showInPresentation:true, hasScriptWrapper:true, style:'font-size: 40px;' } -->
 # Cultures
 - **Cultures** in .NET specify formatting / parsing settings specific to country / region / language
 - Printing the current culture:
@@ -799,7 +799,7 @@ CultureInfo culture = new CultureInfo("fr-CA");
 string s = number.ToString("C", culture); // 42,00 $
 ```
 
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'' } -->
+<!-- attr: { id:'', class:'', showInPresentation:true, hasScriptWrapper:true, style:'' } -->
 # Parsing Numbers and Dates
 - Parsing numbers and dates is culture-sensitive
 - Parsing a real number using "." as separator:
@@ -821,13 +821,13 @@ DateTime date = DateTime.ParseExact(dateStr,
 
 
 
-<!-- attr: { id:'', class:'slide-section demo', showInPresentation:'True', hasScriptWrapper:'True', style:'' } -->
+<!-- attr: { id:'', class:'slide-section demo', showInPresentation:true, hasScriptWrapper:true, style:'' } -->
 # Formatting Strings
 ## [Demo]()
 <img class="slide-image" src="\imgs\pic34.png" style="top:52%; left:24.21%; width:61.82%; z-index:-1" />
 
 
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'' } -->
+<!-- attr: { id:'', class:'', showInPresentation:true, hasScriptWrapper:true, style:'' } -->
 # Summary
 - Strings are immutable sequences of characters (instances of **System.String**)
   - Declared by the keyword **string** in C#
@@ -836,19 +836,19 @@ DateTime date = DateTime.ParseExact(dateStr,
   - **Length**, **this[]**, **Compare(str1,** **str2)**, **IndexOf(str)**, **LastIndexOf(str)**, **Substring(startIndex,** **length)**, **Replace(oldStr,** **newStr)**, **Remove(startIndex,** **length)**, **ToLower()**, **ToUpper()**, **Trim()**
 
 
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'True', style:'' } -->
+<!-- attr: { id:'', class:'', showInPresentation:true, hasScriptWrapper:true, style:'' } -->
 <!-- # Summary -->
 - Objects can be converted to strings and can be formatted in different styles (using **ToString()** method)
 - Strings can be constructed by using placeholders and formatting strings (**String.Format(…)**)
 <img class="slide-image" src="\imgs\pic35.png" style="top:57%; left:7.49%; width:91.68%; z-index:-1" />
 
 
-<!-- attr: { id:'', class:'slide-section', showInPresentation:'True', hasScriptWrapper:'True', style:'' } -->
+<!-- attr: { id:'', class:'slide-section', showInPresentation:true, hasScriptWrapper:true, style:'' } -->
 <!-- # Strings and Text Preprocessing
 ## Questions? -->
 
 
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'True', style:'' } -->
+<!-- attr: { id:'', class:'', showInPresentation:true, hasScriptWrapper:true, style:'' } -->
 # Free Trainings @ Telerik Academy
 - “C# Programming @ Telerik Academy
     - [csharpfundamentals.telerik.com](csharpfundamentals.telerik.com)

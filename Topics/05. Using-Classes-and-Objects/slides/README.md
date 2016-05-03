@@ -1,5 +1,5 @@
 <!-- section start -->
-<!-- attr: { id:'', class:'slide-title', showInPresentation:'True', hasScriptWrapper:'True', style:'' } -->
+<!-- attr: { id:'', class:'slide-title', showInPresentation:true, hasScriptWrapper:true, style:'' } -->
 # Using Classes and Objects
 ## Using the Standard .NET Framework Classes
 <img class="slide-image" src="\imgs\pic00.png" style="top:53.40%; left:52.19%; width:17.08%; z-index:-1" />
@@ -15,7 +15,7 @@
 
 
 <!-- section start -->
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'True', style:'' } -->
+<!-- attr: { id:'', class:'', showInPresentation:true, hasScriptWrapper:true, style:'' } -->
 # Table of Contents
 - Classes and Objects
   - What are Objects?
@@ -29,7 +29,7 @@
 <img class="slide-image" src="\imgs\pic03.png" style="top:13.22%; left:85.50%; width:18.18%; z-index:-1" />
 
 
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'True', style:'' } -->
+<!-- attr: { id:'', class:'', showInPresentation:true, hasScriptWrapper:true, style:'' } -->
 <!-- # Table of Contents -->
 - Structures
 - Namespaces
@@ -42,13 +42,13 @@
 
 
 <!-- section start -->
-<!-- attr: { id:'', class:'slide-section', showInPresentation:'True', hasScriptWrapper:'True', style:'' } -->
+<!-- attr: { id:'', class:'slide-section', showInPresentation:true, hasScriptWrapper:true, style:'' } -->
 # Classes and Objects
 ## Modeling Real-world Entities with Objects
 <img class="slide-image" src="\imgs\pic06.png" style="top:35.59%; left:28.07%; width:52.89%; z-index:-1" />
 
 
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'' } -->
+<!-- attr: { id:'', class:'', showInPresentation:true, hasScriptWrapper:true, style:'' } -->
 # What are Objects?
 - Software objects model real-world objects or abstract concepts
   - _Examples_:
@@ -60,7 +60,7 @@
     - withdraw, deposit, suspend
 
 
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'True', style:'' } -->
+<!-- attr: { id:'', class:'', showInPresentation:true, hasScriptWrapper:true, style:'' } -->
 <!-- # What are Objects? -->
 - How do software objects implement real-world objects?
   - Use variables/data to implement states
@@ -69,7 +69,7 @@
 <img class="slide-image" src="\imgs\pic07.png" style="top:49.37%; left:60.82%; width:41.43%; z-index:-1" />
 
 
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'' } -->
+<!-- attr: { id:'', class:'', showInPresentation:true, hasScriptWrapper:true, style:'' } -->
 # Objects Represent
 - Things from the real world
     - **&#10004;** checks
@@ -83,7 +83,7 @@
 
 
 
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'' } -->
+<!-- attr: { id:'', class:'', showInPresentation:true, hasScriptWrapper:true, style:'' } -->
 # What is a Class?
 - The formal definition of **class**:
 - Definition by Google
@@ -91,7 +91,7 @@
     - **Classes** act as templates from which an instance of an object is created at run time. Classes define the properties of the object and the methods used to control the object's behavior.
 
 
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'' } -->
+<!-- attr: { id:'', class:'', showInPresentation:true, hasScriptWrapper:true, style:'' } -->
 # Classes
 - Classes provide the structure for objects
   - Define their prototype, act as template
@@ -104,7 +104,7 @@
 - A class defines the methods and types of data associated with an object
 
 
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'True', style:'' } -->
+<!-- attr: { id:'', class:'', showInPresentation:true, hasScriptWrapper:true, style:'' } -->
 # Classes – _Example_
 
 ```cs
@@ -131,7 +131,7 @@ Account
 <div class="fragment balloon" style="top:52%; left:37.97%; width:24.85%">(Methods)</div>
 
 
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'' } -->
+<!-- attr: { id:'', class:'', showInPresentation:true, hasScriptWrapper:true, style:'' } -->
 # Objects
 - An **object** is a concrete **instance** of a particular class
 - Creating an object from a class is called **instantiation**
@@ -142,7 +142,7 @@ Account
   - Objects: Ivan's account, Peter's account
 
 
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 40px;' } -->
+<!-- attr: { id:'', class:'', showInPresentation:true, hasScriptWrapper:true, style:'font-size: 40px;' } -->
 # Objects – _Example_
 
 - Class
@@ -183,13 +183,13 @@ peterAccount
 
 
 <!-- section start -->
-<!-- attr: { id:'', class:'slide-section', showInPresentation:'True', hasScriptWrapper:'True', style:'' } -->
+<!-- attr: { id:'', class:'slide-section', showInPresentation:true, hasScriptWrapper:true, style:'' } -->
 # Classes in C#
 <img class="slide-image" src="\imgs\pic08.png" style="top:48.93%; left:78.60%; width:25.21%; z-index:-1" />
 <img class="slide-image" src="\imgs\pic09.png" style="top:49.37%; left:8.42%; width:50.15%; z-index:-1" />
 
 
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'True', style:'' } -->
+<!-- attr: { id:'', class:'', showInPresentation:true, hasScriptWrapper:true, style:'' } -->
 # Classes in C#
 - Classes – basic units that compose programs
 - Implementation is **encapsulated** (hidden)
@@ -203,7 +203,7 @@ peterAccount
 <img class="slide-image" src="\imgs\pic10.png" style="top:32.29%; left:77.66%; width:24.35%; z-index:-1" />
 
 
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'True', style:'' } -->
+<!-- attr: { id:'', class:'', showInPresentation:true, hasScriptWrapper:true, style:'' } -->
 # Classes in C# – _Examples_
 - _Example_ of classes (structures):
   - **System.Console**
@@ -217,7 +217,7 @@ peterAccount
 <img class="slide-image" src="\imgs\pic11.png" style="top:40.55%; left:71.48%; width:27.86%; z-index:-1" />
 
 
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'' } -->
+<!-- attr: { id:'', class:'', showInPresentation:true, hasScriptWrapper:true, style:'' } -->
 # Declaring Objects
 - An instance of a class or structure can be defined like any other variable:
 
@@ -238,13 +238,13 @@ DateTime today = DateTime.Now;
 
 
 <!-- section start -->
-<!-- attr: { id:'', class:'slide-section', showInPresentation:'True', hasScriptWrapper:'True', style:'' } -->
+<!-- attr: { id:'', class:'slide-section', showInPresentation:true, hasScriptWrapper:true, style:'' } -->
 # Fields and Properties
 ## Accessing Fields and Properties
 <img class="slide-image" src="\imgs\pic12.png" style="top:52%; left:29.01%; width:48.54%; z-index:-1" />
 
 
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'True', style:'' } -->
+<!-- attr: { id:'', class:'', showInPresentation:true, hasScriptWrapper:true, style:'' } -->
 # Fields
 - **Fields** are data members of a class
   - Can be variables and constants (read-only)
@@ -255,7 +255,7 @@ DateTime today = DateTime.Now;
 <img class="slide-image" src="\imgs\pic13.png" style="top:51.13%; left:81.40%; width:23.80%; z-index:-1" />
 
 
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'True', style:'' } -->
+<!-- attr: { id:'', class:'', showInPresentation:true, hasScriptWrapper:true, style:'' } -->
 # Accessing Fields
 - **Constant fields** can be only read
 - **Variable fields** can be read and modified
@@ -273,7 +273,7 @@ int maxInt = Int32.MaxValue;
 <img class="slide-image" src="\imgs\pic14.png" style="top:49.60%; left:84.21%; width:17.88%; z-index:-1" />
 
 
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'True', style:'' } -->
+<!-- attr: { id:'', class:'', showInPresentation:true, hasScriptWrapper:true, style:'' } -->
 # Properties
 - **Properties** look like fields
   - Have name and type
@@ -287,7 +287,7 @@ int maxInt = Int32.MaxValue;
 <img class="slide-image" src="\imgs\pic15.png" style="top:60.83%; left:86.39%; width:18.66%; z-index:-1" />
 
 
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'True', style:'' } -->
+<!-- attr: { id:'', class:'', showInPresentation:true, hasScriptWrapper:true, style:'' } -->
 <!-- # Properties -->
 - According to the implemented accessors properties can be:
   - Read-only (**get** accessor only)
@@ -300,7 +300,7 @@ int maxInt = Int32.MaxValue;
 <img class="slide-image" src="\imgs\pic16.png" style="top:48.39%; left:86.08%; width:17.96%; z-index:-1" />
 
 
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'' } -->
+<!-- attr: { id:'', class:'', showInPresentation:true, hasScriptWrapper:true, style:'' } -->
 # Accessing Properties and Fields – _Example_
 
 ```cs
@@ -321,7 +321,7 @@ Console.WriteLine("Is {0} leap year: {1}",
 
 
 
-<!-- attr: { id:'', class:'slide-section demo', showInPresentation:'True', hasScriptWrapper:'True', style:'' } -->
+<!-- attr: { id:'', class:'slide-section demo', showInPresentation:true, hasScriptWrapper:true, style:'' } -->
 # Accessing Properties and Fields
 <img class="slide-image" src="\imgs\pic17.png" style="top:40%; left:65%; width:35%; z-index:-1" />
 
@@ -329,13 +329,13 @@ Console.WriteLine("Is {0} leap year: {1}",
 
 
 <!-- section start -->
-<!-- attr: { id:'', class:'slide-section', showInPresentation:'True', hasScriptWrapper:'True', style:'' } -->
+<!-- attr: { id:'', class:'slide-section', showInPresentation:true, hasScriptWrapper:true, style:'' } -->
 # Instance and Static Members
 ## Accessing Object and Class Members
 <img class="slide-image" src="\imgs\pic18.png" style="top:62%; left:38%; width:25%; z-index:-1" />
 
 
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'' } -->
+<!-- attr: { id:'', class:'', showInPresentation:true, hasScriptWrapper:true, style:'' } -->
 # Instance and Static Members
 - Fields, properties and methods can be:
   - **Instance** (or object members)
@@ -346,7 +346,7 @@ Console.WriteLine("Is {0} leap year: {1}",
   - _Example_: **DateTime.MinValue** is shared between all instances of **DateTime**
 
 
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'' } -->
+<!-- attr: { id:'', class:'', showInPresentation:true, hasScriptWrapper:true, style:'' } -->
 # Accessing Members – Syntax
 - Accessing instance members
   - The name of the **instance**, followed by the name of the member (field or property), separated by dot ("**.**")
@@ -364,7 +364,7 @@ Console.WriteLine("Is {0} leap year: {1}",
 
 
 
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'' } -->
+<!-- attr: { id:'', class:'', showInPresentation:true, hasScriptWrapper:true, style:'' } -->
 # Instance and Static Members – _Examples_
 - _Example_ of instance member
   - **String.Length**
@@ -379,7 +379,7 @@ Console.WriteLine("Is {0} leap year: {1}",
 
 
 <!-- section start -->
-<!-- attr: { id:'', class:'slide-section', showInPresentation:'True', hasScriptWrapper:'True', style:'' } -->
+<!-- attr: { id:'', class:'slide-section', showInPresentation:true, hasScriptWrapper:true, style:'' } -->
 # Methods
 ## Calling Instance and Static Methods
 <img class="slide-image" src="\imgs\pic19.png" style="top:52%; left:5.61%; width:22.92%; z-index:-1" />
@@ -387,7 +387,7 @@ Console.WriteLine("Is {0} leap year: {1}",
 <img class="slide-image" src="\imgs\pic21.png" style="top:52%; left:81.45%; width:22.92%; z-index:-1" />
 
 
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'True', style:'' } -->
+<!-- attr: { id:'', class:'', showInPresentation:true, hasScriptWrapper:true, style:'' } -->
 # Methods
 - Methods manipulate the data of the object to which they belong or perform other tasks
 - _Examples_:
@@ -400,7 +400,7 @@ Console.WriteLine("Is {0} leap year: {1}",
 <img class="slide-image" src="\imgs\pic22.png" style="top:55.54%; left:87.95%; width:17.41%; z-index:-1" />
 
 
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'' } -->
+<!-- attr: { id:'', class:'', showInPresentation:true, hasScriptWrapper:true, style:'' } -->
 # Instance Methods
 - **Instance methods** manipulate the data of a specified object or perform any other tasks
   - If a value is returned, it depends on the particular class instance
@@ -413,7 +413,7 @@ Console.WriteLine("Is {0} leap year: {1}",
 
 
 
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'' } -->
+<!-- attr: { id:'', class:'', showInPresentation:true, hasScriptWrapper:true, style:'' } -->
 # Calling Instance Methods –  _Examples_
 - Calling instance methods of **String**:
 
@@ -437,14 +437,14 @@ Console.WriteLine("8 hours later: {0}", later);
 
 
 
-<!-- attr: { id:'', class:'slide-section demo', showInPresentation:'True', hasScriptWrapper:'True', style:'' } -->
+<!-- attr: { id:'', class:'slide-section demo', showInPresentation:true, hasScriptWrapper:true, style:'' } -->
 # Calling Instance Methods
 ## [Demo]()
 <img class="slide-image" src="\imgs\pic23.png" style="top:44.96%; left:58.01%; width:38.57%; z-index:-1" />
 <img class="slide-image" src="\imgs\pic24.png" style="top:46.36%; left:14.74%; width:22.26%; z-index:-1" />
 
 
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'' } -->
+<!-- attr: { id:'', class:'', showInPresentation:true, hasScriptWrapper:true, style:'' } -->
 # Static Methods
 - **Static methods** are common for all instances of a class (shared between all instances)
   - Returned value depends only on the passed parameters
@@ -458,7 +458,7 @@ Console.WriteLine("8 hours later: {0}", later);
 
 
 
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'True', style:'' } -->
+<!-- attr: { id:'', class:'', showInPresentation:true, hasScriptWrapper:true, style:'' } -->
 # Calling Static Methods – _Examples_
 
 ```cs
@@ -483,11 +483,11 @@ Console.WriteLine(
 <div class="fragment balloon" style="top:66%; left:32%; width:15.87%">Static method</div>
 
 
-<!-- attr: { id:'', class:'slide-section demo', showInPresentation:'True', hasScriptWrapper:'True', style:'' } -->
+<!-- attr: { id:'', class:'slide-section demo', showInPresentation:true, hasScriptWrapper:true, style:'' } -->
 # Calling Static Methods
 ## [Demo]()
 
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'' } -->
+<!-- attr: { id:'', class:'', showInPresentation:true, hasScriptWrapper:true, style:'' } -->
 # Constructors
 - **Constructors** are special methods used to assign initial values of the fields in an object
   - Executed when an object of a given type is being created
@@ -496,7 +496,7 @@ Console.WriteLine(
 - A class may have several constructors with different set of parameters
 
 
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'' } -->
+<!-- attr: { id:'', class:'', showInPresentation:true, hasScriptWrapper:true, style:'' } -->
 <!-- # Constructors -->
 - Constructor is invoked by the **new** operator
 
@@ -534,7 +534,7 @@ Int32 value = new Int32();
 
 
 
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'True', style:'' } -->
+<!-- attr: { id:'', class:'', showInPresentation:true, hasScriptWrapper:true, style:'' } -->
 # Parameterless Constructors
 - The constructor without parameters is called **default**(**parameterless**) constructor
 - _Example_:
@@ -550,7 +550,7 @@ Random randomGenerator = new Random();
 <div class="fragment balloon" style="top:56%; left:55%; width:29.09%">Parameterless constructor call</div>
 
 
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'' } -->
+<!-- attr: { id:'', class:'', showInPresentation:true, hasScriptWrapper:true, style:'' } -->
 # Constructor with Parameters
 - _Example_
   - Creating objects for generating random values with specified initial seeds
@@ -569,11 +569,11 @@ Console.WriteLine(randomGenerator2.Next(50));
 
 
 
-<!-- attr: { id:'', class:'slide-section demo', showInPresentation:'True', hasScriptWrapper:'True', style:'' } -->
+<!-- attr: { id:'', class:'slide-section demo', showInPresentation:true, hasScriptWrapper:true, style:'' } -->
 # Generating Random Numbers
 ## [Demo]()
 
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'' } -->
+<!-- attr: { id:'', class:'', showInPresentation:true, hasScriptWrapper:true, style:'' } -->
 # More Constructor _Examples_
 - Creating a **DateTime** object for a specified date and time
 
@@ -590,20 +590,20 @@ Console.WriteLine(julyMorning);
 
 - Different constructors are called depending on the different sets of parameters
 
-<!-- attr: { id:'', class:'slide-section demo', showInPresentation:'True', hasScriptWrapper:'True', style:'' } -->
+<!-- attr: { id:'', class:'slide-section demo', showInPresentation:true, hasScriptWrapper:true, style:'' } -->
 # Creating DateTime Objects
 ## [Demo]()
 <img class="slide-image" src="\imgs\pic27.png" style="top:41.43%; left:2%; width:40%; z-index:-1" />
 
 
 <!-- section start -->
-<!-- attr: { id:'', class:'slide-section', showInPresentation:'True', hasScriptWrapper:'True', style:'' } -->
+<!-- attr: { id:'', class:'slide-section', showInPresentation:true, hasScriptWrapper:true, style:'' } -->
 # Enumerations
 ## Types Limited to a Predefined Set of Values
 <img class="slide-image" src="\imgs\pic28.png" style="top:52%; left:32%; width:35%; z-index:-1" />
 
 
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'' } -->
+<!-- attr: { id:'', class:'', showInPresentation:true, hasScriptWrapper:true, style:'' } -->
 # Enumerations
 - **Enumerations** in C# are types whose values are limited to a predefined set of values
   - E.g. the days of week
@@ -620,18 +620,18 @@ color = 5; // Compilation error!
 
 
 
-<!-- attr: { id:'', class:'slide-section demo', showInPresentation:'True', hasScriptWrapper:'True', style:'' } -->
+<!-- attr: { id:'', class:'slide-section demo', showInPresentation:true, hasScriptWrapper:true, style:'' } -->
 # Enumerations
 ## [Demo]()
 <img class="slide-image" src="\imgs\pic29.png" style="top:40%; left:17%; width:26.45%; z-index:-1" />
 <img class="slide-image" src="\imgs\pic30.png" style="top:40%; left:61.73%; width:21.17%; z-index:-1" />
 
 
-<!-- attr: { id:'', class:'slide-section', showInPresentation:'True', hasScriptWrapper:'True', style:'' } -->
+<!-- attr: { id:'', class:'slide-section', showInPresentation:true, hasScriptWrapper:true, style:'' } -->
 # Structures
 ## What are Structures? When to Use Them?
 
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'' } -->
+<!-- attr: { id:'', class:'', showInPresentation:true, hasScriptWrapper:true, style:'' } -->
 # Structures
 - **Structures** in C# are similar to classes
   - Structures are **value types** (directly hold a value)
@@ -643,11 +643,11 @@ color = 5; // Compilation error!
   - **System.DateTime** – represents a date and time
 
 
-<!-- attr: { id:'', class:'slide-section', showInPresentation:'True', hasScriptWrapper:'True', style:'' } -->
+<!-- attr: { id:'', class:'slide-section', showInPresentation:true, hasScriptWrapper:true, style:'' } -->
 # Namespaces
 ## Organizing Classes Logically into Namespaces
 
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'' } -->
+<!-- attr: { id:'', class:'', showInPresentation:true, hasScriptWrapper:true, style:'' } -->
 # What is a Namespace?
 - **Namespaces** are used to organize the source code into more logical and manageable way
 - Namespaces can contain
@@ -658,7 +658,7 @@ color = 5; // Compilation error!
   - The name of the nested namespace is **System.Data**
 
 
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'' } -->
+<!-- attr: { id:'', class:'', showInPresentation:true, hasScriptWrapper:true, style:'' } -->
 # Full Class Names
 - A full name of a class is the name of the class preceded by the name of its namespace
 
@@ -674,7 +674,7 @@ color = 5; // Compilation error!
 
 
 
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'' } -->
+<!-- attr: { id:'', class:'', showInPresentation:true, hasScriptWrapper:true, style:'' } -->
 # Including Namespaces
 - The **using** directive in C#:
 
@@ -698,14 +698,14 @@ System.DateTime date;
 
 
 
-<!-- attr: { id:'', class:'slide-section demo', showInPresentation:'True', hasScriptWrapper:'True', style:'' } -->
+<!-- attr: { id:'', class:'slide-section demo', showInPresentation:true, hasScriptWrapper:true, style:'' } -->
 # The **Random** Class
 ## Password Generator Demo
 <img class="slide-image" src="\imgs\pic34.png" style="top:39.71%; left:6.55%; width:33.50%; z-index:-1" />
 <img class="slide-image" src="\imgs\pic36.png" style="top:47.40%; left:64.03%; width:22.92%; z-index:-1" />
 
 
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'' } -->
+<!-- attr: { id:'', class:'', showInPresentation:true, hasScriptWrapper:true, style:'' } -->
 # The Random Class
 - The **Random** class
   - Generates random integer numbers
@@ -724,7 +724,7 @@ for (int number = 1; number <= 6; number++)
   - This will avoid abnormalities
 
 
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'' } -->
+<!-- attr: { id:'', class:'', showInPresentation:true, hasScriptWrapper:true, style:'' } -->
 # Password Generator – _Example_
 - Write a program to generate a random password between 8 and 15 characters
   - The password contains of at least two capital letters, two small letters, one digit and  three special characters
@@ -736,7 +736,7 @@ for (int number = 1; number <= 6; number++)
   - Place 3 special characters at random positions
 
 
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'True', style:'' } -->
+<!-- attr: { id:'', class:'', showInPresentation:true, hasScriptWrapper:true, style:'' } -->
 <!-- # Password Generator -->
 - Now we have exactly 8 characters
   - To make the password length between 8 and 15 we add between 0 and 7 random characters
@@ -746,7 +746,7 @@ for (int number = 1; number <= 6; number++)
 <img class="slide-image" src="\imgs\pic39.png" style="top:48.55%; left:63.41%; width:36.14%; z-index:-1" />
 
 
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'' } -->
+<!-- attr: { id:'', class:'', showInPresentation:true, hasScriptWrapper:true, style:'' } -->
 # Password Generator Class
 
 ```cs
@@ -768,7 +768,7 @@ class RandomPasswordGenerator
 
 
 
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'font-size: 40px;' } -->
+<!-- attr: { id:'', class:'', showInPresentation:true, hasScriptWrapper:true, style:'font-size: 40px;' } -->
 <!-- # Password Generator Class -->
 
 ```cs
@@ -797,7 +797,7 @@ static void Main()
 
 
 
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'font-size: 40px;' } -->
+<!-- attr: { id:'', class:'', showInPresentation:true, hasScriptWrapper:true, style:'font-size: 40px;' } -->
 <!-- # Password Generator Class -->
 
 ```cs
@@ -824,13 +824,13 @@ private static char GenerateChar(string availableChars)
 ```
 
 <!-- section start -->
-<!-- attr: { id:'', class:'slide-section', showInPresentation:'True', hasScriptWrapper:'True', style:'' } -->
+<!-- attr: { id:'', class:'slide-section', showInPresentation:true, hasScriptWrapper:true, style:'' } -->
 # .NET Common Type System
 ## Brief Introduction
 <img class="slide-image" src="\imgs\pic40.png" style="top:52%; left:14.83%; width:76.91%; z-index:-1" />
 
 
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'' } -->
+<!-- attr: { id:'', class:'', showInPresentation:true, hasScriptWrapper:true, style:'' } -->
 <!-- # Common Type System (C -->
 - **CTS** defines all **data** **types** supported in .NET Framework
   - Primitive types (e.g. **int**, **float**, **object**)
@@ -841,7 +841,7 @@ private static char GenerateChar(string availableChars)
 - Object-oriented by design
 
 
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'font-size: 40px;' } -->
+<!-- attr: { id:'', class:'', showInPresentation:true, hasScriptWrapper:true, style:'font-size: 40px;' } -->
 # CTS and Different Languages
 - CTS is common for all .NET languages
   - C#, VB.NET, J#, JScript.NET, ...
@@ -857,7 +857,7 @@ private static char GenerateChar(string availableChars)
 
 
 
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'' } -->
+<!-- attr: { id:'', class:'', showInPresentation:true, hasScriptWrapper:true, style:'' } -->
 # System.Object: CTS Base Type
 - **System.Object** (**object** in C#) is a base type for all other types in CTS
   - Can hold values of any other type:
@@ -877,7 +877,7 @@ Console.WriteLine(nowInWords);
 
 
 
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'font-size: 40px;' } -->
+<!-- attr: { id:'', class:'', showInPresentation:true, hasScriptWrapper:true, style:'font-size: 40px;' } -->
 # Value and Reference Types
 - In CTS there are two categories of types
   - **Value** **types**
@@ -890,7 +890,7 @@ Console.WriteLine(nowInWords);
 - ***_Note_: this does not mean that value types, which are part of reference types live on the stack. E.g., integers in a List&lt;int&gt; do not live on the stack**
 
 
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'' } -->
+<!-- attr: { id:'', class:'', showInPresentation:true, hasScriptWrapper:true, style:'' } -->
 # Value and Reference Types – _Examples_
 - **Value types**
   - Most of the primitive types
@@ -903,7 +903,7 @@ Console.WriteLine(nowInWords);
   - _Examples_: **string**, **Random**, **object**, **int[]**
 
 
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'' } -->
+<!-- attr: { id:'', class:'', showInPresentation:true, hasScriptWrapper:true, style:'' } -->
 # Value and Reference Types
 
 ```cs
@@ -916,7 +916,7 @@ string str = "telerik";
 
 
 
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'True', style:'' } -->
+<!-- attr: { id:'', class:'', showInPresentation:true, hasScriptWrapper:true, style:'' } -->
 # Summary
 - Classes provide the structure for objects
 - Objects are particular instances of classes
@@ -930,7 +930,7 @@ string str = "telerik";
 <img class="slide-image" src="\imgs\pic41.png" style="top:29.97%; left:83.27%; width:21.16%; z-index:-1" />
 
 
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'True', style:'' } -->
+<!-- attr: { id:'', class:'', showInPresentation:true, hasScriptWrapper:true, style:'' } -->
 <!-- # Summary -->
 - Namespaces help organizing the classes
 - Common Type System (CTS) defines the types for all .NET languages
@@ -939,12 +939,12 @@ string str = "telerik";
 <img class="slide-image" src="\imgs\pic42.png" style="top:34.38%; left:79.53%; width:25.02%; z-index:-1" />
 
 
-<!-- attr: { id:'', class:'slide-section', showInPresentation:'True', hasScriptWrapper:'True', style:'' } -->
+<!-- attr: { id:'', class:'slide-section', showInPresentation:true, hasScriptWrapper:true, style:'' } -->
 <!-- # Using Classes and Objects
 ## Questions?-->
 
 
-<!-- attr: { id:'', class:'', showInPresentation:'True', hasScriptWrapper:'True', style:'' } -->
+<!-- attr: { id:'', class:'', showInPresentation:true, hasScriptWrapper:true, style:'' } -->
 # Free Trainings @ Telerik Academy
 - “C# Programming @ Telerik Academy
     - [csharpfundamentals.telerik.com](csharpfundamentals.telerik.com)

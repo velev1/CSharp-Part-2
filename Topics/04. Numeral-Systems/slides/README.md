@@ -1,5 +1,5 @@
 <!-- section start -->
-<!-- attr: {  class:'slide-title', showInPresentation:'True', hasScriptWrapper:'True', style:'' } -->
+<!-- attr: {  class:'slide-title', showInPresentation:true, hasScriptWrapper:true, style:'' } -->
 # Numeral Systems
 ## Binary, Decimal and Hexadecimal Numbers
 
@@ -12,7 +12,7 @@
 </div>
 
 <!-- section start -->
-<!-- attr: {  showInPresentation:'True', hasScriptWrapper:'True', style:'' } -->
+<!-- attr: {  showInPresentation:true, hasScriptWrapper:true, style:'' } -->
 # Table of Contents
 - [Numeral Systems](#/numeral-systems)
   - [Binary and Decimal Numbers](#/binary-decimal-numbers)
@@ -29,14 +29,14 @@
 
 
 <!-- section start -->
-<!-- attr: { id:'numeral-systems', class:'slide-section', showInPresentation:'True', hasScriptWrapper:'True', style:'' } -->
+<!-- attr: { id:'numeral-systems', class:'slide-section', showInPresentation:true, hasScriptWrapper:true, style:'' } -->
 # <a id="numeral-systems"></a> Numeral Systems
 <!-- ## Conversion between Numeral Systems -->
 <!-- <img class="slide-image" showInPresentation="true"  src="imgs/pic04.png" style="top:55%; left:14.00%; width:22%; z-index:-1" /> -->
 <!-- <img class="slide-image" showInPresentation="true"  src="imgs/pic05.png" style="top:55%; left:61.75%; width:25%; z-index:-1" /> -->
 
 
-<!-- attr: { id:'binary-decimal-numbers',  showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
+<!-- attr: { id:'binary-decimal-numbers',  showInPresentation:true, hasScriptWrapper:true, style:'font-size: 42px' } -->
 <!-- # <a id="binary-decimal-numbers"></a>  Decimal Numbers -->
 - Decimal numbers (base 10)
   - Represented using 10 numerals: `0`, `1`, `2`, `3`, `4`, `5`, `6`, `7`, `8`, `9`
@@ -46,7 +46,7 @@
 <!-- <img class="slide-image" showInPresentation="true"  src="imgs/pic06.png" style="top:80%; left:76.16%; width:28.69%; z-index:-1" /> -->
 
 
-<!-- attr: {  showInPresentation:'True', hasScriptWrapper:'True', style:'' } -->
+<!-- attr: {  showInPresentation:true, hasScriptWrapper:true, style:'' } -->
 # Binary Numeral System
 - Binary numbers are represented by sequence of bits (smallest unit of information – 0 or 1)
   - Bits are easy to represent in electronics
@@ -55,7 +55,7 @@
 
 
 
-<!-- attr: {  showInPresentation:'True', hasScriptWrapper:'True', style:'' } -->
+<!-- attr: {  showInPresentation:true, hasScriptWrapper:true, style:'' } -->
 # Binary Numbers
 - Binary numbers (base 2)
   - Represented by 2 numerals:  `0` and `1`
@@ -64,13 +64,13 @@
   <!-- <img class="slide-image" showInPresentation="true"  src="imgs/bin-nums.png" style="top:45%; left:5%; width:90%; z-index:-1" /> -->
 
 
-<!-- attr: {  showInPresentation:'True', hasScriptWrapper:'False', style:'' } -->
+<!-- attr: {  showInPresentation:true, hasScriptWrapper:true, style:'' } -->
 # Binary to Decimal Conversion
 - Multiply each numeral by its exponent:
 
 <!-- <img class="slide-image" showInPresentation="true"  src="imgs/bin-2-dec.png" style="top:25%; left:5%; width:90%; z-index:-1" /> -->
 
-<!-- attr: {  showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
+<!-- attr: {  showInPresentation:true, hasScriptWrapper:true, style:'font-size: 42px' } -->
 # Decimal to Binary Conversion
 - Divide by 2 and append the reminders in reversed order:
 - 500/2  = 250 (0)
@@ -86,7 +86,7 @@
 <p style="font-size: 46px; color: orange; position: absolute; top: 35%; left: 50%;">500<sub>d</sub> = 111110100<sub>b</sub></p>
 
 
-<!-- attr: { id:'hexadecimal-numbers',  showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
+<!-- attr: { id:'hexadecimal-numbers',  showInPresentation:true, hasScriptWrapper:true, style:'font-size: 42px' } -->
 # <a id="hexadecimal-numbers"></a>  Hexadecimal Numbers
 - Hexadecimal numbers (base 16)
   - Represented using 16 numerals: `0`, `1`, `2`, ... `9`, `A`, `B`, `C`, `D`, `E` and `F`
@@ -100,21 +100,21 @@
 |3 &rarr; 0x3|11 &rarr; 0xB||7 &rarr; 0x7|15 &rarr; 0xF|
 
 
-<!-- attr: {  showInPresentation:'True', hasScriptWrapper:'True', style:'' } -->
+<!-- attr: {  showInPresentation:true, hasScriptWrapper:true, style:'' } -->
 # Hexadecimal Numbers
 - Each position represents a power of 16:
 
   <!-- <img class="slide-image" showInPresentation="true"  src="imgs/hex-nums.png" style="top:25%; left:5%; width:95%; z-index:-1" /> -->
 
 
-<!-- attr: { id:'numeral-systems-conversions',  showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
+<!-- attr: { id:'numeral-systems-conversions',  showInPresentation:true, hasScriptWrapper:true, style:'font-size: 42px' } -->
 # <a id="numeral-systems-conversions"></a>  Hexadecimal to Decimal Conversion
 - Multiply each digit by its exponent
 
 <!-- <img class="slide-image" showInPresentation="true"  src="imgs/hex-2-dec.png" style="top:35%; left:5%; width:80%; z-index:-1" /> -->
 
 
-<!-- attr: {  showInPresentation:'True', hasScriptWrapper:'True', style:'' } -->
+<!-- attr: {  showInPresentation:true, hasScriptWrapper:true, style:'' } -->
 # Decimal to Hexadecimal Conversion
 - Divide by 16 and append the reminders in reversed order
 - 500/16 = 31 (4) 	
@@ -123,7 +123,7 @@
 <p style="font-size: 46px; color: orange; position: absolute; top: 35%; left: 50%;">500<sub>d</sub> = 1F4<sub>hex</sub></p>
 
 
-<!-- attr: {  showInPresentation:'True', hasScriptWrapper:'False', style:'font-size: 40px' } -->
+<!-- attr: {  showInPresentation:true, hasScriptWrapper:true, style:'font-size: 40px' } -->
 # Binary to Hexadecimal (and reverse) Conversion
 - The conversion from binary to hexadecimal (and back) is straightforward: each hex digit corresponds to a sequence of 4 binary digits:
 
@@ -138,14 +138,14 @@
 
 
 <!-- section start -->
-<!-- attr: { id:'numbers-representation', class:'slide-section', showInPresentation:'True', hasScriptWrapper:'True', style:'' } -->
+<!-- attr: { id:'numbers-representation', class:'slide-section', showInPresentation:true, hasScriptWrapper:true, style:'' } -->
 <!-- <a id="numbers-representation"></a>  # Numbers Representation -->
 <!-- ## Positive and Negative Integers and Floating-Point Numbers -->
 
 <!-- <img class="slide-image" showInPresentation="true"  src="imgs/pic20.png" style="top:60%; left:75%; width:15%; z-index:-1" /> -->
 
 
-<!-- attr: {  showInPresentation:'True', hasScriptWrapper:'True', style:'' } -->
+<!-- attr: {  showInPresentation:true, hasScriptWrapper:true, style:'' } -->
 # Representation of Integers
 - A `short` is represented by 16 bits
   - 100	= **2**<sup>`6`</sup> + **2**<sup>`5`</sup> + **2**<sup>`2`</sup> = 00000000 01100100
@@ -155,7 +155,7 @@
   - '0'	= 48 = **2**<sup>`5`</sup> + **2**<sup>`4`</sup> =	= 00000000 00110000
 
 
-<!-- attr: { id:'positive-negative-numbers',  showInPresentation:'True', hasScriptWrapper:'False', style:'' } -->
+<!-- attr: { id:'positive-negative-numbers',  showInPresentation:true, hasScriptWrapper:true, style:'' } -->
 <a id="positive-negative-numbers"></a>  
 # Positive and Negative Numbers
 - A number's sign is determined by the`Most Significant Bit` (MSB)
@@ -168,7 +168,7 @@
     - **1**`XXXXXXX`<sub>b</sub> < 0	e.g. 10010010b = -110
 
 
-<!-- attr: {  showInPresentation:'True', hasScriptWrapper:'False', style:'' } -->
+<!-- attr: {  showInPresentation:true, hasScriptWrapper:true, style:'' } -->
 # Positive and Negative Numbers
 - The largest positive 8-bit `sbyte` number:
   - **127** = (**2**<sup>`7`</sup> - 1) = 01111111<sub>b</sub>
@@ -180,7 +180,7 @@
   - **-2 147 483 648** (**-2**<sup>`31`</sup>) = 10000…00000<sub>b</sub>
 
 
-<!-- attr: {  showInPresentation:'True', hasScriptWrapper:'False', style:'font-size: 40px' } -->
+<!-- attr: {  showInPresentation:true, hasScriptWrapper:true, style:'font-size: 40px' } -->
 # Representation of 8-bit Numbers
 - Positive 8-bit numbers have the format <!-- .element: class="" style="width: 70%" --> **0** XXXXXXX
   - Their value is the decimal of their last 7 bits (XXXXXXX)
@@ -190,7 +190,7 @@
 
 <!-- <img class="slide-image" showInPresentation="true"  src="imgs/table.png" style="top:10%; left:70%; width:30%; z-index:-1" /> -->
 
-<!-- attr: { id:'floating-point-numbers',  showInPresentation:'True', hasScriptWrapper:'False', style:'font-size: 42px' } -->
+<!-- attr: { id:'floating-point-numbers',  showInPresentation:true, hasScriptWrapper:true, style:'font-size: 42px' } -->
 <a id="floating-point-numbers"></a>  
 # Floating-Point Numbers
 - Floating-point numbers representation (according to the IEEE 754 standard*):
@@ -205,12 +205,12 @@
 
 
 <!-- section start -->
-<!-- attr: {  class:'slide-section', showInPresentation:'True', hasScriptWrapper:'True', style:'' } -->
+<!-- attr: {  class:'slide-section', showInPresentation:true, hasScriptWrapper:true, style:'' } -->
 <!-- # Text Representation in Computer Systems -->
 <!-- <img class="slide-image" showInPresentation="true"  src="imgs/pic22.png" style="top:55%; left:32%; width:35%; z-index:-1" /> -->
 
 
-<!-- attr: { id:'text-representation,  showInPresentation:'True', hasScriptWrapper:'False', style:'' } -->
+<!-- attr: { id:'text-representation,  showInPresentation:true, hasScriptWrapper:true, style:'' } -->
 <a id="text-representation"></a>
 # How Computers Represent Text Data?
 - `Text encoding` is a system that uses binary numbers (1 and 0) to represent characters
@@ -221,7 +221,7 @@
   - Can represent many alphabets
 
 
-<!-- attr: {  showInPresentation:'True', hasScriptWrapper:'False', style:'font-size: 40px' } -->
+<!-- attr: {  showInPresentation:true, hasScriptWrapper:true, style:'font-size: 40px' } -->
 # Character Codes – ASCII Table
 <!-- <img class="slide-image" showInPresentation="true"  src="imgs/pic23.png" style="top: 60%; left: -15%; width: 20%; z-index: -1"> -->
 
@@ -236,7 +236,7 @@
 |00110001   |49          |1        |
 |01111110   |126         |~        |
 
-<!-- attr: {  showInPresentation:'True', hasScriptWrapper:'False', style:'' } -->
+<!-- attr: {  showInPresentation:true, hasScriptWrapper:true, style:'' } -->
 # Strings of Characters
 - Strings are sequences of characters
   - Null-terminated (like in C)
@@ -250,7 +250,7 @@
   - 16 bit (UTF-16)
 
 
-<!-- attr: {  showInPresentation:'True', hasScriptWrapper:'True', style:'' } -->
+<!-- attr: {  showInPresentation:true, hasScriptWrapper:true, style:'' } -->
 <!-- # Numeral Systems -->
 <!-- <img class="slide-image" showInPresentation="true"  src="https://raw.githubusercontent.com/TelerikAcademy/Common/master/revealjs-theme/css/imgs/questions-ninja.png" style="width:70%; top:15%; left:10%" /> -->
 <div style="position: absolute; bottom: 1em; right: 0; font-size: 26px;">http://academy.telerik.com</div>

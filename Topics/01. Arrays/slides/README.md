@@ -1,5 +1,5 @@
 <!-- section start -->
-<!-- attr: { class:'slide-title', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
+<!-- attr: { class:'slide-title', showInPresentation:true, hasScriptWrapper:true, style:'font-size: 42px' } -->
 # Arrays
 ## Processing Sequences of Elements
 <!-- <img class="slide-image" showInPresentation="true" src="imgs/pic01.png" style="top:50%; left:60%; width:40%; border-radius:10px; border:2px solid white; z-index:-1" /> -->
@@ -13,7 +13,7 @@
 
 
 <!-- section start -->
-<!-- attr: {  showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
+<!-- attr: {  showInPresentation:true, hasScriptWrapper:true, style:'font-size: 42px' } -->
 # Table of Contents
 - [Declaring and Creating Arrays](#declare)
 - [Accessing Array Elements](#access)
@@ -27,12 +27,12 @@
 
 
 <!-- section start -->
-<!-- attr: { id:'declare', class:'slide-section', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
+<!-- attr: { id:'declare', class:'slide-section', showInPresentation:true, hasScriptWrapper:true, style:'font-size: 42px' } -->
 <!-- # <a id="declare"></a> Declaring and Creating Arrays -->
 <!-- <img class="slide-image" showInPresentation="true" src="imgs/pic04.png" style="top:45%; left:65%; width:20%;border-radius:10px; border:2px solid white; z-index:-1" /> -->
 <!-- <img class="slide-image" showInPresentation="true" src="imgs/pic05.png" style="top:45%; left:10.48%; width:30%; z-index:-1" /> -->
 
-<!-- attr: {  showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
+<!-- attr: {  showInPresentation:true, hasScriptWrapper:true, style:'font-size: 42px' } -->
 # What are Arrays?
 - An **array** is a sequence of elements
   - All elements are of the same type
@@ -42,7 +42,7 @@
 <!-- <img class="slide-image" showInPresentation="true" src="imgs/array-5.png" style="top:50%; left:10%; width:80%; z-index:-1" /> -->
 
 
-<!-- attr: {  showInPresentation:true, hasScriptWrapper:'True', style:'font-size: 42px' } -->
+<!-- attr: {  showInPresentation:true, hasScriptWrapper:true, style:'font-size: 42px' } -->
 # Declaring Arrays
 - Declaration defines the type of the elements
 - Square brackets `[]` mean `array`
@@ -57,7 +57,7 @@
     ```
 
 
-<!-- attr: {  showInPresentation:true, hasScriptWrapper:'True', style:'font-size: 42px' } -->
+<!-- attr: {  showInPresentation:true, hasScriptWrapper:true, style:'font-size: 42px' } -->
 # Creating Arrays
 - Use the operator `new`
   - Specify array length
@@ -71,7 +71,7 @@ myIntArray = new int[5];
 <!-- <img class="slide-image" showInPresentation="true" src="imgs/pic09.png" style="top:60%; left:65%; width:26%;border-radius:10px; border:2px solid white; z-index:-1" /> -->
 
 
-<!-- attr: {  showInPresentation:'True', hasScriptWrapper:'False', style:'font-size: 42px' } -->
+<!-- attr: {  showInPresentation:true, hasScriptWrapper:true, style:'font-size: 42px' } -->
 # Creating and Initializing Arrays
 - Creating and initializing can be done together:
 ```cs
@@ -81,7 +81,7 @@ myIntArray = {1, 2, 3, 4, 5};
 
 <!-- <img class="slide-image" showInPresentation="true" src="imgs/creating-array.png" style="top:60%; left:10%; width:60%; z-index:-1" /> -->
 
-<!-- attr: {  showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
+<!-- attr: {  showInPresentation:true, hasScriptWrapper:true, style:'font-size: 42px' } -->
 # Creating Array – _Example_
 - Creating an array that contains the names of the days of the week
 
@@ -98,20 +98,20 @@ string[] daysOfWeek =
 };
 ```
 
-<!-- attr: { class:'slide-section demo', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
+<!-- attr: { class:'slide-section demo', showInPresentation:true, hasScriptWrapper:true, style:'font-size: 42px' } -->
 <!-- # Days of Week
 ## [Demo](https://github.com/TelerikAcademy/CSharp-Part-2/tree/master/Topics/01.%20Arrays/demos/DaysOfWeek) -->
 <!-- <img class="slide-image" showInPresentation="true" src="imgs/pic11.png" style="top:55%; left:35%; width:30%;border-radius:10px; border:2px solid white; z-index:-1" /> -->
 
 
 
-<!-- attr: { id:'access', class:'slide-section', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
+<!-- attr: { id:'access', class:'slide-section', showInPresentation:true, hasScriptWrapper:true, style:'font-size: 42px' } -->
 <!-- # <a id="access"></a> Accessing Array Elements
  ## Read and Modify Elements by Index -->
 <!-- <img class="slide-image" showInPresentation="true" src="imgs/pic14.png" style="top:55%; left:30%; width:40%; border-radius:10px; border:2px solid white; z-index:-1" /> -->
 
 
-<!-- attr: {  showInPresentation:'True', hasScriptWrapper:'False', style:'font-size: 42px' } -->
+<!-- attr: {  showInPresentation:true, hasScriptWrapper:true, style:'font-size: 42px' } -->
 # How to Access Array Element?
 - Array elements are accessed using the square brackets operator `[]` (indexer)
   - Array indexer takes element’s index as parameter
@@ -120,7 +120,7 @@ string[] daysOfWeek =
 - Array elements can be retrieved and changed by using the `[]` operator
 
 
-<!-- attr: { showInPresentation:'True', hasScriptWrapper:'False', style:'font-size: 42px' } -->
+<!-- attr: { showInPresentation:true, hasScriptWrapper:true, style:'font-size: 42px' } -->
 # Reversing an Array – _Example_
 - Reversing the contents of an array
 
@@ -142,7 +142,7 @@ for (int index = 0; index < length; index++)
 
 
 
-<!-- attr: { class:'slide-section demo', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
+<!-- attr: { class:'slide-section demo', showInPresentation:true, hasScriptWrapper:true, style:'font-size: 42px' } -->
 <!-- # Reversing an Array
 ## [Demo](https://github.com/TelerikAcademy/CSharp-Part-2/tree/master/Topics/01.%20Arrays/demos/Reverse) -->
 <!-- <img class="slide-image" showInPresentation="true" src="imgs/pic16.png" style="top:55%; left:35%; width:30%;border-radius:10px; border:2px solid white; z-index:-1" /> -->
@@ -151,13 +151,13 @@ for (int index = 0; index < length; index++)
 
 
 <!-- section start -->
-<!-- attr: { id:'inout', class:'slide-section', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
+<!-- attr: { id:'inout', class:'slide-section', showInPresentation:true, hasScriptWrapper:true, style:'font-size: 42px' } -->
 <!-- # <a id="inout"></a> Arrays: Input and Output
 ## Reading and Printing Arrays on the Console -->
 <!-- <img class="slide-image" showInPresentation="true" src="imgs/pic18.png" style="top:55%; left:30%; width:40%;border-radius:10px; border:2px solid white; z-index:-1" /> -->
 
 
-<!-- attr: { showInPresentation:'True', hasScriptWrapper:'False', style:'font-size: 42px' } -->
+<!-- attr: { showInPresentation:true, hasScriptWrapper:true, style:'font-size: 42px' } -->
 # Reading Arrays From the Console
 - First, read from the console the length of the array
 ```cs
@@ -174,7 +174,7 @@ for (int i = 0; i < n; i++)
 
 
 
-<!-- attr: {  showInPresentation:'True', hasScriptWrapper:'False', style:'font-size: 42px' } -->
+<!-- attr: {  showInPresentation:true, hasScriptWrapper:true, style:'font-size: 42px' } -->
 # Symmetry Check – _Example_
 - Read `int` array from the console and check if it is symmetric:
 ```cs
@@ -190,13 +190,13 @@ for (int i = 0; i < array.Length / 2; i++)
 <!-- <img class="slide-image" showInPresentation="true" src="imgs/symmetric-arrays.png" style="top:70%; left:5%; width:90%; z-index:-1" /> -->
 
 
-<!-- attr: { class:'slide-section demo', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px;' } -->
+<!-- attr: { class:'slide-section demo', showInPresentation:true, hasScriptWrapper:true, style:'font-size: 42px;' } -->
 <!-- # Symmetry Check
 ## [Demo](https://github.com/TelerikAcademy/CSharp-Part-2/tree/master/Topics/01.%20Arrays/demos/CheckSymmetry) -->
 <!-- <img class="slide-image" showInPresentation="true" src="imgs/pic19.png" style="top:55%; left:32.5%; width:35%;border-radius:10px; border:2px solid white; z-index:-1" /> -->
 
 
-<!-- attr: {  showInPresentation:'True', hasScriptWrapper:'False', style:'font-size: 42px' } -->
+<!-- attr: {  showInPresentation:true, hasScriptWrapper:true, style:'font-size: 42px' } -->
 # Printing Arrays on the Console
 - Process all elements of the array
 - Print each element to the console
@@ -216,7 +216,7 @@ for (int index = 0; index < array.Length; index++)
 
 
 
-<!-- attr: { class:'slide-section demo', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
+<!-- attr: { class:'slide-section demo', showInPresentation:true, hasScriptWrapper:true, style:'font-size: 42px' } -->
 <!-- # Printing Arrays
 ## [Demo](https://github.com/TelerikAcademy/CSharp-Part-2/tree/master/Topics/01.%20Arrays/demos/PrintArray) -->
 <!-- <img showInPresentation="true" class="slide-image" src="imgs/pic20.png" style="top:55%; left:30%; width:40%;border-radius:10px; border:2px solid white; z-index:-1" /> -->
@@ -225,12 +225,12 @@ for (int index = 0; index < array.Length; index++)
 
 
 <!-- section start -->
-<!-- attr: { id:'iterate', class:'slide-section', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
+<!-- attr: { id:'iterate', class:'slide-section', showInPresentation:true, hasScriptWrapper:true, style:'font-size: 42px' } -->
 <!-- # <a id="iterate"></a> Processing Array Elements Using for and foreach -->
 <!-- <img showInPresentation="true" class="slide-image" src="imgs/pic21.png" style="top:55%; left:28%; width:40%;border-radius:10px; border:2px solid white; z-index:-1" /> -->
 
 
-<!-- attr: {  showInPresentation:'True', hasScriptWrapper:'False', style:'font-size: 42px' } -->
+<!-- attr: {  showInPresentation:true, hasScriptWrapper:true, style:'font-size: 42px' } -->
 # Processing Arrays: `for` Statement
 - Use `for` loop to process an array when
   - Need to keep track of the index
@@ -246,7 +246,7 @@ for (int index = 0; index < array.Length; index++)
 
 
 
-<!-- attr: {  showInPresentation:'True', hasScriptWrapper:'False', style:'font-size: 42px' } -->
+<!-- attr: {  showInPresentation:true, hasScriptWrapper:true, style:'font-size: 42px' } -->
 # Processing Arrays Using `for` Loop – _Examples_
 - Printing array of integers in reversed order:
 ```cs
@@ -267,7 +267,7 @@ for (int index = 0; index < array.Length; index++)
 
 
 
-<!-- attr: {  showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
+<!-- attr: {  showInPresentation:true, hasScriptWrapper:true, style:'font-size: 42px' } -->
 # Processing Arrays: `foreach`
 - How `foreach` loop works?
   - `type`– the type of the element
@@ -288,7 +288,7 @@ foreach (type value in array)
 <!-- <img showInPresentation="true" class="slide-image" src="imgs/pic22.png" style="top:15%; left:75%; width:14.21%;border-radius:10px; border:2px solid white; z-index:-1" /> -->
 
 
-<!-- attr: {  showInPresentation:'True', hasScriptWrapper:'False', style:'font-size: 42px' } -->
+<!-- attr: {  showInPresentation:true, hasScriptWrapper:true, style:'font-size: 42px' } -->
 # Processing Arrays Using `foreach` – _Example_
 - Print all elements of a `string[]` array:
 
@@ -308,7 +308,7 @@ foreach (string capital in capitals)
 
 
 
-<!-- attr: { class:'slide-section demo', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
+<!-- attr: { class:'slide-section demo', showInPresentation:true, hasScriptWrapper:true, style:'font-size: 42px' } -->
 <!-- # Processing Arrays
 ## [Demo](https://github.com/TelerikAcademy/CSharp-Part-2/tree/master/Topics/01.%20Arrays/demos/IteratingOverArrays) -->
 <!-- <img showInPresentation="true" class="slide-image" src="imgs/pic23.png" style="top:55%; left:30%; width:40%;border-radius:10px; border:2px solid white; z-index:-1" /> -->
@@ -317,13 +317,13 @@ foreach (string capital in capitals)
 
 
 <!-- section start -->
-<!-- attr: { id:'dynamics', class:'slide-section', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
+<!-- attr: { id:'dynamics', class:'slide-section', showInPresentation:true, hasScriptWrapper:true, style:'font-size: 42px' } -->
 <!-- # <a id="dynamics"></a> Resizable Arrays
  ## List&lt;T> -->
 <!-- <img showInPresentation="true" class="slide-image" src="imgs/pic25.png" style="top:53.77%; left:40%; width:19.64%;border-radius:10px; border:2px solid white; z-index:-1" /> -->
 
 
-<!-- attr: { id:'listss', class:'', showInPresentation:'True', hasScriptWrapper:'False', style:'font-size: 42px' } -->
+<!-- attr: { id:'listss', class:'', showInPresentation:true, hasScriptWrapper:true, style:'font-size: 42px' } -->
 <!-- # <a id="listss"></a> Lists (Resizable Arrays) -->
 - <code>List&lt;T></code> – array that can be resized dynamically
   - Whenadding or removing elements
@@ -337,7 +337,7 @@ foreach (string capital in capitals)
   - **Count** – returns the current size of the list
 
 
-<!-- attr: {  showInPresentation:'True', hasScriptWrapper:'False', style:'font-size: 42px' } -->
+<!-- attr: {  showInPresentation:true, hasScriptWrapper:true, style:'font-size: 42px' } -->
 # List _Example_
 
 ```cs
@@ -361,7 +361,7 @@ for(int i = 0; i < 5; i++)
   - When using lists we don't have to know the exact number of elements
 
 
-<!-- attr: {  showInPresentation:'True', hasScriptWrapper:'False', style:'font-size: 40px' } -->
+<!-- attr: {  showInPresentation:true, hasScriptWrapper:true, style:'font-size: 40px' } -->
 # Lists vs. Arrays
 - Lets have an array with capacity of 5 elements
 ```cs
@@ -383,13 +383,13 @@ list.Add(newValue);
 ```
 
 
-<!-- attr: { class:'slide-section demo', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
+<!-- attr: { class:'slide-section demo', showInPresentation:true, hasScriptWrapper:true, style:'font-size: 42px' } -->
 <!-- # Lists &#60;T>
 ## [Demo](https://github.com/TelerikAcademy/CSharp-Part-2/tree/master/Topics/01.%20Arrays/demos/Lists) -->
 
 
 
-<!-- attr: {  showInPresentation:'True', hasScriptWrapper:'False', style:'font-size: 42px' } -->
+<!-- attr: {  showInPresentation:true, hasScriptWrapper:true, style:'font-size: 42px' } -->
 # How The List<T> Works?
 - Why adding new elements is not slow?
   - When adding `n` elements in <code>List&lt;T></code> it resizes itself `log(2)n` times instead of `n`
@@ -400,7 +400,7 @@ list.Add(newValue);
   - When adding the first element `Count` becomes 1 and `Capacity` becomes 4
 
 
-<!-- attr: {  showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 40px' } -->
+<!-- attr: {  showInPresentation:true, hasScriptWrapper:true, style:'font-size: 40px' } -->
 # How The List<T> Works?
 - Initially the <code>List&lt;T></code> is empty
   - When adding new element it is resized
@@ -420,7 +420,7 @@ list.Add(newValue);
 <!-- <img showInPresentation="true" class="slide-image" src="imgs/pic31.png" style="top:85%; left:10%; width:42%; z-index:-1" /> -->
 
 
-<!-- attr: { class:'slide-section demo', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
+<!-- attr: { class:'slide-section demo', showInPresentation:true, hasScriptWrapper:true, style:'font-size: 42px' } -->
 <!-- # Resizing Lists
 ## [Demo](https://github.com/TelerikAcademy/CSharp-Part-2/tree/master/Topics/01.%20Arrays/demos/ResizingLists) -->
 
@@ -428,13 +428,13 @@ list.Add(newValue);
 
 
 <!-- section start -->
-<!-- attr: { id:'copy', class:'slide-section', showInPresentation:'True', hasScriptWrapper:'True', style:'font-size: 42px' } -->
+<!-- attr: { id:'copy', class:'slide-section', showInPresentation:true, hasScriptWrapper:true, style:'font-size: 42px' } -->
 <!-- # <a id="copy"></a> Copying Arrays
 ## The Array Class -->
 
 
 
-<!-- attr: {  showInPresentation:'True', hasScriptWrapper:'False', style:'font-size: 42px' } -->
+<!-- attr: {  showInPresentation:true, hasScriptWrapper:true, style:'font-size: 42px' } -->
 # Copying Arrays
 - Sometimes we must **copy** the values from one array to another one
   - If we do it the intuitive way we would copy not only the values but the reference to the array
@@ -452,7 +452,7 @@ list.Add(newValue);
 
 
 <!-- section start -->
-<!-- attr: {  showInPresentation:'True', hasScriptWrapper:'False', style:'font-size: 42px' } -->
+<!-- attr: {  showInPresentation:true, hasScriptWrapper:true, style:'font-size: 42px' } -->
 # Summary
 - Arrays are a fixed-length sequences of elements of the same type
 - Array elements are accessible by index
