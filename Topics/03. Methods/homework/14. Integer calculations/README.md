@@ -11,8 +11,10 @@ Write a program that reads `5` elements and prints their `minimum`, `maximum`, `
 ## Output
 - Print their `minimum`, `maximum`, `average`, `sum` and `product`
   - Each on a new line
+  - The `average` value should be printed with **two** digits of precision
 
 ## Constraints
+- Each of the five numbers will be in the interval `[ -1000, 1000 ]`
 - Time limit: **0.1s**
 - Memory limit: **8MB**
 
@@ -20,4 +22,4 @@ Write a program that reads `5` elements and prints their `minimum`, `maximum`, `
 
 | Input  | Output |
 |:------:|:------:|
-
+| 3 7 9 18 0 | 0<br>18<br>7.40<br>37<br>0 |
