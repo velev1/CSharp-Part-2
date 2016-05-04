@@ -3,6 +3,7 @@
 # Using Classes and Objects
 ## Using the Standard .NET Framework Classes
 
+
 <!-- <img class="slide-image" showInPresentation="true" src="imgs/pic00.png" style="top:53.40%; left:52.19%; width:17.08%; z-index:-1" /> -->
 <!-- <img class="slide-image" showInPresentation="true" src="imgs/pic02.png" style="top:50.50%; left:74.85%; width:33.33%; z-index:-1" /> -->
 <div class="signature">
@@ -17,25 +18,25 @@
 <!-- section start -->
 <!-- attr: { showInPresentation:true, hasScriptWrapper:true } -->
 # Table of Contents
-- [Classes and Objects](#/classes-and-objects)
-  - [What are Objects?](#/objects)
-  - [What are Classes?](#/classes)
-- [Classes in C#](#/csharp-classes)
-  - [Declaring an object](#/object-declaration)
-  - [Fields and Properties: Instance and Static](#/fields-and-properties)
-  - [Instance and Static Methods](#/instance-and-static)
-  - [Constructors](#/constructors)
-- [Enumerations](#/enumerations)
+- [Classes and Objects](#classes-and-objects)
+  - [What are Objects?](#objects)
+  - [What are Classes?](#classes)
+- [Classes in C#](#csharp-classes)
+  - [Declaring an object](#object-declaration)
+  - [Fields and Properties: Instance and Static](#fields-and-properties)
+  - [Instance and Static Methods](#instance-and-static)
+  - [Constructors](#constructors)
+- [Enumerations](#enumerations)
 
 <!-- <img class="slide-image" showInPresentation="true" src="imgs/pic03.png" style="top:13.22%; left:85.50%; width:18.18%; z-index:-1; border-radius: 15px" /> -->
 
 
 <!-- attr: { showInPresentation:true, hasScriptWrapper:true } -->
 <!-- # Table of Contents -->
-- [Structures](#/structures)
-- [Namespaces](#/namespaces)
-- [**Random** class](#/random)
-- [Introduction to .NET Common Type System](#/cts)
+- [Structures](#structures)
+- [Namespaces](#namespaces)
+- [**Random** class](#random)
+- [Introduction to .NET Common Type System](#cts)
 
 <!-- <img class="slide-image" showInPresentation="true" src="imgs/pic04.png" style="top:55%; left:70%; width:19.50%; z-index:-1; border-radius: 15px; border: 3px solid yellowgreen" /> -->
 
@@ -44,8 +45,8 @@
 
 <!-- section start -->
 <!-- attr: { id:'classes-and-objects', class:'slide-section', showInPresentation:true, hasScriptWrapper:true } -->
-# <a id="classes-and-objects"></a>Classes and Objects
-## Modeling Real-world Entities with Objects
+<!-- # <a id="classes-and-objects"></a>Classes and Objects
+## Modeling Real-world Entities with Objects -->
 
 
 <!-- attr: { id:'objects', class:'', showInPresentation:true, hasScriptWrapper:true } -->
@@ -63,10 +64,11 @@
 <!-- attr: { showInPresentation:true, hasScriptWrapper:true } -->
 <!-- # What are Objects? -->
 - How do software objects implement real-world objects?
-  - Use **variables**/**data** to implement states
+  - Use **variables**/**data** to implement states 
   - Use **methods**/**functions** to implement behaviors
 - An object is a software bundle of variables and related methods
-<img class="slide-image" src="imgs/pic07.png" style="top:49.37%; left:60.82%; width:41.43%; z-index:-1" />
+
+<!-- <img class="slide-image" showInPresentation="true" src="imgs/pic07.png" style="top:49.37%; left:60.82%; width:41.43%; z-index:-1" /> -->
 
 
 <!-- attr: { showInPresentation:true, hasScriptWrapper:true } -->
@@ -142,7 +144,7 @@ Account
   - Objects: Ivan's `account`, Peter's `account`
 
 
-<!-- attr: { showInPresentation:true, hasScriptWrapper:true, style:'font-size: 40px;' } -->
+<!-- attr: { showInPresentation:true, hasScriptWrapper:true, style:'font-size: 0.7em' } -->
 # Objects – _Example_
 
 - Class
@@ -158,7 +160,7 @@ Account
 +Withdraw(sum:double)
 ```
 
-<div class="fragment balloon" style="top:25%; left:45%; width:14.10%">Class</div>
+- Objects
 
 ```cs
 ivanAccount
@@ -166,7 +168,6 @@ ivanAccount
 +Owner="Ivan Kolev"
 +Ammount=5000.0
 ```
-
 
 ```cs
 peterAccount
@@ -176,15 +177,11 @@ peterAccount
 ```
 
 
-<div class="fragment balloon" style="top:60%; left:45%; width:14.10%">Object</div>
-<div class="fragment balloon" style="top:80%; left:45%; width:14.10%">Object</div>
-
-
 
 
 <!-- section start -->
 <!-- attr: { id:'csharp-classes', class:'slide-section', showInPresentation:true, hasScriptWrapper:true } -->
-# <a id="csharp-classes"></a>Classes in C&#35;
+<!-- # <a id="csharp-classes"></a>Classes in C&#35; -->
 
 
 <!-- attr: { showInPresentation:true, hasScriptWrapper:true } -->
@@ -198,7 +195,8 @@ peterAccount
   - Constructors
   - Inner types
   - Etc. (events, indexers, operators, …)
-<img class="slide-image" src="imgs/pic10.png" style="top:32.29%; left:77.66%; width:24.35%; z-index:-1" />
+  
+<!-- <img class="slide-image" showInPresentation="true" src="imgs/pic10.png" style="top:32.29%; left:77.66%; width:24.35%; z-index:-1" /> -->
 
 
 <!-- attr: { showInPresentation:true, hasScriptWrapper:true } -->
@@ -236,8 +234,9 @@ DateTime today = DateTime.Now;
 
 <!-- section start -->
 <!-- attr: { id:'fields-and-properties', class:'slide-section', showInPresentation:true, hasScriptWrapper:true } -->
-# <a id="fields-and-properties"></a>Fields and Properties
-## Accessing Fields and Properties
+<!-- # <a id="fields-and-properties"></a>Fields and Properties
+## Accessing Fields and Properties -->
+
 <!-- <img class="slide-image" showInPresentation="true" src="imgs/pic12.png" style="top:55%; left:32.5%; width:35%; z-index:-1; border-radius: 15px" /> -->
 
 
@@ -332,8 +331,8 @@ Console.WriteLine("Is {0} leap year: {1}",
 
 <!-- section start -->
 <!-- attr: { id:'instance-and-static', class:'slide-section', showInPresentation:true, hasScriptWrapper:true } -->
-# <a id="instance-and-static"></a>Instance and Static Members
-## Accessing Object and Class Members
+<!-- # <a id="instance-and-static"></a>Instance and Static Members
+## Accessing Object and Class Members -->
 
 <!-- <img class="slide-image" showInPresentation="true" src="imgs/pic18.png" style="top:62%; left:38%; width:25%; z-index:-1" /> -->
 
@@ -617,10 +616,10 @@ color = 5; // Compilation error!
 <!-- <img class="slide-image" showInPresentation="true" src="imgs/pic29.png" style="top:55%; left:17%; width:26.45%; z-index:-1" /> -->
 <!-- <img class="slide-image" showInPresentation="true" src="imgs/pic30.png" style="top:55%; left:61.73%; width:21.17%; z-index:-1; border-radius: 15px; transform: rotate(7deg)" /> -->
 
-
+<!-- section start -->
 <!-- attr: { id:'structures', class:'slide-section', showInPresentation:true, hasScriptWrapper:true } -->
-# <a id="structures"></a>Structures
-## What are Structures? When to Use Them?
+<!-- # <a id="structures"></a>Structures
+## What are Structures? When to Use Them? -->
 
 <!-- attr: { showInPresentation:true, hasScriptWrapper:true, style:'font-size: 0.9em' } -->
 # Structures
@@ -634,6 +633,7 @@ color = 5; // Compilation error!
   - `System.DateTime` – represents a date and time
 
 
+<!-- section start -->
 <!-- attr: { id:'namespaces', class:'slide-section', showInPresentation:true, hasScriptWrapper:true } -->
 <!-- # <a id="namespaces"></a>Namespaces
 ## Organizing Classes Logically into Namespaces -->
@@ -688,8 +688,8 @@ System.DateTime date;
 ```
 
 
-
-<!-- attr: { id:'random', class:'slide-section demo', showInPresentation:true, hasScriptWrapper:true } -->
+<!-- section start -->
+<!-- attr: { id:'random', class:'slide-section', showInPresentation:true, hasScriptWrapper:true } -->
 <!-- # <a id="random"></a>The `Random` Class
 ## Password Generator Demo -->
 
@@ -818,12 +818,12 @@ private static char GenerateChar(string availableChars)
 
 <!-- section start -->
 <!-- attr: { id:'cts', class:'slide-section', showInPresentation:true, hasScriptWrapper:true } -->
-# <a id="cts"></a>.NET Common Type System
-## Brief Introduction
+<!-- # <a id="cts"></a>.NET Common Type System
+## Brief Introduction -->
 
 
 <!-- attr: { showInPresentation:true, hasScriptWrapper:true } -->
-<!-- # Common Type System (CTS) -->
+# Common Type System (CTS)
 - `CTS` defines all **data types** supported in .NET Framework
   - Primitive types (e.g. `int`, `float`, `object`)
   - Classes (e.g. `String`, `Console`, `Array`)
@@ -929,6 +929,7 @@ string str = "telerik";
 - **Common Type System** (CTS) defines the types for all .NET languages
   - **Value** types
   - **Reference** types
+  
 <!-- <img class="slide-image" showInPresentation="true" src="imgs/pic42.png" style="top:34.38%; left:79.53%; width:25.02%; z-index:-1; border-radius: 15px" /> -->
 
 

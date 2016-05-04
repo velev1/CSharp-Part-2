@@ -1,5 +1,5 @@
 ## 03. Methods
-What is a method? Why to use methods? Declaring and creating methods, Calling methods, Methods with parameters, Passing parameters, Returning values, Best practices.
+What is a class? What is an object? How to use the standard .NET classes?
 
 ## Resources
 
