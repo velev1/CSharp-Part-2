@@ -22,3 +22,6 @@ Read a word from the console and print the index of each of its letters in the a
 | Input          | Output |
 |:--------------:|:------:|
 | telerikacademy | 19<br>4<br>11<br>4<br>17<br>8<br>10<br>0<br>2<br>0<br>3<br>4<br>12<br>24 |
+
+## Submission
+- Submit your code [here](http://bgcoder.com/Contests/Compete/Index/315#10)

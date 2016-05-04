@@ -23,3 +23,6 @@ Write a program that reads two `integer` arrays of size **N** from the console a
 |:-----:|:------:|
 | 3<br>**1<br>2<br>3<br>1<br>2<br>3** | Equal |
 | 3<br>**1<br>1<br>1<br>2<br>2<br>2** | Not equal |
+
+## Submission
+- Submit your code [here](http://bgcoder.com/Contests/Compete/Index/315#1)

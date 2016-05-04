@@ -21,3 +21,6 @@ Write a program that compares two `char` arrays lexicographically (letter by let
 |:-----:|:------:|
 | hello<br>halo | > |
 | food<br>food | = |
+
+## Submission
+- Submit your code [here](http://bgcoder.com/Contests/Compete/Index/315#2)

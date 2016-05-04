@@ -23,3 +23,6 @@ Find the maximal sum of **K** elements in the array.
 | Input                                                       | Output |
 |:-----------------------------------------------------------:|:------:|
 | 8<br>3<br>3<br>2<br>3<br>-2<br>**5**<br>**4**<br>2<br>**7** | 16     |
+
+## Submission
+- Submit your code [here](http://bgcoder.com/Contests/Compete/Index/315#5)

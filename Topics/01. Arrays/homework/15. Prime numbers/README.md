@@ -21,3 +21,6 @@ Write a program that finds all prime numbers in the range [`1 ... N`]. Use the [
 | 13    | 13     |
 | 126   | 113    |
 | 26    | 23     |
+
+## Submission
+- Submit your code [here](http://bgcoder.com/Contests/Compete/Index/315#13)

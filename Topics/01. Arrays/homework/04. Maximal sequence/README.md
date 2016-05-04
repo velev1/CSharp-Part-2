@@ -20,3 +20,6 @@ Write a program that finds the length of the **maximal sequence** of equal eleme
 | Input                                                    | Output |
 |:--------------------------------------------------------:|:------:|
 | 10<br>2<br>1<br>1<br>2<br>3<br>3<br>**2<br>2<br>2**<br>1 | 3      |
+
+## Submission
+- Submit your code [here](http://bgcoder.com/Contests/Compete/Index/315#3)

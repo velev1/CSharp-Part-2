@@ -22,3 +22,6 @@ Write a program that finds the maximal sum of consecutive elements in a given ar
 | Input | Output |
 |:-----:|:------:|
 | 10<br>2<br>3<br>-6<br>-1<br>**2<br>-1<br>6<br>4**<br>-8<br>8 | 11 |
+
+## Submission
+- Submit your code [here](http://bgcoder.com/Contests/Compete/Index/315#7)

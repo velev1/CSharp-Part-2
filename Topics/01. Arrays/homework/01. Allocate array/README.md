@@ -21,3 +21,6 @@ Write a program that allocates array of **N** integers, initializes each element
 | Input | Output |
 |:-----:|:------:|
 | 5     | 0<br>5<br>10<br>15<br>20 |
+
+## Submission
+- Submit your code [here](http://bgcoder.com/Contests/Compete/Index/315#0)

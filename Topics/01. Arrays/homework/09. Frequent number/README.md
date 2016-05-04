@@ -23,3 +23,6 @@ Write a program that finds the most frequent number in an array of **N** element
 | Input | Output |
 |:-----:|:------:|
 | 13<br>**4**<br>1<br>1<br>**4**<br>2<br>3<br>**4**<br>**4**<br>1<br>2<br>**4**<br>9<br>3 | 4 (5 times) |
+
+## Submission
+- Submit your code [here](http://bgcoder.com/Contests/Compete/Index/315#8)

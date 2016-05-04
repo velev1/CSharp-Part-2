@@ -22,3 +22,6 @@ Print the minimal number of elements that need to be removed in order for the ar
 |:-----:|:------:|
 | 8<br>**1<br>4<br>3<br>3<br>6<br>3<br>2<br>3** | 3 |
 | 10<br>**14<br>2<br>9<br>8<br>3<br>13<br>17<br>19<br>30<br>1** | 4 |
+
+## Submission
+- Submit your code [here](http://bgcoder.com/Contests/Compete/Index/315#14)
