@@ -118,32 +118,6 @@
 
 <!-- <img class="slide-image" showInPresentation="true" src="imgs/pic27.png" style="top:57%; left:55%; width:35%; border-radius: 15px" /> -->
 
-
-<!-- attr: { showInPresentation: true, hasScriptWrapper: true} -->
-# Why C# and .NET Framework?
-
-- Microsoft is very strong industry leader
-  - **.NET Framework** and **C#** are the primary development technologies in the MS ecosystem
-- The **C#** language
-  - Modern object-oriented language
-    - Multi-paradigm programming language
-  - Widespread and very popular
-  - Easy to learn
-  - Easy to switch to other languages
-
-
-<!-- attr: { showInPresentation: true, hasScriptWrapper: true} -->
-# Why English?
-
-- Why the slides are in **English**?
-  - English is the native language of the software engineers
-  - **Just learn it!**
-  - Specific terminology should be in English
-    - Translations are inaccurate and funny
-
-<!-- <img class="slide-image" showInPresentation="true" src="imgs/pic29.png" style="top:60%; left:10%; width:30.85%; z-index:-1" /> -->
-<!-- <img class="slide-image" showInPresentation="true" src="imgs/pic30.png" style="top:60%; left:58%; width:23.80%; z-index:-1" /> -->
-
 <!-- section start -->
 <!-- attr: { class:'slide-section', showInPresentation: true, hasScriptWrapper: true} -->
 <!-- # C# Advanced Exams
@@ -308,6 +282,7 @@
     - Other IDEs (e.g. **Visual Studio Code**, **MonoDevelop**, **Xamarin Studio**) are OK, too
   - .NET Framework 4.5 / 4.6 (included in Visual Studio)
 
+<!-- section start -->
 
 <!-- attr: { class:'slide-section', showInPresentation: true, hasScriptWrapper: true, style:'font-size: 42px' } -->
 <!-- # C# Advanced Course Introduction
