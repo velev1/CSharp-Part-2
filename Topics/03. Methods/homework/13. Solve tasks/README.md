@@ -12,3 +12,6 @@ Create appropriate methods.
   - The decimal number should be non-negative
   - The sequence should not be empty
   - `a` should not be equal to `0`
+
+## Submission
+- You do not have to submit anything for this problem

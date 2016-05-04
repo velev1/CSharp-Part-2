@@ -23,3 +23,6 @@ Write a program that reads `5` elements and prints their `minimum`, `maximum`, `
 | Input  | Output |
 |:------:|:------:|
 | 3 7 9 18 0 | 0<br>18<br>7.40<br>37<br>0 |
+
+## Submission
+- Submit your code [here](http://bgcoder.com/Contests/Compete/Index/317#11)

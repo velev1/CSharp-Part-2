@@ -20,3 +20,6 @@ Write a program to test this method.
 |:------|:--------------|
 | Peter | Hello, Peter! |
 
+
+## Submission
+- Submit your code [here](http://bgcoder.com/Contests/Compete/Index/317#0)
