@@ -37,7 +37,7 @@
   - The most important multidimensional arrays are the 2-dimensional
     - Known as **matrices** or **tables**
 - _Example_ of matrix of integers with 2 rows and 4 columns:
-<!-- <img class="slide-image" showInPresentation="true" src="imgs/exampleArray.png" style="top:60%; left:30%; width:40%; z-index:-1" /> -->
+<!-- <img class="slide-image" showInPresentation="true" src="imgs/example-array.png" style="top:60%; left:30%; width:40%; z-index:-1" /> -->
 
 <!-- attr: { id:'delaring',  showInPresentation:true, hasScriptWrapper:true, style:'font-size: 42px' } -->
 # <a id="delaring"></a> Declaring and Creating Multidimensional Arrays
