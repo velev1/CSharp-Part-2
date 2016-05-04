@@ -23,3 +23,6 @@ Print that sum.
 |:------|:------:|
 | 3 3<br>**4 3 5<br>2 6 4<br>8 2 7** | 41 | 
 | 5 5<br>**1 1 3 3 5<br>-6 -7 2 -3 -1<br>3 0 -4 5 9<br>7 -7 0 1 0<br>-7 -6 -4 -4 9** | 19 |
+
+## Submission
+- Submit your code [here](http://bgcoder.com/Contests/Compete/Index/316#1)

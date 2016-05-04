@@ -22,3 +22,6 @@ Write a program that finds the largest area of equal neighbour elements in a rec
 | 5 6<br>1 **3** 2 2 2 4<br>**3 3 3** 2 4 4<br>4 **3** 1 2 **3 3**<br>4 **3** 1 **3 3** 1<br>4 **3 3 3** 1 1 | 13 |
 
 _Hint: you can use the algorithm [Depth-first search](http://en.wikipedia.org/wiki/Depth-first_search) or [Breadth-first search](http://en.wikipedia.org/wiki/Breadth-first_search)._
+
+## Submission
+- Submit your code [here](http://bgcoder.com/Contests/Compete/Index/316#3)
