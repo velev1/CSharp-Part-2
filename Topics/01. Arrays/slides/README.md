@@ -28,7 +28,7 @@
 
 <!-- section start -->
 <!-- attr: { id:'declare', class:'slide-section', showInPresentation:true, hasScriptWrapper:true, style:'font-size: 42px' } -->
-<!-- # <a id="declare"></a> Declaring and Creating Arrays -->
+# <a id="declare"></a> Declaring and Creating Arrays
 <!-- <img class="slide-image" showInPresentation="true" src="imgs/pic04.png" style="top:45%; left:65%; width:20%;border-radius:10px; border:2px solid white; z-index:-1" /> -->
 <!-- <img class="slide-image" showInPresentation="true" src="imgs/pic05.png" style="top:45%; left:10.48%; width:30%; z-index:-1" /> -->
 
