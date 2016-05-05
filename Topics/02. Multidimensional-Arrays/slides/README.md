@@ -27,8 +27,8 @@
 
 <!-- section start -->
 <!-- attr: { id:'multidimensional', class:'slide-section', showInPresentation:true, hasScriptWrapper:true, style:'font-size: 42px' } -->
-<!-- # <a id="multidimensional"></a> Multidimensional Arrays
-## Using Array of Arrays, Matrices and Cubes -->
+# <a id="multidimensional"></a> Multidimensional Arrays
+## Using Array of Arrays, Matrices and Cubes
 <!-- <img class="slide-image" src="imgs/pic06.png" style="top:55%; left:34%; width:30%; z-index:-1" /> -->
 
 <!-- attr: {  showInPresentation:true, hasScriptWrapper:true, style:'font-size: 42px' } -->
@@ -141,7 +141,7 @@ for (int row = 0; row < matrix.GetLength(0); row++)
 <!-- <img class="slide-image" showInPresentation="true" src="imgs/pic07.png" style="top:55%; left:35%; width:30%; z-index:-1" /> -->
 
 
-<!-- attr: {   showInPresentation:true, hasScriptWrapper:true, style:'font-size: 42px' } -->
+<!-- attr: {   showInPresentation:true, hasScriptWrapper:true, style:'font-size: 40px' } -->
 # Maximal Platform – _Example_
 - Finding a 2 x 2 platform in a matrix with a maximal sum of its elements
 
@@ -158,14 +158,15 @@ for (int row = 0; row < matrix.GetLength(0) - 1; row++)
     for (int col = 0; col < matrix.GetLength(1) - 1; col++)
     {
         int sum = matrix[row, col] + matrix[row, col + 1] +
-                  matrix[row + 1, col] + matrix[row + 1, col + 1];
+                  matrix[row + 1, col] +
+				  matrix[row + 1, col + 1];
         if (sum > bestSum)
             bestSum = sum;
     }
 }
 ```
 
-<div class="balloon" style="position: absolute; top: 42%; left:20%; width:3%; height: 7%; opacity:0.3;"></div>
+<div class="balloon" style="position: absolute; top: 41%; left:20%; width:3%; height: 7%; opacity:0.3;"></div>
 
 
 
@@ -185,7 +186,7 @@ for (int row = 0; row < matrix.GetLength(0) - 1; row++)
 <img  class="slide-image" src="imgs/pic10.png" style="top:55%; left:13.02%; width:44.15%; z-index:-1" />
 
 
-<!-- attr: { id:'jaggeddeclare',  showInPresentation:true, hasScriptWrapper:true, style:'font-size: 42px' } -->
+<!-- attr: { id:'jaggeddeclare',  showInPresentation:true, hasScriptWrapper:true, style:'font-size: 38px' } -->
 # <a id="jaggeddeclare"></a> Jagged Arrays
 - Jagged arrays are like multidimensional arrays
   - But each dimension has different size
@@ -200,7 +201,7 @@ jagged[1] = new int[2];
 jagged[2] = new int[5];
 ```
 
-<!-- <img class="slide-image" showInPresentation="true" src="imgs/pic11.png" style="top:70%; left:20%; width:30%; z-index: 1" /> -->
+<!-- <img class="slide-image" showInPresentation="true" src="imgs/pic11.png" style="top:55%; left:45%; width:30%; z-index: 1" /> -->
 
 
 <!-- attr: {   showInPresentation:true, hasScriptWrapper:true, style:'font-size: 42px' } -->
@@ -273,7 +274,7 @@ foreach (var number in numbers)
 <!-- attr: {  class:'slide-section demo', showInPresentation:true, hasScriptWrapper:true, style:'font-size: 42px' } -->
 <!-- # Pascal's Triangle
 ## [Demo](https://github.com/TelerikAcademy/CSharp-Part-2/tree/master/Topics/02.%20Multidimensional-Arrays/demos/PascalTriangle) -->
-<!-- <img class="slide-image" showInPresentation="true" src="imgs/pascal1.gif" style="top:55%; left:30%; width:40%; z-index:-1" /> -->
+<!-- <img class="slide-image" showInPresentation="true" src="imgs/pascal1.gif" style="top:53%; left:32%; width:36%; z-index:-1" /> -->
 
 
 <!-- attr: {  class:'slide-section demo', showInPresentation:true, hasScriptWrapper:true, style:'font-size: 42px' } -->
@@ -332,7 +333,7 @@ foreach (var number in numbers)
 
 <!-- section start -->
 <!-- attr: { id:'sorting', class:'slide-section', showInPresentation:true, hasScriptWrapper:true, style:'font-size: 42px' } -->
-<!-- # <a id="sorting"></a> Sorting Arrays -->
+# <a id="sorting"></a> Sorting Arrays
 <!-- <img class="slide-image" showInPresentation="true" src="imgs/pic19.png" style="top:40%; left:30%; width:40%; z-index:-1" /> -->
 
 
@@ -408,7 +409,7 @@ Array.Sort(students, (x, y) => x.Name.CompareTo(y.Name));
 
 <!-- section start -->
 <!-- attr: { id:'binarysearch', class:'slide-section', showInPresentation:true, hasScriptWrapper:true, style:'font-size: 42px' } -->
-<!-- # <a id="binarysearch"></a> Binary Search -->
+# <a id="binarysearch"></a> Binary Search
 <!-- <img class="slide-image" showInPresentation="true" src="imgs/pic23.png" style="top:45%; left:30%; width:40%; z-index:-1" /> -->
 
 
@@ -478,7 +479,7 @@ static void Main()
 - `Clone()` returns shallow copy of the array
   - You should implement your own deep clone when working with **custom** reference types
 
-
+<!-- section start -->
 <!-- attr: { class:'slide-section', showInPresentation: true, hasScriptWrapper: true, style:'font-size: 42px' } -->
 <!-- # C# Multidimensional Arrays
 ## Questions? -->
