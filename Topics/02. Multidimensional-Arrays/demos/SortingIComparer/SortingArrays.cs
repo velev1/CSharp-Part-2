@@ -9,7 +9,7 @@ public class SortingArrays
 
         Array.Sort(numbers, new NumbersComparer());
 
-        Console.WriteLine("Numbers sorted by modul 5");
+        Console.WriteLine("Numbers sorted by module 5:");
         foreach (int number in numbers)
         {
             Console.WriteLine(number);
@@ -19,7 +19,7 @@ public class SortingArrays
 
         Array.Sort(numbers, (x, y) => (y % 6).CompareTo(x % 6));
 
-        Console.WriteLine("Numbers sorted descending:");
+        Console.WriteLine("Numbers sorted by module 6:");
         foreach (int number in numbers)
         {
             Console.WriteLine(number);
@@ -27,6 +27,7 @@ public class SortingArrays
 
         Console.WriteLine();
 
+        Console.WriteLine("Students sorted by first letter from last name");
         string[] students = { "Doncho Minkov", "Nikolay Kostov", "Ivaylo Kenov", "Evlogi Hristov" };
         Array.Sort(students, new StudentsComparer());
         foreach (string student in students)
