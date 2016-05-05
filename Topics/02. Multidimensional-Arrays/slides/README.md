@@ -137,7 +137,7 @@ for (int row = 0; row < matrix.GetLength(0); row++)
 
 <!-- attr: {  class:'slide-section demo', showInPresentation:true, hasScriptWrapper:true, style:'font-size: 42px' } -->
 <!-- # Reading and Printing Matrices
-## [Demo](https://github.com/TelerikAcademy/CSharp-Part-2/tree/master/Topics/02.%20Multidimensional%20Arrays/demos/ReadWriteMatrix) -->
+## [Demo](https://github.com/TelerikAcademy/CSharp-Part-2/tree/master/Topics/02.%20Multidimensional-Arrays/demos/ReadWriteMatrix) -->
 <!-- <img class="slide-image" showInPresentation="true" src="imgs/pic07.png" style="top:55%; left:35%; width:30%; z-index:-1" /> -->
 
 
@@ -171,7 +171,7 @@ for (int row = 0; row < matrix.GetLength(0) - 1; row++)
 
 <!-- attr: {  class:'slide-section demo', showInPresentation:true, hasScriptWrapper:true, style:'font-size: 42px' } -->
 <!-- # Maximal Platform
-## [Demo](https://github.com/TelerikAcademy/CSharp-Part-2/tree/master/Topics/02.%20Multidimensional%20Arrays/demos/MaxPlatform) -->
+## [Demo](https://github.com/TelerikAcademy/CSharp-Part-2/tree/master/Topics/02.%20Multidimensional-Arrays/demos/MaxPlatform) -->
 <!-- <img class="slide-image" showInPresentation="true" src="imgs/pic08.png" style="top:55%; left:35%; width:30%; z-index:-1" /> -->
 
 
@@ -224,7 +224,7 @@ for (int i = 0; i < n; i++)
 
 <!-- attr: {  class:'slide-section demo', showInPresentation:true, hasScriptWrapper:true, style:'font-size: 42px' } -->
 <!-- # Jagged Arrays
-## [Demo](https://github.com/TelerikAcademy/CSharp-Part-2/tree/master/Topics/02.%20Multidimensional%20Arrays/demos/JaggedArrays) -->
+## [Demo](https://github.com/TelerikAcademy/CSharp-Part-2/tree/master/Topics/02.%20Multidimensional-Arrays/demos/JaggedArrays) -->
 <!-- <img class="slide-image" showInPresentation="true" src="imgs/pic12.png" style="top:55%; left:45.38%; width:30%; z-index:-1" /> -->
 <!-- <img class="slide-image" showInPresentation="true" src="imgs/pic13.png" style="top:55%; left:25%; width:15%; z-index:-1" /> -->
 
@@ -272,13 +272,13 @@ foreach (var number in numbers)
 
 <!-- attr: {  class:'slide-section demo', showInPresentation:true, hasScriptWrapper:true, style:'font-size: 42px' } -->
 <!-- # Pascal's Triangle
-## [Demo](https://github.com/TelerikAcademy/CSharp-Part-2/tree/master/Topics/02.%20Multidimensional%20Arrays/demos/PascalTriangle) -->
+## [Demo](https://github.com/TelerikAcademy/CSharp-Part-2/tree/master/Topics/02.%20Multidimensional-Arrays/demos/PascalTriangle) -->
 <!-- <img class="slide-image" showInPresentation="true" src="imgs/pascal1.gif" style="top:55%; left:30%; width:40%; z-index:-1" /> -->
 
 
 <!-- attr: {  class:'slide-section demo', showInPresentation:true, hasScriptWrapper:true, style:'font-size: 42px' } -->
 <!-- # Matrix Multiplication
-## [Demo](https://github.com/TelerikAcademy/CSharp-Part-2/tree/master/Topics/02.%20Multidimensional%20Arrays/demos/Matrix%20Multiplication) -->
+## [Demo](https://github.com/TelerikAcademy/CSharp-Part-2/tree/master/Topics/02.%20Multidimensional-Arrays/demos/Matrix%20Multiplication) -->
 <!-- <img class="slide-image" showInPresentation="true" src="imgs/pic12.png" style="top:55%; left:30%; width:40%; z-index:-1" /> -->
 
 
@@ -399,7 +399,7 @@ Array.Sort(students, (x, y) => x.Name.CompareTo(y.Name));
 
 <!-- attr: {  class:'slide-section demo', showInPresentation:true, hasScriptWrapper:true, style:'font-size: 42px' } -->
 <!-- # Sorting with IComparer&lt;T> and Lambda Expressions
-## [Demo](https://github.com/TelerikAcademy/CSharp-Part-2/tree/master/Topics/02.%20Multidimensional%20Arrays/demos/SortingIComparer) -->
+## [Demo](https://github.com/TelerikAcademy/CSharp-Part-2/tree/master/Topics/02.%20Multidimensional-Arrays/demos/SortingIComparer) -->
 <!-- <img class="slide-image" showInPresentation="true" src="imgs/pic21.png" style="top:65%; left:25%; width:14.5%; z-index:-1" /> -->
 <!-- <img class="slide-image" showInPresentation="true" src="imgs/pic22.png" style="top:65%; left:53.83%; width:23%; z-index:-1" /> -->
 
@@ -457,7 +457,7 @@ static void Main()
 
 <!-- attr: { class:'slide-section demo', showInPresentation:true, hasScriptWrapper:true, style:'font-size: 42px' } -->
 <!-- # Binary Search
-## [Demo](https://github.com/TelerikAcademy/CSharp-Part-2/tree/master/Topics/02.%20Multidimensional%20Arrays/demos/BinarySearch) -->
+## [Demo](https://github.com/TelerikAcademy/CSharp-Part-2/tree/master/Topics/02.%20Multidimensional-Arrays/demos/BinarySearch) -->
 <!-- <img class="slide-image" showInPresentation="true" src="imgs/pic25.png" style="top:55%; left:15%; width:70%; z-index:-1" /> -->
 
 
