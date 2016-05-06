@@ -9,7 +9,7 @@ What is a multidimensional array? What is a matrix? Declaring and using multidim
 - [Matrices and Multidimensional Arrays](slides/README.md/#multidimensional)
   - [Declaring](slides/README.md/#delaring)
   - [Usage](slides/README.md/#usage)
-- [Jagged Arrays](slides/README.md/#jagged-arrays)
+- Jagged Arrays
   - [Declaring](slides/README.md/#jaggeddeclare)
   - [Usage](slides/README.md/#jaggedusage)
 - [The **Array** Class](slides/README.md/#arrayclass)

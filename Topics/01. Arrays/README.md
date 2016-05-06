@@ -10,8 +10,8 @@ Declaring and creating arrays, Accessing array elements, Console Input/Output of
 - [Accessing Array Elements](slides/README.md/#access)
 - [Console Input and Output of Arrays](slides/README.md/#inout)
 - [Iterating Over Arrays Using **for** and **foreach**](slides/README.md/#iterate)
-- [Dynamic Arrays](slides/README.md/#dynamics)
-  - [**List < T >**](slides/README.md/#listss)
+- Dynamic Arrays
+  - [**List &lt;T>**](slides/README.md/#lists)
 - [Copying Arrays](slides/README.md/#copy)
 
 #### [<img src="https://raw.githubusercontent.com/TelerikAcademy/Common/master/icons/home.png" height="20" /> home](/README.md)

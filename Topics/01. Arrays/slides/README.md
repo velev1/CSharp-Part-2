@@ -19,7 +19,7 @@
 - [Accessing Array Elements](#access)
 - [Console Input and Output of Arrays](#inout)
 - [Iterating Over Arrays Using `for` and `foreach`](#iterate)
-- [Dynamic Arrays](#dynamics)
+- Dynamic Arrays
   - [List &lt;T>](#lists)
 - [Copying Arrays](#copy)
 
@@ -105,14 +105,14 @@ string[] daysOfWeek =
 
 
 
-<!-- attr: { id:'access', class:'slide-section', showInPresentation:true, hasScriptWrapper:true, style:'font-size: 42px' } -->
-<!-- # <a id="access"></a> Accessing Array Elements
+<!-- attr: {  class:'slide-section', showInPresentation:true, hasScriptWrapper:true, style:'font-size: 42px' } -->
+<!-- # Accessing Array Elements
  ## Read and Modify Elements by Index -->
 <!-- <img class="slide-image" showInPresentation="true" src="imgs/pic14.png" style="top:55%; left:30%; width:40%; border-radius:10px; border:2px solid white; z-index:-1" /> -->
 
 
-<!-- attr: {  showInPresentation:true, hasScriptWrapper:true, style:'font-size: 42px' } -->
-# How to Access Array Element?
+<!-- attr: { id:'access', showInPresentation:true, hasScriptWrapper:true, style:'font-size: 42px' } -->
+# <a id="access"></a>How to Access Array Element?
 - Array elements are accessed using the square brackets operator `[]` (indexer)
   - Array indexer takes element’s index as parameter
   - The first element has index `0`
@@ -151,14 +151,14 @@ for (int index = 0; index < length; index++)
 
 
 <!-- section start -->
-<!-- attr: { id:'inout', class:'slide-section', showInPresentation:true, hasScriptWrapper:true, style:'font-size: 42px' } -->
-<!-- # <a id="inout"></a> Arrays: Input and Output
+<!-- attr: {  class:'slide-section', showInPresentation:true, hasScriptWrapper:true, style:'font-size: 42px' } -->
+<!-- # Arrays: Input and Output
 ## Reading and Printing Arrays on the Console -->
 <!-- <img class="slide-image" showInPresentation="true" src="imgs/pic18.png" style="top:55%; left:30%; width:40%;border-radius:10px; border:2px solid white; z-index:-1" /> -->
 
 
-<!-- attr: { showInPresentation:true, hasScriptWrapper:true, style:'font-size: 42px' } -->
-# Reading Arrays From the Console
+<!-- attr: { id:'inout', showInPresentation:true, hasScriptWrapper:true, style:'font-size: 42px' } -->
+# <a id="inout"></a>Reading Arrays From the Console
 - First, read from the console the length of the array
 ```cs
 int n = int.Parse(Console.ReadLine());
@@ -225,13 +225,13 @@ for (int index = 0; index < array.Length; index++)
 
 
 <!-- section start -->
-<!-- attr: { id:'iterate', class:'slide-section', showInPresentation:true, hasScriptWrapper:true, style:'font-size: 42px' } -->
-<!-- # <a id="iterate"></a> Processing Array Elements Using for and foreach -->
+<!-- attr: { class:'slide-section', showInPresentation:true, hasScriptWrapper:true, style:'font-size: 42px' } -->
+<!-- # Processing Array Elements Using for and foreach -->
 <!-- <img showInPresentation="true" class="slide-image" src="imgs/pic21.png" style="top:55%; left:28%; width:40%;border-radius:10px; border:2px solid white; z-index:-1" /> -->
 
 
-<!-- attr: {  showInPresentation:true, hasScriptWrapper:true, style:'font-size: 42px' } -->
-# Processing Arrays: `for` Statement
+<!-- attr: { id:'iterate', showInPresentation:true, hasScriptWrapper:true, style:'font-size: 42px' } -->
+# <a id="iterate"></a>Processing Arrays: `for` Statement
 - Use `for` loop to process an array when
   - Need to keep track of the index
   - Processing is not strictly sequential from the first to the last element
@@ -317,14 +317,14 @@ foreach (string capital in capitals)
 
 
 <!-- section start -->
-<!-- attr: { id:'dynamics', class:'slide-section', showInPresentation:true, hasScriptWrapper:true, style:'font-size: 42px' } -->
-<!-- # <a id="dynamics"></a> Resizable Arrays
+<!-- attr: { class:'slide-section', showInPresentation:true, hasScriptWrapper:true, style:'font-size: 42px' } -->
+<!-- # Resizable Arrays
  ## List&lt;T> -->
 <!-- <img showInPresentation="true" class="slide-image" src="imgs/pic25.png" style="top:53.77%; left:40%; width:19.64%;border-radius:10px; border:2px solid white; z-index:-1" /> -->
 
 
-<!-- attr: { id:'listss', class:'', showInPresentation:true, hasScriptWrapper:true, style:'font-size: 42px' } -->
-<!-- # <a id="listss"></a> Lists (Resizable Arrays) -->
+<!-- attr: { id:'lists', class:'', showInPresentation:true, hasScriptWrapper:true, style:'font-size: 42px' } -->
+# <a id="lists"></a> Lists (Resizable Arrays)
 - <code>List&lt;T></code> – array that can be resized dynamically
   - Whenadding or removing elements
   - Also have indexers `[]` (like arrays)
@@ -428,14 +428,14 @@ list.Add(newValue);
 
 
 <!-- section start -->
-<!-- attr: { id:'copy', class:'slide-section', showInPresentation:true, hasScriptWrapper:true, style:'font-size: 42px' } -->
-<!-- # <a id="copy"></a> Copying Arrays
+<!-- attr: { class:'slide-section', showInPresentation:true, hasScriptWrapper:true, style:'font-size: 42px' } -->
+<!-- # Copying Arrays
 ## The Array Class -->
 
 
 
-<!-- attr: {  showInPresentation:true, hasScriptWrapper:true, style:'font-size: 42px' } -->
-# Copying Arrays
+<!-- attr: { id:'copy', showInPresentation:true, hasScriptWrapper:true, style:'font-size: 42px' } -->
+# <a id="copy"></a> Copying Arrays
 - Sometimes we must **copy** the values from one array to another one
   - If we do it the intuitive way we would copy not only the values but the reference to the array
     - Changing some of the values in one array will affect the other
