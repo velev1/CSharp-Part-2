@@ -22,3 +22,6 @@ Write a program to convert binary numbers to hexadecimal numbers (directly).
 | Input | Output |
 |:-----:|:------:|
 | 10011 | 13     |
+
+## Submission
+- Submit your code [here](http://bgcoder.com/Contests/Compete/Index/318#5)

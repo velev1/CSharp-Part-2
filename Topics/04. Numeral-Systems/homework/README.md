@@ -1,5 +1,5 @@
 Homework: Numeral Systems
-=================
+=========================
 
 ### [Submit homework in bgcoder](http://bgcoder.com/Contests/318/CSharp-Advanced-04-Numeral-Systems)
 
@@ -13,4 +13,4 @@ Homework: Numeral Systems
 1. [Binary to hexadecimal](./06. Binary to hexadecimal)
 1. [One system to any other](./07. One system to any other)
 1. [Binary short](./08. Binary short)
-1. [Binary floating-point ](./09. Binary floating-point)
+1. [Binary floating-point](./09. Binary floating-point)

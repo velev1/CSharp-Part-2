@@ -25,3 +25,6 @@ Write a program to convert the number **N** from any numeral system of given bas
 | Input | Output |
 |:-----:|:------:|
 | 13<br>16<br>9 | 21 |
+
+## Submission
+- Submit your code [here](http://bgcoder.com/Contests/Compete/Index/318#6)

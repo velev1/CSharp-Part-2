@@ -21,3 +21,6 @@ Write a program that shows the binary representation of given 16-bit signed inte
 |:-----:|:----------------:|
 | 11    | 0000000000001011 |
 | -11   | 1111111111110101 |
+
+## Submission
+- Submit your code [here](http://bgcoder.com/Contests/Compete/Index/318#7)

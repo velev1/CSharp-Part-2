@@ -20,3 +20,6 @@ _Example:_
 | number | sign | exponent |         mantissa        |
 |:------:|:----:|:--------:|:-----------------------:|
 | -27,25 | 1    | 10000011 | 10110100000000000000000 |
+
+## Submission
+- You do not have to submit anything for this problem

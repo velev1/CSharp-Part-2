@@ -22,3 +22,6 @@ Write a program that converts a decimal number **N** to its hexadecimal represen
 | Input | Output |
 |:-----:|:------:|
 | 19    | 13     |
+
+## Submission
+- Submit your code [here](http://bgcoder.com/Contests/Compete/Index/318#2)

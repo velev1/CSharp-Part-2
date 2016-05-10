@@ -21,3 +21,6 @@ Write a program that converts a decimal number **N** to its binary representatio
 | Input | Output |
 |:-----:|:------:|
 | 19    | 10011  |
+
+## Submission
+- Submit your code [here](http://bgcoder.com/Contests/Compete/Index/318#0)
