@@ -22,3 +22,6 @@ Write program that calculates the surface of a triangle by given two sides and a
 | Input         | Output |
 |:--------------|:------:|
 | 10<br>7<br>25 | 14.79  |
+
+## Submission
+- Submit your code [here](http://bgcoder.com/Contests/Compete/Index/319#3)

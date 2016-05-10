@@ -21,3 +21,6 @@ Write program that calculates the surface of a triangle by given its three sides
 | Input          | Output |
 |:---------------|:-------|
 | 11<br>12<br>13 | 61.48  |
+
+## Submission
+- Submit your code [here](http://bgcoder.com/Contests/Compete/Index/319#2)

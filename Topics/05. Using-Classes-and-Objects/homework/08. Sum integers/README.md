@@ -22,3 +22,6 @@ Write a program that reads a string of positive integers separated by spaces and
 | Input          | Output |
 |:---------------|:-------|
 | 43 68 9 23 318 | 461    |
+
+## Submission
+- Submit your code [here](http://bgcoder.com/Contests/Compete/Index/319#4)

@@ -25,3 +25,6 @@ _Hint:_ Use `System.DateTime`.
 | 2000  | Leap   |
 |  681  | Common |
 | 3400  | Common |
+
+## Submission
+- Submit your code [here](http://bgcoder.com/Contests/Compete/Index/319#0)
