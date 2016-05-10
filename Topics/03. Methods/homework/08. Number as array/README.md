@@ -16,7 +16,7 @@ Write a program that reads two arrays representing positive integers and outputs
 ## Constraints
 - Each of the numbers that will be added could have up to `10 000` digits.
 - Time limit: **0.1s**
-- Memory limit: **8MB**
+- Memory limit: **16MB**
 
 ## Sample tests
 

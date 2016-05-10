@@ -16,7 +16,7 @@ Write a program that reads `5` elements and prints their `minimum`, `maximum`, `
 ## Constraints
 - Each of the five numbers will be in the interval `[ -1000, 1000 ]`
 - Time limit: **0.1s**
-- Memory limit: **8MB**
+- Memory limit: **16MB**
 
 ## Sample tests
 

@@ -11,7 +11,7 @@ Write a method that reverses the digits of a given decimal number.
 
 ## Constraints
 - Time limit: **0.1s**
-- Memory limit: **8MB**
+- Memory limit: **16MB**
 
 ## Sample tests
 

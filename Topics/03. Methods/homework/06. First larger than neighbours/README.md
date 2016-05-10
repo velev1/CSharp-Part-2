@@ -13,7 +13,7 @@ Write a method that returns the index of the first element in array that is larg
 ## Constraints
 - 1 <= **N** <= 1024
 - Time limit: **0.1s**
-- Memory limit: **8MB**
+- Memory limit: **16MB**
 
 ## Sample tests
 

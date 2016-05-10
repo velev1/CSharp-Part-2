@@ -12,7 +12,7 @@ Write a program that reads `3` integers from the console and prints the largest 
 
 ## Constraints
 - Time limit: **0.1s**
-- Memory limit: **8MB**
+- Memory limit: **16MB**
 
 ## Sample tests
 

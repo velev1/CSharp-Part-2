@@ -12,7 +12,7 @@ Write a program that reads a number and prints the result of the method.
 
 ## Constraints
 - Time limit: **0.1s**
-- Memory limit: **8MB**
+- Memory limit: **16MB**
 
 ## Sample tests
 
