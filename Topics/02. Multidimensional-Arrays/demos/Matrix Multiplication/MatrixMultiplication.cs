@@ -35,23 +35,24 @@ public class MatrixMultiplication
         Console.WriteLine();
 
         // Multiply the first matrix with the second matrix
-        int width1 = firstMatrix.GetLength(1);
-        int height1 = firstMatrix.GetLength(0);
-        int width2 = secondMatrix.GetLength(1);
-        int height2 = secondMatrix.GetLength(0);
+        int firstMatrixRowsCount = firstMatrix.GetLength(0);
+        int firstMatrixColumnsCount = firstMatrix.GetLength(1);
+        int secondMatrixRowsCount = secondMatrix.GetLength(0);
+        int secondMatrixColumnsCount = secondMatrix.GetLength(1);
 
-        if (width1 != height2)
+        if (firstMatrixColumnsCount != secondMatrixRowsCount)
         {
-            throw new ArgumentException("Invalid dimensions!");
+            throw new ArgumentException("Cannot multiply matrices, Invalid dimensions!");
         }
 
-        int[,] resultMatrix = new int[height1, width2];
-        for (int row = 0; row < height1; row++)
+        int[,] resultMatrix = new int[firstMatrixRowsCount, secondMatrixColumnsCount];
+        for (int row = 0; row < firstMatrixRowsCount; row++)
         {
-            for (int col = 0; col < width2; col++)
+            for (int col = 0; col < secondMatrixColumnsCount; col++)
             {
                 resultMatrix[row, col] = 0;
-                for (int i = 0; i < width1; i++)
+
+                for (int i = 0; i < firstMatrixColumnsCount; i++)
                 {
                     resultMatrix[row, col] += firstMatrix[row, i] * secondMatrix[i, col];
                 }

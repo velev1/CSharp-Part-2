@@ -3,7 +3,7 @@
 # Numeral Systems
 ## Binary, Decimal and Hexadecimal Numbers
 
-<!-- <img class="slide-image" showInPresentation="true"  src="imgs/hex-fingers.png" style="top:45%; left:60%; width:45%; z-index:-1" /> -->
+<!-- <img class="slide-image" showInPresentation="true" src="imgs/hex-fingers.png" style="top:45%; left:60%; width:45%; z-index:-1" /> -->
 
 <div class="signature">
 	<p class="signature-course">C# Advanced</p>
@@ -14,30 +14,27 @@
 <!-- section start -->
 <!-- attr: {  showInPresentation:true, hasScriptWrapper:true, style:'' } -->
 # Table of Contents
-- [Numeral Systems](#/numeral-systems)
-  - [Binary and Decimal Numbers](#/binary-decimal-numbers)
-  - [Hexadecimal Numbers](#/hexadecimal-numbers)
-  - [Conversion between Numeral Systems](#/numeral-systems-conversions)
-- [Representation of Numbers](#/numbers-representation)
-  - [Positive and Negative Integer Numbers](#/positive-negative-numbers)
-  - [Floating-Point Numbers](#/floating-point-numbers)
-- [Text Representation](#/text-representation)
+- [Numeral Systems](#numerals)
+  - [Binary and Decimal Numbers](#binarydecimal)
+  - [Hexadecimal Numbers](#hexadecimal)
+  - [Conversion between Numeral Systems](#conversions)
+- [Representation of Numbers](#representation)
+  - [Positive and Negative Integer Numbers](#positivenegative)
+  - [Floating-Point Numbers](#floats)
+- [Text Representation](#textrepresentation)
 
 <!-- <img class="slide-image" showInPresentation="true"  src="imgs/pic03.png" style="top:13.88%; left:80.47%; width:24.79%; z-index:-1" /> -->
 
-
-
-
 <!-- section start -->
-<!-- attr: { id:'numeral-systems', class:'slide-section', showInPresentation:true, hasScriptWrapper:true, style:'' } -->
-# <a id="numeral-systems"></a> Numeral Systems
+<!-- attr: { id:'numerals', class:'slide-section', showInPresentation:true, hasScriptWrapper:true, style:'' } -->
+# <a id="numerals"></a> Numeral Systems
 <!-- ## Conversion between Numeral Systems -->
 <!-- <img class="slide-image" showInPresentation="true"  src="imgs/pic04.png" style="top:55%; left:14.00%; width:22%; z-index:-1" /> -->
 <!-- <img class="slide-image" showInPresentation="true"  src="imgs/pic05.png" style="top:55%; left:61.75%; width:25%; z-index:-1" /> -->
 
 
-<!-- attr: { id:'binary-decimal-numbers',  showInPresentation:true, hasScriptWrapper:true, style:'font-size: 42px' } -->
-<!-- # <a id="binary-decimal-numbers"></a>  Decimal Numbers -->
+<!-- attr: { showInPresentation:true, hasScriptWrapper:true, style:'font-size: 42px' } -->
+<!-- # Decimal Numbers -->
 - Decimal numbers (base 10)
   - Represented using 10 numerals: `0`, `1`, `2`, `3`, `4`, `5`, `6`, `7`, `8`, `9`
 - Each position represents a power of 10:
@@ -46,8 +43,8 @@
 <!-- <img class="slide-image" showInPresentation="true"  src="imgs/pic06.png" style="top:80%; left:76.16%; width:28.69%; z-index:-1" /> -->
 
 
-<!-- attr: {  showInPresentation:true, hasScriptWrapper:true, style:'' } -->
-# Binary Numeral System
+<!-- attr: { id:'binarydecimal', showInPresentation:true, hasScriptWrapper:true, style:'' } -->
+# <a id="binarydecimal"></a> Binary Numeral System
 - Binary numbers are represented by sequence of bits (smallest unit of information – 0 or 1)
   - Bits are easy to represent in electronics
 
@@ -86,18 +83,18 @@
 <p style="font-size: 46px; color: orange; position: absolute; top: 35%; left: 50%;">500<sub>d</sub> = 111110100<sub>b</sub></p>
 
 
-<!-- attr: { id:'hexadecimal-numbers',  showInPresentation:true, hasScriptWrapper:true, style:'font-size: 42px' } -->
-# <a id="hexadecimal-numbers"></a>  Hexadecimal Numbers
+<!-- attr: { id:'hexadecimal',  showInPresentation:true, hasScriptWrapper:true, style:'font-size: 42px' } -->
+# <a id="hexadecimal"></a>  Hexadecimal Numbers
 - Hexadecimal numbers (base 16)
   - Represented using 16 numerals: `0`, `1`, `2`, ... `9`, `A`, `B`, `C`, `D`, `E` and `F`
 - Usually prefixed with `0x`
 
-| **Hex digits value**                            |||
-|:-------------:|:-------------:|:-----:|
-|0 &rarr; 0x0| 8 &rarr; 0x8||4 &rarr; 0x4|12 &rarr; 0xC|
-|1 &rarr; 0x1| 9 &rarr; 0x9||5 &rarr; 0x5|13 &rarr; 0xD|
-|2 &rarr; 0x2|10 &rarr; 0xA||6 &rarr; 0x6|14 &rarr; 0xE|
-|3 &rarr; 0x3|11 &rarr; 0xB||7 &rarr; 0x7|15 &rarr; 0xF|
+| **Hex digits value** |               |              |               |
+|:--------------------:|:-------------:|:------------:|:-------------:|
+| 0 &rarr; 0x0         | 8 &rarr; 0x8  | 4 &rarr; 0x4 | 12 &rarr; 0xC |
+| 1 &rarr; 0x1         | 9 &rarr; 0x9  | 5 &rarr; 0x5 | 13 &rarr; 0xD |
+| 2 &rarr; 0x2         | 10 &rarr; 0xA | 6 &rarr; 0x6 | 14 &rarr; 0xE |
+| 3 &rarr; 0x3         | 11 &rarr; 0xB | 7 &rarr; 0x7 | 15 &rarr; 0xF |
 
 
 <!-- attr: {  showInPresentation:true, hasScriptWrapper:true, style:'' } -->
@@ -107,8 +104,8 @@
   <!-- <img class="slide-image" showInPresentation="true"  src="imgs/hex-nums.png" style="top:25%; left:5%; width:95%; z-index:-1" /> -->
 
 
-<!-- attr: { id:'numeral-systems-conversions',  showInPresentation:true, hasScriptWrapper:true, style:'font-size: 42px' } -->
-# <a id="numeral-systems-conversions"></a>  Hexadecimal to Decimal Conversion
+<!-- attr: { id:'conversions',  showInPresentation:true, hasScriptWrapper:true, style:'font-size: 42px' } -->
+# <a id="conversions"></a>  Hexadecimal to Decimal Conversion
 - Multiply each digit by its exponent
 
 <!-- <img class="slide-image" showInPresentation="true"  src="imgs/hex-2-dec.png" style="top:35%; left:5%; width:80%; z-index:-1" /> -->
@@ -138,15 +135,13 @@
 
 
 <!-- section start -->
-<!-- attr: { id:'numbers-representation', class:'slide-section', showInPresentation:true, hasScriptWrapper:true, style:'' } -->
-<!-- <a id="numbers-representation"></a>  # Numbers Representation -->
-<!-- ## Positive and Negative Integers and Floating-Point Numbers -->
-
-<!-- <img class="slide-image" showInPresentation="true"  src="imgs/pic20.png" style="top:60%; left:75%; width:15%; z-index:-1" /> -->
+<!-- attr: {  class:'slide-section', showInPresentation:true, hasScriptWrapper:true, style:'' } -->
+<!-- # Numbers Representation
+## Positive and Negative Integers and Floating-Point Numbers -->
 
 
-<!-- attr: {  showInPresentation:true, hasScriptWrapper:true, style:'' } -->
-# Representation of Integers
+<!-- attr: { id:'representation', showInPresentation:true, hasScriptWrapper:true, style:'' } -->
+# <a id="representation"></a> Representation of Integers
 - A `short` is represented by 16 bits
   - 100	= **2**<sup>`6`</sup> + **2**<sup>`5`</sup> + **2**<sup>`2`</sup> = 00000000 01100100
 - An `int` is represented by 32 bits  
@@ -155,17 +150,17 @@
   - '0'	= 48 = **2**<sup>`5`</sup> + **2**<sup>`4`</sup> =	= 00000000 00110000
 
 
-<!-- attr: { id:'positive-negative-numbers',  showInPresentation:true, hasScriptWrapper:true, style:'' } -->
-<a id="positive-negative-numbers"></a>  
+<!-- attr: { id:'positivenegative',  showInPresentation:true, hasScriptWrapper:true, style:'' } -->
+<a id="positivenegative"></a>  
 # Positive and Negative Numbers
 - A number's sign is determined by the`Most Significant Bit` (MSB)
   - Only in signed integers: `sbyte`, `short`, `int`, `long`
-  - Leading **0** means positive number
-    - Leading **1** means negative number
+  - Leading `0` means positive number
+    - Leading `1` means negative number
   - _Example_: (8 bit numbers)
-    - **0**`XXXXXXX`<sub>b</sub> > 0	e.g. 00010010b = 18
-    - **0**`0000000`<sub>b</sub> = 0
-    - **1**`XXXXXXX`<sub>b</sub> < 0	e.g. 10010010b = -110
+    - `0XXXXXXX`<sub>b</sub> > 0	e.g. 00010010b = 18
+    - `00000000`<sub>b</sub> = 0
+    - `1XXXXXXX`<sub>b</sub> < 0	e.g. 10010010b = -110
 
 
 <!-- attr: {  showInPresentation:true, hasScriptWrapper:true, style:'' } -->
@@ -190,15 +185,17 @@
 
 <!-- <img class="slide-image" showInPresentation="true"  src="imgs/table.png" style="top:10%; left:70%; width:30%; z-index:-1" /> -->
 
-<!-- attr: { id:'floating-point-numbers',  showInPresentation:true, hasScriptWrapper:true, style:'font-size: 42px' } -->
-<a id="floating-point-numbers"></a>  
-# Floating-Point Numbers
+<!-- attr: { id:'floats',  showInPresentation:true, hasScriptWrapper:true, style:'font-size: 42px' } -->
+# <a id="floats"></a>  Floating-Point Numbers
 - Floating-point numbers representation (according to the IEEE 754 standard*):
-
+<br/>
+<br/>
+<br/>
+<br/>
 <!-- <img class="slide-image" showInPresentation="true"  src="imgs/ieee-754-float.png" style="top:25%; left:0%; width:95%; z-index:-1" /> -->
-- Example:
 
-<!-- .element: class="" style="position: absolute; top: 55%" -->
+- Example: `-21.15625` -> **sign \* 2<sup>exponent</sup> \* mantissa**
+
 
 <!-- <img class="slide-image" showInPresentation="true"  src="imgs/ieee-754-float-example.png" style="top:60%; left:0%; width:90%; z-index:-1" /> -->
 
@@ -210,9 +207,8 @@
 <!-- <img class="slide-image" showInPresentation="true"  src="imgs/pic22.png" style="top:55%; left:32%; width:35%; z-index:-1" /> -->
 
 
-<!-- attr: { id:'text-representation,  showInPresentation:true, hasScriptWrapper:true, style:'' } -->
-<a id="text-representation"></a>
-# How Computers Represent Text Data?
+<!-- attr: { id:'textrepresentation', showInPresentation:true, hasScriptWrapper:true, style:'' } -->
+# <a id="textrepresentation"></a> How Computers Represent Text Data?
 - `Text encoding` is a system that uses binary numbers (1 and 0) to represent characters
   -  Letters, numerals, symbols etc.
 - In the `ASCII` encoding each character consists of 8 bits (one byte) of data
@@ -221,36 +217,57 @@
   - Can represent many alphabets
 
 
+
 <!-- attr: {  showInPresentation:true, hasScriptWrapper:true, style:'font-size: 40px' } -->
 # Character Codes – ASCII Table
-<!-- <img class="slide-image" showInPresentation="true"  src="imgs/pic23.png" style="top: 60%; left: -15%; width: 20%; z-index: -1"> -->
 
-|Binary code|Decimal code|Character|
-|:---------:|:----------:|:-------:|
-|01000001   |65          |A        |
-|01000010   |66          |B        |
-|01000011   |67          |C        |
-|01000100   |68          |D        |
-|00100011   |35          |#        |
-|01100000   |48          |0        |
-|00110001   |49          |1        |
-|01111110   |126         |~        |
+
+| Binary code | Decimal code | Character |
+|:-----------:|:------------:|:---------:|
+| `01000001`  | `65`         | `A`       |
+| `01000010`  | `66`         | `B`       |
+| `01000011`  | `67`         | `C`       |
+| `01000100`  | `68`         | `D`       |
+| `00100011`  | `35`         | `#`       |
+| `01100000`  | `48`         | `0`       |
+| `00110001`  | `49`         | `1`       |
+| `01111110`  |`126`         | `~`       |
 
 <!-- attr: {  showInPresentation:true, hasScriptWrapper:true, style:'' } -->
 # Strings of Characters
 - Strings are sequences of characters
   - Null-terminated (like in C)
+  <br />
+  <br />
+  <br />
 
-  <!-- <img src="imgs/null-term-string.png" showInPresentation="true" style="display: block; width: 100%; z-index: -1"> -->
+
   - Represented by array
+  <br />
+  <br />
+  <br />
 
-  <!-- <img src="imgs/string-arr.png" style="display: block; width: 100%; z-index: -1"> -->
+
 - Characters in the strings can be:
-  - 8 bit (ASCII / windows-1251 / …)
-  - 16 bit (UTF-16)
+  - `8 bit` (`ASCII` / `windows-1251` / …)
+  - `16 bit` (`UTF-16`)
+
+<!-- <img class="slide-image" showInPresentation="true" src="imgs/string-arr.png" style="top:53%; width: 65%; z-index: -1" /> -->
+<!-- <img class="slide-image" showInPresentation="true" src="imgs/null-term-string.png"  style="top:30%; width: 65%; z-index: -1" /> -->
 
 
-<!-- attr: {  showInPresentation:true, hasScriptWrapper:true, style:'' } -->
-<!-- # Numeral Systems -->
-<!-- <img class="slide-image" showInPresentation="true"  src="https://raw.githubusercontent.com/TelerikAcademy/Common/master/revealjs-theme/css/imgs/questions-ninja.png" style="width:70%; top:15%; left:10%" /> -->
-<div style="position: absolute; bottom: 1em; right: 0; font-size: 26px;">http://academy.telerik.com</div>
+  <!-- attr: { class:'slide-section', showInPresentation: true, hasScriptWrapper: true, style:'font-size: 42px' } -->
+  <!-- # C# Numeral Systems
+  ## Questions? -->
+
+  <!-- attr: { showInPresentation: true, hasScriptWrapper: true} -->
+  # Free Training @ Telerik Academy
+
+  - Fundamentals of C# Programming Track of Courses
+      - [csharpadvanced](http://academy.telerik.com/student-courses/programming/csharp-programming-part-2/about)
+    - Telerik Software Academy
+      - [telerikacademy.com](https://telerikacademy.com)
+    - Telerik Academy @ Facebook
+      - [facebook.com/TelerikAcademy](https://facebook.com/TelerikAcademy)
+    - Telerik Academy Learning System
+      - [telerikacademy.com](https://telerikacademy.com)

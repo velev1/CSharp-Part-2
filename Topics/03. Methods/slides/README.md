@@ -54,14 +54,14 @@
 
 
 <!-- section start -->
-<!-- attr: { id:'declare', class:'slide-section', showInPresentation:true, hasScriptWrapper:true, style:'font-size: 42px' } -->
-<!-- # <a id="declare"></a> Declaring and Creating Methods
+<!-- attr: {  class:'slide-section', showInPresentation:true, hasScriptWrapper:true, style:'font-size: 42px' } -->
+<!-- #  Declaring and Creating Methods
 <img  class="slide-image" showInPresentation="true" src="imgs/pic07.png" style="top:50%; left:58.95%; width:28%; border-radius:10px; border:2px solid white; z-index:-1" />
 <img  class="slide-image" showInPresentation="true" src="imgs/pic08.png" style="top:50%; left:18.71%; width:29.09%; border-radius:10px; border:2px solid white; z-index:-1" /> -->
 
 
-<!-- attr: {  showInPresentation:true, hasScriptWrapper:true, style:'font-size: 42px' } -->
-# Declaring and Creating Methods
+<!-- attr: { id:'declare', showInPresentation:true, hasScriptWrapper:true, style:'font-size: 42px' } -->
+# <a id="declare"></a> Declaring and Creating Methods
 ```cs
 static void PrintLogo() // PrintLogo is the method's name
 {
@@ -135,13 +135,13 @@ class Method_Example_
 
 
 <!-- section start -->
-<!-- attr: { id:'calling', class:'slide-section', showInPresentation:true, hasScriptWrapper:true, style:'font-size: 42px' } -->
-<!-- # <a id="calling"></a> Calling Methods
+<!-- attr: { class:'slide-section', showInPresentation:true, hasScriptWrapper:true, style:'font-size: 42px' } -->
+<!-- # Calling Methods
 <img class="slide-image" showInPresentation="true" src="imgs/pic12.png" style="top:45%; left:30%; width:35%; border-radius:10px; border:2px solid white; z-index:-1" /> -->
 
 
-<!-- attr: {  showInPresentation:true, hasScriptWrapper:true, style:'font-size: 42px' } -->
-# Calling Methods
+<!-- attr: { id:'calling', showInPresentation:true, hasScriptWrapper:true, style:'font-size: 42px' } -->
+# <a id="calling"></a> Calling Methods
 - To call a method, simply use:
   - The method’s name
   - Parentheses (don’t forget them!)
@@ -181,16 +181,15 @@ static void Main()
 <!-- # Declaring and Calling Methods
 ## [Demo](https://github.com/TelerikAcademy/CSharp-Part-2/tree/master/Topics/03.%20Methods/demos/PrintLogo) -->
 
-
 <!-- section start -->
-<!-- attr: { id:'parameters', class:'slide-section', showInPresentation:true, hasScriptWrapper:true, style:'font-size: 42px' } -->
-<!-- # <a id="parameters"></a> Methods with Parameters
+<!-- attr: { class:'slide-section', showInPresentation:true, hasScriptWrapper:true, style:'font-size: 42px' } -->
+<!-- # Methods with Parameters
  ## Passing Parameters and Returning values -->
 <!-- <img class="slide-image" showInPresentation="true" src="imgs/pic17.png" style="top:52%; left:30%; width:40%; border-radius:2px; border:2px solid white; z-index:-1" /> -->
 
 
-<!-- attr: {  showInPresentation:true, hasScriptWrapper:true, style:'font-size: 42px' } -->
-# Method Parameters
+<!-- attr: { id:'parameters', showInPresentation:true, hasScriptWrapper:true, style:'font-size: 42px' } -->
+# <a id="parameters"></a> Method Parameters
 - To pass information to a method, you can use `parameters`(also known as `arguments`)
   - You can pass zero or several input values
   - You can pass values of different types
@@ -425,13 +424,13 @@ PrintNumbers(end: 40, start: 35);
 
 
 <!-- section start -->
-<!-- attr: { id:'return', class:'slide-section', showInPresentation:true, hasScriptWrapper:true, style:'font-size: 42px' } -->
-<!-- # <a id="return"></a> Returning Values From Methods
+<!-- attr: { class:'slide-section', showInPresentation:true, hasScriptWrapper:true, style:'font-size: 42px' } -->
+<!-- # Returning Values From Methods
 <img class="slide-image" showInPresentation="true" src="imgs/pic26.png" style="top:44.08%; left:30%; width:40%;border-radius:10px; border:2px solid white; z-index:-1" /> -->
 
 
-<!-- attr: {  showInPresentation:true, hasScriptWrapper:true, style:'font-size: 42px' } -->
-# Returning Values From Methods
+<!-- attr: { id:'return', showInPresentation:true, hasScriptWrapper:true, style:'font-size: 42px' } -->
+# <a id="return"></a> Returning Values From Methods
 - A method can `return` a value to its caller
 - Returned value:
   - Can be assigned to a variable:

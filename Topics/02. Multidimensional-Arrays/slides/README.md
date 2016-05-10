@@ -17,7 +17,7 @@
 - [Matrices and Multidimensional Arrays](#multidimensional)
   - [Declaring](#delaring)
   - [Usage](#usage)
-- [Jagged Arrays](#jagged)
+- Jagged Arrays
   - [Declaring](#jaggeddeclare)
   - [Usage](#jaggedusage)
 - [The **Array** Class](#arrayclass)
@@ -179,8 +179,8 @@ for (int row = 0; row < matrix.GetLength(0) - 1; row++)
 
 
 <!-- section start -->
-<!-- attr: { id:'jagged', class:'slide-section', showInPresentation:true, hasScriptWrapper:true, style:'font-size: 42px' } -->
-<!-- # <a id="jagged"></a> Jagged Arrays -->
+<!-- attr: { class:'slide-section', showInPresentation:true, hasScriptWrapper:true, style:'font-size: 42px' } -->
+<!-- # Jagged Arrays -->
 ## What are Jagged Arrays and How to Use Them?
 <!-- <img class="slide-image" showInPresentation="true" src="imgs/pic09.png" style="top:54%; left:62%; width:30%; z-index:-1" /> -->
 <img  class="slide-image" src="imgs/pic10.png" style="top:55%; left:13.02%; width:44.15%; z-index:-1" />
@@ -285,14 +285,14 @@ foreach (var number in numbers)
 
 
 <!-- section start -->
-<!-- attr: { id:'arrayclass', class:'slide-section', showInPresentation:true, hasScriptWrapper:true, style:'font-size: 42px' } -->
+<!-- attr: {  class:'slide-section', showInPresentation:true, hasScriptWrapper:true, style:'font-size: 42px' } -->
 <!-- # Array Class
 ## What Can We Use? -->
 <!-- <img class="slide-image" showInPresentation="true" src="imgs/pic17.png" style="top:55%; left:42.5%; width:15%; z-index:-1" /> -->
 
 
-<!-- attr: {   showInPresentation:true, hasScriptWrapper:true, style:'font-size: 42px' } -->
-# The Array Class
+<!-- attr: { id:'arrayclass', showInPresentation:true, hasScriptWrapper:true, style:'font-size: 42px' } -->
+# <a id="arrayclass"></a>The Array Class
 - The `System.Array` class
   - Parent of all arrays
   - All arrays inherit from it

@@ -16,13 +16,19 @@ public class JaggedArrays
         }
 
         // Calculate the list of numbers for each reminder (0, 1 and 2)
-        int[][] numbersByRemainder = new int[3][] { new int[sizes[0]], new int[sizes[1]], new int[sizes[2]] };
+        int[][] numbersByRemainder = new int[3][]
+                                    {
+                                        new int[sizes[0]],
+                                        new int[sizes[1]],
+                                        new int[sizes[2]]
+                                    };
+
         foreach (var number in numbers)
         {
             int remainder = number % 3;
             int index = offsets[remainder];
-            numbersByRemainder[remainder][index] = number;
             offsets[remainder]++;
+            numbersByRemainder[remainder][index] = number;
         }
 
         // Print the result jagged array

@@ -8,8 +8,13 @@ class BinarySearch
     {
         string[] beers =
         {
-            "Zagorka", "Ariana", "Shumensko", "Astika",
-            "Kamenitza", "Bolyarka", "Amstel"
+            "Zagorka",
+            "Ariana",
+            "Shumensko",
+            "Astika",
+            "Kamenitza",
+            "Bolyarka",
+            "Amstel"
         };
         Array.Sort(beers);
 
