@@ -8,12 +8,12 @@ Write a program that finds the largest area of equal neighbour elements in a rec
 - On the next **N** lines there will be **M** numbers separated with spaces - the elements of the matrix
 
 ## Output
-- Print the size of the lasrgest area of equal neighbour elements
+- Print the size of the largest area of equal neighbour elements
 
 ## Constraints
 - 3 <= **N**, **M** <= 1024
-- Time limit: **0.1s**
-- Memory limit: **16MB**
+- Time limit: **0.35s**
+- Memory limit: **24MB**
 
 ## Sample tests
 
