@@ -2,21 +2,20 @@
 <!-- attr: { id:'', class:'slide-title', showInPresentation:true, hasScriptWrapper:true, style:'' } -->
 # Strings and Text Processing
 ## Processing and Manipulating Text Information
-<img class="slide-image" src="\imgs\pic00.png" style="top:53.38%; left:72.98%; width:30.48%; z-index:-1" />
-<img class="slide-image" src="\imgs\pic01.png" style="top:10.46%; left:-0.12%; width:32.73%; z-index:-1" />
-<img class="slide-image" src="\imgs\pic02.png" style="top:54.28%; left:50.92%; width:17.08%; z-index:-1" />
-<img class="slide-image" src="\imgs\pic03.png" style="top:4.73%; left:90.36%; width:14.10%; z-index:-1" />
+
 <div class="signature">
 	<p class="signature-course">C# Advanced</p>
 	<p class="signature-initiative">Telerik Software Academy</p>
 	<a href="https://telerikacademy.com" class="signature-link">https://telerikacademy.com</a>
 </div>
 
-
-
+<img class="slide-image" src="\imgs\pic00.png" style="top:53.38%; left:72.98%; width:30.48%; z-index:-1" />
+<img class="slide-image" src="\imgs\pic01.png" style="top:10.46%; left:-0.12%; width:32.73%; z-index:-1" />
+<img class="slide-image" src="\imgs\pic02.png" style="top:54.28%; left:50.92%; width:17.08%; z-index:-1" />
+<img class="slide-image" src="\imgs\pic03.png" style="top:4.73%; left:90.36%; width:14.10%; z-index:-1" />
 
 <!-- section start -->
-<!-- attr: { id:'', class:'', showInPresentation:true, hasScriptWrapper:true, style:'' } -->
+
 # Table of Contents
 - What is String?
 - Creating and Using Strings
@@ -25,31 +24,22 @@
   - Comparing, Concatenating, Searching, Extracting Substrings, Splitting
 - Other String Operations
   - Replacing Substrings, Deleting Substrings, Changing Character Casing, Trimming
-<img class="slide-image" src="\imgs\pic04.png" style="top:12.34%; left:97.19%; width:10.69%; z-index:-1" />
-
-
-<!-- attr: { id:'', class:'', showInPresentation:true, hasScriptWrapper:true, style:'' } -->
-<!-- # Table of Contents -->
 - Building and Modifying Strings
-  - Why the **+** Operator is Slow?
-  - Using the **StringBuilder** Class
+  - Why the `+` Operator is Slow?
+  - Using the `StringBuilder` Class
 - Formatting Strings
-  - Formatting Numbers, Datesand Currency
+  - Formatting Numbers, Dates and Currency
 - Cultures and Culture-Sensitive Formatting
   - Accessing and Assigning the Current Culture
   - Parsing Numbers and Dates
-<img class="slide-image" src="\imgs\pic05.png" style="top:14.44%; left:84.21%; width:22.04%; z-index:-1" />
-
-
-
 
 <!-- section start -->
-<!-- attr: { id:'', class:'slide-section', showInPresentation:true, hasScriptWrapper:true, style:'' } -->
+
+<!-- attr: { showInPresentation: true} -->
 # What Is String?
-<img class="slide-image" src="\imgs\pic06.png" style="top:42%; left:26%; width:46.31%; z-index:-1" />
+##	Sequences of Characters
+<img class="slide-image" src="\imgs\pic06.png" />
 
-
-<!-- attr: { id:'', class:'', showInPresentation:true, hasScriptWrapper:true, style:'' } -->
 # What Is String?
 - Strings are sequences of characters
 - Each character is a Unicode symbol
@@ -59,57 +49,48 @@
 ```cs
 string s = "Hello, C#";
 ```
-|   |   |   |   |   |   |   |   |   |
+| 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 |
 |:--|:--|:--|:--|:--|:--|:--|:--|:--|
 | H | e | l | l | o | , |   | C | # |
 
-<img class="slide-image" src="\imgs\pic07.png" style="top:41.21%; left:87.95%; width:11.68%; z-index:-1" />
+<img class="slide-image" src="\imgs\pic07.png" />
 
 
 <!-- attr: { id:'', class:'', showInPresentation:true, hasScriptWrapper:true, style:'' } -->
-# The System.String Class
-- Strings are represented by **System.String** objects in .NET Framework
+# The `System.String` Class
+- Strings are represented by `System.String` objects in .NET Framework
   - String objects contain an **immutable** (read-only) sequence of characters
   - Strings use **Unicode** to support multiple languages and alphabets
-- Strings are stored in the dynamic memory (**managedheap**)
-- **System.String** is reference type
-
-
-<!-- attr: { id:'', class:'', showInPresentation:true, hasScriptWrapper:true, style:'' } -->
-<!-- # The System.String Class -->
-- String objects are like arrays of characters (**char[]**)
-  - Have fixed length (**String.Length**)
+- Strings are stored in the dynamic memory (**managed heap**)
+- `System.String` is reference type
+- String objects are like arrays of characters (`char[]`)
+  - Have fixed length (`String.Length`)
   - Elements can be accessed directly by index
-    - The index is in the range [0...Length-1]
+    - The index is in the range `[0...Length-1]`
 
 ```cs
 string s = "Hello!";
 int len = s.Length; // len = 6char ch = s[1]; // ch = 'e'
 ```
 
-|          |   |   |   |   |   |   |
-|:---------|:--|:--|:--|:--|:--|:--|
-| Index    | 0 | 1 | 2 | 3 | 4 | 5 |
-| s[index] | H | e | l | l | o | ! |
+| index      | 0 | 1 | 2 | 3 | 4 | 5 |
+|:-----------|:--|:--|:--|:--|:--|:--|
+| str[index] | H | e | l | l | o | ! |
 
+<img class="slide-image" src="\imgs\pic08.png"/>
 
-
-<img class="slide-image" src="\imgs\pic08.png" style="top:63.50%; left:85.27%; width:29.64%; z-index:-1" />
-
-
-<!-- attr: { id:'', class:'', showInPresentation:true, hasScriptWrapper:true, style:'' } -->
-# Strings – First _Example_
+-	_Example_: Printing the characters of a string with a `for` loop
 
 ```cs
 static void Main()
 {
-    string s =
-        "Stand up, stand up, Balkan Superman.";
-    Console.WriteLine("s = \"{0}\"", s);
-    Console.WriteLine("s.Length = {0}", s.Length);
-    for (int i = 0; i < s.Length; i++)
+    string greeting = "Stand up, stand up, Balkan Superman.";
+    Console.WriteLine("greeting = \"{0}\"", greeting);
+    Console.WriteLine("greeting.Length = {0}", greeting.Length);
+
+		for (int i = 0; i < greeting.Length; i++)
     {
-        Console.WriteLine("s[{0}] = {1}", i, s[i]);
+        Console.WriteLine("greeting[{0}] = {1}", i, greeting[i]);
     }
 }
 ```
