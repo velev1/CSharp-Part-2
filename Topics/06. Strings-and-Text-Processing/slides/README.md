@@ -99,22 +99,14 @@ static void Main()
 
 
 <!-- attr: { id:'', class:'slide-section demo', showInPresentation:true, hasScriptWrapper:true, style:'' } -->
-# Strings – First Example
+# Printing the Characters of a String
 ## [Demo]()
 <img class="slide-image" src="\imgs\pic10.png" style="top:52%; left:35%; width:30%; z-index:-1" />
 
-
-<!-- attr: { id:'', class:'slide-section', showInPresentation:true, hasScriptWrapper:true, style:'' } -->
-# Creating and Using Strings
-## Declaring, Creating, Reading and Printing
-
-
-
-<!-- attr: { id:'', class:'', showInPresentation:true, hasScriptWrapper:true, style:'' } -->
 # Declaring Strings
 - Several ways of declaring string variables:
-  - Using the C# keyword **string**
-  - Using the .NET's  fully qualified class name **System.String**
+  - Using the C# keyword `string`
+  - Using the .NET's  fully qualified class name `System.String`
 
   ```cs
   string str1;
@@ -124,58 +116,52 @@ static void Main()
 
   - The above three declarations are equivalent
 
+<img class="slide-image" src="\imgs\pic12.png" />
 
-
-<img class="slide-image" src="\imgs\pic12.png" style="top:37.02%; left:92.63%; width:12.34% ; z-index:-1" />
-
-
-<!-- attr: { id:'', class:'', showInPresentation:true, hasScriptWrapper:true, style:'' } -->
 # Creating Strings
-- Before initializing a string variable has **null** value
+
+- Before initializing a string variable has `null` value
 - Strings can be initialized by:
   - Assigning a string literal to the string variable
   - Assigning the value of another string variable
   - Assigning the result of operation of type string
-<img class="slide-image" src="\imgs\pic13.png" style="top:57.30%; left:16.84%; width:74.05%; height:20%; z-index:-1" />
+<img class="slide-image" src="\imgs\pic13.png"/>
 
-
-<!-- attr: { id:'', class:'', showInPresentation:true, hasScriptWrapper:true, style:'' } -->
-<!-- # Creating Strings -->
-- Not initialized variables has value of **null**
+- **Uninitialized** variables has value of `null`
+	-	When their are local variables, they cannot be used
 
 ```cs
 string s; // s is equal to null
 ```
 
-- Assigning a string literal
+- Assigning with **string literal**
 
 ```cs
 string s = "I am a string literal!";
 ```
 
-- Assigning from another string variable
+- Assigning from **another string** variable
 
 ```cs
 string s2 = s;
 ```
 
-- Assigning from the result of string operation
+- Assigning from the **result of string operation**
 
 ```cs
 string s = 42.ToString();
 ```
 
-<!-- attr: { id:'', class:'', showInPresentation:true, hasScriptWrapper:true, style:'' } -->
 # Reading and Printing Strings
 - Reading strings from the console
-  - Use the method **Console.ReadLine()**
+  - Use the method `Console.ReadLine()`
 
 ```cs
 string s = Console.ReadLine();
 ```
 
 - Printing strings to the console
-  - Use the methods **Write()** and **WriteLine()**
+  - Use the methods `Write()` and `WriteLine()`
 
 ```cs
 Console.Write("Please enter your name: ");
@@ -184,28 +170,21 @@ Console.Write("Hello, {0}! ", name);
 Console.WriteLine("Welcome to our party!");
 ```
 
-<!-- attr: { id:'', class:'slide-section demo', showInPresentation:true, hasScriptWrapper:true, style:'' } -->
-# Reading and Printing Strings
 ## [Demo]()
-<img class="slide-image" src="\imgs\pic14.png" style="top:8.59%; left:28.61%; width:50.44%; z-index:-1" />
-
-
-
+<img class="slide-image" src="\imgs\pic14.png"/>
 
 <!-- section start -->
-<!-- attr: { id:'', class:'slide-section', showInPresentation:true, hasScriptWrapper:true, style:'' } -->
+
 # Manipulating Strings
 ## Comparing, Concatenating, Searching, Extracting Substrings, Splitting
-<img class="slide-image" src="\imgs\pic15.png" style="top:62%; left:28%; width:50%; z-index:-1" />
-<img class="slide-image" src="\imgs\pic16.png" style="top:55%; left:56.97%; width:35%; z-index:-1" />
 
+<img class="slide-image" src="\imgs\pic15.png" />
+<img class="slide-image" src="\imgs\pic16.png" />
 
-<!-- attr: { id:'', class:'', showInPresentation:true, hasScriptWrapper:true, style:'' } -->
 # Comparing Strings
 - Several ways to compare two strings:
   - Dictionary-based string comparison
-
-- **Case-insensitive**
+	- **Case-insensitive**
 
 ```cs
 int result = string.Compare(str1, str2, true);
@@ -214,80 +193,69 @@ int result = string.Compare(str1, str2, true);
 // result > 0 if str1 is after str2
 ```
 
-- **Case-sensitive**
+	- **Case-sensitive**
 
 ```cs
 string.Compare(str1, str2, false);
 ```
 
-<!-- attr: { id:'', class:'', showInPresentation:true, hasScriptWrapper:true, style:'' } -->
-<!-- # Comparing Strings -->
+| Result | When                                     |
+| ------ | ---------------------------------------- |
+| 0      | str1 is equal to str2                    |
+| < 0    | str1 is is before str2 lexicographically |   
+| > 0    | str1 is is after str2 lexicographically  |   
+
 - Equality checking by operator **==**
+	-	Always returns `true` or `false`
   - Performs case-sensitive compare
 
 ```cs
-if (str1 == str2)
-{
-  …
-}
+bool areStringsEqual = (str1 == str2);
 ```
 
 - Using the case-sensitive **Equals()** method
   - The same effect like the operator **==**
 
 ```cs
-if (str1.Equals(str2))
-{
-    …
-}
+bool areStringsEqual = str1.Equals(str2));
 ```
 
-
-
-<!-- attr: { id:'', class:'', showInPresentation:true, hasScriptWrapper:true, style:'' } -->
-# Comparing Strings – _Example_
-- Finding the first string in a lexicographical order from a given list of strings:
+- Finding the first string in a **lexicographical order** from a given list of strings:
 
 ```cs
-string[] towns = {"Sofia", "Varna", "Plovdiv",
-   "Pleven", "Bourgas", "Rousse", "Yambol"};
-string firstTown = towns[0];
-for (int i=1; i<towns.Length; i++)
+string[] towns = {"Sofia", "Varna", "Plovdiv", "Pleven", "Bourgas", "Rousse", "Yambol"};
+string bestTown = towns[0];
+
+foreach (string town in towns)
 {
-   string currentTown = towns[i];
-   if (String.Compare(currentTown, firstTown) < 0)
+   if (String.Compare(town, bestTown) < 0)
    {
-      firstTown = currentTown;
+      bestTown = town;
    }
 }
-Console.WriteLine("First town: {0}", firstTown);
+
+Console.WriteLine("First town: {0}", bestTown);
 ```
 
-
-
-<!-- attr: { id:'', class:'slide-section demo', showInPresentation:true, hasScriptWrapper:true, style:'' } -->
-# Comparing Strings
 ## [Demo]()
-<img class="slide-image" src="\imgs\pic17.png" style="top:42%; left:17.09%; width:66.12%; height:50%; z-index:-1" />
+<img class="slide-image" src="\imgs\pic17.png" />
 
-
-<!-- attr: { id:'', class:'', showInPresentation:true, hasScriptWrapper:true, style:'' } -->
 # Concatenating Strings
 - There are two ways to combine strings:
-  - Using the **Concat()** method
+  - Using the `Concat()` method
 
 ```cs
 string str = String.Concat(str1, str2);
 ```
 
-  - Using the **+** or the **+=** operators
+  - Using the `+` or the `+=` operators
 
 ```cs
 string str = str1 + str2 + str3;
 string str += str1;
 ```
 
-- Any object can be appended to a string
+- Any object can be appended to a `string`
 
 ```cs
 string name = "Peter";
@@ -295,10 +263,7 @@ int age = 22;
 string s = name + " " + age; // &rarr; "Peter 22"
 ```
 
-
-
-<!-- attr: { id:'', class:'', showInPresentation:true, hasScriptWrapper:true, style:'' } -->
-# Concatenating Strings – _Example_
+-	_Example:_ concatenating Strings
 
 ```cs
 string firstName = "Telerik";
@@ -310,48 +275,41 @@ Console.WriteLine(fullName);
 
 int age = 5;
 
-string nameAndAge =
-    "Name: " + fullName +
-    "\nAge: " + age;
+string nameAndAge = "Name: " + fullName +
+    								"\nAge: " + age;
 Console.WriteLine(nameAndAge);
 // Name: Telerik Academy
 // Age: 5
 ```
 
-
-
-<!-- attr: { id:'', class:'slide-section demo', showInPresentation:true, hasScriptWrapper:true, style:'' } -->
-# Concatenating Strings
 ## [Demo]()
-<img class="slide-image" src="\imgs\pic18.png" style="top:35.42%; left:35.09%; width:37.94%; z-index:-1" />
+<img class="slide-image" src="\imgs\pic18.png" />
 
-
-<!-- attr: { id:'', class:'', showInPresentation:true, hasScriptWrapper:true, style:'' } -->
 # Searching in Strings
+
 - Finding a character or substring within given string
   - First occurrence
+	-	Case sensitive
 
 ```cs
-IndexOf(string str)
+String#IndexOf(string str)
 ```
 
   - First occurrence starting at given position
 
 ```cs
-IndexOf(string str, int startIndex)
+string#IndexOf(string str, int startIndex)
 ```
 
   - Last occurrence
 
 ```cs
-LastIndexOf(string)
+string#LastIndexOf(string)
 ```
 
-<img class="slide-image" src="\imgs\pic19.png" style="top:22.04%; left:84.21%; width:22.04%; z-index:0" />
+<img class="slide-image" src="\imgs\pic19.png" />
 
-
-<!-- attr: { id:'', class:'', showInPresentation:true, hasScriptWrapper:true, style:'' } -->
-# Searching in Strings – _Example_
+-	_Example:_ searching in strings
 
 ```cs
 string str = "C# Programming Course";
@@ -365,18 +323,12 @@ index = str.IndexOf("r", 5); // index = 7
 index = str.IndexOf("r", 8); // index = 18
 ```
 
-
-
-<!-- attr: { id:'', class:'slide-section demo', showInPresentation:true, hasScriptWrapper:true, style:'' } -->
-# Searching in Strings
 ## [Demo]()
-<img class="slide-image" src="\imgs\pic20.png" style="top:27.33%; left:20.58%; width:25%; z-index:-1" />
+<img class="slide-image" src="\imgs\pic20.png" />
 
-
-<!-- attr: { id:'', class:'', showInPresentation:true, hasScriptWrapper:true, style:'' } -->
 # Extracting Substrings
 - Extracting substrings
-  - **str.Substring(int startIndex, int length)**
+  - `string#Substring(int startIndex, int length)`
 
 ```cs
 string filename = @"C:\Pics\Rila2009.jpg";
@@ -388,33 +340,28 @@ string name = filename.Substring(8, 8);
 
 ```cs
 string filename = @"C:\Pics\Summer2009.jpg";
-string nameAndExtension = filename.Substring(8);
+int index = filename.LastIndexOf(@"\");
+string nameAndExtension = filename.Substring(index + 1);
 // nameAndExtension is Summer2009.jpg
 ```
 
-
-
-<!-- attr: { id:'', class:'slide-section demo', showInPresentation:true, hasScriptWrapper:true, style:'' } -->
-# Extracting Substrings
 ## [Demo]()
-<img class="slide-image" src="\imgs\pic21.png" style="top:52%; left:27%; width:44.08%; z-index:-1" />
+<img class="slide-image" src="\imgs\pic21.png" />
 
-
-<!-- attr: { id:'', class:'', showInPresentation:true, hasScriptWrapper:true, style:'' } -->
 # Splitting Strings
 - To split a string by given separator(s) use the following method:
 
 ```cs
-string[] Split(params char[])
+string[] string#Split(params char[])
 ```
 
-- _Example_:
+- _Example_ splitting by comma:
 
 ```cs
-string listOfBeers =
-    "Amstel, Zagorka, Tuborg, Becks.";
+string listOfBeers = "Amstel, Zagorka, Burgasko Tuborg, Becks.";
 string[] beers =
     listOfBeers.Split(' ', ',', '.');
+
 Console.WriteLine("Available beers are:");
 foreach (string beer in beers)
 {
@@ -422,26 +369,18 @@ foreach (string beer in beers)
 }
 ```
 
-<img class="slide-image" src="\imgs\pic22.png" style="top:34.03%; left:87.26%; width:17.30%; z-index:-1" />
+<img class="slide-image" src="\imgs\pic22.png" />
 
-
-<!-- attr: { id:'', class:'slide-section demo', showInPresentation:true, hasScriptWrapper:true, style:'' } -->
-# Splitting Strings
 ## [Demo]()
-<img class="slide-image" src="\imgs\pic23.png" style="top:4.40%; left:38.35%; width:31.62%; z-index:-1" />
-
-
-
+<img class="slide-image" src="\imgs\pic23.png" />
 
 <!-- section start -->
-<!-- attr: { id:'', class:'slide-section', showInPresentation:true, hasScriptWrapper:true, style:'' } -->
+
 # Other String Operations
-<img class="slide-image" src="\imgs\pic24.png" style="top:42%; left:35%; width:28.65%; z-index:-1" />
+<img class="slide-image" src="\imgs\pic24.png"/>
 
-
-<!-- attr: { id:'', class:'', showInPresentation:true, hasScriptWrapper:true, style:'font-size: 40px;' } -->
 # Replacing and Deleting Substrings
-- **Replace(string,** **string)** – replaces all occurrences of given string with another
+- `string#Replace(string, string )` – replaces all occurrences of the first string with the second string
   - The result is new string (strings are immutable)
 
 ```cs
@@ -450,7 +389,7 @@ string replaced = cocktail.Replace("+", "and");
 // Vodka and Martini and Cherry
 ```
 
-- **Remove(index,** **length)** – deletes part of a string and produces new string as result
+- `string#Remove(index, length)` – deletes part of a string and produces new string as result
 
 ```cs
 string price = "$ 1234567";
@@ -458,11 +397,9 @@ string lowPrice = price.Remove(2, 3);
 // $ 4567
 ```
 
-
-
-<!-- attr: { id:'', class:'', showInPresentation:true, hasScriptWrapper:true, style:'' } -->
 # Changing Character Casing
-- Using method **ToLower()**
+
+- Using method `string#ToLower()`
 
 ```cs
 string alpha = "aBcDeFg";
@@ -470,8 +407,7 @@ string lowerAlpha = alpha.ToLower(); // abcdefg
 Console.WriteLine(lowerAlpha);
 ```
 
-- Using method **ToUpper()**
-
+- Using method `string#ToUpper()`
 
 ```cs
 string alpha = "aBcDeFg";
@@ -479,12 +415,11 @@ string upperAlpha = alpha.ToUpper(); // ABCDEFG
 Console.WriteLine(upperAlpha);
 ```
 
-<img class="slide-image" src="\imgs\pic25.png" style="top:61.71%; left:29.94%; width:49.37%; z-index:-1" />
+<img class="slide-image" src="\imgs\pic25.png" />
 
-
-<!-- attr: { id:'', class:'', showInPresentation:true, hasScriptWrapper:true, style:'' } -->
 # Trimming White Space
-- Using **Trim()**
+
+- Using `string#Trim()`
 
 ```cs
 string s = "    example of white space    ";
@@ -492,7 +427,7 @@ string clean = s.Trim();
 Console.WriteLine(clean);
 ```
 
-- Using **Trim(chars)**
+- Using `Trim(chars)`
 
 ```cs
 string s = " \t\nHello!!! \n";
@@ -500,62 +435,57 @@ string clean = s.Trim(' ', ',' ,'!', '\n','\t');
 Console.WriteLine(clean); // Hello
 ```
 
-- Using **TrimStart()** and **TrimEnd()**
+- Using `string#TrimStart()` and `string#TrimEnd()`
 
 ```cs
 string s = "   C#   ";
 string clean = s.TrimStart(); // clean = "C#   "
 ```
 
-
-
-<!-- attr: { id:'', class:'slide-section demo', showInPresentation:true, hasScriptWrapper:true, style:'' } -->
-# Other String Operations
 ## [Demo]()
 
 <!-- section start -->
-<!-- attr: { id:'', class:'slide-section', showInPresentation:true, hasScriptWrapper:true, style:'' } -->
+
 # Building and Modifying Strings
 ## Using the StringBuilder Class
 
-
-<!-- attr: { id:'', class:'', showInPresentation:true, hasScriptWrapper:true, style:'' } -->
 # Constructing Strings
+
 - Strings are **immutable**!
-  - **Concat()**, **Replace()**, **Trim()**, ... return new string, do not modify the old one
-- Do not use "**+**" for strings in a loop!
+  - `Concat()`, `Replace()`, `Trim()`, ... return **new strings**, do not modify the old one
+- Do not use `+` for strings in a loop!
   - It runs very, very inefficiently!
 
 ```cs
-public static string DupChar(char ch, int count)
+public static string DuplicateChar(char ch, int count)
 {
     string result = "";
     for (int i=0; i<count; i++)
+		{
         result += ch;
+		}
+
     return result;
 }
 ```
 
 <div class="fragment balloon" style="top:72%; left:38%; width:35.26%">Very bad practice. Avoid this!</div>
 
-
-<!-- attr: { id:'', class:'slide-section demo', showInPresentation:true, hasScriptWrapper:true, style:'' } -->
-# Slow Building Strings with +
 ## [Demo]()
-<img class="slide-image" src="\imgs\pic28.png" style="top:52%; left:32.88%; width:35%; z-index:-1" />
+<img class="slide-image" src="\imgs\pic28.png"/>
 
+# Introducing `StringBuilder`
+##	Faster way to generate strings
 
-<!-- attr: { id:'', class:'', showInPresentation:true, hasScriptWrapper:true, style:'' } -->
-# StringBuilder: How It Works?
+#	Introducing `StringBuilder`
 
-<img class="slide-image" src="\imgs\builder-buffer.png" style="top:52%; left:10%; width:75%; z-index:-1" />
-
-- **StringBuilder** keeps a buffer memory, allocated in advance
+- `StringBuilder` keeps a buffer memory, allocated in advance
   - Most operations use the buffer memory and do not allocate new objects
 
+<img class="slide-image" src="\imgs\builder-buffer.png" />
 
-<!-- attr: { id:'', class:'', showInPresentation:true, hasScriptWrapper:true, style:'font-size: 40px;' } -->
-# How the + Operator Performs String Concatenations?
+# Concatenating with `StringBuilder`?
+
 - Consider the following string concatenation:
 
 ```cs
@@ -563,15 +493,16 @@ string result = str1 + str2;
 ```
 
 - It is equivalent to this code:
+```cs
+	StringBuilder sb = new StringBuilder();
+	sb.Append(str1);
+	sb.Append(str2);
+	string result = sb.ToString();
+```
+
 - Several new objects are created and left to the garbage collector for deallocation
   - What happens when using **+** in a loop?
 
-```cs
-StringBuilder sb = new StringBuilder();
-sb.Append(str1);
-sb.Append(str2);
-string result = sb.ToString();
-```
 
 
 
