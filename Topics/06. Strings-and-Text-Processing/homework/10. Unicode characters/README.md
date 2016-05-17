@@ -4,7 +4,7 @@
 Write a program that converts a string to a sequence of C# Unicode character literals.
 
 ## Input
-- On the only input line you will a string
+- On the only input line you will receive a string
 
 ## Output
 - Print the string in C# Unicode character literals on a single line
