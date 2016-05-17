@@ -18,3 +18,6 @@ _Output:_
 Title: News
 
 Text: Telerik Academy aims to provide free real-world practical training for young people who want to turn into skilful .NET software engineers.
+
+## Submission
+- You do not have to submit anything for this problem

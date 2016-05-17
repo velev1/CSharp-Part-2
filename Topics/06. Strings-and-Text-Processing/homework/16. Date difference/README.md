@@ -9,3 +9,5 @@ _Example:_
 	Enter the second date: 3.03.2006
 	Distance: 4 days
 
+## Submission
+- You do not have to submit anything for this problem

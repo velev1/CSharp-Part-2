@@ -18,3 +18,6 @@ Write a program that reads a string from the console and replaces all series of 
 | Input | Output |
 |:------|:-------|
 | aaaaabbbbbcdddeeeedssaa | abcdedsa |
+
+## Submission
+- Submit your code [here](http://bgcoder.com/Contests/Compete/Index/320#9)

@@ -18,3 +18,6 @@ Write a program that converts a string to a sequence of C# Unicode character lit
 | Input | Output |
 |:------|:-------|
 | Hi!   | \u0048\u0069\u0021 |
+
+## Submission
+- Submit your code [here](http://bgcoder.com/Contests/Compete/Index/320#6)
