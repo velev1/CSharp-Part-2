@@ -4,7 +4,7 @@
 Write a program to convert hexadecimal numbers to binary numbers (directly).
 
 ## Input
-- On the only line you will receive a decimal number - **N**
+- On the only line you will receive a hexadecimal number - **N**
   - There will not be leading zeros
   - Letters will be uppercase
 
