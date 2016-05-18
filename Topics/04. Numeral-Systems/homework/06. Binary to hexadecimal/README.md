@@ -4,11 +4,11 @@
 Write a program to convert binary numbers to hexadecimal numbers (directly).
 
 ## Input
-- On the only line you will receive a decimal number - **N**
+- On the only line you will receive a binary number - **N**
   - There will not be leading zeros
 
 ## Output
-- Print the its binary representation on a single line
+- Print  its hexadecimal representation on a single line
   - There should not be leading zeros
   - Use uppercase letters
 
